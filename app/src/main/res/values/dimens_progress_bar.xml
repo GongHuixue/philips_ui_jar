@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="wizard_compact_01_progress_bar_filled_height">4dp</dimen>
+    <dimen name="zapbar_numeric_input_now_column02_progress_bar_height">4dp</dimen>
+    <dimen name="zapbar_numeric_input_now_column02_progress_bar_width">136dp</dimen>
+    <dimen name="channels_collapsed_tile_column01_01_progress_bar_height">11.5dp</dimen>
+    <dimen name="channels_collapsed_tile_column01_01_progress_bar_width">136dp</dimen>
+    <dimen name="channels_expanded_tile_column01_01_progress_bar_height">11.5dp</dimen>
+    <dimen name="channels_expanded_tile_column01_01_progress_bar_width">136dp</dimen>
+    <dimen name="setup_slider_collapsed_left_right_padding">24dp</dimen>
+    <dimen name="apps_colorkey_bar_height">24dp</dimen>
+    <dimen name="apps_colorkey_bar_width">960dp</dimen>
+    <dimen name="wizard_step1_progress_bar_width">136dp</dimen>
+
+
+    <!--define the Ring Shape with Rotate-->
+    <dimen name="progressbar_loader_height">36dp</dimen>
+    <dimen name="progressbar_loader_width">36dp</dimen>
+    <dimen name="progressbar_small_height">4dp</dimen>
+    <dimen name="progressbar_small_width">182dp</dimen>
+    <dimen name="progressbar_disc_space_height">6dp</dimen>
+    <dimen name="progressbar_disc_space_width">200dp</dimen>
+    <dimen name="progressbar_large_height">45dp</dimen>
+    <dimen name="progressbar_large_width">960dp</dimen>
+
+</resources>
+

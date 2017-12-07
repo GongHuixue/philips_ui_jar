@@ -1,0 +1,38 @@
+<resources>
+    <!--define colorkey activity string values-->
+    <string name="app_name">PHP_UIJar</string>
+    <string name="ColorKey_Activity">ColorKey_Activity</string>
+    <string name="ProgressBar_Activity">ProgressBar_Activity</string>
+
+    <string name="Red">REC</string>
+    <string name="Yellow">INFO</string>
+    <string name="Green">REMIND</string>
+    <string name="Blue">HELP</string>
+    <string name="Info">TERMS OF USE</string>
+
+    <string name="hidingcolorkey">Hidding any color key just checked following checkbox or pass blank label in input field.</string>
+    <string name="red_key">Red</string>
+    <string name="yellow_key">Yellow</string>
+    <string name="green_key">Green</string>
+    <string name="blue_key">Blue</string>
+    <string name="hide">Hide</string>
+    <string name="appear">Appear</string>
+    <string name="colorkey_animate">ColorKey Animate</string>
+    <string name="disable_info">Disable Info</string>
+    <string name="disable_option">Disable Option</string>
+    <string name="str_submit">Submit</string>
+
+    <string name="title_activity_main">MainActivity</string>
+
+    <!--Define ProgressBar Activity String Values-->
+    <string name="loader">Loader</string>
+    <string name="submit">Submit</string>
+    <string name="increment">Increment</string>
+    <string name="decrement">Decrement</string>
+    <string name="nrml_dftt_progbar">Normal/Default Progress Bar</string>
+    <string name="discspaceprogressbar">Disc space Progress Bar</string>
+    <string name="hg_progbar">Highlighted Progress Bar</string>
+
+    <string name="hg_lrg_progbar">Highlighted Large Progress Bar</string>
+
+</resources>
