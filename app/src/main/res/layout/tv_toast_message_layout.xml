@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/tvToastMessageIcon"
+        android:layout_width="@dimen/flashmessage_alert_icon_height"
+        android:layout_height="@dimen/flashmessage_alert_icon_width"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/flashmessage_alert_icon_padding_top_height"
+        android:layout_marginLeft="@dimen/flashmessage_alert_icon_padding_right_width"
+        android:layout_marginRight="@dimen/flashmessage_alert_icon_padding_right_width"
+        android:layout_marginTop="@dimen/flashmessage_alert_icon_padding_top_height"
+        android:layout_toEndOf="@id/tvToastMessage"
+        android:gravity="center"
+        android:scaleType="center" android:contentDescription="TODO"/>
+
+    <TextView
+        android:id="@+id/tvToastMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/flashmessage_long_container_height"
+        android:drawablePadding="1dp"
+        android:ellipsize="marquee"
+        android:fadingEdgeLength="10dp"
+        android:gravity="center_vertical"
+        android:marqueeRepeatLimit="1"
+        android:paddingEnd="@dimen/flashmessage_alert_icon_padding_left_width"
+        android:paddingStart="@dimen/flashmessage_alert_label_padding_left_width"
+        android:requiresFadingEdge="horizontal"
+        android:singleLine="true"
+        android:textColor="@android:color/black" />
+
+</merge>

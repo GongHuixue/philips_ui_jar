@@ -1,0 +1,120 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@android:color/white"
+	    android:orientation="vertical" >
+	
+	    <Button
+	        android:id="@+id/timeOutStatusIndicator"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+			android:textAllCaps="false"
+	        android:text="@string/timeOutStatusIndicator" />
+
+		<!--
+	    <Button
+	        android:id="@+id/permanentStatusIndicator"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+			android:textAllCaps="false"
+	        android:text="@string/permanentStatusIndicator" />
+	    
+	    <Button
+	        android:id="@+id/keyPressStatusIndicator"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+			android:textAllCaps="false"
+	        android:text="@string/keyPressStatusIndicator" />
+	
+	    <Button
+	        android:id="@+id/timeOutStatusIndicatorLong"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+			android:textAllCaps="false"
+	        android:text="@string/timeOutStatusIndicatorLong" />
+	
+	    <Button
+	        android:id="@+id/permanentStatusIndicatorLong"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+			android:textAllCaps="false"
+	        android:text="@string/permanentStatusIndicatorLong" />
+	
+	    <Button
+	        android:id="@+id/keyPressStatusIndicatorLong"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+			android:textAllCaps="false"
+	        android:text="@string/keyPressStatusIndicatorLong" />
+	
+	    <Button
+	        android:id="@+id/timeOutFlashMsg"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+			android:textAllCaps="false"
+	        android:text="@string/timeOutFlashMsg" />
+	
+	    <Button
+	        android:id="@+id/permanentFlashMsg"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+			android:textAllCaps="false"
+	        android:text="@string/permanentFlashMsg" />
+	    
+	    <Button
+	        android:id="@+id/keyPressFlashMsg"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+			android:textAllCaps="false"
+	        android:text="@string/keyPressFlashMsg" />
+	
+	    <Button
+	        android:id="@+id/timeOutFlashMsgLong"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+			android:textAllCaps="false"
+	        android:text="@string/timeOutFlashMsgLong" />
+	
+	    <Button
+	        android:id="@+id/permanentFlashMsgLong"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+			android:textAllCaps="false"
+	        android:text="@string/permanentFlashMsgLong" />
+	
+	    <Button
+	        android:id="@+id/keyPressFlashMsgLong"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+			android:textAllCaps="false"
+	        android:text="@string/keyPressFlashMsgLong" />
+	    -->
+	    <Button
+	        android:id="@+id/cancelPermanentMsg"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+			android:textAllCaps="false"
+	        android:text="@string/cancelPermanentMsg" />
+	
+	    <Button
+	        android:id="@+id/cancelKeyPressMsg"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+			android:textAllCaps="false"
+	        android:text="@string/cancelKeyPressMsg" />
+	    
+	    <Button
+	        android:id="@+id/cancelTimeOutMsg"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+			android:textAllCaps="false"
+	        android:text="@string/cancelTimeOutMsg" />
+	    
+	</LinearLayout>
+
+</ScrollView>

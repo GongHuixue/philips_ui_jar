@@ -1,3 +1,3 @@
-package ui;
+package ui.tvtoast;
 
 parcelable TvToast;
