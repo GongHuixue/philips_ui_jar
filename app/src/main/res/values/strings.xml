@@ -4,6 +4,8 @@
     <string name="ColorKey_Activity">ColorKey_Activity</string>
     <string name="ProgressBar_Activity">ProgressBar_Activity</string>
     <string name="TvToast_Activity">TvToast_Activity</string>
+    <string name="ModalDialog_Activity">ModalDialog_Activity</string>
+    <string name="PickList_Activity">PickList_Activity</string>
 
     <!--define colorkey activity string values-->
     <string name="Red">REC</string>
@@ -61,5 +63,18 @@
     <string name="cancelPermanentMsg">Cancel Permanent Msg</string>
     <string name="cancelKeyPressMsg">Cancel Key Press Msg</string>
     <string name="cancelTimeOutMsg">Cancel Time Out Msg</string>
+
+    <!-- Define PickList Activity Strings-->
+    <string name="selecteditem">Selected Item :</string>
+    <string name="selectedicon">Selected Icon :</string>
+    <string name="disable_dimming">Disable Dimming</string>
+    <string name="show_picklist">Show PickList</string>
+    <string name="simpl_picklist">Simple PickList</string>
+    <string name="recomm_picklist">Recommender PickList</string>
+
+    <!-- Define ModalDialog Activity Strings-->
+    <string name="showdialog">Show Dialog</string>
+    <string name="selectdialog">Select Dialog</string>
+    <string name="dialog_message">I am a Dialog</string>
 
 </resources>

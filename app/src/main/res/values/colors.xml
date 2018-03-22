@@ -4,4 +4,14 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="tv_toast_background_color">#ff1d1f21</color>
+
+    <!--pick_list color style-->
+    <color name="picklist_background_color">#FF272727</color>
+    <color name="picklist_divider_color">#1AFFFFFF</color>
+    <color name="picklist_list_row_normal">#73FFFFFF</color>
+    <color name="picklist_disable_text_color">#B3717171</color>
+    <color name="picklist_normal_text_color">#73FFFFFF</color>
+    <color name="picklist_list_row_selected">#76D7D6</color>
+    <color name="picklist_recommender_selected_color">#1AFFFFFF</color>
+    <!---->
 </resources>
