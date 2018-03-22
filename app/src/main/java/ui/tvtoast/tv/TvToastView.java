@@ -43,7 +43,6 @@ public class TvToastView extends RelativeLayout {
     private final float mPixelsPerSecond;
 
     private ValueAnimator mSlideOpenAnim;
-
     private MessageState mMessageState;
     private Animation mJumperAnimation;
 

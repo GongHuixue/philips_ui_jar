@@ -7,9 +7,9 @@
 	    android:id="@+id/tvToast"
 	    android:layout_width="wrap_content"
 	    android:layout_height="@dimen/flashmessage_long_container_height"
-	    android:layout_alignParentRight="true"
+	    android:layout_alignParentEnd="true"
 		android:layout_alignParentBottom="true"
-	    android:layout_marginRight="@dimen/flashmessage_alert_padding_left_height"
+	    android:layout_marginEnd="@dimen/flashmessage_alert_padding_left_height"
 	    android:background="@drawable/tv_toast_background"
 	    android:animateLayoutChanges="false" />
 </RelativeLayout>

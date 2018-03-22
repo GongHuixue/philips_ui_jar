@@ -152,8 +152,8 @@ public class TvToast implements Parcelable {
         dest.writeBundle(bundle);
     }
 
-    public static final Parcelable.Creator<TvToast> CREATOR
-            = new Parcelable.Creator<TvToast>() {
+    public static final Creator<TvToast> CREATOR
+            = new Creator<TvToast>() {
 
         public TvToast createFromParcel(Parcel in) {
             return new TvToast(in);

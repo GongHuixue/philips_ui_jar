@@ -19,11 +19,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 import fany.phpuijar.R;
-import ui.tvtoast.ITvToastService;
 import ui.tvtoast.ITvToastService.Stub;
 import ui.tvtoast.TvToast;
-import ui.tvtoast.tv.TvToastView;
-import ui.tvtoast.tv.TvToastView.*;
+import ui.tvtoast.tv.TvToastView.MessageState;
 
 /**
  * Application calls are made through any of the 3 entry points.
@@ -81,13 +79,10 @@ public class TvToastService extends Service implements OnKeyListener, MessageSta
                 }
             }
         }
-
     }
 
     private final class TimeOutHandler extends Handler {
-
         private static final int MESSAGE_REMOVE_TV_TOAST_MESSAGE = 1000;
-
         @Override
         public void handleMessage(Message msg) {
             switch (msg.what) {
@@ -97,7 +92,6 @@ public class TvToastService extends Service implements OnKeyListener, MessageSta
                     break;
             }
         }
-
     }
 
     public void onCreate() {
@@ -108,8 +102,7 @@ public class TvToastService extends Service implements OnKeyListener, MessageSta
         createTvToastView();
     }
 
-    private final ITvToastService.Stub mBinder = new Stub() {
-
+    private final Stub mBinder = new Stub() {
         /**
          * Entry #1: Entry for application [binder] threads
          */
@@ -127,7 +120,6 @@ public class TvToastService extends Service implements OnKeyListener, MessageSta
             addTvToastContext(contextToken);
             cancelTvToastMessageInternal(msg);
         }
-
     };
 
     private final class TvToastContext implements IBinder.DeathRecipient {
@@ -266,13 +258,13 @@ public class TvToastService extends Service implements OnKeyListener, MessageSta
         mWindowParams.width = WindowManager.LayoutParams.MATCH_PARENT;
         mWindowParams.height = (int) getResources().getDimension(R.dimen.flashmessage_long_container_height_double);
         mWindowParams.type = WindowManager.LayoutParams.TYPE_SYSTEM_ALERT;
-        mWindowParams.gravity = Gravity.BOTTOM | Gravity.RIGHT;
+        mWindowParams.gravity = Gravity.BOTTOM | Gravity.END;
         mWindowParams.x = 0;
         mWindowParams.y = (int) getResources().getDimension(R.dimen.flashmessage_alert_padding_left_height);
         mWindowParams.windowAnimations = 0;
 
         mView = View.inflate(this, R.layout.tv_toast, null);
-        mTvToastView = (TvToastView) mView.findViewById(R.id.tvToast);
+        mTvToastView = mView.findViewById(R.id.tvToast);
         mTvToastView.setStateTransitionCallback(this);
         Log.d(TAG, "createTvToastView ---- TvToastService ---- end tvToastView: " + mView);
     }

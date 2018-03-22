@@ -1,11 +1,14 @@
 package fany.phpuijar;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.res.Configuration;
 import android.os.Bundle;
+import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
@@ -30,9 +33,27 @@ public class ColorKeyActivity extends Activity implements View.OnClickListener {
 
         mColorKeys = findViewById(R.id.color_key);
         initColorKeyUI();
+        getScreenProperty();
 
         Log.d(TAG, "OnCreate Exit");
     }
+
+    private void getScreenProperty() {
+        WindowManager wm = (WindowManager) this.getSystemService(Context.WINDOW_SERVICE);
+        DisplayMetrics dm = new DisplayMetrics();
+        wm.getDefaultDisplay().getMetrics(dm);
+        int width = dm.widthPixels;         // 屏幕宽度（像素）
+        int height = dm.heightPixels;       // 屏幕高度（像素）
+        float density = dm.density;         // 屏幕密度（0.75 / 1.0 / 1.5）
+        int densityDpi = dm.densityDpi;     // 屏幕密度dpi（120 / 160 / 240）
+        // 屏幕宽度算法:屏幕宽度（像素）/屏幕密度
+        int screenWidth = (int) (width / density);  // 屏幕宽度(dp)
+        int screenHeight = (int) (height / density);// 屏幕高度(dp)
+
+        Log.d(TAG, "width = " + screenWidth);
+        Log.d(TAG, "height = " + screenHeight);
+    }
+
 
     private void initColorKeyUI() {
         cbRed = findViewById(R.id.red_cb);
