@@ -175,10 +175,10 @@ public class TvToastView extends RelativeLayout {
 				    int textWidth = (int) ((mTvToastMessageIcon.getVisibility() == View.VISIBLE)?
 							   Math.floor(mMaxWidth - getTotalIconWidth()) :
 							   Math.floor(mMaxWidth));
-				    RelativeLayout.LayoutParams params = (RelativeLayout.LayoutParams)mTvToastMessage.getLayoutParams();
+				    LayoutParams params = (LayoutParams)mTvToastMessage.getLayoutParams();
 				    params.width = textWidth;
 				    mTvToastMessage.setLayoutParams(params);
-				
+
 				    // if msg is longer than mMaxWidth, then marquee
 				    mMessageStateHandler.removeMessages(MessageStateHandler.MESSAGE_START_MARQUEE);
 				    mMessageStateHandler.sendMessageDelayed(mMessageStateHandler.obtainMessage(MessageStateHandler.MESSAGE_START_MARQUEE, marqueeDuration, 0),
@@ -202,7 +202,7 @@ public class TvToastView extends RelativeLayout {
 			    @Override
 			    public void onAnimationUpdate(ValueAnimator animation) {
 				    Float fraction = (Float)animation.getAnimatedValue();
-				    RelativeLayout.LayoutParams params = (RelativeLayout.LayoutParams)TvToastView.this.getLayoutParams();
+				    LayoutParams params = (LayoutParams)TvToastView.this.getLayoutParams();
 				    params.width = (int)Math.ceil(fraction.floatValue());
 				    TvToastView.this.setLayoutParams(params);
 				    TvToastView.this.invalidate();
@@ -217,10 +217,10 @@ public class TvToastView extends RelativeLayout {
 		if(isFocusable()) {
 			requestFocus();
 		}
-		
+
 	        // Reset text width to wrap content before doing a measure
-		RelativeLayout.LayoutParams textParams = (RelativeLayout.LayoutParams)mTvToastMessage.getLayoutParams();
-		textParams.width = RelativeLayout.LayoutParams.WRAP_CONTENT;
+		LayoutParams textParams = (LayoutParams)mTvToastMessage.getLayoutParams();
+		textParams.width = LayoutParams.WRAP_CONTENT;
 		mTvToastMessage.setLayoutParams(textParams);
 		invalidate();
 
@@ -247,7 +247,7 @@ public class TvToastView extends RelativeLayout {
         }
 
 		// update params
-		RelativeLayout.LayoutParams params = (RelativeLayout.LayoutParams)this.getLayoutParams();
+		LayoutParams params = (LayoutParams)this.getLayoutParams();
 		params.width = (int)Math.ceil(startValue);
 		setLayoutParams(params);
 		invalidate();

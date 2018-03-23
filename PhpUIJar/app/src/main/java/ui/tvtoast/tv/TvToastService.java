@@ -19,7 +19,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 import fany.phpuijar.R;
-import ui.tvtoast.ITvToastService;
 import ui.tvtoast.ITvToastService.Stub;
 import ui.tvtoast.TvToast;
 import ui.tvtoast.tv.TvToastView.MessageState;
@@ -103,7 +102,7 @@ public class TvToastService extends Service implements OnKeyListener, MessageSta
 		createTvToastView();
 	}
 	
-	private final ITvToastService.Stub mBinder = new Stub() {
+	private final Stub mBinder = new Stub() {
 		
 		/**
 		 * Entry #1: Entry for application [binder] threads
