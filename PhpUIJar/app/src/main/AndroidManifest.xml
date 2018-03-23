@@ -37,8 +37,7 @@
 
         <activity
             android:name=".TvToastActivity"
-            android:label="@string/TvToast_Activity"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            android:label="@string/TvToast_Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="UI_Component_Demo_Activity" />
