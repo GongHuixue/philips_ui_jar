@@ -1,4 +1,0 @@
-#Wed Dec 06 15:59:09 CST 2017
-base.0=C\:\\Users\\huixue.gong\\AndroidStudioProjects\\PhpUIJar\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\4
-path.0=classes.dex
-renamed.0=classes.dex
