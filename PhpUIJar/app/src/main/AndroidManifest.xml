@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fany.phpuijar">
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ColorKeyActivity"
+            android:label="@string/ColorKey_Activity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="UI_Component_Demo_Activity" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ProgressBarActivity"
+            android:label="@string/ProgressBar_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="UI_Component_Demo_Activity" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".TvToastActivity"
+            android:label="@string/TvToast_Activity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="UI_Component_Demo_Activity" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ModalDialogActivity"
+            android:label="ModalDialog_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="UI_Component_Demo_Activity" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PickListActivity"
+            android:label="@string/PickList_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="UI_Component_Demo_Activity" />
+            </intent-filter>
+        </activity>
+
+
+
+        <service android:name="ui.tvtoast.tv.TvToastService">
+            <intent-filter>
+                <action android:name="android.intent.action.START_TV_TOAST_SERVICE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>

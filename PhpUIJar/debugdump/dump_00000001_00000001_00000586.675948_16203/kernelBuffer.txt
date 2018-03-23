@@ -1,0 +1,1986 @@
+<6>[    8.279420] mt53: Exporting dma-buf
+<4>[    8.279428] fb_get_dmabuf end dmabuf=d61b7780 flags=0x0
+<4>[    8.279433] mt53 get dma_buf fd=33
+<14>[    8.280968] init: computing context for service '/system/bin/bootanimation'
+<13>[    8.281249] init: Starting service 'bootanim'...
+<4>[    8.284178] PanelCmd_Ioctl(708) vApiPanelPowerSequence u4Arg=1
+<13>[    8.341196] init: Service 'updatedns' (pid 1220) exited with status 0
+<12>[    8.471698] healthd: BatteryCurrentNowPath not found
+<12>[    8.471726] healthd: BatteryFullChargePath not found
+<12>[    8.471741] healthd: BatteryCycleCountPath not found
+<4>[    8.487921] $$$ Thread PID not root(1041) ignore
+<4>[    8.488092] [AUD]AUD_Init Start: _fgAudInit=1, _fgAudHWInit=1
+<4>[    8.488272] [AUD]HP trim as 0
+<4>[    8.488294] [AUD]HP trim as 0
+<36>[    8.626553] type=1400 audit(1095958776.100:7): avc: denied { read } for pid=1223 comm="MtkRmServer" name="mmcblk0p26" dev="mmcblk0p14" ino=407 scontext=u:r:mt_mtk_rm:s0 tcontext=u:object_r:upg_device:s0 tclass=blk_file permissive=0
+<36>[    8.626820] type=1400 audit(1095958776.105:8): avc: denied { search } for pid=1223 comm="MtkRmServer" name="block" dev="tmpfs" ino=3470 scontext=u:r:mt_mtk_rm:s0 tcontext=u:object_r:block_device:s0 tclass=dir permissive=0
+<36>[    8.627030] type=1400 audit(1095958776.105:9): avc: denied { read } for pid=1223 comm="MtkRmServer" name="mmcblk0p26" dev="mmcblk0p14" ino=407 scontext=u:r:mt_mtk_rm:s0 tcontext=u:object_r:upg_device:s0 tclass=blk_file permissive=0
+<36>[    8.627226] type=1400 audit(1095958776.105:10): avc: denied { search } for pid=1223 comm="MtkRmServer" name="block" dev="tmpfs" ino=3470 scontext=u:r:mt_mtk_rm:s0 tcontext=u:object_r:block_device:s0 tclass=dir permissive=0
+<36>[    8.627409] type=1400 audit(1095958776.105:11): avc: denied { read } for pid=1223 comm="MtkRmServer" name="mmcblk0p26" dev="mmcblk0p14" ino=407 scontext=u:r:mt_mtk_rm:s0 tcontext=u:object_r:upg_device:s0 tclass=blk_file permissive=0
+<6>[    8.764945] adb_bind_config
+<6>[    8.765052] adb_release
+<6>[    8.765462] adb_open
+<6>[    8.765470] adb_bind_config
+<6>[    8.899042] fusion_init()
+<6>[    8.899059]   -> initializing shared area at d46ee000
+<3>[    8.899075] fusion: unable to register major 250. Registered 249 instead
+<36>[    8.939018] type=1400 audit(1095958777.150:12): avc: denied { read } for pid=1347 comm="restorecon" name="selinux_version" dev="rootfs" ino=3376 scontext=u:r:mount_cache:s0 tcontext=u:object_r:rootfs:s0 tclass=file permissive=0
+<36>[    8.950416] type=1400 audit(1095958777.150:13): avc: denied { read } for pid=1347 comm="restorecon" name="file_contexts.bin" dev="rootfs" ino=3342 scontext=u:r:mount_cache:s0 tcontext=u:object_r:rootfs:s0 tclass=file permissive=0
+<13>[    8.956324] init: Service 'mount_cache' (pid 1205) exited with status 0
+<4>[    9.926858] _CB_RegMultiCbFct[CB_SC_TRIGGER RESET](1198)
+<1>[    9.927021] FGU:IMamb_Eng_GetAlignments:IMamb_Eng_GetAlignments: board=1 Gain=200 RR=153 RG=56 RB=0 GR=13 GG=216 GB=26 BR=1 BG=2 BB=187 
+<1>[    9.927168] FGU:IMamb_Eng_GetAlignments:IMamb_Eng_GetAlignments: board=2 Gain=200 RR=153 RG=56 RB=0 GR=13 GG=216 GB=26 BR=1 BG=2 BB=187 
+<1>[    9.927309] FGU:IMamb_Eng_GetAlignments:IMamb_Eng_GetAlignments: board=3 Gain=200 RR=153 RG=56 RB=0 GR=13 GG=216 GB=26 BR=1 BG=2 BB=187 
+<1>[    9.927446] FGU:IMamb_Eng_GetAlignments:IMamb_Eng_GetAlignments: board=4 Gain=200 RR=153 RG=56 RB=0 GR=13 GG=216 GB=26 BR=1 BG=2 BB=187 
+<1>[    9.927593] FGU:IMamb_Eng_GetAlignments:IMamb_Eng_GetAlignments: board=5 Gain=200 RR=153 RG=56 RB=0 GR=13 GG=216 GB=26 BR=1 BG=2 BB=187 
+<1>[    9.927724] FGU:IMamb_Eng_GetAlignments:IMamb_Eng_GetAlignments: board=6 Gain=200 RR=153 RG=56 RB=0 GR=13 GG=216 GB=26 BR=1 BG=2 BB=187 
+<1>[    9.927860] FGU:IMamb_Eng_GetAlignments:IMamb_Eng_GetAlignments: board=7 Gain=200 RR=153 RG=56 RB=0 GR=13 GG=216 GB=26 BR=1 BG=2 BB=187 
+<1>[    9.927981] FGU:IMamb_Eng_GetAlignments:IMamb_Eng_GetAlignments: board=8 Gain=200 RR=153 RG=56 RB=0 GR=13 GG=216 GB=26 BR=1 BG=2 BB=187 
+<1>[    9.928096] FGU:IMamb_Eng_GetAlignments:IMamb_Eng_GetAlignments: board=9 Gain=200 RR=153 RG=56 RB=0 GR=13 GG=216 GB=26 BR=1 BG=2 BB=187 
+<1>[    9.928207] FGU:IMamb_Eng_GetAlignments:IMamb_Eng_GetAlignments: board=10 Gain=200 RR=153 RG=56 RB=0 GR=13 GG=216 GB=26 BR=1 BG=2 BB=187 
+<1>[    9.928326] FGU:IMamb_Eng_GetAlignments:IMamb_Eng_GetAlignments: board=11 Gain=200 RR=153 RG=56 RB=0 GR=13 GG=216 GB=26 BR=1 BG=2 BB=187 
+<1>[    9.928447] FGU:IMamb_Eng_GetAlignments:IMamb_Eng_GetAlignments: board=12 Gain=200 RR=153 RG=56 RB=0 GR=13 GG=216 GB=26 BR=1 BG=2 BB=187 
+<1>[    9.936344] FGU:IMamb_Eng_GetArchitecture:IMamb_Eng_GetArchitecture: left=4, top=0, right=4, bottom=0, nbrOfPhysicalPixels=0
+<1>[    9.936344] 
+<1>[    9.944297]  azerty_set = 0 changingt to 0 
+<4>[    9.961593] _CB_RegMultiCbFct[CB_SC_TRIGGER RESET](1384)
+<4>[    9.962055] [CPUD][common]:decoder_pid:1384
+<4>[   10.062312] [CPUD][common]:fgDriverInitOk
+<4>[   10.062898] [CPUD][common]: - @ MTAUD device open pass @ -
+<4>[   10.063461] [CPUD][common]:mmap star addr: 0xae7c4000, buf size: 0x103bc00
+<4>[   10.063492] [CPUD][common]:decoder_pid:1384
+<4>[   10.064351] [CPUD][common]:decoder_monitor_thread:-1367591856 u1DecId:-1367591856
+<4>[   10.064610] [CPUD][common]:decoder_control_thread_id:-1375980464
+<4>[   10.064782] [CPUD][common]:decoder_process_thread_id:-1384369072 u1DecId:0
+<4>[   10.064789] [CPUD][common]:L:1436 decoder_process_thread() Dec0 enter
+<4>[   10.065037] [CPUD][common]:decoder_debug_thread_id:-1392757680 u1DecId:0
+<4>[   10.065178] [CPUD][common]:decoder_process_thread_id:-1401146288 u1DecId:1
+<4>[   10.065193] [CPUD][common]:L:1545 decoder_control_thread() enter
+<4>[   10.065264] [CPUD][common]:L:1436 decoder_process_thread() Dec1 enter
+<4>[   10.065299] [CPUD][common]:decoder_debug_thread_id:-1409534896 u1DecId:1
+<4>[   10.065306] [CPUD][common]:decoderState : (DECODER_STATE_UN_INIT)
+<4>[   10.065321] [CPUD][common]:Frame(0) SubFrame(0) ErrFrame(0)
+<4>[   10.065343] [CPUD][common]:fgCommSync(0) decode_mutex(0) semval(0)
+<4>[   10.065353] [CPUD][common]:fgStopDown(0)
+<4>[   10.065363] [CPUD][common]:No Dump now!!
+<4>[   10.065393] [CPUD][common]:L:1436 decoder_process_thread() Dec2 enter
+<4>[   10.065408] [CPUD][common]:decoder_process_thread_id:-1417923504 u1DecId:2
+<4>[   10.065473] [CPUD][common]:decoderState : (DECODER_STATE_UN_INIT)
+<4>[   10.065484] [CPUD][common]:Frame(0) SubFrame(0) ErrFrame(0)
+<4>[   10.065496] [CPUD][common]:fgCommSync(0) decode_mutex(0) semval(0)
+<4>[   10.065509] [CPUD][common]:fgStopDown(0)
+<4>[   10.065534] [CPUD][common]:No Dump now!!
+<4>[   10.065662] [CPUD][common]:decoder_debug_thread_id:-1426312112 u1DecId:2
+<4>[   10.065894] [CPUD][common]:decoderState : (DECODER_STATE_UN_INIT)
+<4>[   10.065907] [CPUD][common]:Frame(0) SubFrame(0) ErrFrame(0)
+<4>[   10.065918] [CPUD][common]:fgCommSync(0) decode_mutex(0) semval(0)
+<4>[   10.065927] [CPUD][common]:fgStopDown(0)
+<4>[   10.065936] [CPUD][common]:No Dump now!!
+<6>[   10.193802] MUC_Irq 4997: [USB3]Connect interrupt  = 0x50.
+<4>[   10.193818] USB_PKG : bIntrUsbValue = 0x40,wIntrTxValue = 0x0,wIntrRxValue = 0x0
+<6>[   10.203800] usb_events_timer_func 1373: [USB3]USB_EVENTS_CHECK_CONNECT
+<4>[   10.221605] _CB_RegMultiCbFct[CB_SC_TRIGGER RESET](1481)
+<6>[   10.488900] usb 4-1: new high-speed USB device number 2 using MtkUsbHcd
+<4>[   10.543383] Watchdog enable:1080000000
+<4>[   10.569919] |||||||u1FRC = au1Index  2; 
+<4>[   10.600163] [CEC]HDMI CEC u4WakeUpReason = 32.......................
+<4>[   10.600870] [CEC]EEPROM ok. u4Val = 1.
+<4>[   10.600891] [CEC]CEC Arc Disable 
+<4>[   10.601016]  -IO_MTFE_TUNERHAL_RegCb: eFuncType = 0, u4FuncPtr = 3059818656l, u4Arg1 = 0l
+<4>[   10.601025]  -IO_MTFE_TUNERHAL_RegCb: eFuncType = 1, u4FuncPtr = 3059819044l, u4Arg1 = 0l
+<4>[   10.601797]  -IO: fptIniThreadNfy trigger
+<4>[   10.601952]  -IO: fptIniThreadNfy trigger
+<4>[   10.602047]  -IO: fptIniThreadNfy trigger
+<4>[   10.602164]  -IO: fptIniThreadNfy trigger
+<4>[   10.602256]  -IO: fptIniThreadNfy trigger
+<4>[   10.602345]  -IO: fptIniThreadNfy trigger
+<4>[   10.602426]  -IO: fptIniThreadNfy trigger
+<4>[   10.602524]  -IO: fptIniThreadNfy trigger
+<4>[   10.602583]  -IO: fptIniThreadNfy trigger
+<4>[   10.602667]  -IO: fptIniThreadNfy trigger
+<4>[   10.605093] [IR][opcode::UHD=2,HDR=1,FRC=2,BACKENDPQ=0,FLIP/MIRROR=0,Channel decode 3,Frequency=0,DNM=1,IsMjcSup=26, Panel id =1,opcode end&&&[VDP]null 1 !
+<4>[   10.605116] [VDP]null 2 , id(0)!
+<4>[   10.605123] [VDP]null 3 !
+<4>[   10.605129] [VDP]null 4 !
+<4>[   10.605293] [VDP]null 1 !
+<4>[   10.605304] [VDP]null 2 , id(1)!
+<4>[   10.605311] [VDP]null 3 !
+<4>[   10.605317] [VDP]null 4 !
+<4>[   10.605518] [Dynamic PNL] Find VideoModeAttribute[27]: PNL_Index=0x60003
+<4>[   10.605536] [DisplayInit]EU=0x39, US=0x0
+<4>[   10.605538] [DisplayInit]CountryDefault=0x39
+<4>[   10.605540] [DisplayInit] ##2 SV_DCLK_50HZ
+<4>[   10.605568] [4k2k]none handler Init
+<4>[   10.605601] [NPTV]vDrvSwitchOSDRoute = 0    pnl ctrl word=0x21000
+<4>[   10.605638] [NPTV][TCON] Success to register TCON ISR!
+<4>[   10.605712] [NPTV]Display Init[NPTV]Video SW Init[NPTV]==== vDrvHDTVADCDefaultSetting  ===
+<4>[   10.605842] [NPTV]Set TTD to OFF
+<4>[   10.606110] [NPTV]TDDC Init OK size < 0x80000
+<4>[   10.606169] [NPTV]TDDC Alloc memory OK !!!
+<4>[   10.608555] [NPTV]TDDC ISR registered!
+<4>[   10.609659] [SCPOS]Register SCPIP ISR OK!
+<4>[   10.609829] [MJC]MJC Initialize.
+<4>[   10.609952] [MJC]MJC ISR registered!
+<4>[   10.609985] [MJC]vDrvApplyPanelTiming.....
+<4>[   10.610029] [OSD]Before PQ Module offset:i4H=521 i4V=4 
+<4>[   10.610035] [OSD]DBG XvYCC bypass 
+<4>[   10.610037] [OSD]DBG Gamma position 0 or 1 
+<4>[   10.610040] [OSD]After PQ Module offset:i4H=378 i4V=4 
+<4>[   10.610203] [NPTV][OD] : FBM is  ready for OD
+<4>[   10.610240] [NPTV]Update OD Check init failed  ----  0
+<4>[   10.610283] [NPTV][OD] : FlashPQ OD Not Ready
+<4>[   10.610317] [NPTV]Load OD table
+<4>[   10.610433] [NPTV]NOT Support OD Table
+<4>[   10.610458] [NPTV]NOT Support PCID Table
+<4>[   10.610486] [NPTV]OD OFF
+<4>[   10.610500] [NPTV] PCID OFF
+<4>[   10.610533] [NPTV]Success to register OD ISR!
+<4>[   10.610567] [NPTV]OD ISR registered!
+<4>[   10.610591] [NPTV]Video HW Init[NPTV]VBI_Init[MHL]Imp Value from efuse is 1c
+<4>[   10.611436] [TVE]To set the TVE soft calibration
+<4>[   10.611510] [TVE]Load Vdac software calibration value from eeprom,_bIrimDftVal=0x5
+<4>[   10.611619] [NPTV]
+<4>[   10.611626] =============LightSensor_Init==================
+<4>[   10.611740] [SOLTEAM_Init] Light sensor init m_lightSensorType 2 deviceAddr 0x88!!
+<4>[   10.626145] [NPTV]Meter ISR Enable 
+<4>[   10.626184] [NPTV]Enable AdaptiveLuma
+<4>[   10.669082] 
+<4>[   10.669082] ********** SiTRACES activated *********
+<4>[   10.669082] Comment the '#define SiTRACES' line
+<4>[   10.669082] in Silabs_L0_API.h to de-activate all traces.
+<4>[   10.669082] 
+<4>[   10.669120] Select TER Tuner selecting Si2157_Tuner[0]
+<4>[   10.669749] [Vendor_Demod]Total 1 func table exist
+<4>[   10.669753] [Vendor_Demod]Tuner Type=0x8F
+<6>[   10.690323] usb 4-1: New USB device found, idVendor=0e8d, idProduct=76a1
+<6>[   10.690338] usb 4-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+<6>[   10.690346] usb 4-1: Product: BT+WIFI
+<6>[   10.690353] usb 4-1: Manufacturer: MediaTek Inc.
+<6>[   10.690360] usb 4-1: SerialNumber: 000000000
+<3>[   10.691063] [USB] usb_set_configuration => 
+<4>[   10.693266] [btmtk_info] btmtk_usb_probe: begin
+<4>[   10.693270] [btmtk_info] ========================================================
+<4>[   10.693272] [btmtk_info] btmtk_usb Mediatek Bluetooth USB driver ver 6.0.16082601
+<4>[   10.693274] [btmtk_info] ========================================================
+<4>[   10.693276] [btmtk_info] probe_counter = 1
+<4>[   10.693283] [btmtk_info] btmtk_usb_set_state: DISCONNECT(2) -> PROBE(3)
+<4>[   10.693455] [btmtk_info] btmtk_usb_init_memory: Success
+<4>[   10.694259] [btmtk_info] btmtk_usb_cap_init: chip id = 76320100
+<4>[   10.694266] [btmtk_info] btmtk_usb_cap_init: This is MT7662T chip
+<4>[   10.707542] [btmtk_info] btmtk_usb_load_rom_patch_7662: FW Version = 20170323103402a
+<4>[   10.707547] [btmtk_info] btmtk_usb_load_rom_patch_7662: build Time = 20170323103402a
+<4>[   10.707550] [btmtk_info] btmtk_usb_load_rom_patch_7662: platform = ALPS
+<4>[   10.707552] [btmtk_info] btmtk_usb_load_rom_patch_7662: HW/SW version = ŠŠ
+<4>[   10.707555] [btmtk_info] btmtk_usb_load_rom_patch_7662: Patch version =    
+<4>[   10.731518] [btmtk_info] btmtk_usb_load_rom_patch_7662: Invoke PDWNC_SetBTInResetState(1)
+<4>[   10.731533] PDWNC_SetBTInResetState 1
+<4>[   10.731539] [btmtk_info] btmtk_usb_load_rom_patch_7662: loading rom patch...
+<4>[   10.731544] [btmtk_info] btmtk_usb_load_rom_patch_7662: patch_len = 121148
+<4>[   10.731553] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 0, phase = 1
+<6>[   10.731568] MGC_FindEnd 1714: [USB] Port-3: New Dev=0xC435B000, bRemoteEp=2, wPacketSize=512.
+<6>[   10.731575] MGC_FindEnd 1717: [USB] Port-3: idVendor=0x0E8D, idProduct=0x76A1, bcdDevice=0x0100.
+<6>[   10.731581] MGC_FindEnd 1724: hotboot mtk_get_usb_suspend = 0 ,is_wifi_onport3=1.
+<6>[   10.731593] MGC_FindEnd 1771: Port-3: Tx EP 15  Get Fifo Addr = 0x40, size = 0x200
+<4>[   10.731598] 
+<4>[   10.731598] Port-3 Free Fifo [0X00000240, 0X0000403f] 
+<4>[   10.734774] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 2039, phase = 2
+<4>[   10.738171] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 4078, phase = 2
+<4>[   10.741702] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 6117, phase = 2
+<4>[   10.747311] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 8156, phase = 2
+<4>[   10.750459] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 10195, phase = 2
+<4>[   10.753937] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 12234, phase = 2
+<4>[   10.758973] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 14273, phase = 2
+<4>[   10.762122] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 16312, phase = 2
+<4>[   10.765576] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 18351, phase = 2
+<4>[   10.768954] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 20390, phase = 2
+<4>[   10.773656] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 22429, phase = 2
+<4>[   10.776777] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 24468, phase = 2
+<4>[   10.780157] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 26507, phase = 2
+<4>[   10.784118] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 28546, phase = 2
+<4>[   10.787623] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 30585, phase = 2
+<4>[   10.790842] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 32624, phase = 2
+<4>[   10.794535] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 34663, phase = 2
+<4>[   10.797977] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 36702, phase = 2
+<4>[   10.801142] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 38741, phase = 2
+<4>[   10.804482] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 40780, phase = 2
+<4>[   10.807966] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 42819, phase = 2
+<4>[   10.812694] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 44858, phase = 2
+<4>[   10.815794] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 46897, phase = 2
+<4>[   10.819244] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 48936, phase = 2
+<4>[   10.822850] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 50975, phase = 2
+<4>[   10.826213] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 53014, phase = 2
+<4>[   10.829520] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 55053, phase = 2
+<4>[   10.834873] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 57092, phase = 2
+<4>[   10.837987] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 59131, phase = 2
+<4>[   10.841394] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 61170, phase = 2
+<4>[   10.844971] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 63209, phase = 2
+<4>[   10.848265] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 65248, phase = 2
+<4>[   10.851734] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 67287, phase = 2
+<4>[   10.855269] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 69326, phase = 2
+<4>[   10.858620] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 71365, phase = 2
+<4>[   10.862068] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 73404, phase = 2
+<4>[   10.865500] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 75443, phase = 2
+<4>[   10.868887] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 77482, phase = 2
+<4>[   10.873072] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 79521, phase = 2
+<4>[   10.876242] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 81560, phase = 2
+<4>[   10.881665] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 83599, phase = 2
+<4>[   10.884857] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 85638, phase = 2
+<4>[   10.888232] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 87677, phase = 2
+<4>[   10.892426] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 89716, phase = 2
+<4>[   10.893878] [NPTV]SolTeam init success
+<4>[   10.895450] 
+<4>[   10.895450] [SOLteam]========UI LightSensor on==============
+<4>[   10.895505] [NPTV]vApiVideoInit
+<4>[   10.895565] [NPTV]Verf PE Table Passed
+<4>[   10.895868] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 91755, phase = 2
+<4>[   10.895990] [Solteam]_SOLteam_LS_Thread_Body: start......
+<4>[   10.897266] [NPTV]FlashPQ ID OK
+<4>[   10.899374] [NPTV]FlashPQ Qty OK
+<4>[   10.899648] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 93794, phase = 2
+<4>[   10.899962] [NPTV]FlashPQ RawData Init OK
+<4>[   10.902820] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 95833, phase = 2
+<4>[   10.904215] [NPTV]Timing        0  item    20001  value       e0 
+<4>[   10.904251] [NPTV]Timing        0  item    20000  value        0 
+<4>[   10.904281] [NPTV]Timing        0  item    20002  value       80 
+<4>[   10.906442] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 97872, phase = 2
+<4>[   10.906554] 
+<4>[   10.906571]  1[ 75],  2[129],  3[129],  4[ 28],  5[  2],  6[  2],  7[128],  8[128],  9[100], 10[100], 
+<4>[   10.906584] 11[  8], 12[  0], 13[ 24], 14[ 50], 15[137], 16[  8], 17[  0], 18[ 24], 19[ 50], 20[137], 
+<4>[   10.906598] 21[100], 22[ 95], 23[ 93], 24[ 65], 25[100], 26[ 60], 27[ 40], 28[  3], 29[100], 30[ 95], 
+<4>[   10.906611] 31[ 93], 32[ 65], 33[ 45], 34[ 28], 35[ 12], 36[  3], 37[100], 38[ 95], 39[ 93], 40[ 65], 
+<4>[   10.906624] 41[ 45], 42[ 18], 43[ 13], 44[  1], 45[ 50], 46[192], 47[250], 48[244], 49[  1], 50[  1], 
+<4>[   10.906637] 51[160], 52[  1], 53[  3], 54[  3], 55[  2], 56[  2], 57[ 98], 58[ 62], 59[128], 60[  0], 
+<4>[   10.906650] 61[ 40], 62[ 35], 63[ 16], 64[ 16], 65[  0], 66[ 32], 67[220], 68[  0], 69[ 32], 70[  0], 
+<4>[   10.906662] 71[  0], 72[ 64], 73[  0], 74[ 20], 75[ 40], 76[100], 77[147], 78[  0], 79[  0], 80[  0], 
+<4>[   10.906663] 
+<4>[   10.906669] <Mvideo_GetVersion:2419]> TPV IP: version 18.00.00.2
+<4>[   10.906680] [CLI]
+<4>[   10.906699]  IMvideoR_GetFlashDataPQExtra(640) 
+<4>[   10.907213] [CLI]
+<4>[   10.907230]  IMvideoR_EepromReadBytes (80) 
+<4>[   10.907991] <IMvideoP_SetFeatureSelectionBYTEs:1678]> [MVIDEO] SET FEATURE SEL BYTE (1)  pwmDelay = 2, contrastDelay = 0
+<4>[   10.908015] <Msrcmeter_GetVersion:2016]> TP Vision IP SW-Msrcmeter: version 18.00.00.1 
+<4>[   10.908023] vApiGetSourceMeterFlashData: offset=0, length=36
+<4>[   10.908651]  2 120 100 120 200 0 4 2 224 255 255 224 224 255 255 255 255 224 224 112 176 200 112 160 200 200 200 200 96 96 144 170 112 0 0 6 6 144 56 136 50 32 8 4 4 4 4 4 4 8 4 255 255 255 128 255 255 255 255 128 255 128 3 4 120 100 120 200 224 254 254 224 224 254 254 254 254 224 224 112 176 200 112 160 200 200 200 200 96 96 144 170 112 144 56 136 50 5 5 4 4vApiGetSourceMeterFlashData: offset=0, length=1
+<4>[   10.908744] vApiGetSourceMeterFlashData: offset=1, length=2
+<4>[   10.909737] [NPTV]FlashPQ ID OK
+<4>[   10.909767] 
+<4>[   10.909767] [bApiFlashPqUpdateSmartPic]5085, dwSmartPicAddr=0x962080.
+<4>[   10.910332] 
+<4>[   10.910333] 
+<4>[   10.910335] 
+<4>[   10.910346] 
+<4>[   10.910347] 
+<4>[   10.910349] 
+<4>[   10.910349] 
+<4>[   10.910350] 
+<4>[   10.910351] 
+<4>[   10.910352] 
+<4>[   10.910353] 
+<4>[   10.910354] 
+<4>[   10.910355] 
+<4>[   10.910356] 
+<4>[   10.910357] 
+<4>[   10.910358] 
+<4>[   10.910358] 
+<4>[   10.910359] 
+<4>[   10.910360] 
+<4>[   10.910361] 
+<4>[   10.910362] 
+<4>[   10.910363] 
+<4>[   10.910364] 
+<4>[   10.910365] 
+<4>[   10.910366] 
+<4>[   10.910366] 
+<4>[   10.910368] 
+<4>[   10.910368] 
+<4>[   10.910369] 
+<4>[   10.910370] 
+<4>[   10.910371] 
+<4>[   10.910372] 
+<4>[   10.910373] 
+<4>[   10.910373] 
+<4>[   10.910405] [NPTV]Restore flash SmartPic successful
+<1>[   10.910433] FIKRI3, Ambilight component build date: Dec  8 2017 time 11:13:51
+<1>[   10.910438] FGU:IMamb_Eng_Create:IMamb_Eng_Create enter
+<1>[   10.910438] 
+<1>[   10.910483] FGU:IMamb_Eng_Create:Hardware selection: 1
+<1>[   10.910490] FGU:IMamb_Eng_SetFreeze:IMamb_Eng_SetFreeze: freeze=0
+<1>[   10.910490] 
+<4>[   10.910851] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 99911, phase = 2
+<1>[   10.911095] FGU:IMamb_App_UpdateDefaultTuningData:load default AL Tuning Data!
+<1>[   10.911095] 
+<1>[   10.911362] FGU:IMamb_Eng_SetAlignments:IMamb_Eng_SetAlignments: board=1 Gain=0 RR=0 RG=0 RB=0 GR=0 GG=0 GB=0 BR=0 BG=0 BB=0 
+<1>[   10.911380] FGU:IMamb_Eng_SetAlignments:IMamb_Eng_SetAlignments: board=2 Gain=0 RR=0 RG=0 RB=0 GR=0 GG=0 GB=0 BR=0 BG=0 BB=0 
+<1>[   10.911389] FGU:IMamb_Eng_SetAlignments:IMamb_Eng_SetAlignments: board=3 Gain=0 RR=0 RG=0 RB=0 GR=0 GG=0 GB=0 BR=0 BG=0 BB=0 
+<1>[   10.911397] FGU:IMamb_Eng_SetAlignments:IMamb_Eng_SetAlignments: board=4 Gain=0 RR=0 RG=0 RB=0 GR=0 GG=0 GB=0 BR=0 BG=0 BB=0 
+<1>[   10.911405] FGU:IMamb_Eng_SetAlignments:IMamb_Eng_SetAlignments: board=5 Gain=0 RR=0 RG=0 RB=0 GR=0 GG=0 GB=0 BR=0 BG=0 BB=0 
+<1>[   10.911414] FGU:IMamb_Eng_SetAlignments:IMamb_Eng_SetAlignments: board=6 Gain=0 RR=0 RG=0 RB=0 GR=0 GG=0 GB=0 BR=0 BG=0 BB=0 
+<1>[   10.911424] FGU:IMamb_Eng_SetAlignments:IMamb_Eng_SetAlignments: board=7 Gain=0 RR=0 RG=0 RB=0 GR=0 GG=0 GB=0 BR=0 BG=0 BB=0 
+<1>[   10.911434] FGU:IMamb_Eng_SetAlignments:IMamb_Eng_SetAlignments: board=8 Gain=0 RR=0 RG=0 RB=0 GR=0 GG=0 GB=0 BR=0 BG=0 BB=0 
+<1>[   10.911443] FGU:IMamb_Eng_SetAlignments:IMamb_Eng_SetAlignments: board=9 Gain=0 RR=0 RG=0 RB=0 GR=0 GG=0 GB=0 BR=0 BG=0 BB=0 
+<1>[   10.911451] FGU:IMamb_Eng_SetAlignments:IMamb_Eng_SetAlignments: board=10 Gain=0 RR=0 RG=0 RB=0 GR=0 GG=0 GB=0 BR=0 BG=0 BB=0 
+<1>[   10.911461] FGU:IMamb_Eng_SetAlignments:IMamb_Eng_SetAlignments: board=11 Gain=0 RR=0 RG=0 RB=0 GR=0 GG=0 GB=0 BR=0 BG=0 BB=0 
+<1>[   10.911470] FGU:IMamb_Eng_SetAlignments:IMamb_Eng_SetAlignments: board=12 Gain=0 RR=0 RG=0 RB=0 GR=0 GG=0 GB=0 BR=0 BG=0 BB=0 
+<1>[   10.912244] FGU:IMamb_App_GetArchIndex:IMamb_App_GetArchIndex: found AL Arch index 4 side 4p 0 bottom 0 topology 0
+<1>[   10.912244] 
+<1>[   10.912249] FGU:IMamb_Eng_Create:Side segments: 4
+<1>[   10.912252] FGU:IMamb_Eng_Create:Top segments: 0
+<1>[   10.912255] FGU:IMamb_Eng_Create:Bottom segments: 0
+<1>[   10.912259] FGU:IMamb_Eng_Create:Topology version: 0
+<1>[   10.912262] FGU:IMamb_Eng_Create:Hardware selection: 1
+<1>[   10.912264] FGU:IMamb_Eng_Create:frc: 2
+<1>[   10.912293] FGU:IMamb_Eng_Create:mirror_flip: 0
+<1>[   10.912300] FGU:IMamb_Eng_SetArchitecture:IMamb_Eng_SetArchitecture: left=4, top=0, right=4, bottom=0, nbrOfPhysicalPixels=0
+<1>[   10.912300] 
+<1>[   10.912306] FGU:IMamb_Fms_SetArchitecture:IMamb_Fms_SetArchitecture: left=4, top=0, right=4, bottom=0, nbrOfPhysicalPixels=0
+<1>[   10.912306] 
+<1>[   10.912343] FGU:IMamb_Fms_SetHwSelection:IMamb_Fms_SetHwSelection: led_type=1, led_driver=0
+<1>[   10.912343] 
+<1>[   10.912348] FGU:IMamb_Eng_Create:IMamb_Eng_Create leave
+<1>[   10.912348] 
+<4>[   10.912352] Amb init:setPixmux->lightup->IMambP_Init DRVCUST_AMBInit=1 ..
+<1>[   10.912359] <PQCTRL><pqsoccontrolP_init:171]> [VER: 18.00.01.9] IP Compiled at:[Dec  8 2017 09:10:35].
+<1>[   10.912359] 
+<1>[   10.912759] [pqsoccontrolR_infra_readOptionByteItem] PLF[0] FRC=[2] FPGA[0] DisplayID NVM=[26] MTK=[3] ISF[1] HDR[1] LS[2] TS[2, 0] OLED[0] WCG[0] RES[2] BL[0] 100Hz[0]
+<1>[   10.912795] <PQCTRL><pqsoccontrolP_init:193]> IP Enter, initialised=[0], FRC=[2]
+<1>[   10.912795] 
+<1>[   10.912869] PqDbgTuning started
+<1>[   10.912877] <PQCTRL><pqsocdrivers_init:238]> [SOCVER:0.22] PQSOCDrivers build date: 09:10:41 Dec  8 2017
+<1>[   10.912877] 
+<4>[   10.912885] pqdrivers_nt72333_init Enter m_power_mode = [0]
+<4>[   10.912889] <PQCTRL><pqnt72333drv_init:63]> [pqnt72333drv_init]: enter
+<4>[   10.912889] 
+<4>[   10.912891] nt72333drv_mdrv_init Enter
+<4>[   10.912894] nt72333drv_mdrv_init Exit, rval=0
+<4>[   10.912897] <PQCTRL><pqnt72333drv_init:72]> [pqnt72333drv_init]: leave
+<4>[   10.912899] pqdrivers_nt72333_init Exit, m_power_mode = [1] rval = 0 
+<1>[   10.912903] <PQCTRL><pqsocdrivers_init:290]>  ++Exit, return 0
+<1>[   10.913877] <PQCTRL><_pqsoccontrol_check_opfrc:389]> Optioncode_OPFRC is [2 --> FRC_NT72333] !!!
+<1>[   10.913926] [FRC]_DispSocCtrl_NT333Thread: start......
+<4>[   10.914126] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 101950, phase = 2
+<4>[   10.917622] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 103989, phase = 2
+<1>[   10.918487] mpqsocctrl_nt72333_init rval=0, NT333 Device Status [Off]
+<4>[   10.918514] [pqsocdrivers_nt333_power_status] ++Exit,FRC POWER is [ON] 
+<1>[   10.918518] [pqsocdrivers_device_turnOn] NT333 is Power [On] 
+<1>[   10.918522] pqdrivers_nt72333_turnOn Enter, m_power_mode = [1] 
+<1>[   10.918525] [pqnt72333drv_open]: enter
+<1>[   10.918528] 181: LUM: going to open nt72333 driver
+<1>[   10.918655] [FRC]_FRC333ProcThread: start......
+<1>[   10.919216] [nt72333drv_mdrv_open] going to unlock, pqsoccontrolR_infra_I2CWrite 0x31 0x72 from 0xfe , rval=[0] 
+<1>[   10.920886] [nt72333drv_mdrv_open] pqsoccontrolR_infra_I2CWriteRead retVal=[0], BYTE[0]=[0x31], BYTE[1] = [0x72] OK
+<1>[   10.920889] [nt72333drv_mdrv_open] NT333 unlocked OK
+<1>[   10.920891] [nt72333drv_mdrv_open] nt72333 Driver open SUCCESS
+<1>[   10.920897] [pqnt72333drv_open]: Switching off caching modeEnter get333FirmwareVersionCSM, version is [] 
+<1>[   10.920905] sync_nt72333drv_mdrv_readNtCmd:mainid 0xf subid 0x93 
+<4>[   10.920994] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 106028, phase = 2
+<4>[   10.924318] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 108067, phase = 2
+<4>[   10.927684] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 110106, phase = 2
+<1>[   10.928751] read data 0x50001021, retval=[0]
+<4>[   10.928755] Exit get333FirmwareVersionCSM, VERSION is [80.1.33] 
+<4>[   10.928819] Enter get333FirmwareVersionCSM, version is [80.1.33] 
+<4>[   10.928821] Exit get333FirmwareVersionCSM, VERSION is [80.1.33] 
+<1>[   10.928823] FRC Novatek 72333 version = 80.1.33
+<1>[   10.928828] [pqnt72333drv_open]: skip nt72333drv_mdrv_activateWatchdog()
+<1>[   10.928828] [pqnt72333drv_open]: Exit, retval=[0]
+<1>[   10.928833] [pqdrivers_nt72333_turnOn]: skip nt72333drv_mdrv_activateWatchdog()
+<1>[   10.928834] pqdrivers_nt72333_turnOn Exit, m_power_mode = [3] rval = 0 
+<1>[   10.928837] [pqsocdrivers_device_turnOn] after pqdrivers_nt72333_turnOn(), rval=0
+<1>[   10.928843] <PQCTRL><pqsocdriver_nt333_setWhitePoint:2155]>  Apps RGB (127,127,127,7,7,7) Default Offset[492]
+<1>[   10.928843] 
+<1>[   10.928863] <PQCTRL><sync_nt72333drv_mdrv_writeNtCmd:775]> sync_nt72333drv_mdrv_writeNtCmd:mainid 0x3 subid 0x4 data 0x1ec
+<4>[   10.931281] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 112145, phase = 2
+<4>[   10.934580] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 114184, phase = 2
+<1>[   10.934775] <PQCTRL><sync_nt72333drv_mdrv_writeNtCmd:775]> sync_nt72333drv_mdrv_writeNtCmd:mainid 0x3 subid 0x5 data 0x1ec
+<4>[   10.938758] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 116223, phase = 2
+<1>[   10.939516] <PQCTRL><sync_nt72333drv_mdrv_writeNtCmd:775]> sync_nt72333drv_mdrv_writeNtCmd:mainid 0x3 subid 0x6 data 0x1ec
+<4>[   10.941969] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 2039, cur_len = 118262, phase = 2
+<4>[   10.945380] [btmtk_info] btmtk_usb_load_rom_patch_7662: sent_len = 847, cur_len = 120301, phase = 3
+<4>[   10.945660] <PQCTRL><pqsocdriver_nt333_setWhitePoint:2260]>  [pqsocdriver_nt333_setWhitePoint] ++Exit, NT333 RGB (512,512,512,492,492,492) return 0
+<4>[   10.945660] 
+<1>[   10.945664] [pqsocdrivers_device_turnOn] NT333_DeviceOn_status=[3] rval=0
+<1>[   10.945671] [pqsoccontrolR_infra_MapNT333TxTcon] search done, [Success] find matched PID at Index [1] !!!
+<1>[   10.945677] sync_nt72333drv_mdrv_readNtCmd:mainid 0x4 subid 0x43 
+<4>[   10.947395] [btmtk_info] btmtk_usb_load_rom_patch_7662: loading rom patch... Done
+<4>[   10.948572] [btmtk_info] Get rom patch result: OK
+<1>[   10.951187] read data 0x2, retval=[0]
+<1>[   10.951241] <PQCTRL><mpqsocctrl_nt72333_init:567]> panelID [26] map to NT333 [2 2] TxTcon
+<1>[   10.951241] 
+<1>[   10.951338] [pqsoccontrolR_infra_MapNT333T3Delay] search done, [Success] find matched PID at index [0] !!!
+<1>[   10.951436] sync_nt72333drv_mdrv_readNtCmd:mainid 0xf subid 0x13 
+<1>[   10.956579] read data 0x7, retval=[0]
+<1>[   10.956641] <PQCTRL><mpqsocctrl_nt72333_init:580]> panelID [26] map to NT333 T3 delay [7 7 X 100]ms
+<1>[   10.956641] 
+<1>[   10.956759] [pqsoccontrolR_infra_MapNT333T3EyePattern] search done, [Success] find matched PID at index [0] !!!
+<1>[   10.956895] sync_nt72333drv_mdrv_readNtCmd:mainid 0xf subid 0xd3 
+<1>[   10.963996] read data 0xffffffff, retval=[0]
+<1>[   10.964006] sync_nt72333drv_mdrv_readNtCmd:mainid 0xf subid 0xd2 
+<1>[   10.968913] read data 0xffffffff, retval=[0]
+<1>[   10.968926] <PQCTRL><sync_nt72333drv_mdrv_writeNtCmd:775]> sync_nt72333drv_mdrv_writeNtCmd:mainid 0xf subid 0xd2 data 0x3939
+<1>[   10.971984] <PQCTRL><sync_nt72333drv_mdrv_writeNtCmd:775]> sync_nt72333drv_mdrv_writeNtCmd:mainid 0xf subid 0xd3 data 0xb9b9
+<1>[   10.976954] <PQCTRL><sync_nt72333drv_mdrv_writeNtCmd:775]> sync_nt72333drv_mdrv_writeNtCmd:mainid 0x8 subid 0x80 data 0x1
+<6>[   10.982276] MGC_FindEnd 1714: [USB] Port-3: New Dev=0xC435B000, bRemoteEp=1, wPacketSize=16.
+<6>[   10.982284] MGC_FindEnd 1717: [USB] Port-3: idVendor=0x0E8D, idProduct=0x76A1, bcdDevice=0x0100.
+<6>[   10.982288] MGC_FindEnd 1724: hotboot mtk_get_usb_suspend = 0 ,is_wifi_onport3=1.
+<6>[   10.982300] MGC_FindEnd 1771: Port-3: Rx EP 15  Get Fifo Addr = 0x240, size = 0x10
+<4>[   10.982307] 
+<4>[   10.982307] Port-3 Free Fifo [0X00000250, 0X0000403f] 
+<4>[   10.982640] [btmtk_info] Check rom patch result: OK
+<4>[   11.004191] [btmtk_info] Check reset wmt result: OK
+<4>[   11.029018] [pqsocdrivers_nt333_SetEyePattern] 0xb9b93939 ++Exit, rval=0
+<1>[   11.029019] <PQCTRL><mpqsocctrl_nt72333_init:593]> panelID [26] eye-pattern pre-emphasis and swing are [0xb9b93939 0xffffffff] 
+<1>[   11.029019] 
+<4>[   11.029033] [pqsocdrivers_nt333_power_status] ++Exit,FRC POWER is [ON] 
+<4>[   11.029036] [_pqsocdriver_deviceOn_check] NT333_DEVICE_STATUS_WORK already !!! Exit
+<1>[   11.029044] <PQCTRL><sync_nt72333drv_mdrv_writeNtCmd:775]> sync_nt72333drv_mdrv_writeNtCmd:mainid 0xe subid 0x71 data 0x2f
+<1>[   11.039360] sync_nt72333drv_mdrv_readNtCmd:mainid 0xe subid 0x71 
+<1>[   11.044813] read data 0x2f11, retval=[0]
+<4>[   11.044819] [pqdrivers_nt72333_ReadGPIO] ++Exit, pvalue=2f11 rval=0
+<1>[   11.044830] <PQCTRL><sync_nt72333drv_mdrv_writeNtCmd:775]> sync_nt72333drv_mdrv_writeNtCmd:mainid 0xe subid 0x71 data 0x39
+<1>[   11.047976] sync_nt72333drv_mdrv_readNtCmd:mainid 0xe subid 0x71 
+<1>[   11.055836] read data 0x3911, retval=[0]
+<4>[   11.055912] [pqdrivers_nt72333_ReadGPIO] ++Exit, pvalue=3911 rval=0
+<1>[   11.055921] [pqsocctrlP_getCurrentDisplayState] IP Exit, Displaystate=[PQSOCCTRLP_DISPLAYSTATE_UNKNOWN ==> PQSOCCTRLP_DISPLAYSTATE_ON]
+<1>[   11.056046] mpqsocctrl_nt72333_init => update nt333 display status [2]
+<1>[   11.056160] mpqsocctrl_nt72333_init => Exit pqsocdrivers_device_turnOn device is [On] ret 0
+<1>[   11.056251] <PQCTRL><pqsoccontrolP_init:236]> IP Exit return 0
+<4>[   11.059098] [NPTV]Set TTD to OFF
+<4>[   11.319279] [btmtk_info] btmtk_usb_send_hci_reset_cmd: OK
+<4>[   11.321836] [btmtk_info] btmtk_usb_send_hci_low_power_cmd_7662: OK
+<4>[   11.323452] [btmtk_warn] warning, 0x41070c[0] is 1!
+<4>[   11.324966] [btmtk_info] btmtk_usb_send_hci_set_tx_power_cmd_7662: OK
+<4>[   11.347970] [btmtk_info] btmtk_usb_load_rom_patch_7662: Invoke PDWNC_SetBTInResetState(0)
+<4>[   11.347974] PDWNC_SetBTInResetState 0
+<4>[   11.347986] [btmtk_info] btmtk_usb_set_state: PROBE(3) -> WORKING(4)
+<4>[   11.347999] [btmtk_info] fifo_init: 0
+<4>[   11.348006] [btmtk_info] fifo_init: 1
+<4>[   11.348104] [btmtk_info] btmtk_fifo_start: set TSK_START
+<4>[   11.348108] [btmtk_info] btmtk_fifo_start: [ok]
+<4>[   11.348110] [btmtk_info] btmtk_usb_probe: end
+<4>[   11.351841] 
+<4>[   11.351841] 
+<4>[   11.351841] === pAd = e1376000, size = 1759000 ===
+<4>[   11.351841] 
+<4>[   11.352111] <-- RTMPAllocAdapterBlock, Status=0
+<4>[   11.352308] WiFi Chip ID = 0x76320100
+<4>[   11.352449] ==>rlt_wlan_chip_onoff(): OnOff:1, Reset= 1, pAd->WlanFunCtrl:0x0, Reg-WlanFunCtrl=0x20a
+<4>[   11.353411] InitUSBDevice: rompatch pwrOn
+<4>[   11.355864] mt76x2_rompatch_pwrOn: ROMPATCH_FEATURE_BIT ret = 1. wait_countdown=5
+<4>[   11.358375] Driver version-JEDI.MP2.mt76x2u.wifi.v3.2.1
+<4>[   11.358746] MT76x2T chip!
+<4>[   11.359043] RtmpChipOpsEepromHook::e2p_type=0, inf_Type=2
+<4>[   11.359047] RtmpEepromGetDefault::e2p_dafault=1
+<4>[   11.359517] NVM is EFUSE mode
+<4>[   11.359520] Endpoint(8) is for In-band Command
+<4>[   11.359523] Endpoint(4) is for WMM0 AC0
+<4>[   11.359525] Endpoint(5) is for WMM0 AC1
+<4>[   11.359526] Endpoint(6) is for WMM0 AC2
+<4>[   11.359528] Endpoint(7) is for WMM0 AC3
+<4>[   11.359530] Endpoint(9) is for WMM1 AC0
+<4>[   11.359531] Endpoint(84) is for Data-In
+<4>[   11.359533] Endpoint(85) is for Command Rsp
+<4>[   11.359541] get_dev_name_prefix(): dev_idx = 0, dev_name_prefix=wlan
+<4>[   11.359692] 80211> RFICType= 3, NumOfChan= 47
+<4>[   11.359695] 80211> Number of rate = 12
+<4>[   11.359700] 80211> CurTxPower = 20 dBm
+<4>[   11.359740] 80211> TxStream = 0
+<4>[   11.362159] crda> requlation requestion by core: 00
+<4>[   11.362632] 80211> CFG80211_Register
+<3>[   11.366090] [USB] usb_set_configuration <= 
+<1>[   11.542642] load secure hdcp2.2 key OK
+<4>[   11.544679] AP set Output Window Width or Height is 0
+<4>[   11.544713] AP set Output Window Width or Height is 0
+<1>[   11.544871] IMambP_BackgroundTask task start
+<4>[   11.546640] [HDMI]HDMI port 1 state from 0 change to 1----------
+<4>[   11.546669] [HDMI]HDMI port 2 state from 0 change to 1----------
+<4>[   11.546699] [HDMI]HDMI port 3 state from 0 change to 1----------
+<4>[   11.546729] [HDMI]HDMI port 4 state from 0 change to 1----------
+<4>[   11.547890] [VDEC][VDEC_RegRmCb] VDEC RM pfnRmCb(0xbf2d74c4).
+<4>[   11.548971] [SWDMX]_SWDMX_Init()
+<4>[   11.549804] [SWDMX]FBM_POOL_TYPE_SWDMX: 0x6fd08000, 2359296
+<4>[   11.549832] [SWDMX]_u4APreFIFO: 0xd7c00000--0xd7e40000, 2359296
+<4>[   11.550342] [DMX]_FVR_Init 407
+<4>[   11.551127] [FEEDER]FEEDER get memory info
+<4>[   11.551162] [FEEDER]mmp vir:0xd8000000,size:0x800000
+<4>[   11.551201] [FEEDER]feeder vir:0xd8000000,size:0xd00000
+<4>[   11.551243] [FEEDER]feeder2 vir:0xdd000000,size:0x800000
+<4>[   11.553324] [TVE]To set the TVE soft calibration
+<4>[   11.555209] [TVE]Load Vdac software calibration value from eeprom,_bIrimDftVal=0x5
+<4>[   12.128704] [Vendor_Demod]Total 1 func table exist
+<4>[   12.128708] [Vendor_Demod]Tuner Type=0x8F
+<4>[   12.306056] [Vendor_Demod]Total 1 func table exist
+<4>[   12.306060] [Vendor_Demod]Tuner Type=0x8F
+<4>[   12.325479] mtal_ioctl_tunerhal argument copy error
+<4>[   12.325696] mtal_ioctl_tunerhal argument copy error
+<4>[   12.325737] mtal_ioctl_tunerhal argument copy error
+<4>[   12.325780] mtal_ioctl_tunerhal argument copy error
+<4>[   12.325821] mtal_ioctl_tunerhal argument copy error
+<4>[   12.585432] End init hw for FB
+<4>[   12.597028] Re-open MT53_FB successfully
+<4>[   12.647696] 
+<4>[   12.647696]  [SHM alloc]{order = 5, ui4_page_num =32}
+<4>[   12.306069] 
+<4>[   12.808410] [AUD][MT_AUD_MW]SetOutPort(), Dec (0), OutPort = 0x00000007
+<4>[   12.808464] [AUD][MT_AUD_MW]SetOutPort_______ad speaker headphone _______________
+<4>[   12.808534] [AUD][_AdacSpeakerChangeState:601][]
+<4>[   12.808567] [AMP] _TAS5760_Mute fgEnable 1
+<4>[   12.809658] [AUD][_AdacSpeakerChangeState:601][]
+<4>[   12.809697] [AMP] _TAS5760_Mute fgEnable 1
+<4>[   12.972842] [PCMCIA]Internal CI.
+<4>[   12.972878] [PCMCIA]PCMCIA_SwitchGPIO
+<4>[   12.973034] [PCMCIA]sPcmciaAutoSetTs created ok 
+<4>[   12.973068] [PCMCIA]sPcmciaAutoSetDemodoutput created ok 
+<4>[   12.974625] [PCMCIA]PCMCIA_SwitchGPIO
+<4>[   12.974904] [PCMCIA]CI 5V Power Off
+<4>[   12.983900] [DMX]PCMCIA_DisableDemodTs
+<4>[   12.983926] [DMX]TunerSetTsTristate(Tuner0, BOOL_TRUE)
+<4>[   12.984021] _CI_IO: _MTCI0_RegFastBootCB
+<4>[   13.040183] 
+<4>[   13.040183]  [SHM alloc]{order = 10, ui4_page_num =768}
+<4>[   13.040238] 
+<4>[   13.040238]  [SHM alloc]{order = 9, ui4_page_num =512}
+<4>[   13.040269] 
+<4>[   13.040269]  [SHM alloc]{order = 10, ui4_page_num =1024}
+<4>[   13.045092] [DMX]CI disable main tuner
+<4>[   13.053847] [DMX]PCMCIA_EnableDemodTs
+<4>[   13.053903] [DMX]TunerSetTsTristate(Tuner0, BOOL_FALSE)
+<4>[   13.055399] [DMX]CI enable main tuner
+<1>[   13.160497] FGU:IMamb_Eng_StartActiveMode:Start AL Active mode
+<1>[   13.160507] FGU:IMamb_Eng_SetFreeze:IMamb_Eng_SetFreeze: freeze=0
+<1>[   13.160507] 
+<1>[   13.160513] FGU:IMamb_Eng_SetSunsetDuration:IMamb_Eng_SetSunsetDuration: duration=11000
+<1>[   13.160513] 
+<1>[   13.160521] FGU:IMamb_Eng_SetWallColour:IMamb_Eng_SetWallColour(0xff-0xff-0xff)
+<1>[   13.160521] 
+<1>[   13.160525] FGU:IMamb_App_SetUIBrightness:IMamb_App_SetUIBrightness: UI brightness=10, user gain=64
+<1>[   13.160525] 
+<1>[   13.160529] FGU:IMamb_Eng_SetBrightness:IMamb_Eng_SetBrightness: brightness=64
+<1>[   13.160529] 
+<1>[   13.160533] FGU:IMamb_App_SetUIBottomBrightness:IMamb_App_SetUIBottomBrightness: Not support Bottom Brightness! 
+<1>[   13.160533] 
+<1>[   13.160536] FGU:IMamb_Eng_SetMode:IMamb_Eng_SetMode: mode=1
+<1>[   13.160536] 
+<1>[   13.160541] FGU:IMamb_App_AdaptConfiguration:Apply Saturation Feature level:2 
+<1>[   13.160541] 
+<1>[   13.160549] FGU:IMamb_Eng_SetAlgoTuning:immersionGain: 140, contrast: 85, saturation00:50, saturation50:64,
+<1>[   13.160549] deSaturationThreshold:10000, minLampValue:3000, attackSpeedY:7, attackSpeedUV:10, decaySpeedY:9, decaySpeedUV:10
+<1>[   13.160554] FGU:IMamb_App_AdaptConfiguration:Apply Saturation Feature level:2 
+<1>[   13.160554] 
+<1>[   13.160560] FGU:IMamb_Eng_SetAlgoTuning:immersionGain: 140, contrast: 85, saturation00:50, saturation50:64,
+<1>[   13.160560] deSaturationThreshold:10000, minLampValue:3000, attackSpeedY:7, attackSpeedUV:10, decaySpeedY:9, decaySpeedUV:10
+<4>[   13.186008] [NPTV]Adaptive luma setting is med
+<4>[   13.186060] 
+<4>[   13.186060] [BLD Condition] OnOff = 1, Condition = 0x3 OSD = 100
+<1>[   13.186145] <PQCTRL><pqsoccontrolP_SetPQFeatureBytes:354]> Init:1 MoStyle=3 NatMotn=2 ClrMotn=0 UltRes=1 NR=2 MpgNR=2 ClrEnh=1 ISF=0(0) DRE=1 UltHDR=0 LS=1 DynBlt=2 DynCtr=2 Gamut=1 ClrTemp=0 HdrConv=0
+<1>[   13.186159] <PQCTRL><sync_nt72333drv_mdrv_writeNtCmd:775]> sync_nt72333drv_mdrv_writeNtCmd:mainid 0x1 subid 0x1 data 0x6
+<1>[   13.191274] <PQCTRL><sync_nt72333drv_mdrv_writeNtCmd:775]> sync_nt72333drv_mdrv_writeNtCmd:mainid 0x1 subid 0x0 data 0x4
+<1>[   13.198110] <PQCTRL><sync_nt72333drv_mdrv_writeNtCmd:775]> sync_nt72333drv_mdrv_writeNtCmd:mainid 0xb subid 0x40 data 0x1
+<1>[   13.203211] <PQCTRL><sync_nt72333drv_mdrv_writeNtCmd:775]> sync_nt72333drv_mdrv_writeNtCmd:mainid 0xb subid 0x46 data 0x1
+<4>[   13.203869] enter debug mode is 0x0
+<4>[   13.207359] AP set Output Window Width or Height is 0
+<4>[   13.213416] [NPTV]Adaptive luma setting is med
+<1>[   13.213568] <PQCTRL><pqsoccontrolP_SetPQFeatureBytes:354]> Init:1 MoStyle=3 NatMotn=2 ClrMotn=0 UltRes=1 NR=2 MpgNR=2 ClrEnh=1 ISF=0(0) DRE=1 UltHDR=0 LS=1 DynBlt=2 DynCtr=2 Gamut=1 ClrTemp=0 HdrConv=0
+<4>[   13.217120] [NPTV]Adaptive luma setting is med
+<1>[   13.217376] <PQCTRL><pqsoccontrolP_SetPQFeatureBytes:354]> Init:1 MoStyle=3 NatMotn=2 ClrMotn=0 UltRes=1 NR=2 MpgNR=2 ClrEnh=1 ISF=0(0) DRE=1 UltHDR=0 LS=1 DynBlt=2 DynCtr=2 Gamut=1 ClrTemp=0 HdrConv=0
+<4>[   13.219986] [NPTV]goks ++Calling DRV_CUSTOM_CUST_SET_SRC_METER_FBYTES[0x0][0x40] ++
+<4>[   13.222117] [NPTV]Adaptive luma setting is med
+<1>[   13.222245] <PQCTRL><pqsoccontrolP_SetPQFeatureBytes:354]> Init:1 MoStyle=3 NatMotn=2 ClrMotn=0 UltRes=1 NR=2 MpgNR=2 ClrEnh=1 ISF=0(0) DRE=1 UltHDR=0 LS=1 DynBlt=2 DynCtr=2 Gamut=1 ClrTemp=0 HdrConv=0
+<4>[   13.230669] [AUD]L:18298 aud_cpudec_notify_para_update() u1DecId:0
+<4>[   13.230758] [AUD][CPUDEC] Update DTS DRC 100 [dec 0] 
+<4>[   13.230874] [CPUD][common]:Dec 0, Parameter Update Notify
+<4>[   13.230883] [AUD]L:18298 aud_cpudec_notify_para_update() u1DecId:1
+<4>[   13.230961] [CPUD][common]:Dec 1, Parameter Update Notify
+<4>[   13.230954] [AUD][CPUDEC] Update DTS DRC 100 [dec 1] 
+<4>[   13.231045] [AUD]L:18298 aud_cpudec_notify_para_update() u1DecId:2
+<4>[   13.231160] [CPUD][common]:Dec 2, Parameter Update Notify
+<4>[   13.231149] [AUD][CPUDEC] Update DTS DRC 100 [dec 2] 
+<4>[   13.231389] [AUD]HP trim as 0
+<4>[   13.231410] [AUD]HP trim as 0
+<4>[   13.231467] [AUD]HP trim as 0
+<4>[   13.231486] [AUD]HP trim as 0
+<4>[   13.529457] [AUD]_SetChlDelay: DecID = 0, type = 0, port = 1, delay = 0
+<4>[   13.529478] [AUD]____11______SetChlDelay:delay = 0
+<4>[   13.529480] ___MTAUD_SetChannelDelay:delay = 0
+<4>[   13.529504] [AUD]Set raw delay buffer bank:0
+<4>[   13.529548] [AUD]Set RAW Data delay i2Delay=0,u4DelayFrame=0 u1SampleRate=48000,eDecFormat=0
+<4>[   13.529704] [AUD]_SetChlDelay: DecID = 0, type = 0, port = 0, delay = 0
+<4>[   13.529724] [AUD]____11______SetChlDelay:delay = 0
+<4>[   13.529726] ___MTAUD_SetChannelDelay:delay = 0
+<4>[   13.529746] [AUD]Set raw delay buffer bank:0
+<4>[   13.529789] [AUD]Set RAW Data delay i2Delay=0,u4DelayFrame=0 u1SampleRate=48000,eDecFormat=0
+<4>[   13.530039] [AUD] mtk NVM EN : Dec(0) EN(0)
+<4>[   13.530214] [AUD][ADAC_GetDrvCallBackFuncTbl:2019][]
+<4>[   13.535328] [AUD]_SetChlDelay: DecID = 0, type = 1, port = 3, delay = 0
+<4>[   13.545208] [NPTV]goks ++Calling DRV_CUSTOM_CUST_SET_BACKLIGHT_DIMMING_FBYTES[0x0][0x0][0x0] ++
+<4>[   13.548612] [NPTV]Adaptive luma setting is med
+<1>[   13.548702] <PQCTRL><pqsoccontrolP_SetPQFeatureBytes:354]> Init:1 MoStyle=3 NatMotn=2 ClrMotn=0 UltRes=1 NR=2 MpgNR=2 ClrEnh=1 ISF=0(0) DRE=1 UltHDR=0 LS=1 DynBlt=2 DynCtr=2 Gamut=1 ClrTemp=0 HdrConv=0
+<4>[   13.584993] [NPTV]goks ++Calling DRV_CUSTOM_CUST_SET_BACKLIGHT_DIMMING_FBYTES[0x0][0x4][0x0] ++
+<4>[   13.585058] [NPTV]goks ++Calling DRV_CUSTOM_CUST_SET_BACKLIGHT_DIMMING_FBYTES[0x0][0x24][0x0] ++
+<4>[   13.585149] [NPTV]goks ++Calling DRV_CUSTOM_CUST_SET_BACKLIGHT_DIMMING_FBYTES[0x20][0x24][0x0] ++
+<4>[   13.585889] [NPTV]Adaptive luma setting is med
+<1>[   13.585978] <PQCTRL><pqsoccontrolP_SetPQFeatureBytes:354]> Init:1 MoStyle=3 NatMotn=2 ClrMotn=0 UltRes=1 NR=2 MpgNR=2 ClrEnh=1 ISF=0(0) DRE=1 UltHDR=0 LS=1 DynBlt=2 DynCtr=2 Gamut=1 ClrTemp=0 HdrConv=0
+<4>[   13.586105] [NPTV]goks ++Calling DRV_CUSTOM_CUST_SET_SRC_METER_FBYTES[0x30][0x40] ++
+<4>[   13.587985] [D_Interface]DRV_CUSTOM_CUST_SPEC_GET_HDR_SIGNAL
+<4>[   13.587989] DRV_CUSTOM_CUST_SPEC_GET_HDR_SIGNAL      0
+<4>[   13.589250] [AUD]MODE[1] Bass/Treble/VS/CS= 20 24 0 0
+<4>[   13.589272] [AUD]MODE[2] Bass/Treble/VS/CS= 24 24 4 0
+<4>[   13.589295] [AUD]MODE[3] Bass/Treble/VS/CS= 28 22 2 0
+<4>[   13.589317] [AUD]MODE[4] Bass/Treble/VS/CS= 24 24 0 0
+<4>[   13.589339] [AUD]MODE[5] Bass/Treble/VS/CS= 24 24 3 0
+<4>[   13.589361] [AUD]MODE[6] Bass/Treble/VS/CS= 24 24 1 0
+<4>[   13.589383] [AUD]MODE[7] Bass/Treble/VS/CS= 24 24 0 0
+<4>[   13.589404] [AUD]MODE[8] Bass/Treble/VS/CS= 0 0 0 0
+<4>[   13.589425] [AUD]MODE[A] Bass/Treble/VS/CS= 8 8 1 0
+<4>[   13.589447] [AUD]MODE[B] Bass/Treble/VS/CS= 14 8 0 1
+<4>[   13.589468] [AUD]MODE[C] Bass/Treble/VS/CS= 14 10 1 1
+<4>[   13.593450] [AUD]AUD_NVM_Load_Table eType = 203, ui2Idx = 1
+<4>[   13.596793] [AUD]AUD_NVM_Load_Table eType = 113, ui2Idx = 4
+<4>[   13.596953] [AUD]L:18298 aud_cpudec_notify_para_update() u1DecId:0
+<4>[   13.597076] [AUD]L:18298 aud_cpudec_notify_para_update() u1DecId:1
+<4>[   13.597199] [CPUD][common]:Dec 0, Parameter Update Notify
+<4>[   13.597152] [AUD]L:18298 aud_cpudec_notify_para_update() u1DecId:2
+<4>[   13.597245] [CPUD][common]:Dec 1, Parameter Update Notify
+<4>[   13.597272] [CPUD][common]:Dec 2, Parameter Update Notify
+<4>[   13.600022] [AUD]_SetChlDelay: DecID = 0, type = 0, port = 1, delay = 0
+<4>[   13.600042] [AUD]____11______SetChlDelay:delay = 0
+<4>[   13.600045] ___MTAUD_SetChannelDelay:delay = 0
+<4>[   13.600069] [AUD]Set raw delay buffer bank:0
+<4>[   13.600116] [AUD]Set RAW Data delay i2Delay=0,u4DelayFrame=0 u1SampleRate=48000,eDecFormat=0
+<4>[   13.600312] [AUD]_SetChlDelay: DecID = 0, type = 0, port = 0, delay = 0
+<4>[   13.600333] [AUD]____11______SetChlDelay:delay = 0
+<4>[   13.600335] ___MTAUD_SetChannelDelay:delay = 0
+<4>[   13.600364] [AUD]Set raw delay buffer bank:0
+<4>[   13.600412] [AUD]Set RAW Data delay i2Delay=0,u4DelayFrame=0 u1SampleRate=48000,eDecFormat=0
+<4>[   13.607899] 
+<4>[   13.607899] 
+<4>[   13.607899] 
+<4>[   13.607899] .................................
+<4>[   13.607902] awei_DRV_CUSTOM_CUST_SPEC_SET_BSP_PIN,a_cfg_set_tuner_sync_src
+<4>[   13.607904] .......................................
+<4>[   13.607913] GPIO 242 is set to Func0 success !!
+<4>[   13.610811] [AUD][MT_AUD_MW]SetOutPort(), Dec (0), OutPort = 0x00000017
+<4>[   13.611324] [AUD][MT_AUD_MW]SetOutPort_______ad speaker headphone _______________
+<4>[   13.611412] [AUD][_AdacSpeakerChangeState:566][]
+<4>[   13.611453] [AMP] _TAS5760_Mute fgEnable 0
+<4>[   13.613665] [AUD][_AdacSpeakerChangeState:566][]
+<4>[   13.613718] [AMP] _TAS5760_Mute fgEnable 0
+<4>[   13.616892] [AUD][MT_AUD_MW]SetOutPort(), Dec (0), OutPort = 0x00000037
+<4>[   13.616983] [AUD][MT_AUD_MW]SetOutPort_______ad speaker headphone _______________
+<4>[   13.617251] [AUD][_AdacSpeakerChangeState:566][]
+<4>[   13.617305] [AMP] _TAS5760_Mute fgEnable 0
+<4>[   13.621277] [AUD][MT_AUD_MW]SetOutPort(), Dec (0), OutPort = 0x00000037
+<4>[   13.621337] [AUD][MT_AUD_MW]SetOutPort_______ad speaker headphone _______________
+<4>[   13.621393] [AUD][_AdacSpeakerChangeState:566][]
+<4>[   13.621396] [AMP] _TAS5760_Mute fgEnable 0
+<4>[   13.622929] [AUD][MT_AUD_MW]SetOutPort(), Dec (0), OutPort = 0x00000037
+<4>[   13.622965] [AUD][MT_AUD_MW]SetOutPort_______ad speaker headphone _______________
+<4>[   13.623015] [AUD][_AdacSpeakerChangeState:566][]
+<4>[   13.623018] [AMP] _TAS5760_Mute fgEnable 0
+<4>[   13.636106] [AUD][MT_AUD_MW]SetOutPort(), Dec (0), OutPort = 0x0000007f
+<4>[   13.636202] [AUD][MT_AUD_MW]SetOutPort_______ad speaker headphone _______________
+<4>[   13.636477] [AUD][_AdacSpeakerChangeState:566][]
+<4>[   13.636523] [AMP] _TAS5760_Mute fgEnable 0
+<4>[   13.640035] [AUD]HP trim as 0
+<4>[   13.640046] [AUD]HP trim as 0
+<4>[   13.640337] [AUD]HP trim as 0
+<4>[   13.640383] [AUD]HP trim as 0
+<4>[   13.648703] [RefreshErrLog][1569] b_error_detected == 0
+<4>[   13.648703] [RefreshErrLog][1570] ui1_device_address == 200
+<4>[   13.648703] [RefreshErrLog][388] _convert_DeviceAddress_to_ErrorCode called
+<4>[   13.648703] [RefreshErrLog][352] _removeErrorLogRecord called
+<4>[   13.648703] [RefreshErrLog] _readfile_to_kernel_buffer called!
+<4>[   13.649196] [RefreshErrLog][223] File Open error!
+<4>[   13.649209] [RefreshErrLog][365] ac_currErrorCode := 021b
+<4>[   13.649209] [RefreshErrLog][366] ac_fileErrorCode := 
+<4>[   13.649209] [RefreshErrLog][367] match := 0
+<4>[   13.649209] [RefreshErrLog][368] file_pos := 0
+<4>[   13.649209] [RefreshErrLog] _writefile_by_kernel_buffer called!
+<4>[   13.649489] [RefreshErrLog][382] logs_new_size := 0
+<4>[   13.649489] [RefreshErrLog][383] writebytes := 0
+<4>[   13.649489] [RefreshErrLog][1569] b_error_detected == 0
+<4>[   13.649489] [RefreshErrLog][1570] ui1_device_address == 216
+<4>[   13.649489] [RefreshErrLog][388] _convert_DeviceAddress_to_ErrorCode called
+<4>[   13.649489] [RefreshErrLog][352] _removeErrorLogRecord called
+<4>[   13.649489] [RefreshErrLog] _readfile_to_kernel_buffer called!
+<4>[   13.652667] [RefreshErrLog][365] ac_currErrorCode := 0225
+<4>[   13.652667] [RefreshErrLog][366] ac_fileErrorCode := 
+<4>[   13.652667] [RefreshErrLog][367] match := 0
+<4>[   13.652667] [RefreshErrLog][368] file_pos := 0
+<4>[   13.652667] [RefreshErrLog] _writefile_by_kernel_buffer called!
+<4>[   13.652936] [RefreshErrLog][382] logs_new_size := 0
+<4>[   13.652936] [RefreshErrLog][383] writebytes := 0
+<4>[   13.652936] [RefreshErrLog][1569] b_error_detected == 0
+<4>[   13.652936] [RefreshErrLog][1570] ui1_device_address == 48
+<4>[   13.652936] [RefreshErrLog][388] _convert_DeviceAddress_to_ErrorCode called
+<4>[   13.652936] [RefreshErrLog][352] _removeErrorLogRecord called
+<4>[   13.652936] [RefreshErrLog] _readfile_to_kernel_buffer called!
+<4>[   13.655925] [RefreshErrLog][365] ac_currErrorCode := 023d
+<4>[   13.655925] [RefreshErrLog][366] ac_fileErrorCode := 
+<4>[   13.655925] [RefreshErrLog][367] match := 0
+<4>[   13.655925] [RefreshErrLog][368] file_pos := 0
+<4>[   13.655925] [RefreshErrLog] _writefile_by_kernel_buffer called!
+<4>[   13.656127] [RefreshErrLog][382] logs_new_size := 0
+<4>[   13.656127] [RefreshErrLog][383] writebytes := 0
+<4>[   13.656127] [RefreshErrLog][1569] b_error_detected == 0
+<4>[   13.656127] [RefreshErrLog][1570] ui1_device_address == 136
+<4>[   13.656127] [RefreshErrLog][388] _convert_DeviceAddress_to_ErrorCode called
+<4>[   13.656127] [RefreshErrLog][352] _removeErrorLogRecord called
+<4>[   13.656127] [RefreshErrLog] _readfile_to_kernel_buffer called!
+<4>[   13.657754] [RefreshErrLog][365] ac_currErrorCode := 062b
+<4>[   13.657754] [RefreshErrLog][366] ac_fileErrorCode := 
+<4>[   13.657754] [RefreshErrLog][367] match := 0
+<4>[   13.657754] [RefreshErrLog][368] file_pos := 0
+<4>[   13.657754] [RefreshErrLog] _writefile_by_kernel_buffer called!
+<4>[   13.657885] [RefreshErrLog][382] logs_new_size := 0
+<4>[   13.657885] [RefreshErrLog][383] writebytes := 0
+<4>[   13.657885] 
+<4>[   13.901426] [AUD][MT_AUD_MW]SetOutPort(), Dec (0), OutPort = 0x0000007f
+<4>[   13.901488] [AUD][MT_AUD_MW]SetOutPort_______ad speaker headphone _______________
+<4>[   13.901863] [AUD][_AdacSpeakerChangeState:566][]
+<4>[   13.901906] [AMP] _TAS5760_Mute fgEnable 0
+<4>[   13.903468] [AUD][MT_AUD_MW]SetOutPort(), Dec (0), OutPort = 0x0000007f
+<4>[   13.903524] [AUD][MT_AUD_MW]SetOutPort_______ad speaker headphone _______________
+<4>[   13.903658] [AUD][_AdacSpeakerChangeState:566][]
+<4>[   13.903692] [AMP] _TAS5760_Mute fgEnable 0
+<4>[   13.909669] PDWNC_EnterPowerState : 260 .
+<4>[   13.909837] 
+<4>[   13.909837]  #### vApiSetBacklightCondition=0 2000000 3bffffff 2000000  ##### 
+<4>[   13.909845] 
+<4>[   13.909845] [BLD Condition] OnOff = 0, Condition = 0x0 OSD = 100
+<4>[   13.930593] _MTCI0_PowerON!
+<4>[   13.930613] [DMX]Enter PCMCIA_PowerON
+<4>[   14.587992] MTAL: Init IR Type: 0x2
+<4>[   14.588029] [IR]u4IrPulseTimeUnit is 50 us
+<6>[   19.900003] usbcore: registered new interface driver usb-storage
+<13>[   20.174005] init: Service 'dtv-svc' (pid 1199) exited with status 0
+<4>[   21.743496] star: star_open(eth0)
+<4>[   21.743522] star: request interrupt vector=112
+<4>[   21.743547] star: Internal PHY mode
+<4>[   21.743966] star: 0x14(0x70af)
+<4>[   21.743969] star: 0x18(0x240e3c5d)
+<4>[   21.758835] star: star_set_multicast_list
+<4>[   21.758851] star: star_set_multicast_list
+<4>[   21.758930] star: star_set_multicast_list
+<6>[   21.758957] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+<4>[   22.565243] Re-open MT53_FB successfully
+<36>[   24.467596] type=1400 audit(1095958792.735:14): avc: denied { execute } for pid=1881 comm="CrBrowserMain" name="gst-plugin-scanner" dev="mmcblk0p17" ino=360 scontext=u:r:mt_dtv-svc:s0 tcontext=u:object_r:mt_third_ro_file:s0 tclass=file permissive=0
+<36>[   25.506198] type=1400 audit(1095958793.775:15): avc: denied { execstack } for pid=1916 comm="jsapi2_thread" scontext=u:r:mt_dtv-svc:s0 tcontext=u:r:mt_dtv-svc:s0 tclass=process permissive=0
+<6>[   61.827004] warning: `main' uses 32-bit capabilities (legacy support in use)
+<4>[   81.329138] [NPTV]****vDrvGetHDRCapabilities u4Types is NULL****
+<4>[   81.329146] HdrCmd_Ioctl(738) - u4NumTypes=2,u4Types=  (null),u4MaxLuminance=0,u4MaxAverageLuminance=0,u4MinLuminance=0
+<4>[   81.329442] [NPTV]****vDrvGetHDRCapabilities u4maxLuminance=2000, u4maxAverageLuminance=1000, u4minLuminance=5 ****
+<4>[   81.329447] HdrCmd_Ioctl(738) - u4NumTypes=2,u4Types=af414f00,u4MaxLuminance=2000,u4MaxAverageLuminance=1000,u4MinLuminance=5
+<12>[  150.209500] healthd: battery l=100 v=0 t=2.0 h=2 st=2 chg=a
+<14>[  150.561580] init: processing action (sys.sysctl.extra_free_kbytes=*)
+<14>[  150.562419] init: Command 'write /proc/sys/vm/extra_free_kbytes ${sys.sysctl.extra_free_kbytes}' action=sys.sysctl.extra_free_kbytes=* (/init.rc:596) returned 0 took 0.00s
+<6>[  241.202351] usbcore: deregistering interface driver rt2870
+<6>[  241.202389] rt2870 start to do driver->disconnect, is_musb_suspend value=0.
+<4>[  241.202393] rtusb_disconnect: unregister usbnet usb-MtkUsbHcd.3-1
+<7>[  241.202402] RtmpOSNetDevDetach(): RtmpOSNetDeviceDetach(), dev->name=wlan0!
+<4>[  241.235524] vfree net device ops <- e153d000
+<4>[  241.268972] 80211> unregister/free wireless device
+<4>[  241.314596] ==>rlt_wlan_chip_onoff(): OnOff:0, Reset= 0, pAd->WlanFunCtrl:0x20b, Reg-WlanFunCtrl=0xffffffff
+<4>[  241.315186]  RTUSB disconnect successfully
+<7>[  241.315531] <--- rtusb exit
+<6>[  241.988434] acc_open
+<6>[  241.988447] acc_release
+<4>[  242.115399] $$$ Thread PID not root(1000) ignore
+<4>[  242.115495] [CEC]CEC_HALSetMWReady:1
+<4>[  242.116823] [CEC]CEC_SetEnable = 1.
+<4>[  242.122484] [CEC]CEC_ClrLogicAddress .
+<4>[  242.122526] [CEC]CEC_ClrLogicAddress .
+<4>[  242.143434] [CLI]DRV_MHL_OPTION_SERVICE_CONTROL: on
+<4>[  242.155452] DEBUG 0 
+<4>[  242.358133] star: star_set_multicast_list
+<7>[  242.874539] SELinux: initialized (dev fuse, type fuse), uses genfs_contexts
+<7>[  242.879140] SELinux: initialized (dev fuse, type fuse), uses genfs_contexts
+<7>[  242.884206] SELinux: initialized (dev fuse, type fuse), uses genfs_contexts
+<7>[  242.961873] rtusb_init : rt2870 --->
+<4>[  242.963745] 
+<4>[  242.963745] 
+<4>[  242.963745] === pAd = e1aff000, size = 1759000 ===
+<4>[  242.963745] 
+<4>[  242.965179] <-- RTMPAllocAdapterBlock, Status=0
+<4>[  242.966280] WiFi Chip ID = 0x76320100
+<4>[  242.966433] ==>rlt_wlan_chip_onoff(): OnOff:1, Reset= 1, pAd->WlanFunCtrl:0x0, Reg-WlanFunCtrl=0x20b
+<4>[  242.968881] InitUSBDevice: rompatch pwrOn
+<4>[  242.973121] mt76x2_rompatch_pwrOn: ROMPATCH_FEATURE_BIT ret = 1. wait_countdown=5
+<4>[  242.975975] Driver version-JEDI.MP2.mt76x2u.wifi.v3.2.1
+<4>[  242.976803] MT76x2T chip!
+<4>[  242.978727] RtmpChipOpsEepromHook::e2p_type=0, inf_Type=2
+<4>[  242.978732] RtmpEepromGetDefault::e2p_dafault=1
+<4>[  242.979769] NVM is EFUSE mode
+<4>[  242.979781] Endpoint(8) is for In-band Command
+<4>[  242.979786] Endpoint(4) is for WMM0 AC0
+<4>[  242.979789] Endpoint(5) is for WMM0 AC1
+<4>[  242.979793] Endpoint(6) is for WMM0 AC2
+<4>[  242.979797] Endpoint(7) is for WMM0 AC3
+<4>[  242.979802] Endpoint(9) is for WMM1 AC0
+<4>[  242.979807] Endpoint(84) is for Data-In
+<4>[  242.979811] Endpoint(85) is for Command Rsp
+<4>[  242.979832] get_dev_name_prefix(): dev_idx = 0, dev_name_prefix=wlan
+<4>[  242.980145] 80211> RFICType= 3, NumOfChan= 47
+<4>[  242.980148] 80211> Number of rate = 12
+<4>[  242.980153] 80211> CurTxPower = 20 dBm
+<4>[  242.980162] 80211> TxStream = 0
+<4>[  242.983529] crda> requlation requestion by core: 00
+<4>[  242.988990] 80211> CFG80211_Register
+<6>[  243.007160] usbcore: registered new interface driver rt2870
+<7>[  243.007165] Exiting rtusb_init
+<13>[  243.009722] init: Starting service 'wifi_fw_check'...
+<13>[  243.056336] init: Service 'wifi_fw_check' (pid 6259) exited with status 0
+<13>[  243.408308] init: Starting service 'p2p_supplicant'...
+<14>[  243.411015] init: Created socket '/dev/socket/wpa_wlan0' with mode '660', user '1010', group '1010'
+<4>[  243.525595] [ADECOMX] adecomx_open (_u4AdecOmxOpenCnt=0)
+<4>[  243.525600] [ADECOMX] adecomx_open(L:1946) init
+<4>[  243.525602] [ADECOMX] adecomx_open(L:1954) dec0 is occupied
+<4>[  243.629101] [ADECOMX] adecomx_release (_u4AdecOmxOpenCnt=1)
+<4>[  243.636123] Entering RTMPSwReset
+<4>[  243.636127] RTMPSwReset: Disable UDMA T/R
+<4>[  243.637746] RTMPSwReset: Drop Bulkout EP4~9
+<4>[  243.644118] [ADECOMX] adecomx_open (_u4AdecOmxOpenCnt=0)
+<4>[  243.644122] [ADECOMX] adecomx_open(L:1954) dec0 is occupied
+<4>[  243.668602] RTMPSwReset: Reset UDMA TX
+<4>[  243.700732] RTMPSwReset: Reset IFDMA/FCE
+<4>[  243.746265] RTMPSwReset: Reset MAC/PBF
+<4>[  243.747212] [ADECOMX] adecomx_release (_u4AdecOmxOpenCnt=1)
+<4>[  243.752593] [ADECOMX] adecomx_open (_u4AdecOmxOpenCnt=0)
+<4>[  243.752597] [ADECOMX] adecomx_open(L:1954) dec0 is occupied
+<4>[  243.778305] RTMPSwReset: Reset UDMA RX
+<4>[  243.810095] RTMPSwReset: Enble UDMA T/R
+<4>[  243.826137] Exiting RTMPSwReset
+<6>[  243.826909] MGC_FindEnd 1714: [USB] Port-3: New Dev=0xC435B000, bRemoteEp=5, wPacketSize=512.
+<6>[  243.826915] MGC_FindEnd 1717: [USB] Port-3: idVendor=0x0E8D, idProduct=0x76A1, bcdDevice=0x0100.
+<6>[  243.826919] MGC_FindEnd 1724: hotboot mtk_get_usb_suspend = 0 ,is_wifi_onport3=1.
+<6>[  243.826927] MGC_FindEnd 1771: Port-3: Rx EP 14  Get Fifo Addr = 0x250, size = 0x200
+<4>[  243.826933] 
+<4>[  243.826933] Port-3 Free Fifo [0X00000450, 0X0000403f] 
+<4>[  243.827008] andes_usb_load_rom_patch --> ChipID : 0x76320100
+<4>[  243.827064] andes_usb_load_rom_patch --> mac_value : 0xc1001 , cap->rom_code_protect = 1
+<4>[  243.827066] Rom patch already loaded, skip load again
+<4>[  243.827246] -->RTUSBVenderReset
+<4>[  243.827288] <--RTUSBVenderReset
+<4>[  243.835823] Load WiFi firmware from BinFile $FIRMWARE_PATH/mt7662t_firmware_e1.bin
+<4>[  243.846384] fw version:1.e1.30F build:1
+<4>[  243.846395] build time:201706070934____
+<4>[  243.846399] fw for E3 IC
+<4>[  243.846401] ilm length = 73468(bytes)
+<4>[  243.846403] dlm length = 20408(bytes)
+<4>[  243.851312] loading fw
+<6>[  243.851313] MUC_urb_enqueue 5205: [USB 0]pUrb=0xc303b480, bReEnd-8, interval=0, length=14592 
+<6>[  243.851321] MGC_FindEnd 1714: [USB] Port-3: New Dev=0xC435B000, bRemoteEp=8, wPacketSize=512.
+<6>[  243.851327] MGC_FindEnd 1717: [USB] Port-3: idVendor=0x0E8D, idProduct=0x76A1, bcdDevice=0x0100.
+<6>[  243.851330] MGC_FindEnd 1724: hotboot mtk_get_usb_suspend = 0 ,is_wifi_onport3=1.
+<6>[  243.851344] MGC_FindEnd 1771: Port-3: Tx EP 14  Get Fifo Addr = 0x450, size = 0x200
+<4>[  243.851349] 
+<4>[  243.851349] Port-3 Free Fifo [0X00000650, 0X0000403f] 
+<6>[  243.851879] MGC_CompleteUrb 1865: [USB 0]pUrb=0xc303b480 on host.end=14 urb.length=14592, actual_lenght=14592,
+<4>[  243.859340] .
+<6>[  243.859342] MUC_urb_enqueue 5205: [USB 1]pUrb=0xc303b480, bReEnd-8, interval=0, length=14592 
+<6>[  243.859878] MGC_CompleteUrb 1865: [USB 1]pUrb=0xc303b480 on host.end=14 urb.length=14592, actual_lenght=14592,
+<4>[  243.872348] [ADECOMX] adecomx_release (_u4AdecOmxOpenCnt=1)
+<4>[  243.873754] .
+<6>[  243.873758] MUC_urb_enqueue 5205: [USB 2]pUrb=0xc303b480, bReEnd-8, interval=0, length=14592 
+<6>[  243.874273] MGC_CompleteUrb 1865: [USB 2]pUrb=0xc303b480 on host.end=14 urb.length=14592, actual_lenght=14592,
+<4>[  243.887458] .
+<6>[  243.887460] MUC_urb_enqueue 5205: [USB 3]pUrb=0xc303b480, bReEnd-8, interval=0, length=14592 
+<6>[  243.887964] MGC_CompleteUrb 1865: [USB 3]pUrb=0xc303b480 on host.end=14 urb.length=14592, actual_lenght=14592,
+<4>[  243.892521] [ADECOMX] adecomx_open (_u4AdecOmxOpenCnt=0)
+<4>[  243.892526] [ADECOMX] adecomx_open(L:1954) dec0 is occupied
+<4>[  243.897509] .
+<6>[  243.897511] MUC_urb_enqueue 5205: [USB 4]pUrb=0xc303b480, bReEnd-8, interval=0, length=14592 
+<6>[  243.898014] MGC_CompleteUrb 1865: [USB 4]pUrb=0xc303b480 on host.end=14 urb.length=14592, actual_lenght=14592,
+<4>[  243.905740] .
+<6>[  243.905740] MUC_urb_enqueue 5205: [USB 5]pUrb=0xc303b480, bReEnd-8, interval=0, length=556 
+<6>[  243.905802] MGC_CompleteUrb 1865: [USB 5]pUrb=0xc303b480 on host.end=14 urb.length=556, actual_lenght=556,
+<4>[  243.913502] .andes_usb_loadfw: fw dlm no shift
+<6>[  243.915127] MUC_urb_enqueue 5205: [USB 6]pUrb=0xc303b480, bReEnd-8, interval=0, length=14592 
+<6>[  243.915668] MGC_CompleteUrb 1865: [USB 6]pUrb=0xc303b480 on host.end=14 urb.length=14592, actual_lenght=14592,
+<4>[  243.922477] .andes_usb_loadfw: fw dlm no shift
+<6>[  243.923253] MUC_urb_enqueue 5205: [USB 7]pUrb=0xc303b480, bReEnd-8, interval=0, length=5832 
+<6>[  243.923444] MGC_CompleteUrb 1865: [USB 7]pUrb=0xc303b480 on host.end=14 urb.length=5832, actual_lenght=5832,
+<4>[  243.929894] .
+<4>[  243.946898] andes_usb_erasefw
+<4>[  243.954895] WOW Enable 0, WOWFirmware 0
+<4>[  243.966385] cfg_mode=12
+<4>[  243.966392] cfg_mode=12
+<4>[  243.966396] it doesn't support VHT AC!
+<4>[  243.966404] wmode_band_equal(): Band Not Equal!
+<4>[  243.966861] AckPolicy[0]=0
+<4>[  243.966863] AckPolicy[1]=0
+<4>[  243.966865] AckPolicy[2]=0
+<4>[  243.966866] AckPolicy[3]=0
+<4>[  243.969464] Key1Str is Invalid key length(0) or Type(0)
+<4>[  243.969542] Key2Str is Invalid key length(0) or Type(0)
+<4>[  243.969617] Key3Str is Invalid key length(0) or Type(0)
+<4>[  243.969692] Key4Str is Invalid key length(0) or Type(0)
+<4>[  243.974356] [PMF]Set_PMFMFPC_Proc:: Desired MFPC=0
+<4>[  243.974364] [PMF]Set_PMFMFPC_Proc:: MFPC=0, MFPR=0, SHA256=0
+<4>[  243.974417] [PMF]Set_PMFMFPR_Proc:: Desired MFPR=0
+<4>[  243.974420] [PMF]Set_PMFMFPR_Proc:: MFPC=0, MFPR=0, SHA256=0
+<4>[  243.974473] [PMF]Set_PMFSHA256_Proc:: Desired PMFSHA256=0
+<4>[  243.975115] WOW_WmtGPIOCmd = 0
+<4>[  243.975171] Wmt_GPIOMode = 0
+<4>[  243.975226] Wmt_WiFiHighActive = 0
+<4>[  243.975340] bWmt_WiFiWake1Toggle = 1
+<4>[  243.975396] bWmt_WiFiWake2Toggle = 0
+<4>[  243.975454] bWmt_WiFiWake3Toggle = 1
+<4>[  243.975512] bWmt_BTWake1Toggle = 0
+<4>[  243.975570] bWmt_BTWake2Toggle = 1
+<4>[  243.975629] bWmt_BTWake3Toggle = 1
+<4>[  243.975688] Wmt_WiFiWake1HoldTime = 100 ms
+<4>[  243.975748] Wmt_WiFiWake2HoldTime = 1 ms
+<4>[  243.975807] Wmt_WiFiWake3HoldTime = 100 ms
+<4>[  243.975866] Wmt_BTWake1HoldTime = 1 ms
+<4>[  243.975927] Wmt_BTWake2HoldTime = 100 ms
+<4>[  243.977879] Wmt_BTWake3HoldTime = 100 ms
+<4>[  243.978106] USBAggregation = 1
+<4>[  243.978163] [SIGMA] Sigma Support Disabled
+<4>[  243.978208] 1. Phy Mode = 31
+<4>[  243.978212] NVM is Efuse and its size =1d[1e0-1fc]
+<4>[  243.996903] [ADECOMX] adecomx_release (_u4AdecOmxOpenCnt=1)
+<4>[  244.016407] [ADECOMX] adecomx_open (_u4AdecOmxOpenCnt=0)
+<4>[  244.016413] [ADECOMX] adecomx_open(L:1954) dec0 is occupied
+<4>[  244.028888] Initialize MAC Address from E2PROM(ChipId = 0x0)
+<4>[  244.038255] E2PROM MAC: =1c:1e:e3:64:cc:0f,chipID = 0x7632
+<4>[  244.082889] Country Region from e2p = ffff
+<4>[  244.085137] mt76x2_read_temp_info_from_eeprom:: is_temp_tx_alc=0, temp_tx_alc_enable=0
+<4>[  244.105470] mt76x2_get_external_lna_gain::LNA type=0x11, BLNAGain=0x0, ALNAGain0=0x0, ALNAGain1=0x0, ALNAGain2=0x0
+<4>[  244.105482] 2. Phy Mode = 31
+<4>[  244.105487] 3. Phy Mode = 31
+<4>[  244.105492] ChipStructAssign(): MT76x2 hook !
+<4>[  244.107121] andes_usb_fw_init
+<6>[  244.109438] MUC_urb_enqueue 5205: [USB 8]pUrb=0xc3066280, bReEnd-8, interval=0, length=16 
+<6>[  244.109470] MGC_FindEnd 1714: [USB] Port-3: New Dev=0xC435B000, bRemoteEp=4, wPacketSize=512.
+<6>[  244.109476] MGC_CompleteUrb 1865: [USB 8]pUrb=0xc3066280 on host.end=14 urb.length=16, actual_lenght=16,
+<6>[  244.109481] MGC_FindEnd 1717: [USB] Port-3: idVendor=0x0E8D, idProduct=0x76A1, bcdDevice=0x0100.
+<6>[  244.109484] MGC_FindEnd 1724: hotboot mtk_get_usb_suspend = 0 ,is_wifi_onport3=1.
+<6>[  244.109492] MGC_FindEnd 1771: Port-3: Rx EP 13  Get Fifo Addr = 0x650, size = 0x200
+<4>[  244.109498] 
+<4>[  244.109498] Port-3 Free Fifo [0X00000850, 0X0000403f] 
+<6>[  244.109521] MUC_urb_enqueue 5205: [USB 9]pUrb=0xc3066e00, bReEnd-8, interval=0, length=16 
+<6>[  244.109546] MGC_CompleteUrb 1865: [USB 9]pUrb=0xc3066e00 on host.end=14 urb.length=16, actual_lenght=16,
+<4>[  244.127211] [ADECOMX] adecomx_release (_u4AdecOmxOpenCnt=1)
+<4>[  244.139371] [ADECOMX] adecomx_open (_u4AdecOmxOpenCnt=0)
+<4>[  244.139380] [ADECOMX] adecomx_open(L:1954) dec0 is occupied
+<4>[  244.247978] [ADECOMX] adecomx_release (_u4AdecOmxOpenCnt=1)
+<4>[  244.265660] [ADECOMX] adecomx_open (_u4AdecOmxOpenCnt=0)
+<4>[  244.265667] [ADECOMX] adecomx_open(L:1954) dec0 is occupied
+<4>[  244.274637] [ADECOMX] adecomx_release (_u4AdecOmxOpenCnt=1)
+<4>[  244.296203] [ADECOMX] adecomx_open (_u4AdecOmxOpenCnt=0)
+<4>[  244.296314] [ADECOMX] adecomx_open(L:1954) dec0 is occupied
+<4>[  244.307657] [ADECOMX] adecomx_release (_u4AdecOmxOpenCnt=1)
+<4>[  244.321524] [ADECOMX] adecomx_open (_u4AdecOmxOpenCnt=0)
+<4>[  244.321636] [ADECOMX] adecomx_open(L:1954) dec0 is occupied
+<4>[  244.325061] [ADECOMX] adecomx_release (_u4AdecOmxOpenCnt=1)
+<4>[  244.344119] [ADECOMX] adecomx_open (_u4AdecOmxOpenCnt=0)
+<4>[  244.344125] [ADECOMX] adecomx_open(L:1954) dec0 is occupied
+<4>[  244.351943] [ADECOMX] adecomx_release (_u4AdecOmxOpenCnt=1)
+<4>[  244.357039] [CEC]CEC_SetLogicAddress = 0.
+<4>[  244.365667] [ADECOMX] adecomx_open (_u4AdecOmxOpenCnt=0)
+<4>[  244.365674] [ADECOMX] adecomx_open(L:1954) dec0 is occupied
+<4>[  244.378095] [ADECOMX] adecomx_release (_u4AdecOmxOpenCnt=1)
+<4>[  244.392901] [ADECOMX] adecomx_open (_u4AdecOmxOpenCnt=0)
+<4>[  244.393008] [ADECOMX] adecomx_open(L:1954) dec0 is occupied
+<4>[  244.508220] [ADECOMX] adecomx_release (_u4AdecOmxOpenCnt=1)
+<4>[  244.550677] [ADECOMX] adecomx_open (_u4AdecOmxOpenCnt=0)
+<4>[  244.550779] [ADECOMX] adecomx_open(L:1954) dec0 is occupied
+<4>[  244.566093] [ADECOMX] adecomx_release (_u4AdecOmxOpenCnt=1)
+<4>[  244.577633] [ADECOMX] adecomx_open (_u4AdecOmxOpenCnt=0)
+<4>[  244.577748] [ADECOMX] adecomx_open(L:1954) dec0 is occupied
+<4>[  244.584017] [ADECOMX] adecomx_release (_u4AdecOmxOpenCnt=1)
+<4>[  244.603621] [btmtk_info] btmtk_usb_fops_open: Mediatek Bluetooth USB driver ver 6.0.16082601
+<4>[  244.605180] [btmtk_info] btmtk_usb_fops_open: major 111 minor 0 (pid 6511), probe counter: 1
+<4>[  244.613664] [ADECOMX] adecomx_open (_u4AdecOmxOpenCnt=0)
+<4>[  244.613746] [ADECOMX] adecomx_open(L:1954) dec0 is occupied
+<4>[  244.725591] [ADECOMX] adecomx_release (_u4AdecOmxOpenCnt=1)
+<4>[  244.745969] [ADECOMX] adecomx_open (_u4AdecOmxOpenCnt=0)
+<4>[  244.745975] [ADECOMX] adecomx_open(L:1954) dec0 is occupied
+<4>[  244.764643] [ADECOMX] adecomx_release (_u4AdecOmxOpenCnt=1)
+<4>[  244.784655] [ADECOMX] adecomx_open (_u4AdecOmxOpenCnt=0)
+<4>[  244.784661] [ADECOMX] adecomx_open(L:1954) dec0 is occupied
+<4>[  244.792785] [ADECOMX] adecomx_release (_u4AdecOmxOpenCnt=1)
+<4>[  244.814976] [ADECOMX] adecomx_open (_u4AdecOmxOpenCnt=0)
+<4>[  244.815088] [ADECOMX] adecomx_open(L:1954) dec0 is occupied
+<4>[  244.893887] [btmtk_info] btmtk_usb_send_hci_reset_cmd: OK
+<4>[  244.895662] [btmtk_info] btmtk_usb_send_hci_low_power_cmd_7662: OK
+<4>[  244.900868] [btmtk_warn] warning, 0x41070c[0] is 1!
+<4>[  244.904075] [btmtk_info] btmtk_usb_send_hci_set_tx_power_cmd_7662: OK
+<4>[  244.904693] [btmtk_info] btmtk_usb_send_hci_radio_on_cmd_7662: OK
+<4>[  244.904698] [btmtk_info] enable interrupt and bulk in urb
+<4>[  244.904701] [btmtk_info] btmtk_usb_submit_intr_urb: begin
+<4>[  244.904711] [btmtk_info] btmtk_usb_submit_intr_urb: maximum packet size:260
+<4>[  244.904733] [btmtk_info] btmtk_usb_submit_intr_urb: end
+<4>[  244.904736] [btmtk_info] btmtk_usb_submit_bulk_in_urb: begin
+<6>[  244.904747] MGC_FindEnd 1714: [USB] Port-3: New Dev=0xC435B000, bRemoteEp=2, wPacketSize=512.
+<6>[  244.904752] MGC_FindEnd 1717: [USB] Port-3: idVendor=0x0E8D, idProduct=0x76A1, bcdDevice=0x0100.
+<6>[  244.904756] MGC_FindEnd 1724: hotboot mtk_get_usb_suspend = 0 ,is_wifi_onport3=1.
+<6>[  244.904766] MGC_FindEnd 1771: Port-3: Rx EP 12  Get Fifo Addr = 0x850, size = 0x200
+<4>[  244.904772] 
+<4>[  244.904772] Port-3 Free Fifo [0X00000A50, 0X0000403f] 
+<4>[  244.904786] [btmtk_info] btmtk_usb_submit_bulk_in_urb: end
+<4>[  244.904787] [btmtk_info] btmtk_usb_fops_open: OK
+<4>[  244.918384] [ADECOMX] adecomx_release (_u4AdecOmxOpenCnt=1)
+<4>[  244.932860] [btmtk_info] btmtk_usb_fops_write: got command: 0x03 0c 00 (HCI_RESET)
+<4>[  244.935425] [ADECOMX] adecomx_open (_u4AdecOmxOpenCnt=0)
+<4>[  244.935546] [ADECOMX] adecomx_open(L:1954) dec0 is occupied
+<4>[  245.009081] AntCfgInit: primary/secondary ant 0/1
+<4>[  245.009089] andes_load_cr:cr_type(2) temp_level(0) channel(0)
+<4>[  245.014925] ---> InitFrequencyCalibration
+<4>[  245.015070] InitFrequencyCalibrationMode:Unknow mode = 3
+<4>[  245.015149] InitFrequencyCalibration: frequency offset in the EEPROM = 148
+<4>[  245.015247] <--- InitFrequencyCalibration
+<4>[  245.032699] MCS Set = ff ff 00 00 01
+<4>[  245.039191] [ADECOMX] adecomx_release (_u4AdecOmxOpenCnt=1)
+<4>[  245.039281] <==== rt28xx_init, Status=0
+<4>[  245.072278] 80211> re-init bands...
+<4>[  245.072358] 80211> RFICType= 3, NumOfChan= 47
+<4>[  245.072423] 80211> Number of rate = 12
+<4>[  245.072476] 80211> CurTxPower = 20 dBm
+<4>[  245.072605] 80211> TxStream = 2
+<4>[  245.072659] crda> find region 0-0, DFS Type 0
+<4>[  245.072729] Chan 014 (frq 2484):	 not allowed!
+<4>[  245.072790] Chan 052 (frq 5260):	 not allowed!
+<4>[  245.072851] Chan 056 (frq 5280):	 not allowed!
+<4>[  245.072912] Chan 060 (frq 5300):	 not allowed!
+<4>[  245.072970] Chan 064 (frq 5320):	 not allowed!
+<4>[  245.073030] Chan 100 (frq 5500):	 not allowed!
+<4>[  245.073094] Chan 104 (frq 5520):	 not allowed!
+<4>[  245.073156] Chan 108 (frq 5540):	 not allowed!
+<4>[  245.073208] Chan 112 (frq 5560):	 not allowed!
+<4>[  245.073262] Chan 116 (frq 5580):	 not allowed!
+<4>[  245.073314] Chan 120 (frq 5600):	 not allowed!
+<4>[  245.073406] Chan 124 (frq 5620):	 not allowed!
+<4>[  245.073453] Chan 128 (frq 5640):	 not allowed!
+<4>[  245.073499] Chan 132 (frq 5660):	 not allowed!
+<4>[  245.073543] Chan 136 (frq 5680):	 not allowed!
+<4>[  245.073591] Chan 140 (frq 5700):	 not allowed!
+<4>[  245.073651] Chan 149 (frq 5745):	 not allowed!
+<4>[  245.073702] Chan 153 (frq 5765):	 not allowed!
+<4>[  245.073754] Chan 157 (frq 5785):	 not allowed!
+<4>[  245.073853] Chan 161 (frq 5805):	 not allowed!
+<4>[  245.073909] Chan 165 (frq 5825):	 not allowed!
+<4>[  245.073972] Chan 169 (frq 5845):	 not allowed!
+<4>[  245.074035] Chan 173 (frq 5865):	 not allowed!
+<4>[  245.074097] Chan 184 (frq 4920):	 not allowed!
+<4>[  245.074209] Chan 188 (frq 4940):	 not allowed!
+<4>[  245.074271] Chan 192 (frq 4960):	 not allowed!
+<4>[  245.074328] Chan 196 (frq 4980):	 not allowed!
+<4>[  245.074389] Chan 208 (frq 6040):	 not allowed!
+<4>[  245.074451] Chan 212 (frq 6060):	 not allowed!
+<4>[  245.074510] Chan 216 (frq 6080):	 not allowed!
+<4>[  245.076909] ==>InitBTCoexistence CoexMode.DefaultMode=TDD(1)
+<4>[  245.077041] RTMPDrvOpen(1):Check if PDMA is idle!
+<4>[  245.077488] RTMPDrvOpen(2):Check if PDMA is idle!
+<4>[  245.077784] [PMF]RTMPDrvOpen:: MFPC=0, MFPR=0, SHA256=0
+<4>[  245.086362] SYNC - BBP R4 to 20MHz.l
+<4>[  245.128358] [vomx] vdecomx_open(L:1315) init 
+<4>[  245.140700] [FBM]FBM alloc Feeder
+<4>[  245.140722] [FBM]FBM Alloc Pool Type 0xe
+<4>[  245.140804] [DMX]_DMX_MUL_AllocTsIdx: inst 1, u1TsIdx 3, eConnType 7
+<4>[  245.140838] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  245.140845] _DMXMMAllocBuf - Pidx 0 sets buffer addr 0x7d800000
+<4>[  245.141319] [vomx] vdecomx_create done mode=0 fmt=2 vdecId=1 
+<4>[  245.149733] [vomx] video only tunnel mode! 
+<4>[  245.153183] [VDP]VdpId(0) fgPause(0)!
+<4>[  245.153528] [FBM]FBM free addr 0x6b004000
+<4>[  245.153777] [MPV]
+<4>[  245.153880] [VDEC]VDEC[1] Stop done
+<4>[  245.156217] lock flush sema 1 super freeze 0 1218:mediaserver
+<4>[  245.156483] [MPV]lock flush sema done 1
+<4>[  245.156611] [DMX]free PID header buffer! pidx: 0, addr: 0xdf000020 Phy addr: 0x361a4020
+<4>[  245.156949] [DMX]Free Psi Buff:0xdf000008
+<4>[  245.157240] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 1, u1TsIdx 3
+<4>[  245.157448] [FBM]FBM free addr 0x7d800000
+<4>[  245.159937] 80211> CFG80211_OpsSetWakeup, Set_wakeup = 1
+<4>[  245.162701] Error in RTMP_CFG80211_RemoveVifEntry.
+<4>[  245.192013] [FBM]FBM alloc Feeder
+<4>[  245.192125] [FBM]FBM Alloc Pool Type 0xe
+<4>[  245.192279] [DMX]_DMX_MUL_AllocTsIdx: inst 1, u1TsIdx 3, eConnType 7
+<4>[  245.192515] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  245.192651] _DMXMMAllocBuf - Pidx 0 sets buffer addr 0x7d800000
+<4>[  245.193379] [vomx] secure Play! 
+<4>[  245.193485] [vomx] vdecomx_create done mode=0 fmt=2 vdecId=1 
+<4>[  245.196956] [vomx] video only tunnel mode! 
+<4>[  245.202737] [VDP]VdpId(0) fgPause(0)!
+<4>[  245.202757] [FBM]FBM free addr 0x6b004000
+<4>[  245.202826] [VDEC]VDEC[1] Stop done
+<4>[  245.202876] [MPV]lock flush sema 1 super freeze 0 1218:mediaserver
+<4>[  245.202893] [MPV]lock flush sema done 1
+<4>[  245.202942] [DMX]free PID header buffer! pidx: 0, addr: 0xdf000020 Phy addr: 0x361a4020
+<4>[  245.202959] [DMX]Free Psi Buff:0xdf000008
+<4>[  245.203077] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 1, u1TsIdx 3
+<4>[  245.203095] [FBM]FBM free addr 0x7d800000
+<4>[  245.224063] [btmtk_info] btmtk_usb_fops_write: got command: 0x01 10 00 (READ_LOCAL_VERSION)
+<4>[  245.226731] [FBM]FBM alloc Feeder
+<4>[  245.226752] [FBM]FBM Alloc Pool Type 0xe
+<4>[  245.226825] [DMX]_DMX_MUL_AllocTsIdx: inst 1, u1TsIdx 3, eConnType 7
+<4>[  245.226860] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  245.226868] _DMXMMAllocBuf - Pidx 0 sets buffer addr 0x7d800000
+<4>[  245.227253] [vomx] vdecomx_create done mode=0 fmt=15 vdecId=1 
+<4>[  245.229647] [vomx] video only tunnel mode! 
+<4>[  245.236884] [VDP]VdpId(0) fgPause(0)!
+<4>[  245.237031] [FBM]FBM free addr 0x6b004000
+<4>[  245.237309] [VDEC]VDEC[1] Stop done
+<4>[  245.237510] [MPV]lock flush sema 1 super freeze 0 1218:mediaserver
+<4>[  245.237788] [MPV]lock flush sema done 1
+<4>[  245.237954] [DMX]free PID header buffer! pidx: 0, addr: 0xdf000020 Phy addr: 0x361a4020
+<4>[  245.238305] [DMX]Free Psi Buff:0xdf000008
+<4>[  245.240723] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 1, u1TsIdx 3
+<4>[  245.240998] [FBM]FBM free addr 0x7d800000
+<4>[  245.267577] [FBM]FBM alloc Feeder
+<4>[  245.267706] [FBM]FBM Alloc Pool Type 0xe
+<4>[  245.267903] [DMX]_DMX_MUL_AllocTsIdx: inst 1, u1TsIdx 3, eConnType 7
+<4>[  245.268204] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  245.268368] _DMXMMAllocBuf - Pidx 0 sets buffer addr 0x7d800000
+<4>[  245.269017] [vomx] secure Play! 
+<4>[  245.269162] [vomx] vdecomx_create done mode=0 fmt=15 vdecId=1 
+<4>[  245.270972] [vomx] video only tunnel mode! 
+<4>[  245.279890] [VDP]VdpId(0) fgPause(0)!
+<4>[  245.279910] [FBM]FBM free addr 0x6b004000
+<4>[  245.279972] [MPV]lock flush s
+<4>[  245.279975] [VDEC]
+<4>[  245.279976] e
+<4>[  245.279977] V
+<4>[  245.279978] m
+<4>[  245.279979] D
+<4>[  245.279980] a
+<4>[  245.279981] E
+<4>[  245.279982]  
+<4>[  245.279983] C
+<4>[  245.279984] 1
+<4>[  245.279985] [
+<4>[  245.279987]  
+<4>[  245.279988] 1
+<4>[  245.279988] s
+<4>[  245.279989] ]
+<4>[  245.279990] u
+<4>[  245.279991]  
+<4>[  245.279992] p
+<4>[  245.279993] S
+<4>[  245.279994] e
+<4>[  245.279995] t
+<4>[  245.279997] r
+<4>[  245.279998] o
+<4>[  245.279999]  
+<4>[  245.280000] p
+<4>[  245.280001] f
+<4>[  245.280002]  
+<4>[  245.280003] r
+<4>[  245.280004] d
+<4>[  245.280005] e
+<4>[  245.280006] o
+<4>[  245.280007] e
+<4>[  245.280008] n
+<4>[  245.280009] z
+<4>[  245.280010] e
+<4>[  245.280011] 
+<4>[  245.280022] e 0 1218:mediaserver
+<4>[  245.280039] [MPV]lock flush sema done 1
+<4>[  245.280087] [DMX]free PID header buffer! pidx: 0, addr: 0xdf000020 Phy addr: 0x361a4020
+<4>[  245.280104] [DMX]Free Psi Buff:0xdf000008
+<4>[  245.280258] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 1, u1TsIdx 3
+<4>[  245.280276] [FBM]FBM free addr 0x7d800000
+<4>[  245.309730] [FBM]FBM alloc Feeder
+<4>[  245.309752] [FBM]FBM Alloc Pool Type 0xe
+<4>[  245.309820] [DMX]_DMX_MUL_AllocTsIdx: inst 1, u1TsIdx 3, eConnType 7
+<4>[  245.309853] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  245.309861] _DMXMMAllocBuf - Pidx 0 sets buffer addr 0x7d800000
+<4>[  245.310307] [vomx] vdecomx_create done mode=0 fmt=14 vdecId=1 
+<4>[  245.315717] [vomx] video only tunnel mode! 
+<4>[  245.322641] [VDP]VdpId(0) fgPause(0)!
+<4>[  245.322664] [FBM]FBM free addr 0x6b004000
+<4>[  245.322736] [MPV]lock flush sema 1 super freeze 0 1218:mediaserver
+<4>[  245.322743] [MPV]loc
+<4>[  245.322745] [VDEC]
+<4>[  245.322747] k f
+<4>[  245.322749] V
+<4>[  245.322750] l
+<4>[  245.322751] D
+<4>[  245.322752] u
+<4>[  245.322754] E
+<4>[  245.322755] s
+<4>[  245.322756] C
+<4>[  245.322757] h
+<4>[  245.322758] [
+<4>[  245.322759]  
+<4>[  245.322760] 1
+<4>[  245.322761] s
+<4>[  245.322762] ]
+<4>[  245.322763] e
+<4>[  245.322764]  
+<4>[  245.322765] m
+<4>[  245.322766] S
+<4>[  245.322767] a
+<4>[  245.322768] t
+<4>[  245.322769]  
+<4>[  245.322770] o
+<4>[  245.322771] d
+<4>[  245.322772] p
+<4>[  245.322773] o
+<4>[  245.322774]  
+<4>[  245.322775] n
+<4>[  245.322776] d
+<4>[  245.322777] e
+<4>[  245.322779] o
+<4>[  245.322779]  
+<4>[  245.322781] n
+<4>[  245.322782] 1
+<4>[  245.322782] 
+<4>[  245.322783] e
+<4>[  245.322831] [DMX]free PID header buffer! pidx: 0, addr: 0xdf000020 Phy addr: 0x361a4020
+<4>[  245.322849] [DMX]Free Psi Buff:0xdf000008
+<4>[  245.322989] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 1, u1TsIdx 3
+<4>[  245.323007] [FBM]FBM free addr 0x7d800000
+<4>[  245.357786] [FBM]FBM alloc Feeder
+<4>[  245.357808] [FBM]FBM Alloc Pool Type 0xe
+<4>[  245.357911] [DMX]_DMX_MUL_AllocTsIdx: inst 1, u1TsIdx 3, eConnType 7
+<4>[  245.357948] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  245.357955] _DMXMMAllocBuf - Pidx 0 sets buffer addr 0x7d800000
+<4>[  245.358255] [vomx] secure Play! 
+<4>[  245.358357] [vomx] vdecomx_create done mode=0 fmt=14 vdecId=1 
+<4>[  245.362901] [vomx] video only tunnel mode! 
+<4>[  245.366702] [VDP]VdpId(0) fgPause(0)!
+<4>[  245.366724] [FBM]FBM free addr 0x6b004000
+<4>[  245.366779] [MPV]lock flush sema 1 super freeze 0 1218:mediaserver
+<4>[  245.366786] [MPV]
+<4>[  245.366787] [VDEC]
+<4>[  245.366790] loc
+<4>[  245.366791] V
+<4>[  245.366792] k
+<4>[  245.366793] D
+<4>[  245.366795]  
+<4>[  245.366795] E
+<4>[  245.366796] f
+<4>[  245.366798] C
+<4>[  245.366799] l
+<4>[  245.366800] [
+<4>[  245.366801] u
+<4>[  245.366802] 1
+<4>[  245.366803] s
+<4>[  245.366804] ]
+<4>[  245.366805] h
+<4>[  245.366806]  
+<4>[  245.366807]  
+<4>[  245.366808] S
+<4>[  245.366809] s
+<4>[  245.366810] t
+<4>[  245.366811] e
+<4>[  245.366812] o
+<4>[  245.366813] m
+<4>[  245.366814] p
+<4>[  245.366815] a
+<4>[  245.366816]  
+<4>[  245.366817]  
+<4>[  245.366818] d
+<4>[  245.366819] d
+<4>[  245.366820] o
+<4>[  245.366821] o
+<4>[  245.366822] n
+<4>[  245.366823] n
+<4>[  245.366824] e
+<4>[  245.366825] 
+<4>[  245.366827] e 1
+<4>[  245.366874] [DMX]free PID header buffer! pidx: 0, addr: 0xdf000020 Phy addr: 0x361a4020
+<4>[  245.366891] [DMX]Free Psi Buff:0xdf000008
+<4>[  245.367001] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 1, u1TsIdx 3
+<4>[  245.367018] [FBM]FBM free addr 0x7d800000
+<4>[  245.405223] [FBM]FBM alloc Feeder
+<4>[  245.405246] [FBM]FBM Alloc Pool Type 0xe
+<4>[  245.405320] [DMX]_DMX_MUL_AllocTsIdx: inst 1, u1TsIdx 3, eConnType 7
+<4>[  245.405352] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  245.405359] _DMXMMAllocBuf - Pidx 0 sets buffer addr 0x7d800000
+<4>[  245.405736] [vomx] vdecomx_create done mode=0 fmt=1 vdecId=1 
+<4>[  245.407758] [vomx] video only tunnel mode! 
+<4>[  245.416406] [VDP]VdpId(0) fgPause(0)!
+<4>[  245.416432] [FBM]FBM free addr 0x6b004000
+<4>[  245.416487] [MPV]lock flush sema 1 super freeze 0 1218:med
+<4>[  245.416488] [VDEC]
+<4>[  245.416491] ias
+<4>[  245.416492] V
+<4>[  245.416493] e
+<4>[  245.416494] D
+<4>[  245.416495] r
+<4>[  245.416497] E
+<4>[  245.416498] v
+<4>[  245.416498] C
+<4>[  245.416500] e
+<4>[  245.416501] [
+<4>[  245.416502] r
+<4>[  245.416502] 
+<4>[  245.416507] 1] Stop 
+<4>[  245.416508] [MPV]
+<4>[  245.416509] d
+<4>[  245.416510] l
+<4>[  245.416511] o
+<4>[  245.416512] o
+<4>[  245.416513] n
+<4>[  245.416514] c
+<4>[  245.416515] e
+<4>[  245.416516] 
+<4>[  245.416526] k flush sema done 1
+<4>[  245.416576] [DMX]free PID header buffer! pidx: 0, addr: 0xdf000020 Phy addr: 0x361a4020
+<4>[  245.416594] [DMX]Free Psi Buff:0xdf000008
+<4>[  245.416731] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 1, u1TsIdx 3
+<4>[  245.416748] [FBM]FBM free addr 0x7d800000
+<4>[  245.454296] [FBM]FBM alloc Feeder
+<4>[  245.454315] [FBM]FBM Alloc Pool Type 0xe
+<4>[  245.454378] [DMX]_DMX_MUL_AllocTsIdx: inst 1, u1TsIdx 3, eConnType 7
+<4>[  245.454407] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  245.454413] _DMXMMAllocBuf - Pidx 0 sets buffer addr 0x7d800000
+<4>[  245.454794] [vomx] vdecomx_create done mode=0 fmt=1 vdecId=1 
+<4>[  245.461354] [vomx] video only tunnel mode! 
+<4>[  245.466545] [VDP]VdpId(0) fgPause(0)!
+<4>[  245.466565] [FBM]FBM free addr 0x6b004000
+<4>[  245.466604] [MPV]lock flush sema 1 su
+<4>[  245.466606] [VDEC]
+<4>[  245.466608] pe
+<4>[  245.466609] V
+<4>[  245.466610] r
+<4>[  245.466611] D
+<4>[  245.466612]  
+<4>[  245.466613] E
+<4>[  245.466614] f
+<4>[  245.466615] C
+<4>[  245.466616] r
+<4>[  245.466617] [
+<4>[  245.466618] e
+<4>[  245.466619] 1
+<4>[  245.466620] e
+<4>[  245.466621] ]
+<4>[  245.466622] z
+<4>[  245.466623]  
+<4>[  245.466624] e
+<4>[  245.466625] S
+<4>[  245.466626]  
+<4>[  245.466627] t
+<4>[  245.466628] 0
+<4>[  245.466629] o
+<4>[  245.466630]  
+<4>[  245.466631] p
+<4>[  245.466632] 1
+<4>[  245.466633]  
+<4>[  245.466634] 2
+<4>[  245.466634] d
+<4>[  245.466635] 1
+<4>[  245.466636] o
+<4>[  245.466637] 8
+<4>[  245.466638] n
+<4>[  245.466639] :
+<4>[  245.466640] e
+<4>[  245.466641] 
+<4>[  245.466647] mediaserver
+<4>[  245.466663] [MPV]lock flush sema done 1
+<4>[  245.466709] [DMX]free PID header buffer! pidx: 0, addr: 0xdf000020 Phy addr: 0x361a4020
+<4>[  245.466726] [DMX]Free Psi Buff:0xdf000008
+<4>[  245.466821] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 1, u1TsIdx 3
+<4>[  245.466838] [FBM]FBM free addr 0x7d800000
+<4>[  245.489608] [FBM]FBM alloc Feeder
+<4>[  245.489633] [FBM]FBM Alloc Pool Type 0xe
+<4>[  245.489711] [DMX]_DMX_MUL_AllocTsIdx: inst 1, u1TsIdx 3, eConnType 7
+<4>[  245.489744] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  245.489752] _DMXMMAllocBuf - Pidx 0 sets buffer addr 0x7d800000
+<4>[  245.490106] [vomx] vdecomx_create done mode=0 fmt=9 vdecId=1 
+<4>[  245.492342] [vomx] video only tunnel mode! 
+<4>[  245.498776] [VDP]VdpId(0) fgPause(0)!
+<4>[  245.498904] [FBM]FBM free addr 0x6b004000
+<4>[  245.498997] [VDEC]VDEC[1] Stop done
+<4>[  245.499113] [MPV]lock flush sema 1 super freeze 0 1218:mediaserver
+<4>[  245.499130] [MPV]lock flush sema done 1
+<4>[  245.499180] [DMX]free PID header buffer! pidx: 0, addr: 0xdf000020 Phy addr: 0x361a4020
+<4>[  245.499198] [DMX]Free Psi Buff:0xdf000008
+<4>[  245.499349] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 1, u1TsIdx 3
+<4>[  245.499368] [FBM]FBM free addr 0x7d800000
+<4>[  245.503049] TX0 power compensation = 0x38
+<4>[  245.503904] TX1 power compensation = 0x38
+<4>[  245.532504] [FBM]FBM alloc Feeder
+<4>[  245.532527] [FBM]FBM Alloc Pool Type 0xe
+<4>[  245.532604] [DMX]_DMX_MUL_AllocTsIdx: inst 1, u1TsIdx 3, eConnType 7
+<4>[  245.532634] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  245.532641] _DMXMMAllocBuf - Pidx 0 sets buffer addr 0x7d800000
+<4>[  245.533002] [vomx] vdecomx_create done mode=0 fmt=3 vdecId=1 
+<4>[  245.538142] [vomx] video only tunnel mode! 
+<4>[  245.540918] [VDP]VdpId(0) fgPause(0)!
+<4>[  245.540947] [FBM]FBM free addr 0x6b004000
+<4>[  245.541040] [MPV]lock flush sema 1 super freeze 0 1218:mediaserver
+<4>[  245.541093] [VDEC]VDEC[1] Stop done
+<4>[  245.542869] [MPV]lock flush sema done 1
+<4>[  245.542929] [DMX]free PID header buffer! pidx: 0, addr: 0xdf000020 Phy addr: 0x361a4020
+<4>[  245.542947] [DMX]Free Psi Buff:0xdf000008
+<4>[  245.543104] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 1, u1TsIdx 3
+<4>[  245.543128] [FBM]FBM free addr 0x7d800000
+<4>[  245.591660] [FBM]FBM alloc Feeder
+<4>[  245.591688] [FBM]FBM Alloc Pool Type 0xe
+<4>[  245.591772] [DMX]_DMX_MUL_AllocTsIdx: inst 1, u1TsIdx 3, eConnType 7
+<4>[  245.591808] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  245.591815] _DMXMMAllocBuf - Pidx 0 sets buffer addr 0x7d800000
+<4>[  245.592207] [vomx] vdecomx_create done mode=0 fmt=5 vdecId=1 
+<4>[  245.593790] [vomx] video only tunnel mode! 
+<4>[  245.601217] [VDP]VdpId(0) fgPause(0)!
+<4>[  245.601239] [FBM]FBM free addr 0x6b004000
+<4>[  245.601282] [MPV]lock flush sema 1 super freeze 0 12
+<4>[  245.601283] [VDEC]
+<4>[  245.601285] 1
+<4>[  245.601286] V
+<4>[  245.601287] 8
+<4>[  245.601288] D
+<4>[  245.601289] :
+<4>[  245.601290] E
+<4>[  245.601291] m
+<4>[  245.601292] C
+<4>[  245.601293] e
+<4>[  245.601294] [
+<4>[  245.601295] d
+<4>[  245.601296] 1
+<4>[  245.601297] i
+<4>[  245.601297] ]
+<4>[  245.601298] a
+<4>[  245.601299]  
+<4>[  245.601300] s
+<4>[  245.601301] S
+<4>[  245.601302] e
+<4>[  245.601303] t
+<4>[  245.601304] r
+<4>[  245.601305] o
+<4>[  245.601306] v
+<4>[  245.601307] p
+<4>[  245.601308] e
+<4>[  245.601309]  
+<4>[  245.601310] r
+<4>[  245.601311] 
+<4>[  245.601314] done
+<4>[  245.601315] 
+<4>[  245.601327] [MPV]lock flush sema done 1
+<4>[  245.601373] [DMX]free PID header buffer! pidx: 0, addr: 0xdf000020 Phy addr: 0x361a4020
+<4>[  245.601390] [DMX]Free Psi Buff:0xdf000008
+<4>[  245.601477] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 1, u1TsIdx 3
+<4>[  245.601493] [FBM]FBM free addr 0x7d800000
+<4>[  245.619929] [FBM]FBM alloc Feeder
+<4>[  245.619948] [FBM]FBM Alloc Pool Type 0xe
+<4>[  245.620018] [DMX]_DMX_MUL_AllocTsIdx: inst 1, u1TsIdx 3, eConnType 7
+<4>[  245.620052] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  245.620059] _DMXMMAllocBuf - Pidx 0 sets buffer addr 0x7d800000
+<4>[  245.620475] [vomx] vdecomx_create done mode=0 fmt=0 vdecId=1 
+<4>[  245.623937] [vomx] video only tunnel mode! 
+<4>[  245.629429] [VDP]VdpId(0) fgPause(0)!
+<4>[  245.629450] [FBM]FBM free addr 0x6b004000
+<4>[  245.629517] [VDEC]VDEC[1] Stop done
+<4>[  245.629563] [MPV]lock flush sema 1 super freeze 0 1218:mediaserver
+<4>[  245.629579] [MPV]lock flush sema done 1
+<4>[  245.629629] [DMX]free PID header buffer! pidx: 0, addr: 0xdf000020 Phy addr: 0x361a4020
+<4>[  245.629648] [DMX]Free Psi Buff:0xdf000008
+<4>[  245.629733] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 1, u1TsIdx 3
+<4>[  245.629751] [FBM]FBM free addr 0x7d800000
+<4>[  245.656276] [FBM]FBM alloc Feeder
+<4>[  245.656298] [FBM]FBM Alloc Pool Type 0xe
+<4>[  245.656374] [DMX]_DMX_MUL_AllocTsIdx: inst 1, u1TsIdx 3, eConnType 7
+<4>[  245.656406] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  245.656413] _DMXMMAllocBuf - Pidx 0 sets buffer addr 0x7d800000
+<4>[  245.656777] [vomx] vdecomx_create done mode=0 fmt=8 vdecId=1 
+<4>[  245.659505] [vomx] video only tunnel mode! 
+<4>[  245.661291] [VDP]VdpId(0) fgPause(0)!
+<4>[  245.661313] [FBM]FBM free addr 0x6b004000
+<4>[  245.661359] [MPV]lock flush sema 1 super freeze 0 12
+<4>[  245.661360] [VDEC]
+<4>[  245.661362] 18
+<4>[  245.661363] V
+<4>[  245.661364] :
+<4>[  245.661365] D
+<4>[  245.661366] m
+<4>[  245.661367] E
+<4>[  245.661368] e
+<4>[  245.661369] C
+<4>[  245.661370] d
+<4>[  245.661371] [
+<4>[  245.661372] i
+<4>[  245.661373] 1
+<4>[  245.661374] a
+<4>[  245.661375] ]
+<4>[  245.661376] s
+<4>[  245.661377]  
+<4>[  245.661378] e
+<4>[  245.661379] S
+<4>[  245.661380] r
+<4>[  245.661381] t
+<4>[  245.661382] v
+<4>[  245.661383] o
+<4>[  245.661384] e
+<4>[  245.661385] p
+<4>[  245.661386] r
+<4>[  245.661387] 
+<4>[  245.661390]  done
+<4>[  245.661391] 
+<4>[  245.661403] [MPV]lock flush sema done 1
+<4>[  245.661451] [DMX]free PID header buffer! pidx: 0, addr: 0xdf000020 Phy addr: 0x361a4020
+<4>[  245.661482] [DMX]Free Psi Buff:0xdf000008
+<4>[  245.661554] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 1, u1TsIdx 3
+<4>[  245.661571] [FBM]FBM free addr 0x7d800000
+<4>[  245.684520] [vomx-err][line:1473] vdec-1 not available 
+<4>[  246.980228] 80211> cfg80211_scan_done
+<4>[  247.108952] [CEC]CEC_SetEnable = 1.
+<4>[  247.109114] [CLI]Clear hot plug event when set MHL enable
+<4>[  247.109273] [CLI]DRV_MHL_OPTION_ENABLE_MHL: on
+<4>[  247.109673] [CEC]CEC_SetEnable = 1.
+<4>[  247.110048] [CEC]CEC_ClrLogicAddress .
+<4>[  247.110182] [CEC]CEC_ClrLogicAddress .
+<4>[  247.122812] tpvinput TPVINPUT_IOC_ENABLE_KEYLOGGER
+<4>[  247.464476] [CEC]CEC_SetLogicAddress = 0.
+<13>[  251.162918] init: Service 'bootanim' (pid 1293) exited with status 0
+<14>[  251.271023] init: processing action (sys.boot_completed=1)
+<13>[  251.271823] init: Starting service 'clearCounter'...
+<14>[  251.272862] init: Command 'start clearCounter' action=sys.boot_completed=1 (/init.mt5891.rc:456) returned 0 took 0.00s
+<4>[  251.303889] _CB_RegMultiCbFct[CB_SC_TRIGGER RESET](7237)
+<13>[  251.307750] init: Service 'clearCounter' (pid 7237) exited with status 0
+<4>[  254.728725] 80211> cfg80211_scan_done
+<4>[  257.705687] [0x4] KEY 0x4f000 map to 352 2 0 1
+<4>[  258.128884] [0x4] KEY 0x4f000 map to 352 2 0 0
+<4>[  259.318916] [0x4] KEY 0x4f000 map to 352 2 0 1
+<4>[  259.528900] [0x4] KEY 0x4f000 map to 352 2 0 0
+<14>[  260.425585] init: computing context for service '/system/bin/mdnsd'
+<13>[  260.426062] init: Starting service 'mdnsd'...
+<14>[  260.427842] init: Created socket '/dev/socket/mdnsd' with mode '660', user '1020', group '3003'
+<4>[  261.089521] [0x4] KEY 0x4f004 map to 158 2 0 1
+<4>[  261.303899] [0x4] KEY 0x4f004 map to 158 2 0 0
+<6>[  261.574784] binder: release 7941:8008 transaction 106334 out, still active
+<4>[  262.166467] [0x3] KEY 0x3f003 map to 108 2 0 1
+<4>[  262.588946] [0x3] KEY 0x3f003 map to 108 2 0 0
+<6>[  264.416840] input: virtual-search as /devices/virtual/input/input5
+<4>[  264.866070] [0x4] KEY 0x4f000 map to 352 2 0 1
+<4>[  265.078920] [0x4] KEY 0x4f000 map to 352 2 0 0
+<4>[  265.208837] [HP_DETECT]headphone state changed from 0 to 2
+<4>[  265.208956] [HP_DETECT]hp_detect_work_callback receive work new send uevent
+<6>[  266.435237] binder: undelivered transaction 113628
+<6>[  266.435262] binder: undelivered transaction 113627
+<4>[  266.504192] [0x4] KEY 0x4f000 map to 352 2 0 1
+<4>[  266.718926] [0x4] KEY 0x4f000 map to 352 2 0 0
+<4>[  267.213828] [HP_DETECT]headphone state changed from 2 to 0
+<4>[  267.213997] [HP_DETECT]hp_detect_work_callback receive work new send uevent
+<4>[  267.679085] 80211> cfg80211_scan_done
+<6>[  267.845049] binder: 2560:7431 transaction failed 29189, size 2200-8
+<6>[  267.845137] binder: send failed reply for transaction 106334, target dead
+<4>[  268.467219] fb_osd_wait_vsync 200ms timeout
+<4>[  268.569869] [AUD][MT_AUD_MW]SetOutPort(), Dec (0), OutPort = 0x0000007f
+<4>[  268.570294] [AUD][MT_AUD_MW]SetOutPort_______ad speaker headphone _______________
+<4>[  268.571212] [AUD][_AdacSpeakerChangeState:566][]
+<4>[  268.571376] [AMP] _TAS5760_Mute fgEnable 0
+<4>[  268.705452] [0x4] KEY 0x4f000 map to 352 2 0 1
+<4>[  268.918918] [0x4] KEY 0x4f000 map to 352 2 0 0
+<4>[  270.126636] [0x3] KEY 0x3f003 map to 108 2 0 1
+<4>[  270.338919] [0x3] KEY 0x3f003 map to 108 2 0 0
+<4>[  270.630845] [0x4] KEY 0x4f000 map to 352 2 0 1
+<4>[  270.843910] [0x4] KEY 0x4f000 map to 352 2 0 0
+<4>[  273.748961] [0x3] KEY 0x3f003 map to 108 2 0 1
+<4>[  274.598953] [0x3] KEY 0x3f003 map to 108 2 0 0
+<4>[  274.895655] [0x4] KEY 0x4f000 map to 352 2 0 1
+<4>[  275.108901] [0x4] KEY 0x4f000 map to 352 2 0 0
+<4>[  279.236862] [0x4] KEY 0x4f000 map to 352 2 0 1
+<4>[  279.653907] [0x4] KEY 0x4f000 map to 352 2 0 0
+<4>[  281.071195] [0x4] KEY 0x4f000 map to 352 2 0 1
+<4>[  281.283894] [0x4] KEY 0x4f000 map to 352 2 0 0
+<4>[  281.887916] [0x4] KEY 0x4f000 map to 352 2 0 1
+<4>[  282.098878] [0x4] KEY 0x4f000 map to 352 2 0 0
+<4>[  285.070395] [0x4] KEY 0x4f000 map to 352 2 0 1
+<4>[  285.283916] [0x4] KEY 0x4f000 map to 352 2 0 0
+<4>[  286.068579] [0x4] KEY 0x4f000 map to 352 2 0 1
+<4>[  286.278928] [0x4] KEY 0x4f000 map to 352 2 0 0
+<4>[  287.016639] [NPTV]Adaptive luma setting is med
+<1>[  287.016908] <PQCTRL><pqsoccontrolP_SetPQFeatureBytes:354]> Init:1 MoStyle=3 NatMotn=2 ClrMotn=0 UltRes=1 NR=2 MpgNR=2 ClrEnh=1 ISF=0(0) DRE=1 UltHDR=0 LS=1 DynBlt=2 DynCtr=2 Gamut=1 ClrTemp=0 HdrConv=0
+<4>[  287.023173] [NPTV]Adaptive luma setting is med
+<1>[  287.023415] <PQCTRL><pqsoccontrolP_SetPQFeatureBytes:354]> Init:1 MoStyle=3 NatMotn=2 ClrMotn=0 UltRes=1 NR=2 MpgNR=2 ClrEnh=1 ISF=0(0) DRE=1 UltHDR=0 LS=1 DynBlt=2 DynCtr=2 Gamut=1 ClrTemp=0 HdrConv=0
+<4>[  287.046531] [NPTV]Adaptive luma setting is med
+<1>[  287.046733] <PQCTRL><pqsoccontrolP_SetPQFeatureBytes:354]> Init:1 MoStyle=3 NatMotn=2 ClrMotn=0 UltRes=1 NR=2 MpgNR=2 ClrEnh=1 ISF=0(0) DRE=1 UltHDR=0 LS=1 DynBlt=2 DynCtr=2 Gamut=1 ClrTemp=0 HdrConv=0
+<4>[  287.066296] [HDMI]HDMI port 1 state from 1 change to 0----------
+<4>[  287.066507] [HDMI]HDMI port 2 state from 1 change to 0----------
+<4>[  287.066708] [HDMI]HDMI port 3 state from 1 change to 0----------
+<4>[  287.066943] [HDMI]HDMI port 4 state from 1 change to 0----------
+<4>[  287.080223] [NPTV]Adaptive luma setting is med
+<1>[  287.080430] <PQCTRL><pqsoccontrolP_SetPQFeatureBytes:354]> Init:1 MoStyle=3 NatMotn=2 ClrMotn=0 UltRes=1 NR=2 MpgNR=2 ClrEnh=1 ISF=0(0) DRE=1 UltHDR=0 LS=1 DynBlt=2 DynCtr=2 Gamut=1 ClrTemp=0 HdrConv=0
+<4>[  287.086510] [HDMI]HDMI port 1 state from 0 change to 1----------
+<4>[  287.086757] [HDMI]HDMI port 2 state from 0 change to 1----------
+<4>[  287.087037] [HDMI]HDMI port 4 state from 0 change to 1----------
+<4>[  287.106395] [HDMI]HDMI port 3 state from 0 change to 1----------
+<4>[  287.127812] [NPTV]Adaptive luma setting is med
+<1>[  287.128146] <PQCTRL><pqsoccontrolP_SetPQFeatureBytes:354]> Init:1 MoStyle=3 NatMotn=2 ClrMotn=0 UltRes=1 NR=2 MpgNR=2 ClrEnh=1 ISF=0(0) DRE=1 UltHDR=0 LS=1 DynBlt=2 DynCtr=2 Gamut=1 ClrTemp=0 HdrConv=0
+<4>[  289.343632] [0x4] KEY 0x4f004 map to 158 2 0 1
+<4>[  289.553925] [0x4] KEY 0x4f004 map to 158 2 0 0
+<4>[  291.511124] [0x4] KEY 0x4f000 map to 352 2 0 1
+<4>[  291.723897] [0x4] KEY 0x4f000 map to 352 2 0 0
+<4>[  292.918409] [0x4] KEY 0x4f000 map to 352 2 0 1
+<4>[  293.128904] [0x4] KEY 0x4f000 map to 352 2 0 0
+<4>[  293.893957] [NPTV]Adaptive luma setting is med
+<1>[  293.894245] <PQCTRL><pqsoccontrolP_SetPQFeatureBytes:354]> Init:1 MoStyle=3 NatMotn=2 ClrMotn=0 UltRes=1 NR=2 MpgNR=2 ClrEnh=1 ISF=0(0) DRE=1 UltHDR=0 LS=1 DynBlt=2 DynCtr=2 Gamut=1 ClrTemp=0 HdrConv=0
+<4>[  293.907471] [NPTV]Adaptive luma setting is med
+<1>[  293.907747] <PQCTRL><pqsoccontrolP_SetPQFeatureBytes:354]> Init:1 MoStyle=3 NatMotn=2 ClrMotn=0 UltRes=1 NR=2 MpgNR=2 ClrEnh=1 ISF=0(0) DRE=1 UltHDR=0 LS=1 DynBlt=2 DynCtr=2 Gamut=1 ClrTemp=0 HdrConv=0
+<4>[  293.936089] [NPTV]Adaptive luma setting is med
+<1>[  293.936363] <PQCTRL><pqsoccontrolP_SetPQFeatureBytes:354]> Init:1 MoStyle=3 NatMotn=2 ClrMotn=0 UltRes=1 NR=2 MpgNR=2 ClrEnh=1 ISF=0(0) DRE=1 UltHDR=0 LS=1 DynBlt=2 DynCtr=2 Gamut=1 ClrTemp=0 HdrConv=0
+<4>[  293.946477] [HDMI]HDMI port 1 state from 1 change to 0----------
+<4>[  293.947164] [HDMI]HDMI port 2 state from 1 change to 0----------
+<4>[  293.956790] [NPTV]Adaptive luma setting is med
+<1>[  293.957083] <PQCTRL><pqsoccontrolP_SetPQFeatureBytes:354]> Init:1 MoStyle=3 NatMotn=2 ClrMotn=0 UltRes=1 NR=2 MpgNR=2 ClrEnh=1 ISF=0(0) DRE=1 UltHDR=0 LS=1 DynBlt=2 DynCtr=2 Gamut=1 ClrTemp=0 HdrConv=0
+<4>[  293.966678] [HDMI]HDMI port 3 state from 1 change to 0----------
+<4>[  293.966954] [HDMI]HDMI port 4 state from 1 change to 0----------
+<4>[  293.986442] [HDMI]HDMI port 1 state from 0 change to 1----------
+<4>[  293.986695] [HDMI]HDMI port 2 state from 0 change to 1----------
+<4>[  293.986913] [HDMI]HDMI port 3 state from 0 change to 1----------
+<4>[  293.987121] [HDMI]HDMI port 4 state from 0 change to 1----------
+<4>[  294.009154] [NPTV]Adaptive luma setting is med
+<1>[  294.009443] <PQCTRL><pqsoccontrolP_SetPQFeatureBytes:354]> Init:1 MoStyle=3 NatMotn=2 ClrMotn=0 UltRes=1 NR=2 MpgNR=2 ClrEnh=1 ISF=0(0) DRE=1 UltHDR=0 LS=1 DynBlt=2 DynCtr=2 Gamut=1 ClrTemp=0 HdrConv=0
+<4>[  295.581870] [0x3] KEY 0x3f003 map to 108 2 0 1
+<4>[  296.003912] [0x3] KEY 0x3f003 map to 108 2 0 0
+<4>[  296.067023] [0x4] KEY 0x4f000 map to 352 2 0 1
+<4>[  296.488910] [0x4] KEY 0x4f000 map to 352 2 0 0
+<4>[  298.552165] [0x4] KEY 0x4f000 map to 352 2 0 1
+<4>[  298.978927] [0x4] KEY 0x4f000 map to 352 2 0 0
+<4>[  300.568924] [0x4] KEY 0x4f000 map to 352 2 0 1
+<4>[  300.993917] [0x4] KEY 0x4f000 map to 352 2 0 0
+<4>[  302.169713] [0x4] KEY 0x4f000 map to 352 2 0 1
+<4>[  302.593972] [0x4] KEY 0x4f000 map to 352 2 0 0
+<4>[  303.443493] [0x4] KEY 0x4f000 map to 352 2 0 1
+<4>[  303.869093] [0x4] KEY 0x4f000 map to 352 2 0 0
+<4>[  304.913389] [0x4] KEY 0x4f000 map to 352 2 0 1
+<4>[  305.338893] [0x4] KEY 0x4f000 map to 352 2 0 0
+<4>[  305.454633] tpvinput TPVINPUT_IOC_ENABLE
+<1>[  309.558223] FGU:IMamb_App_SetCabinetMount:IMamb_App_SetCabinetMount
+<1>[  309.558223] 
+<1>[  309.558342] FGU:IMamb_Eng_EnableCornerPixelDimming:IMamb_Eng_EnableCornerPixelDimming: reduce_enable=0 m_ReduceBottom=0
+<1>[  309.558342] 
+<4>[  309.846925] AP set Output Window Width or Height is 0
+<4>[  309.847883] [SCPOS]Path(1) FBM buffer to small!!! 0 < 0 + 8
+<4>[  309.866997] AP set Output Window Width or Height is 0
+<4>[  309.888255] unacceptable TunerDisc e_conn_type=0
+<1>[  311.180142] FGU:IMamb_App_GetFeatureLevel:IMamb_App_GetFeatureLevel: feature 1 value 10
+<1>[  311.180142] 
+<1>[  311.231158] FGU:IMamb_App_GetFeatureLevel:IMamb_App_GetFeatureLevel: feature 2 value 2
+<1>[  311.231158] 
+<4>[  311.382878] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  311.436539] [DMX]Allocate Psi Buff:0xdf00a050
+<4>[  311.438278] [DMX]Allocate Psi Buff:0xdf014098
+<4>[  311.439442] [DMX]Allocate Psi Buff:0xdf01e0e0
+<4>[  314.753963] [DMX]Free Psi Buff:0xdf01e0e0
+<4>[  314.765638] [DMX]Free Psi Buff:0xdf014098
+<4>[  314.773855] [DMX]Free Psi Buff:0xdf00a050
+<4>[  314.818898] [DMX]Free Psi Buff:0xdf000008
+<4>[  314.824245] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  314.824852] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  314.831069] [DMX]Allocate Psi Buff:0xdf000008
+<36>[  314.861045] type=1400 audit(1095959081.767:16): avc: denied { setattr } for pid=10167 comm="OperaInitThread" name="org.droidtv.nettvbrowser" dev="mmcblk0p31" ino=15365 scontext=u:r:system_app:s0 tcontext=u:object_r:user_setting_fs:s0 tclass=dir permissive=0
+<36>[  314.865668] type=1400 audit(1095959081.767:17): avc: denied { setattr } for pid=10167 comm="OperaInitThread" name="temp_cache" dev="mmcblk0p31" ino=15366 scontext=u:r:system_app:s0 tcontext=u:object_r:user_setting_fs:s0 tclass=dir permissive=0
+<4>[  315.923948] [DMX]Free Psi Buff:0xdf000008
+<4>[  315.929297] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  315.929847] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  315.931078] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  316.523887] [DMX]Free Psi Buff:0xdf000008
+<4>[  316.529358] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  316.529735] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  316.530845] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  316.983882] [DMX]Free Psi Buff:0xdf000008
+<4>[  316.989281] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  316.989671] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  316.990786] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  318.093893] [DMX]Free Psi Buff:0xdf000008
+<4>[  318.099163] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  318.099474] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  318.100560] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  318.643936] [DMX]Free Psi Buff:0xdf000008
+<4>[  318.649223] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  318.649599] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  318.650858] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  319.099035] [DMX]Free Psi Buff:0xdf000008
+<4>[  319.104240] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  319.104699] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  319.105826] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  319.978870] [DMX]Free Psi Buff:0xdf000008
+<4>[  319.984465] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  319.984970] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  319.987904] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  320.422855] [DMX]Allocate Psi Buff:0xdf00a050
+<4>[  320.423440] [DMX]Allocate Psi Buff:0xdf014098
+<4>[  320.424268] [DMX]Allocate Psi Buff:0xdf01e0e0
+<4>[  322.178885] [DMX]Free Psi Buff:0xdf01e0e0
+<4>[  322.188958] [DMX]Free Psi Buff:0xdf014098
+<4>[  322.198911] [DMX]Free Psi Buff:0xdf00a050
+<4>[  322.858908] [DMX]Free Psi Buff:0xdf000008
+<4>[  322.864177] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  322.864554] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  322.865674] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  323.868918] [DMX]Free Psi Buff:0xdf000008
+<4>[  323.874177] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  323.874690] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  323.875805] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  324.393873] [DMX]Free Psi Buff:0xdf000008
+<4>[  324.399353] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  324.399770] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  324.401142] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  324.774210] [DMX]Allocate Psi Buff:0xdf00a050
+<4>[  324.774795] [DMX]Allocate Psi Buff:0xdf014098
+<4>[  324.775286] [DMX]Allocate Psi Buff:0xdf01e0e0
+<4>[  328.721650] 80211> cfg80211_scan_done
+<4>[  331.838993] [DMX]Free Psi Buff:0xdf01e0e0
+<4>[  331.848941] [DMX]Free Psi Buff:0xdf014098
+<4>[  331.858912] [DMX]Free Psi Buff:0xdf00a050
+<4>[  331.883871] [DMX]Free Psi Buff:0xdf000008
+<4>[  331.889238] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  331.889717] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  331.890891] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  332.403905] [DMX]Free Psi Buff:0xdf000008
+<4>[  332.409253] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  332.409629] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  332.410792] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  332.874068] [DMX]Free Psi Buff:0xdf000008
+<4>[  332.879185] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  332.879603] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  332.880756] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  333.428876] [DMX]Free Psi Buff:0xdf000008
+<4>[  333.434215] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  333.434630] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  333.435791] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  333.918913] [DMX]Free Psi Buff:0xdf000008
+<4>[  333.924380] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  333.924983] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  333.926157] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  334.296170] [DMX]Allocate Psi Buff:0xdf00a050
+<4>[  334.296685] [DMX]Allocate Psi Buff:0xdf014098
+<4>[  334.297194] [DMX]Allocate Psi Buff:0xdf01e0e0
+<4>[  334.788908] [DMX]Free Psi Buff:0xdf01e0e0
+<4>[  334.798946] [DMX]Free Psi Buff:0xdf014098
+<4>[  334.808901] [DMX]Free Psi Buff:0xdf00a050
+<4>[  335.413874] [DMX]Free Psi Buff:0xdf000008
+<4>[  335.419280] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  335.419774] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  335.420981] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  335.873923] [DMX]Free Psi Buff:0xdf000008
+<4>[  335.879218] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  335.879644] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  335.880820] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  336.338926] [DMX]Free Psi Buff:0xdf000008
+<4>[  336.344712] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  336.345536] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  336.351254] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  336.793920] [DMX]Free Psi Buff:0xdf000008
+<4>[  336.799483] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  336.799956] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  336.801765] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  337.188936] [DMX]Free Psi Buff:0xdf000008
+<4>[  337.194212] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  337.194626] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  337.195784] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  337.668913] [DMX]Free Psi Buff:0xdf000008
+<4>[  337.674208] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  337.674575] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  337.675644] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  337.965965] [DMX]Allocate Psi Buff:0xdf00a050
+<4>[  337.968039] [DMX]Allocate Psi Buff:0xdf014098
+<4>[  337.968755] [DMX]Allocate Psi Buff:0xdf01e0e0
+<4>[  344.528871] [DMX]Free Psi Buff:0xdf01e0e0
+<4>[  344.538926] [DMX]Free Psi Buff:0xdf014098
+<4>[  344.548899] [DMX]Free Psi Buff:0xdf00a050
+<4>[  345.103942] [DMX]Free Psi Buff:0xdf000008
+<4>[  345.109287] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  345.109714] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  345.111257] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  346.108897] [DMX]Free Psi Buff:0xdf000008
+<4>[  346.114241] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  346.114705] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  346.115878] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  346.513926] [DMX]Free Psi Buff:0xdf000008
+<4>[  346.519285] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  346.519692] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  346.520836] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  347.048958] [DMX]Free Psi Buff:0xdf000008
+<4>[  347.054499] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  347.055051] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  347.056255] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  347.523918] [DMX]Free Psi Buff:0xdf000008
+<4>[  347.529162] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  347.529591] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  347.530767] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  348.638879] [DMX]Free Psi Buff:0xdf000008
+<4>[  348.644171] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  348.644587] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  348.646435] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  349.128914] [DMX]Free Psi Buff:0xdf000008
+<4>[  349.134311] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  349.134913] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  349.137309] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  349.528896] [DMX]Free Psi Buff:0xdf000008
+<4>[  349.534288] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  349.534792] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  349.536816] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  349.993903] [DMX]Free Psi Buff:0xdf000008
+<4>[  349.999342] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  349.999721] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  350.000924] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  350.868898] [DMX]Free Psi Buff:0xdf000008
+<4>[  350.874275] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  350.874706] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  350.876975] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  351.523949] [DMX]Free Psi Buff:0xdf000008
+<4>[  351.529248] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  351.529688] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  351.530833] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  351.958883] [DMX]Free Psi Buff:0xdf000008
+<4>[  351.964190] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  351.964570] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  351.965718] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  352.618895] [DMX]Free Psi Buff:0xdf000008
+<4>[  352.624239] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  352.624656] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  352.625746] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  353.028882] [DMX]Free Psi Buff:0xdf000008
+<4>[  353.034313] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  353.034882] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  353.036089] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  353.533891] [DMX]Free Psi Buff:0xdf000008
+<4>[  353.539186] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  353.539540] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  353.540655] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  354.003872] [DMX]Free Psi Buff:0xdf000008
+<4>[  354.009223] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  354.009669] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  354.010963] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  354.748895] [DMX]Free Psi Buff:0xdf000008
+<4>[  354.754665] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  354.755332] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  354.756723] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  355.258895] [DMX]Free Psi Buff:0xdf000008
+<4>[  355.264194] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  355.264593] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  355.265705] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  355.728856] [DMX]Free Psi Buff:0xdf000008
+<4>[  355.734219] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  355.734602] [DMX]_DMX_MUL_AllocTsIdx: inst 0, u1TsIdx 0, eConnType 0
+<4>[  355.735730] [DMX]Allocate Psi Buff:0xdf000008
+<4>[  356.203899] [DMX]Free Psi Buff:0xdf000008
+<4>[  356.209386] [DMX]_DMX_MUL_FreeTsIdx: u1Inst 0, u1TsIdx 0
+<4>[  356.386979] AP set Output Window Width or Height is 0
+<4>[  358.173617] tpvinput TPVINPUT_IOC_DISABLE
+<6>[  359.624280] binder: 1217:1217 transaction failed 29189, size 60-0
+<4>[  361.844161] [0x4] KEY 0x4f000 map to 352 2 0 1
+<4>[  362.268876] [0x4] KEY 0x4f000 map to 352 2 0 0
+<4>[  363.532255] [0x3] KEY 0x3f003 map to 108 2 0 1
+<4>[  363.743862] [0x3] KEY 0x3f003 map to 108 2 0 0
+<4>[  363.859901] [0x3] KEY 0x3f003 map to 108 2 0 1
+<4>[  364.073914] [0x3] KEY 0x3f003 map to 108 2 0 0
+<4>[  364.370856] [0x4] KEY 0x4f000 map to 352 2 0 1
+<4>[  364.793876] [0x4] KEY 0x4f000 map to 352 2 0 0
+<4>[  366.022683] [0x4] KEY 0x4f000 map to 352 2 0 1
+<4>[  366.233903] [0x4] KEY 0x4f000 map to 352 2 0 0
+<4>[  368.379880] [0x4] KEY 0x4f000 map to 352 2 0 1
+<4>[  368.593929] [0x4] KEY 0x4f000 map to 352 2 0 0
+<4>[  371.558605] [0x3] KEY 0x3f003 map to 108 2 0 1
+<4>[  371.768894] [0x3] KEY 0x3f003 map to 108 2 0 0
+<4>[  372.157383] [0x3] KEY 0x3f003 map to 108 2 0 1
+<4>[  372.518921] [0x3] KEY 0x3f003 map to 108 2 0 0
+<4>[  372.519029] [0x3] KEY 0x3f003 map to 108 2 0 1
+<4>[  372.738898] [0x3] KEY 0x3f003 map to 108 2 0 0
+<4>[  372.859380] [0x3] KEY 0x3f003 map to 108 2 0 1
+<4>[  373.073900] [0x3] KEY 0x3f003 map to 108 2 0 0
+<4>[  373.205723] [0x3] KEY 0x3f003 map to 108 2 0 1
+<4>[  373.508982] [0x3] KEY 0x3f003 map to 108 2 0 0
+<4>[  373.509045] [0x3] KEY 0x3f003 map to 108 2 0 1
+<4>[  373.828870] [0x3] KEY 0x3f003 map to 108 2 0 0
+<4>[  374.104055] [0x3] KEY 0x3f001 map to 106 2 0 1
+<4>[  374.528875] [0x3] KEY 0x3f001 map to 106 2 0 0
+<4>[  375.339046] [0x4] KEY 0x4f000 map to 352 2 0 1
+<4>[  375.763852] [0x4] KEY 0x4f000 map to 352 2 0 0
+<3>[  376.234646] mtk-msdc f006d000.MSDC0: [msdc_do_request|2505] -> partition_access is 0x3
+<3>[  376.239263] mtk-msdc f006d000.MSDC0: [msdc_do_request|2505] -> partition_access is 0x0
+<3>[  376.248957] mtk-msdc f006d000.MSDC0: [msdc_do_request|2505] -> partition_access is 0x3
+<3>[  376.251615] mtk-msdc f006d000.MSDC0: [msdc_do_request|2505] -> partition_access is 0x0
+<3>[  376.259881] mtk-msdc f006d000.MSDC0: [msdc_do_request|2505] -> partition_access is 0x3
+<3>[  376.267050] mtk-msdc f006d000.MSDC0: [msdc_do_request|2505] -> partition_access is 0x0
+<4>[  377.323165] [0x4] KEY 0x4f000 map to 352 2 0 1
+<4>[  377.748867] [0x4] KEY 0x4f000 map to 352 2 0 0
+<4>[  379.573386] [0x4] KEY 0x4f000 map to 352 2 0 1
+<4>[  379.783902] [0x4] KEY 0x4f000 map to 352 2 0 0
+<4>[  382.536627] [0x4] KEY 0x4f000 map to 352 2 0 1
+<4>[  382.958888] [0x4] KEY 0x4f000 map to 352 2 0 0
+<4>[  383.953702] [0x3] KEY 0x3f003 map to 108 2 0 1
+<4>[  384.163906] [0x3] KEY 0x3f003 map to 108 2 0 0
+<4>[  384.279853] [0x3] KEY 0x3f003 map to 108 2 0 1
+<4>[  384.493918] [0x3] KEY 0x3f003 map to 108 2 0 0
+<6>[  388.312315] android_work: sent uevent USB_STATE=DISCONNECTED
+<6>[  388.402788] android_work: sent uevent USB_STATE=CONNECTED
+<6>[  388.407310] android_work: sent uevent USB_STATE=DISCONNECTED
+<6>[  388.511385] android_work: sent uevent USB_STATE=CONNECTED
+<6>[  388.532769] android_usb gadget: high-speed config #1: android
+<6>[  388.533284] android_work: sent uevent USB_STATE=CONFIGURED
+<4>[  400.391467] [0x4] KEY 0x4f000 map to 352 2 0 1
+<4>[  400.818873] [0x4] KEY 0x4f000 map to 352 2 0 0
+<4>[  401.314916] [0x3] KEY 0x3f003 map to 108 2 0 1
+<4>[  401.738902] [0x3] KEY 0x3f003 map to 108 2 0 0
+<4>[  402.036835] [0x3] KEY 0x3f001 map to 106 2 0 1
+<4>[  402.458900] [0x3] KEY 0x3f001 map to 106 2 0 0
+<4>[  403.963864] [0x4] KEY 0x4f000 map to 352 2 0 1
+<4>[  404.378900] [0x4] KEY 0x4f000 map to 352 2 0 0
+<36>[  404.821510] type=1400 audit(1095959171.727:18): avc: denied { search } for pid=12298 comm=73657276696365203937 name="security" dev="mmcblk0p11" ino=122161 scontext=u:r:adbd:s0 tcontext=u:object_r:security_file:s0 tclass=dir permissive=0
+<14>[  406.839026] init: processing action (service.adb.root=1)
+<14>[  406.839445] init: Command 'write /sys/class/android_usb/android0/enable 0' action=service.adb.root=1 (/init.mtk_common.rc:71) returned 0 took 0.00s
+<13>[  406.839622] init: Service 'adbd' is being killed...
+<6>[  406.839628] adb_release
+<14>[  406.839909] init: Command 'restart adbd' action=service.adb.root=1 (/init.mtk_common.rc:72) returned 0 took 0.00s
+<14>[  406.840138] init: Command 'write /sys/class/android_usb/android0/enable 1' action=service.adb.root=1 (/init.mtk_common.rc:73) returned 0 took 0.00s
+<13>[  406.849980] init: Service 'adbd' (pid 1227) killed by signal 9
+<13>[  406.850065] init: Service 'adbd' (pid 1227) killing any children in process group
+<13>[  406.850553] init: Untracked pid 12280 killed by signal 1
+<13>[  406.850922] init: Starting service 'adbd'...
+<14>[  406.852965] init: Created socket '/dev/socket/adbd' with mode '660', user '1000', group '1000'
+<6>[  406.858953] adb_open
+<6>[  406.859008] adb_bind_config
+<13>[  407.032700] init: Untracked pid 12374 exited with status 0
+<6>[  407.079342] android_work: sent uevent USB_STATE=DISCONNECTED
+<6>[  407.169916] android_work: sent uevent USB_STATE=CONNECTED
+<6>[  407.174625] android_work: sent uevent USB_STATE=DISCONNECTED
+<6>[  407.278632] android_work: sent uevent USB_STATE=CONNECTED
+<6>[  407.298357] android_usb gadget: high-speed config #1: android
+<6>[  407.298866] android_work: sent uevent USB_STATE=CONFIGURED
+<13>[  407.849559] init: Untracked pid 12336 exited with status 129
+<13>[  407.849690] init: Untracked pid 12338 killed by signal 1
+<4>[  415.190642] [0x4] KEY 0x4f000 map to 352 2 0 1
+<4>[  415.608887] [0x4] KEY 0x4f000 map to 352 2 0 0
+<4>[  416.762924] [0x3] KEY 0x3f002 map to 103 2 0 1
+<4>[  416.973959] [0x3] KEY 0x3f002 map to 103 2 0 0
+<4>[  417.150498] [0x3] KEY 0x3f002 map to 103 2 0 1
+<4>[  417.363942] [0x3] KEY 0x3f002 map to 103 2 0 0
+<4>[  417.602392] [0x3] KEY 0x3f002 map to 103 2 0 1
+<4>[  417.991992] [0x3] KEY 0x3f002 map to 103 2 0 0
+<4>[  417.992063] [0x3] KEY 0x3f002 map to 103 2 0 1
+<4>[  418.203892] [0x3] KEY 0x3f002 map to 103 2 0 0
+<4>[  418.324836] [0x3] KEY 0x3f002 map to 103 2 0 1
+<4>[  418.538921] [0x3] KEY 0x3f002 map to 103 2 0 0
+<4>[  418.608529] [0x3] KEY 0x3f002 map to 103 2 0 1
+<4>[  418.818903] [0x3] KEY 0x3f002 map to 103 2 0 0
+<4>[  418.939894] [0x3] KEY 0x3f002 map to 103 2 0 1
+<4>[  419.153936] [0x3] KEY 0x3f002 map to 103 2 0 0
+<4>[  419.309195] [0x3] KEY 0x3f002 map to 103 2 0 1
+<4>[  419.523905] [0x3] KEY 0x3f002 map to 103 2 0 0
+<4>[  419.639966] [0x3] KEY 0x3f002 map to 103 2 0 1
+<4>[  419.853927] [0x3] KEY 0x3f002 map to 103 2 0 0
+<4>[  420.242443] [0x3] KEY 0x3f002 map to 103 2 0 1
+<4>[  420.668896] [0x3] KEY 0x3f002 map to 103 2 0 0
+<4>[  422.463781] [0x4] KEY 0x4f000 map to 352 2 0 1
+<4>[  422.888928] [0x4] KEY 0x4f000 map to 352 2 0 0
+<4>[  433.323403] 80211> cfg80211_scan_done
+<4>[  546.728552] 80211> cfg80211_scan_done
+<4>[  562.602405] [0x4] KEY 0x4f000 map to 352 2 0 1
+<4>[  562.813878] [0x4] KEY 0x4f000 map to 352 2 0 0
+<3>[  562.870923] binder: 6916: binder_alloc_buf failed to map pages in userspace, no vma
+<6>[  562.871061] binder: 2560:2858 transaction failed 29201, size 9404-0
+<6>[  562.871335] binder: send failed reply for transaction 296609 to 6916:6916
+<6>[  564.097535] binder: 6191:6191 transaction failed 29189, size 88-0
+<4>[  581.938097] [0x4] KEY 0x4f000 map to 352 2 0 1
+<4>[  582.363887] [0x4] KEY 0x4f000 map to 352 2 0 0
+<4>[  583.830023] [0x4] KEY 0x4f000 map to 352 2 0 1
+<4>[  584.253960] [0x4] KEY 0x4f000 map to 352 2 0 0
+<4>[  585.514543] [0x3] KEY 0x3f003 map to 108 2 0 1
+<4>[  585.728914] [0x3] KEY 0x3f003 map to 108 2 0 0
+<4>[  585.844909] [0x3] KEY 0x3f003 map to 108 2 0 1
+<4>[  586.058907] [0x3] KEY 0x3f003 map to 108 2 0 0
+<4>[  586.288904] [0x4] KEY 0x4f000 map to 352 2 0 1
+<4>[  586.498902] [0x4] KEY 0x4f000 map to 352 2 0 0
+<4>[  587.594517] [0x3] KEY 0x3f002 map to 103 2 0 1
+<4>[  588.458948] [0x3] KEY 0x3f002 map to 103 2 0 0
+<4>[  589.556279] [0x3] KEY 0x3f002 map to 103 2 0 1
+<4>[  589.973886] [0x3] KEY 0x3f002 map to 103 2 0 0
+<4>[  590.207673] [0x4] KEY 0x4f000 map to 352 2 0 1
+<4>[  590.633943] [0x4] KEY 0x4f000 map to 352 2 0 0

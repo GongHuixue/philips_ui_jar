@@ -1,0 +1,208 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ltr" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">#666666</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="hsr" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">#35503e</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="hsl" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="colorKeyStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">@dimen/colorkey_bar_colorkey_min_text_width</item>
+        <item name="android:maxWidth">@dimen/colorkey_bar_colorkey_max_text_width</item>
+        <item name="android:drawablePadding">@dimen/colorkey_bar_drawable_padding_width</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textAppearance">@style/ltr</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:textIsSelectable">false</item>
+    </style>
+
+    <style name="colorkeydate" parent="colorKeyStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxWidth">@dimen/components_colorkey_bar_time_text_width</item>
+        <item name="android:drawablePadding">0dp</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textColor">#B3FFFFFF</item>
+    </style>
+
+    <style name="optionskeystyle" parent="colorKeyStyle">
+        <item name="android:layout_width">84dp</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- Start :  ProgressBar style -->
+    <style name="ProgressBarStyleDefault" parent="android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progressbar_drawable</item>
+    </style>
+
+    <style name="ProgressBarStyleDefault.Wizard">
+        <item name="android:minHeight">@dimen/wizard_compact_01_progress_bar_filled_height</item>
+        <item name="android:maxHeight">@dimen/wizard_compact_01_progress_bar_filled_height</item>
+        <item name="android:minWidth">@dimen/wizard_step1_progress_bar_width</item>
+        <item name="android:maxWidth">@dimen/wizard_step1_progress_bar_width</item>
+    </style>
+
+    <style name="ProgressBarStyleDefault.Zapbar">
+        <item name="android:minHeight">@dimen/zapbar_numeric_input_now_column02_progress_bar_height</item>
+        <item name="android:maxHeight">@dimen/zapbar_numeric_input_now_column02_progress_bar_height</item>
+        <item name="android:minWidth">@dimen/zapbar_numeric_input_now_column02_progress_bar_width</item>
+        <item name="android:maxWidth">@dimen/zapbar_numeric_input_now_column02_progress_bar_width</item>
+    </style>
+
+    <style name="ProgressBarStyleDefault.ChannelsCollapsed">
+        <item name="android:minHeight">@dimen/channels_collapsed_tile_column01_01_progress_bar_height</item>
+        <item name="android:maxHeight">@dimen/channels_collapsed_tile_column01_01_progress_bar_height</item>
+        <item name="android:minWidth">@dimen/channels_collapsed_tile_column01_01_progress_bar_width</item>
+        <item name="android:maxWidth">@dimen/channels_collapsed_tile_column01_01_progress_bar_width</item>
+    </style>
+
+    <style name="ProgressBarStyleDefault.ChannelsExpanded">
+        <item name="android:minHeight">@dimen/channels_expanded_tile_column01_01_progress_bar_height</item>
+        <item name="android:maxHeight">@dimen/channels_expanded_tile_column01_01_progress_bar_height</item>
+        <item name="android:minWidth">@dimen/channels_expanded_tile_column01_01_progress_bar_width</item>
+        <item name="android:maxWidth">@dimen/channels_expanded_tile_column01_01_progress_bar_width</item>
+    </style>
+
+    <style name="ProgressBarStyleLoader">
+        <item name="android:indeterminateDrawable">@drawable/progress_bar_loader</item>
+    </style>
+
+    <style name="ProgressBarStyleDefault.DiscSpace">
+        <item name="android:minHeight">@dimen/progressbar_small_height</item>
+        <item name="android:maxHeight">@dimen/progressbar_small_height</item>
+        <item name="android:minWidth">@dimen/progressbar_small_width</item>
+        <item name="android:maxWidth">@dimen/progressbar_small_width</item>
+        <item name="android:progressDrawable">@drawable/progressbar_drawable_disc_space</item>
+    </style>
+
+    <style name="ProgressBarStyleDefault.Highlighted">
+        <item name="android:minHeight">@dimen/progressbar_small_height</item>
+        <item name="android:maxHeight">@dimen/progressbar_small_height</item>
+        <item name="android:minWidth">@dimen/progressbar_small_width</item>
+        <item name="android:maxWidth">@dimen/progressbar_small_width</item>
+        <item name="android:progressDrawable">@drawable/progressbar_drawable_highlighted</item>
+    </style>
+
+    <style name="ProgressBarStyleDefault.Highlighted.Large">
+        <item name="android:minHeight">@dimen/progressbar_large_height</item>
+        <item name="android:maxHeight">@dimen/progressbar_large_height</item>
+        <item name="android:minWidth">@dimen/progressbar_large_width</item>
+        <item name="android:maxWidth">@dimen/progressbar_large_width</item>
+        <item name="android:progressDrawable">@drawable/progressbar_drawable_highlighted_large</item>
+    </style>
+    <!-- End :  ProgressBar style -->
+
+    <!-- Start :  Button style -->
+    <style name="button_style">
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:paddingLeft">@dimen/buttons_label_padding_left_width</item>
+        <item name="android:paddingRight">@dimen/buttons_label_padding_right_width</item>
+        <item name="android:background">@color/button_background_color_selector</item>
+        <item name="android:layout_height">@dimen/buttons_background_height</item>
+        <item name="android:minWidth">@dimen/buttons_background_width</item>
+        <item name="android:textColor">@color/button_text_color_selector</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <!-- End :  Button style -->
+
+    <!-- Start:   Modal dialog styles -->
+    <style name="lsl" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="modal_dialog_label_text_style">
+        <item name="android:gravity">left</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="modal_dialog_heading" parent="modal_dialog_label_text_style">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+
+    <style name="modal_dialog_sub_heading" parent="modal_dialog_label_text_style">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#B3FFFFFF</item>
+    </style>
+
+    <style name="dialogues_edit_device_header_right_text_style" parent="@style/lsl">
+        <item name="android:gravity">left</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="modal_dialog_content_text" parent="modal_dialog_label_text_style">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#B3FFFFFF</item>
+    </style>
+    <!-- END:   Modal dialog styles -->
+
+    <!--START: PickList styles-->
+    <style name="PickListLable">
+        <item name="android:singleLine">true</item>
+        <item name="android:requiresFadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">10dp</item>
+        <item name="android:textAppearance">@style/hsr</item>
+        <item name="android:gravity">center</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="PickListListView">
+        <item name="android:choiceMode">singleChoice</item>
+        <item name="android:divider">@android:color/transparent</item>
+        <item name="android:listSelector">@drawable/listview_selector</item>
+        <item name="android:paddingLeft">@dimen/picklist_listiview_padding_left</item>
+        <item name="android:paddingRight">@dimen/picklist_listiview_padding_right</item>
+    </style>
+
+    <style name="PickListSingleItem">
+        <item name="android:singleLine">true</item>
+        <item name="android:textAppearance">@style/hsl</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@drawable/listview_item_color_selector</item>
+        <item name="android:maxWidth">@dimen/picklist_02_row01_width</item>
+        <item name="android:drawablePadding">@dimen/picklist_02_row01_label_padding_left_width</item>
+        <item name="android:paddingLeft">@dimen/picklist_02_row01_icon_margin_left_width</item>
+        <item name="android:paddingRight">@dimen/picklist_02_row01_label_padding_right_width</item>
+    </style>
+
+</resources>

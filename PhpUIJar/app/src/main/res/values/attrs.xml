@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ColorKeys">
+        <!-- Label for the red color key. -->
+        <attr name="colorKeyRedText" format="string" />
+        <!-- Label for the green color key. -->
+        <attr name="colorKeyGreenText" format="string" />
+        <!-- Label for the yellow color key. -->
+        <attr name="colorKeyYellowText" format="string" />
+        <!-- Label for the blue color key. -->
+        <attr name="colorKeyBlueText" format="string" />
+        <!-- Label for the info color key. -->
+        <attr name="colorKeyInfoText" format="string" />
+        <!-- Label for the Help color key. -->
+        <attr name="colorKeyOptionsText" format="string" />
+    </declare-styleable>
+</resources>

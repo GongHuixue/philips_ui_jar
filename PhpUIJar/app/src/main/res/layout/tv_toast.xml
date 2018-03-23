@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="@dimen/flashmessage_long_container_height_double"
+    android:layout_width="@dimen/flashmessage_long_container_width"
+    android:animateLayoutChanges="false" >
+	<ui.tvtoast.tv.TvToastView
+	    android:id="@+id/tvToast"
+	    android:layout_width="wrap_content"
+	    android:layout_height="@dimen/flashmessage_long_container_height"
+	    android:layout_alignParentEnd="true"
+		android:layout_alignParentBottom="true"
+	    android:layout_marginEnd="@dimen/flashmessage_alert_padding_left_height"
+	    android:background="@drawable/tv_toast_background"
+	    android:animateLayoutChanges="false" />
+</RelativeLayout>
