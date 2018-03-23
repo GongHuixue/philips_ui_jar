@@ -21,6 +21,21 @@
 			android:layout_margin="10dp"
 			android:textAllCaps="false"
 	        android:text="@string/timeOutStatusIndicator" />
+		<Button
+			android:id="@+id/permanentStatusIndicator"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:textAllCaps="false"
+			android:text="@string/permanentStatusIndicator" />
+		<Button
+			android:id="@+id/keyPressStatusIndicator"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:textAllCaps="false"
+			android:text="@string/keyPressStatusIndicator" />
+
 	    <Button
 	        android:id="@+id/cancelPermanentMsg"
 	        android:layout_width="wrap_content"

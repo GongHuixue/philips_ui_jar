@@ -31,6 +31,6 @@
         android:paddingStart="@dimen/flashmessage_alert_label_padding_left_width"
         android:requiresFadingEdge="horizontal"
         android:singleLine="true"
-        android:textColor="@android:color/black" />
+        android:textColor="@android:color/holo_blue_light" />
 
 </merge>

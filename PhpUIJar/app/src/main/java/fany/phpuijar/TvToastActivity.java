@@ -12,7 +12,7 @@ import ui.tvtoast.TvToastMessenger;
 
 public class TvToastActivity extends AppCompatActivity implements View.OnClickListener{
     private static final String TAG = TvToastActivity.class.getSimpleName();
-    private Button timeOutSI;
+    private Button timeOutSI, keyPressSI, permanentSI;
     private Button timeOutCancel;
     private Button permanentCancel;
     private Button keyPressCancel;
@@ -29,11 +29,16 @@ public class TvToastActivity extends AppCompatActivity implements View.OnClickLi
         Log.d(TAG, "TvToastActivity Enter");
 
         timeOutSI = (Button) findViewById(R.id.timeOutStatusIndicator);
+        keyPressSI = (Button) findViewById(R.id.keyPressStatusIndicator);
+        permanentSI = (Button)findViewById(R.id.permanentStatusIndicator);
+
         timeOutCancel = (Button) findViewById(R.id.cancelTimeOutMsg);
         permanentCancel = (Button) findViewById(R.id.cancelPermanentMsg);
         keyPressCancel = (Button) findViewById(R.id.cancelKeyPressMsg);
 
         timeOutSI.setOnClickListener(this);
+        keyPressSI.setOnClickListener(this);
+        permanentSI.setOnClickListener(this);
         timeOutCancel.setOnClickListener(this);
         keyPressCancel.setOnClickListener(this);
         permanentCancel.setOnClickListener(this);
@@ -67,6 +72,21 @@ public class TvToastActivity extends AppCompatActivity implements View.OnClickLi
                 timeOutTvToast.setIcon(null);
                 tvToast = timeOutTvToast;
                 break;
+
+            case R.id.keyPressStatusIndicator:
+                keyPressTvToast.setMessage(getResources().getString(R.string.keyPressMsg));
+                keyPressTvToast.setIconRes(R.drawable.add_to_favourite_hl_ico_20x15_225);
+                keyPressTvToast.setIcon(null);
+                tvToast = keyPressTvToast;
+                break;
+
+            case R.id.permanentStatusIndicator:
+                permanentTvToast.setMessage(getResources().getString(R.string.permanentMsg));
+                permanentTvToast.setIconRes(R.drawable.add_to_favourite_hl_ico_20x15_225);
+                permanentTvToast.setIcon(null);
+                tvToast = permanentTvToast;
+                break;
+
             case R.id.cancelKeyPressMsg:
                 messenger.cancelTvToastMessage(keyPressTvToast);
                 return;
