@@ -83,6 +83,7 @@ public class TvToastService extends Service implements OnKeyListener, MessageSta
 
     private final class TimeOutHandler extends Handler {
         private static final int MESSAGE_REMOVE_TV_TOAST_MESSAGE = 1000;
+
         @Override
         public void handleMessage(Message msg) {
             switch (msg.what) {
@@ -99,30 +100,30 @@ public class TvToastService extends Service implements OnKeyListener, MessageSta
         /*
          * create ui.dialog.tv toast view
 		 */
-		createTvToastView();
-	}
-	
-	private final Stub mBinder = new Stub() {
-		
-		/**
-		 * Entry #1: Entry for application [binder] threads
-		 */
-		@Override
-		public void showTvToastMessage(IBinder contextToken, TvToast msg) throws RemoteException {
-		        addTvToastContext(contextToken);
-			showTvToastMessageInternal(contextToken, msg);
-		}
-		
-		/**
-		 * Entry #2: Entry for application [binder] threads
-		 */
-		@Override
-		public void cancelTvToastMessage(IBinder contextToken, TvToast msg) throws RemoteException {
-		        addTvToastContext(contextToken);
-			cancelTvToastMessageInternal(msg);
-		}
+        createTvToastView();
+    }
 
-	};
+    private final Stub mBinder = new Stub() {
+
+        /**
+         * Entry #1: Entry for application [binder] threads
+         */
+        @Override
+        public void showTvToastMessage(IBinder contextToken, TvToast msg) throws RemoteException {
+            addTvToastContext(contextToken);
+            showTvToastMessageInternal(contextToken, msg);
+        }
+
+        /**
+         * Entry #2: Entry for application [binder] threads
+         */
+        @Override
+        public void cancelTvToastMessage(IBinder contextToken, TvToast msg) throws RemoteException {
+            addTvToastContext(contextToken);
+            cancelTvToastMessageInternal(msg);
+        }
+
+    };
 
     private final class TvToastContext implements IBinder.DeathRecipient {
 
@@ -314,7 +315,7 @@ public class TvToastService extends Service implements OnKeyListener, MessageSta
         mTimeOutHandler.removeMessages(TimeOutHandler.MESSAGE_REMOVE_TV_TOAST_MESSAGE);
 
 		/*
-		 * remove ui.dialog.tv toast view if already attached
+         * remove ui.dialog.tv toast view if already attached
 		 */
         mUiHandler.removeMessages(UiHandler.MESSAGE_REMOVE_TV_TOAST_VIEW_IF_ADDED);
         mUiHandler.sendEmptyMessage(UiHandler.MESSAGE_REMOVE_TV_TOAST_VIEW_IF_ADDED);

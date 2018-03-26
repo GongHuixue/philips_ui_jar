@@ -1,9 +1,9 @@
 package fany.phpuijar;
 
 import android.content.Context;
+import android.os.Bundle;
 import android.support.v4.content.res.ResourcesCompat;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.AdapterView;
@@ -234,13 +234,13 @@ public class ModalDialogActivity extends AppCompatActivity {
 
     private ModalDialog dialog6() {
         final ModalDialog.Builder builder = new ModalDialog.Builder(this, ModalDialog.HEADING_TYPE_DEFAULT);
-        String[] values = new String[] {"Android", "Iphone", "WindowsMobile", "Ubuntu", "Windows7", "Linux", "Mac OS"};
+        String[] values = new String[]{"Android", "Iphone", "WindowsMobile", "Ubuntu", "Windows7", "Linux", "Mac OS"};
         ArrayList<String> listval = new ArrayList<String>();
-        for(int i = 0; i < values.length; i++) {
+        for (int i = 0; i < values.length; i++) {
             listval.add(values[i]);
         }
 
-        LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        LayoutInflater inflater = (LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View view = inflater.inflate(R.layout.dialog_list, null);
         ListView listView = view.findViewById(R.id.listView1);
         listView.setAdapter(new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_list_item_1, listval));
@@ -271,13 +271,13 @@ public class ModalDialogActivity extends AppCompatActivity {
 
     private ModalDialog dialog7() {
         final ModalDialog.Builder builder = new ModalDialog.Builder(this, ModalDialog.HEADING_TYPE_DEFAULT);
-        String[] values = new String[] {"Android", "Iphone", "WindowsMobile", "Ubuntu", "Windows7", "Linux", "Mac OS"};
+        String[] values = new String[]{"Android", "Iphone", "WindowsMobile", "Ubuntu", "Windows7", "Linux", "Mac OS"};
         ArrayList<String> listval = new ArrayList<String>();
-        for(int i = 0; i < values.length; i++) {
+        for (int i = 0; i < values.length; i++) {
             listval.add(values[i]);
         }
 
-        LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        LayoutInflater inflater = (LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View view = inflater.inflate(R.layout.dialog_grid, null);
         GridView gridView = view.findViewById(R.id.gridView1);
         gridView.setAdapter(new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_list_item_1, listval));
@@ -308,13 +308,13 @@ public class ModalDialogActivity extends AppCompatActivity {
 
     private ModalDialog dialog8() {
         final ModalDialog.Builder builder = new ModalDialog.Builder(this, ModalDialog.HEADING_TYPE_DEFAULT);
-        String[] values = new String[] {"Android", "Iphone", "WindowsMobile", "Ubuntu", "Windows7", "Linux", "Mac OS"};
+        String[] values = new String[]{"Android", "Iphone", "WindowsMobile", "Ubuntu", "Windows7", "Linux", "Mac OS"};
         ArrayList<String> listval = new ArrayList<String>();
-        for(int i = 0; i < values.length; i++) {
+        for (int i = 0; i < values.length; i++) {
             listval.add(values[i]);
         }
 
-        LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        LayoutInflater inflater = (LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View view = inflater.inflate(R.layout.dialog_grid, null);
         GridView gridView = view.findViewById(R.id.gridView1);
         gridView.setAdapter(new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_list_item_1, listval));

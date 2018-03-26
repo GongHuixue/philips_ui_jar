@@ -92,10 +92,8 @@ public class ColorKeys extends RelativeLayout {
     /**
      * Loads the custom attributes
      *
-     * @param attrs
-     *            = mentioned in XML
-     * @param defStyle
-     *            = styles if any
+     * @param attrs    = mentioned in XML
+     * @param defStyle = styles if any
      */
     private void loadAttributes(AttributeSet attrs, int defStyle) {
 
@@ -115,10 +113,8 @@ public class ColorKeys extends RelativeLayout {
     /**
      * Provide functionality for animate whole ColorKeyBar through visibility
      *
-     * @param visibility
-     *            True means animate ColorKeybar from bottom to top and false
-     *            means animate ColorKeybar from top to bottom
-     *
+     * @param visibility True means animate ColorKeybar from bottom to top and false
+     *                   means animate ColorKeybar from top to bottom
      */
     public void setColorKeyBarVisibility(boolean visibility) {
         if (visibility) {
@@ -129,20 +125,21 @@ public class ColorKeys extends RelativeLayout {
             mDisappearingAnimation.start();
         }
     }
+
     public void setTimeBarVisibility(boolean visibility) {
-        if( visibility){
+        if (visibility) {
             mDateTimeView.setVisibility(View.VISIBLE);
-        }else{
+        } else {
             mDateTimeView.setVisibility(View.GONE);
         }
     }
+
     /**
      * KeyEvent handler for the color keys.
-     *
+     * <p>
      * This method should be called in the onKeyDown callback in the activity.
      *
-     * @param keyCode
-     *            The code of the pressed key
+     * @param keyCode The code of the pressed key
      * @return true if the key is handled.
      */
     public boolean handleKeyDown(int keyCode) {
@@ -193,12 +190,11 @@ public class ColorKeys extends RelativeLayout {
 
     /**
      * Register a callback.
-     *
+     * <p>
      * The implemented IColorKeyCallback object will receive a callback when a
      * specific key is pressed.
      *
-     * @param callback
-     *            IColorKeyCallback implementation
+     * @param callback IColorKeyCallback implementation
      */
     public void registerCallback(IColorKeyCallback callback) {
         mColorKeyCallback = callback;
@@ -214,9 +210,8 @@ public class ColorKeys extends RelativeLayout {
     /**
      * Sets the red label text
      *
-     * @param label
-     *            = string to be set as label. If pass blank or null string then
-     *            red key automatically hide with animation
+     * @param label = string to be set as label. If pass blank or null string then
+     *              red key automatically hide with animation
      */
     public void setRedLabel(String label) {
         Log.d(TAG, "setRedLabel: " + label);
@@ -247,9 +242,8 @@ public class ColorKeys extends RelativeLayout {
     /**
      * Sets the yellow label text
      *
-     * @param label
-     *            = string to be set as label. If pass blank or null string then
-     *            yellow key automatically hide with animation
+     * @param label = string to be set as label. If pass blank or null string then
+     *              yellow key automatically hide with animation
      */
     public void setYellowLabel(String label) {
         Log.d(TAG, "setYellowLabel: " + label);
@@ -280,9 +274,8 @@ public class ColorKeys extends RelativeLayout {
     /**
      * Sets the green label text
      *
-     * @param label
-     *            = string to be set as label. If pass blank or null string then
-     *            green key automatically hide with animation
+     * @param label = string to be set as label. If pass blank or null string then
+     *              green key automatically hide with animation
      */
     public void setGreenLabel(String label) {
         Log.d(TAG, "setGreenLabel: " + label);
@@ -315,9 +308,8 @@ public class ColorKeys extends RelativeLayout {
     /**
      * Sets the blue label text
      *
-     * @param label
-     *            = string to be set as label.If pass blank or null string then
-     *            blue key automatically hide with animation
+     * @param label = string to be set as label.If pass blank or null string then
+     *              blue key automatically hide with animation
      */
     public void setBlueLabel(String label) {
         Log.d(TAG, "setBlueLabel: " + label);
@@ -363,10 +355,11 @@ public class ColorKeys extends RelativeLayout {
 
     /**
      * This method will set All the keys' label in one call
-     * @param redLabel : Label to set red key
-     * @param greenLabel : Label to set green key
+     *
+     * @param redLabel    : Label to set red key
+     * @param greenLabel  : Label to set green key
      * @param yellowLabel : Label to set yellow key
-     * @param blueLabel : Label to set blue key
+     * @param blueLabel   : Label to set blue key
      */
     public void setAllColorKeyLabel(String redLabel, String greenLabel, String yellowLabel, String blueLabel) {
         boolean redKey = false, greenKey = false, yellowKey = false, blueKey = false;
@@ -428,7 +421,7 @@ public class ColorKeys extends RelativeLayout {
 
     /**
      * The Colorkey callback interface.
-     *
+     * <p>
      * This interface should be implemented and registered with
      * registerCallback(IColorKeyCallback callback) to receive callback events.
      */

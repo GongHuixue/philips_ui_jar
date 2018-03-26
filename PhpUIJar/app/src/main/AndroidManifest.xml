@@ -61,7 +61,6 @@
         </activity>
 
 
-
         <service android:name="ui.tvtoast.tv.TvToastService">
             <intent-filter>
                 <action android:name="android.intent.action.START_TV_TOAST_SERVICE" />

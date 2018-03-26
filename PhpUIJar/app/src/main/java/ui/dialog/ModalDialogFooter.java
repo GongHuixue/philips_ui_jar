@@ -43,7 +43,7 @@ public class ModalDialogFooter {
 
     private View mFooterView;
 
-    public boolean mDismissable=true;
+    public boolean mDismissable = true;
 
     public ModalDialogFooter(ModalDialogInterface dialogInterface) {
         mDialogInterface = dialogInterface;
@@ -55,10 +55,10 @@ public class ModalDialogFooter {
     }
 
     public View installFooterPanel(Context context, ViewGroup parent) {
-        return mFooterView=parent.findViewById(R.id.dialogFooter);
+        return mFooterView = parent.findViewById(R.id.dialogFooter);
     }
 
-    public void setupPanel(){
+    public void setupPanel() {
         // setup the left button
         mLeftButton = (Button) mFooterView.findViewById(R.id.leftButton);
         mLeftButton.setOnClickListener(mButtonHandler);
@@ -147,13 +147,13 @@ public class ModalDialogFooter {
 
         @Override
         public void handleMessage(Message msg) {
-            ModalDialogInterface dialogInterface=null;
-            ModalDialogInterface.ButtonOnClickListener dialogClickInterface=null;
+            ModalDialogInterface dialogInterface = null;
+            ModalDialogInterface.ButtonOnClickListener dialogClickInterface = null;
             if (msg.obj instanceof ModalDialogInterface) {
-                dialogInterface=((ModalDialogInterface) msg.obj);
+                dialogInterface = ((ModalDialogInterface) msg.obj);
             }
             if (msg.obj instanceof ModalDialogInterface.ButtonOnClickListener) {
-                dialogClickInterface =((ModalDialogInterface.ButtonOnClickListener) msg.obj);
+                dialogClickInterface = ((ModalDialogInterface.ButtonOnClickListener) msg.obj);
             }
             switch (msg.what) {
 
@@ -161,13 +161,13 @@ public class ModalDialogFooter {
                 case ModalDialogInterface.BUTTON_MID_LEFT:
                 case ModalDialogInterface.BUTTON_MID_RIGHT:
                 case ModalDialogInterface.BUTTON_RIGHT:
-                    if (dialogClickInterface !=null) {
+                    if (dialogClickInterface != null) {
                         dialogClickInterface.onClick(mDialog.get(), msg.what);
                     }
                     break;
 
                 case MSG_DISMISS_DIALOG:
-                    if (dialogInterface !=null) {
+                    if (dialogInterface != null) {
                         dialogInterface.dismiss();
                     }
             }
@@ -178,30 +178,30 @@ public class ModalDialogFooter {
 
         Message msg = mHandler.obtainMessage(whichButton, footerButtonProp.getClickListener());
 
-        CharSequence text=footerButtonProp.getText();
+        CharSequence text = footerButtonProp.getText();
         switch (whichButton) {
 
             case ModalDialogInterface.BUTTON_LEFT:
                 mButtonLeftText = text;
                 mButtonLeftMessage = msg;
-                mLeftButtonProp=footerButtonProp;
+                mLeftButtonProp = footerButtonProp;
                 break;
 
             case ModalDialogInterface.BUTTON_MID_LEFT:
                 mButtonMidLeftText = text;
                 mButtonMidLeftMessage = msg;
-                mMidLeftButtonProp=footerButtonProp;
+                mMidLeftButtonProp = footerButtonProp;
                 break;
 
             case ModalDialogInterface.BUTTON_MID_RIGHT:
                 mButtonMidRightText = text;
                 mButtonMidRightMessage = msg;
-                mMidRightButtonProp=footerButtonProp;
+                mMidRightButtonProp = footerButtonProp;
                 break;
             case ModalDialogInterface.BUTTON_RIGHT:
                 mButtonRightText = text;
                 mButtonRightMessage = msg;
-                mRightButtonProp=footerButtonProp;
+                mRightButtonProp = footerButtonProp;
                 break;
 
             default:

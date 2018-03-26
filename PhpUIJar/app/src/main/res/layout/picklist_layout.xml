@@ -14,7 +14,7 @@
         android:layout_width="wrap_content"
         android:layout_height="@dimen/picklist_01_header_container_height"
         android:fadingEdgeLength="10dp"
-        android:maxWidth="@dimen/picklist_01_header_text_width"/>
+        android:maxWidth="@dimen/picklist_01_header_text_width" />
 
 
     <ListView

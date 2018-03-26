@@ -30,7 +30,7 @@ public interface ModalDialogInterface {
 
     public void cancel();
 
-    interface ButtonOnClickListener{
+    interface ButtonOnClickListener {
         void onClick(ModalDialogInterface modalDialogInterface, int which);
     }
 }

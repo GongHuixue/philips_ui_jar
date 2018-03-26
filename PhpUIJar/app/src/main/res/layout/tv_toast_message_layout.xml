@@ -16,7 +16,7 @@
         android:layout_toEndOf="@id/tvToastMessage"
         android:gravity="center"
         android:scaleType="center"
-        android:contentDescription="TODO"/>
+        android:contentDescription="TODO" />
 
     <TextView
         android:id="@+id/tvToastMessage"

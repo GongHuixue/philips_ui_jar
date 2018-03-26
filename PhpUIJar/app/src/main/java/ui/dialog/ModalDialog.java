@@ -22,7 +22,7 @@ import fany.phpuijar.R;
  * Created by huixue.gong on 2017/12/14.
  */
 
-public class ModalDialog extends Dialog implements ModalDialogInterface{
+public class ModalDialog extends Dialog implements ModalDialogInterface {
     /**
      * Default Header type, with main title and sub title
      */
@@ -50,6 +50,7 @@ public class ModalDialog extends Dialog implements ModalDialogInterface{
 
     /**
      * Constructor: context for dialog
+     *
      * @param context
      */
     public ModalDialog(Context context) {
@@ -59,8 +60,9 @@ public class ModalDialog extends Dialog implements ModalDialogInterface{
 
     /**
      * Constructor
-     * @param context: context for dialog
-     * @param cancelable: boolean for dialog cancelable property
+     *
+     * @param context:        context for dialog
+     * @param cancelable:     boolean for dialog cancelable property
      * @param cancelListener: listener for dialog cancel.
      */
     protected ModalDialog(Context context, boolean cancelable,
@@ -74,7 +76,7 @@ public class ModalDialog extends Dialog implements ModalDialogInterface{
         if (builderHeader != null) {
             builderHeader.setupPanel();
         }
-        if (builderFooter != null ) {
+        if (builderFooter != null) {
             builderFooter.setupPanel();
             builderFooter.setModalDialogListener(this);
         }
@@ -97,11 +99,13 @@ public class ModalDialog extends Dialog implements ModalDialogInterface{
     public void dismiss() {
         super.dismiss();
     }
+
     @Override
     public void cancel() {
         super.cancel();
 
     }
+
     @Override
     public void show() {
         super.show();
@@ -110,8 +114,8 @@ public class ModalDialog extends Dialog implements ModalDialogInterface{
 
     /**
      * ModalDialog builder builds a dialog window with opted Header and footer.
-     * @author rankush.agrawal
      *
+     * @author rankush.agrawal
      */
 
     public static class Builder {
@@ -126,7 +130,8 @@ public class ModalDialog extends Dialog implements ModalDialogInterface{
 
         /**
          * Constructs an instance of Builder.
-         * @param context: context for dialog
+         *
+         * @param context:    context for dialog
          * @param headerType: header type.
          */
         public Builder(Context context, int headerType) {
@@ -135,6 +140,7 @@ public class ModalDialog extends Dialog implements ModalDialogInterface{
 
         /**
          * Constructs an instance of Builder.
+         *
          * @param context
          * @param headerType
          * @param cancelable
@@ -143,7 +149,7 @@ public class ModalDialog extends Dialog implements ModalDialogInterface{
         public Builder(Context context, int headerType, boolean cancelable,
                        ModalDialogInterface dialogInterface) {
             mContext = context;
-            mHeaderType=headerType;
+            mHeaderType = headerType;
             mInflater = (LayoutInflater) context
                     .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 
@@ -171,6 +177,7 @@ public class ModalDialog extends Dialog implements ModalDialogInterface{
 
         /**
          * Sets the content view at the middle of dialog with Header at top and footer at bottom.
+         *
          * @param layoutResID: resource id of the layout
          */
         public final void setView(int layoutResID) {
@@ -180,6 +187,7 @@ public class ModalDialog extends Dialog implements ModalDialogInterface{
 
         /**
          * Sets the content view at the middle of dialog with Header at top and footer at bottom.
+         *
          * @param layoutResID: resource id of the layout
          */
         public final void setView(View view) {
@@ -188,32 +196,34 @@ public class ModalDialog extends Dialog implements ModalDialogInterface{
 
         /**
          * Sets the content view at the middle of dialog with Header at top and footer at bottom.
+         *
          * @param layoutResID: resource id of the layout
-         * @param params : layout params for parent
+         * @param params       : layout params for parent
          */
 
         public final void setView(final View view, ViewGroup.LayoutParams params) {
-            LinearLayout group=(LinearLayout) mInflater.inflate(R.layout.layout_modal_dialog_view, null);
-            if (view!=null) {
-                View replace=group.findViewById(R.id.dialogContent);
+            LinearLayout group = (LinearLayout) mInflater.inflate(R.layout.layout_modal_dialog_view, null);
+            if (view != null) {
+                View replace = group.findViewById(R.id.dialogContent);
                 view.setLayoutParams(replace.getLayoutParams());
                 view.setId(replace.getId());
-                int index= group.indexOfChild(replace);
-                group.addView(view,index);
+                int index = group.indexOfChild(replace);
+                group.addView(view, index);
                 group.removeView(replace);
 
             }
-            mView=group;
+            mView = group;
 
 
         }
 
         /**
          * Sets the titles for default header
-         * @param heading: main title
+         *
+         * @param heading:    main title
          * @param subHeading: sub title
          */
-        public void setHeading(CharSequence heading,CharSequence subHeading) {
+        public void setHeading(CharSequence heading, CharSequence subHeading) {
 
 
             mHeader.setTitleView(heading, subHeading);
@@ -222,6 +232,7 @@ public class ModalDialog extends Dialog implements ModalDialogInterface{
 
         /**
          * Sets status info
+         *
          * @param statusMsg:
          * @param left
          * @param right
@@ -237,34 +248,36 @@ public class ModalDialog extends Dialog implements ModalDialogInterface{
 
             if (mHeaderType == HEADING_TYPE_EDITABLE_TITLE) {
                 return (EditText) mHeader.getTitleView();
-            }else{
+            } else {
                 return null;
             }
         }
 
-        public void setMessage(CharSequence message){
-            mView=(LinearLayout) mInflater.inflate(R.layout.layout_modal_dialog_view, null);
-            ((ScrollView)mView.findViewById(R.id.dialogContent)).setFocusable(false);
-            ((TextView)mView.findViewById(R.id.dialogContentMessage)).setText(message);
+        public void setMessage(CharSequence message) {
+            mView = (LinearLayout) mInflater.inflate(R.layout.layout_modal_dialog_view, null);
+            ((ScrollView) mView.findViewById(R.id.dialogContent)).setFocusable(false);
+            ((TextView) mView.findViewById(R.id.dialogContentMessage)).setText(message);
         }
 
-        public ModalDialogFooterButtonProp setButton(int buttonType, CharSequence textMessage,boolean enable,
+        public ModalDialogFooterButtonProp setButton(int buttonType, CharSequence textMessage, boolean enable,
                                                      ModalDialogInterface.ButtonOnClickListener clickListener) {
 
-            if (mFooter != null  || mIsFooterEnable) {
-                ModalDialogFooterButtonProp buttonProp=new ModalDialogFooterButtonProp(enable, textMessage, clickListener);
-                setButton(buttonType,buttonProp);
+            if (mFooter != null || mIsFooterEnable) {
+                ModalDialogFooterButtonProp buttonProp = new ModalDialogFooterButtonProp(enable, textMessage, clickListener);
+                setButton(buttonType, buttonProp);
                 return buttonProp;
-            }else{
+            } else {
                 throw new UnsupportedOperationException("Button can not be set Either Footer is diabled or Footer view is null");
             }
 
         }
-        public  void setButton(int buttonType, ModalDialogFooterButtonProp buttonProp) {
-            if (mFooter != null){
-                mFooter.setButton(buttonType,buttonProp);
+
+        public void setButton(int buttonType, ModalDialogFooterButtonProp buttonProp) {
+            if (mFooter != null) {
+                mFooter.setButton(buttonType, buttonProp);
             }
         }
+
         public void setButtons(ModalDialogFooterButtonProp... footerButtonProps) {
 
             switch (footerButtonProps.length) {
@@ -292,44 +305,44 @@ public class ModalDialog extends Dialog implements ModalDialogInterface{
             }
         }
 
-        public void setDismissable(boolean disable){
-            mFooter.mDismissable=disable;
+        public void setDismissable(boolean disable) {
+            mFooter.mDismissable = disable;
         }
 
-        public ModalDialog build(){
+        public ModalDialog build() {
             return build(MODAL_DIALOG_TYPE_SMALL);
         }
 
-        private ModalDialog build(int which){
-            ModalDialog dialog= new ModalDialog(mContext);
+        private ModalDialog build(int which) {
+            ModalDialog dialog = new ModalDialog(mContext);
 
-            Window window =dialog.getWindow();
-			/* We use a custom title so never request a window title and set required layout params */
-            window.requestFeature(Window.FEATURE_NO_TITLE)	;
+            Window window = dialog.getWindow();
+            /* We use a custom title so never request a window title and set required layout params */
+            window.requestFeature(Window.FEATURE_NO_TITLE);
             window.setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
 
             if (mIsFooterEnable) {
-                mFooter.installFooterPanel(mContext,(ViewGroup)mView.findViewById(R.id.dialogFooter));
+                mFooter.installFooterPanel(mContext, (ViewGroup) mView.findViewById(R.id.dialogFooter));
                 dialog.setFooter(mFooter);
-            }else{
+            } else {
                 dialog.setFooter(null);
                 mView.findViewById(R.id.dialogFooter).setVisibility(View.GONE);
             }
 
 
             if (mIsHeaderEnable) {
-                mHeader.installHeaderPanel(mContext,(ViewGroup)mView.findViewById(R.id.dialogHeader));
+                mHeader.installHeaderPanel(mContext, (ViewGroup) mView.findViewById(R.id.dialogHeader));
                 dialog.setHeader(mHeader);
-            }else{
+            } else {
                 dialog.setHeader(null);
                 mView.findViewById(R.id.dialogHeader).setVisibility(View.GONE);
             }
             window.setContentView(mView);
 
-            if (which==MODAL_DIALOG_TYPE_LARGE) {
+            if (which == MODAL_DIALOG_TYPE_LARGE) {
                 int lWidth = mContext.getResources().getDimensionPixelSize(R.dimen.large_dialogue_container_width);
                 window.setLayout(lWidth, WindowManager.LayoutParams.WRAP_CONTENT);
-            }else{
+            } else {
                 window.setLayout((int) mContext.getResources().getDimension(R.dimen.dialogues_container_width),
                         WindowManager.LayoutParams.WRAP_CONTENT);
             }

@@ -76,24 +76,44 @@
     </style>
 
     <style name="ProgressBarStyleDefault.Zapbar">
-        <item name="android:minHeight">@dimen/zapbar_numeric_input_now_column02_progress_bar_height</item>
-        <item name="android:maxHeight">@dimen/zapbar_numeric_input_now_column02_progress_bar_height</item>
-        <item name="android:minWidth">@dimen/zapbar_numeric_input_now_column02_progress_bar_width</item>
-        <item name="android:maxWidth">@dimen/zapbar_numeric_input_now_column02_progress_bar_width</item>
+        <item name="android:minHeight">
+            @dimen/zapbar_numeric_input_now_column02_progress_bar_height
+        </item>
+        <item name="android:maxHeight">
+            @dimen/zapbar_numeric_input_now_column02_progress_bar_height
+        </item>
+        <item name="android:minWidth">@dimen/zapbar_numeric_input_now_column02_progress_bar_width
+        </item>
+        <item name="android:maxWidth">@dimen/zapbar_numeric_input_now_column02_progress_bar_width
+        </item>
     </style>
 
     <style name="ProgressBarStyleDefault.ChannelsCollapsed">
-        <item name="android:minHeight">@dimen/channels_collapsed_tile_column01_01_progress_bar_height</item>
-        <item name="android:maxHeight">@dimen/channels_collapsed_tile_column01_01_progress_bar_height</item>
-        <item name="android:minWidth">@dimen/channels_collapsed_tile_column01_01_progress_bar_width</item>
-        <item name="android:maxWidth">@dimen/channels_collapsed_tile_column01_01_progress_bar_width</item>
+        <item name="android:minHeight">
+            @dimen/channels_collapsed_tile_column01_01_progress_bar_height
+        </item>
+        <item name="android:maxHeight">
+            @dimen/channels_collapsed_tile_column01_01_progress_bar_height
+        </item>
+        <item name="android:minWidth">
+            @dimen/channels_collapsed_tile_column01_01_progress_bar_width
+        </item>
+        <item name="android:maxWidth">
+            @dimen/channels_collapsed_tile_column01_01_progress_bar_width
+        </item>
     </style>
 
     <style name="ProgressBarStyleDefault.ChannelsExpanded">
-        <item name="android:minHeight">@dimen/channels_expanded_tile_column01_01_progress_bar_height</item>
-        <item name="android:maxHeight">@dimen/channels_expanded_tile_column01_01_progress_bar_height</item>
-        <item name="android:minWidth">@dimen/channels_expanded_tile_column01_01_progress_bar_width</item>
-        <item name="android:maxWidth">@dimen/channels_expanded_tile_column01_01_progress_bar_width</item>
+        <item name="android:minHeight">
+            @dimen/channels_expanded_tile_column01_01_progress_bar_height
+        </item>
+        <item name="android:maxHeight">
+            @dimen/channels_expanded_tile_column01_01_progress_bar_height
+        </item>
+        <item name="android:minWidth">@dimen/channels_expanded_tile_column01_01_progress_bar_width
+        </item>
+        <item name="android:maxWidth">@dimen/channels_expanded_tile_column01_01_progress_bar_width
+        </item>
     </style>
 
     <style name="ProgressBarStyleLoader">
@@ -121,7 +141,8 @@
         <item name="android:maxHeight">@dimen/progressbar_large_height</item>
         <item name="android:minWidth">@dimen/progressbar_large_width</item>
         <item name="android:maxWidth">@dimen/progressbar_large_width</item>
-        <item name="android:progressDrawable">@drawable/progressbar_drawable_highlighted_large</item>
+        <item name="android:progressDrawable">@drawable/progressbar_drawable_highlighted_large
+        </item>
     </style>
     <!-- End :  ProgressBar style -->
 
@@ -200,7 +221,8 @@
         <item name="android:gravity">center</item>
         <item name="android:textColor">@drawable/listview_item_color_selector</item>
         <item name="android:maxWidth">@dimen/picklist_02_row01_width</item>
-        <item name="android:drawablePadding">@dimen/picklist_02_row01_label_padding_left_width</item>
+        <item name="android:drawablePadding">@dimen/picklist_02_row01_label_padding_left_width
+        </item>
         <item name="android:paddingLeft">@dimen/picklist_02_row01_icon_margin_left_width</item>
         <item name="android:paddingRight">@dimen/picklist_02_row01_label_padding_right_width</item>
     </style>

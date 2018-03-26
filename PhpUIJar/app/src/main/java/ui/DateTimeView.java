@@ -9,10 +9,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Handler;
-import android.os.HandlerThread;
 import android.os.Looper;
 import android.os.Message;
-import android.text.format.DateFormat;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.widget.TextView;
@@ -129,7 +127,7 @@ public class DateTimeView extends TextView {
 
     @Override
     protected void onDetachedFromWindow() {
-        Log.d(TAG,"onDetachedFromWindow enter");
+        Log.d(TAG, "onDetachedFromWindow enter");
         super.onDetachedFromWindow();
 
         if (!mAttached) {
@@ -141,7 +139,7 @@ public class DateTimeView extends TextView {
             mContext.unregisterReceiver(mIntentReceiver);
         }
         mHandler.removeCallbacksAndMessages(null);
-        Log.d(TAG,"onDetachedFromWindow exit");
+        Log.d(TAG, "onDetachedFromWindow exit");
     }
 
     void updateTime(Calendar c) {

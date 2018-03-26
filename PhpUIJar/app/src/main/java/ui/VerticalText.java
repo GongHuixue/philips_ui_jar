@@ -2,7 +2,6 @@ package ui;
 
 import android.graphics.Rect;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 /**
  * Created by huixue.gong on 2018/1/17.

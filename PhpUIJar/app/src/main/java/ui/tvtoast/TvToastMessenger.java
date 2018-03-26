@@ -64,19 +64,20 @@ public final class TvToastMessenger {
 
     /**
      * get Tv Toast message type
+     *
      * @param msg
      * @return type
      */
     public int getMessageType(TvToast msg) {
-        if(msg == null) {
+        if (msg == null) {
             return -1;
         }
 
-        if(msg instanceof KeyPressTvToastMessage) {
+        if (msg instanceof KeyPressTvToastMessage) {
             return TYPE_KEY_PRESS;
-        }else if(msg instanceof PermanentTvToastMessage) {
+        } else if (msg instanceof PermanentTvToastMessage) {
             return TYPE_PERMANENT;
-        }else {
+        } else {
             return TYPE_TIME_OUT;
         }
     }
@@ -85,9 +86,9 @@ public final class TvToastMessenger {
      * pick all msgs fom queue and show
      */
     private synchronized void showAllFromQueue() {
-        for(int i=mMessageQueue.length-1;i>=QUEUE_HEAD;i--) {
+        for (int i = mMessageQueue.length - 1; i >= QUEUE_HEAD; i--) {
             TvToast msg = mMessageQueue[i];
-            if(msg != null) {
+            if (msg != null) {
                 show(msg);
             }
         }
@@ -105,17 +106,17 @@ public final class TvToastMessenger {
      */
     private synchronized void enqueue(TvToast msg) {
         TvToast headMsg = dequeue();
-        if(getMessageType(headMsg) == TYPE_PERMANENT) {
-			/*
+        if (getMessageType(headMsg) == TYPE_PERMANENT) {
+            /*
 			 * ----- current msg [persistent]
 			 */
-            mMessageQueue[QUEUE_HEAD+1] = headMsg;
-        } else if(getMessageType(msg) == TYPE_PERMANENT &&
-                getMessageType(mMessageQueue[QUEUE_HEAD+1]) == TYPE_PERMANENT) {
+            mMessageQueue[QUEUE_HEAD + 1] = headMsg;
+        } else if (getMessageType(msg) == TYPE_PERMANENT &&
+                getMessageType(mMessageQueue[QUEUE_HEAD + 1]) == TYPE_PERMANENT) {
 			/*
 			 * ----- incoming msg [persistent] && stashed msg [persistent]
 			 */
-            mMessageQueue[QUEUE_HEAD+1] = null;
+            mMessageQueue[QUEUE_HEAD + 1] = null;
         }
 
         mMessageQueue[QUEUE_HEAD] = msg;
@@ -134,8 +135,8 @@ public final class TvToastMessenger {
      * dequeue particular msg
      */
     private synchronized TvToast dequeue(TvToast msg) {
-        for(int i=QUEUE_HEAD;i<mMessageQueue.length;i++) {
-            if(mMessageQueue[i] != null && mMessageQueue[i].equals(msg)) {
+        for (int i = QUEUE_HEAD; i < mMessageQueue.length; i++) {
+            if (mMessageQueue[i] != null && mMessageQueue[i].equals(msg)) {
                 mMessageQueue[i] = null;
                 return msg;
             }
@@ -149,7 +150,7 @@ public final class TvToastMessenger {
      */
     private void show(TvToast msg) {
         try {
-            if(msg != null) {
+            if (msg != null) {
                 mTvToastMessageService.showTvToastMessage(mContextToken, msg);
             }
         } catch (RemoteException e) {
@@ -162,7 +163,7 @@ public final class TvToastMessenger {
      */
     private void cancel(TvToast msg) {
         try {
-            if(msg != null) {
+            if (msg != null) {
                 mTvToastMessageService.cancelTvToastMessage(mContextToken, msg);
             }
         } catch (RemoteException e) {
@@ -196,7 +197,7 @@ public final class TvToastMessenger {
 		/*
 		 * Bind to service
 		 */
-        if(!mBoundToTvToastService) {
+        if (!mBoundToTvToastService) {
             bindTvToastService();
         }
     }
@@ -205,7 +206,7 @@ public final class TvToastMessenger {
      * Bind if not already bound
      */
     private void bindTvToastServiceIfNotBound() {
-        if(!mBoundToTvToastService) {
+        if (!mBoundToTvToastService) {
             bindTvToastService();
         }
     }
@@ -216,7 +217,7 @@ public final class TvToastMessenger {
     private void bindTvToastService() {
         Log.d(TAG, "bindTvToastService");
         Context context = mWeakContext.get();
-        if(context != null) {
+        if (context != null) {
             Intent serviceIntent = new Intent(TV_TOAST_SERVICE_INTENT);
             PackageManager pm = context.getPackageManager();
             ResolveInfo si = pm.resolveService(serviceIntent, 0);
@@ -229,6 +230,7 @@ public final class TvToastMessenger {
 
     /**
      * create {@link TvToastMessenger} instance associated with particular context i.e. activity/service
+     *
      * @param context
      * @return {@link TvToastMessenger}
      */
@@ -237,7 +239,7 @@ public final class TvToastMessenger {
         TvToastMessenger messenger = mMessengerInstances.get(context);
 
         // make new instance for the context
-        if(messenger == null) {
+        if (messenger == null) {
             messenger = new TvToastMessenger(context);
             mMessengerInstances.put(context, messenger);
         }
@@ -249,6 +251,7 @@ public final class TvToastMessenger {
 
     /**
      * create Tv Toast Message
+     *
      * @param type
      * @param msg
      * @param iconResId
@@ -283,6 +286,7 @@ public final class TvToastMessenger {
 
     /**
      * create Tv Toast Message
+     *
      * @param type
      * @param msg
      * @param icon
@@ -317,13 +321,14 @@ public final class TvToastMessenger {
 
     /**
      * Show a particular Tv Toast Message
+     *
      * @param msg
      */
     public void showTvToastMessage(TvToast msg) {
         enqueue(msg);
         bindTvToastServiceIfNotBound();
 
-        if(mTvToastMessageService != null) {
+        if (mTvToastMessageService != null) {
             showQueueHead();
         }
         Log.d(TAG, "showTvToastMessage: msg type: " + getMessageType(msg) + " msg: " + msg);
@@ -331,17 +336,19 @@ public final class TvToastMessenger {
 
     /**
      * Cancel a particular Tv Toast Message
+     *
      * @param msg
      */
     public void cancelTvToastMessage(TvToast msg) {
         TvToast removedMsg = dequeue(msg);
         bindTvToastServiceIfNotBound();
 
-        if(mTvToastMessageService != null) {
+        if (mTvToastMessageService != null) {
             cancel(removedMsg);
         }
         Log.d(TAG, "cancelTvToastMessage: msg type: " + getMessageType(removedMsg) + " msg: " + removedMsg);
     }
+
     /**
      * Cancel All Tv Toasts messages sent by this {@link TvToastMessenger} instance, associated with particular context {@link Context}
      * Used by {@link Activity}, and {@link Service} to cancel all Tv Toast sent by them when they're going into background state.
@@ -350,9 +357,9 @@ public final class TvToastMessenger {
         bindTvToastServiceIfNotBound();
 
 
-        for(int i=QUEUE_HEAD;i< mMessageQueue.length;i++) {
+        for (int i = QUEUE_HEAD; i < mMessageQueue.length; i++) {
             TvToast removedMsg = dequeue(mMessageQueue[i]);
-            if(mTvToastMessageService != null) {
+            if (mTvToastMessageService != null) {
                 cancel(removedMsg);
             }
         }
@@ -361,8 +368,8 @@ public final class TvToastMessenger {
 
     /**
      * Permanent type Tv Toast
-     * @author savan.kiran
      *
+     * @author savan.kiran
      */
     private static class PermanentTvToastMessage extends TvToast {
 
@@ -377,8 +384,8 @@ public final class TvToastMessenger {
 
     /**
      * Key press type Tv Toast
-     * @author savan.kiran
      *
+     * @author savan.kiran
      */
     private static class KeyPressTvToastMessage extends TvToast {
 
@@ -393,8 +400,8 @@ public final class TvToastMessenger {
 
     /**
      * Time Out type Tv Toast
-     * @author savan.kiran
      *
+     * @author savan.kiran
      */
     private static class TimeOutTvToastMessage extends TvToast {
 

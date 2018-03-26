@@ -41,6 +41,7 @@ public class TvToast implements Parcelable {
 
     /**
      * set time out period
+     *
      * @param timeOutPeriod
      */
     public void setTimeOutPeriod(int timeOutPeriod) {
@@ -49,6 +50,7 @@ public class TvToast implements Parcelable {
 
     /**
      * set Tv Toast as persistent
+     *
      * @param isPersistent
      */
     public void setPersistent(boolean isPersistent) {
@@ -57,6 +59,7 @@ public class TvToast implements Parcelable {
 
     /**
      * set Tv Toast as focusable
+     *
      * @param isFocusable
      */
     public void setFocusable(boolean isFocusable) {
@@ -65,6 +68,7 @@ public class TvToast implements Parcelable {
 
     /**
      * is Tv Toast focusable
+     *
      * @return focusable
      */
     public boolean isFocusable() {
@@ -73,6 +77,7 @@ public class TvToast implements Parcelable {
 
     /**
      * is Tv Toast persistent
+     *
      * @return persistent
      */
     public boolean isPersistent() {
@@ -81,6 +86,7 @@ public class TvToast implements Parcelable {
 
     /**
      * get Tv Toast time out period
+     *
      * @return time out
      */
     public int getTimeOutPeriod() {
@@ -89,6 +95,7 @@ public class TvToast implements Parcelable {
 
     /**
      * set Tv Toast icon res ID
+     *
      * @param iconResId
      */
     public void setIconRes(int iconResId) {
@@ -97,6 +104,7 @@ public class TvToast implements Parcelable {
 
     /**
      * set Tv Toast message
+     *
      * @param msg
      */
     public void setMessage(String msg) {
@@ -105,6 +113,7 @@ public class TvToast implements Parcelable {
 
     /**
      * get Tv Toast message
+     *
      * @return message
      */
     public String getMessage() {
@@ -113,6 +122,7 @@ public class TvToast implements Parcelable {
 
     /**
      * get Tv Toast icon res ID
+     *
      * @return iconResID
      */
     public int getIconRes() {
@@ -121,6 +131,7 @@ public class TvToast implements Parcelable {
 
     /**
      * get Tv Toast icon
+     *
      * @return icon
      */
     public Bitmap getIcon() {
@@ -129,6 +140,7 @@ public class TvToast implements Parcelable {
 
     /**
      * set Tv Toast icon
+     *
      * @param icon
      */
     public void setIcon(Bitmap icon) {
@@ -168,7 +180,7 @@ public class TvToast implements Parcelable {
         Bundle bundle = in.readBundle();
         setIconRes(bundle.getInt(ICON_RES_KEY));
         setMessage(bundle.getString(MESSAGE_KEY));
-        setIcon((Bitmap)bundle.getParcelable(ICON_DRAWABLE_KEY));
+        setIcon((Bitmap) bundle.getParcelable(ICON_DRAWABLE_KEY));
         isFocusable = bundle.getBoolean(IS_FOCUSABLE_KEY);
         isPersistent = bundle.getBoolean(IS_PERSISITENT_KEY);
         timeOutPeriod = bundle.getInt(TIME_OUT_KEY);
@@ -180,19 +192,19 @@ public class TvToast implements Parcelable {
 
         Log.d(TAG, "Compare obj1: " + o + " obj2: " + this);
 
-        if(o instanceof TvToast) {
+        if (o instanceof TvToast) {
             TvToast msg = (TvToast) o;
-            if(msg.isFocusable() == isFocusable()
+            if (msg.isFocusable() == isFocusable()
                     && msg.isPersistent() == isPersistent()
                     && msg.getTimeOutPeriod() == getTimeOutPeriod()
                     && msg.getIconRes() == getIconRes()
-                    && msg.getMessage().compareTo(getMessage()) == 0 ) {
+                    && msg.getMessage().compareTo(getMessage()) == 0) {
                 // Cannot compare the bitmap objects directly as they're 2 diff objects but with same parameters
                 // And bitmaps could be null (, i.e., given as res ID, in most cases,) so need to do null checks
-                Bitmap b1 = msg.getIcon() != null ? msg.getIcon():
-                        getIcon() != null? getIcon(): null;
-                Bitmap b2 = b1 == msg.getIcon()? getIcon(): msg.getIcon();
-                if(b1!=null) {
+                Bitmap b1 = msg.getIcon() != null ? msg.getIcon() :
+                        getIcon() != null ? getIcon() : null;
+                Bitmap b2 = b1 == msg.getIcon() ? getIcon() : msg.getIcon();
+                if (b1 != null) {
                     lEqual = b1.sameAs(b2);
                 } else {
                     lEqual = true;

@@ -13,22 +13,23 @@ import fany.phpuijar.R;
  * Created by huixue.gong on 2017/12/14.
  */
 
-public class ModalDialogEditableHeader extends ModalDialogBaseHeader{
+public class ModalDialogEditableHeader extends ModalDialogBaseHeader {
     private EditText mEditableTitle;
 
-    public void setupPanel(){
+    public void setupPanel() {
         super.setupPanel();
     }
+
     @Override
     public View installHeaderPanel(Context context, ViewGroup parent) {
-        super.installHeaderPanel(context,parent);
-        LayoutInflater inflater= (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View view=inflater.inflate(R.layout.layout_modal_dialog_header_editable, null);
-        mEditableTitle=(EditText) ((TextView)view.findViewById(R.id.editableHeading));
+        super.installHeaderPanel(context, parent);
+        LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        View view = inflater.inflate(R.layout.layout_modal_dialog_header_editable, null);
+        mEditableTitle = (EditText) ((TextView) view.findViewById(R.id.editableHeading));
 
         mEditableTitle.setLayoutParams(mTitleView.getLayoutParams());
-        ViewGroup headerParent=((ViewGroup)mTitleView.getParent());
-        int index=headerParent.indexOfChild(mTitleView);
+        ViewGroup headerParent = ((ViewGroup) mTitleView.getParent());
+        int index = headerParent.indexOfChild(mTitleView);
         headerParent.removeView(mTitleView);
         headerParent.addView(mEditableTitle, index);
         return mHeaderPanel;
@@ -40,6 +41,6 @@ public class ModalDialogEditableHeader extends ModalDialogBaseHeader{
     }
 
     @Override
-    public void setTitleView(CharSequence heading,CharSequence subHeading) {
+    public void setTitleView(CharSequence heading, CharSequence subHeading) {
     }
 }

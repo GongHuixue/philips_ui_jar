@@ -6,7 +6,7 @@
     android:background="#FF272727"
     android:orientation="vertical"
     android:paddingBottom="@dimen/dialogues_padding_bottom_height"
-    android:paddingTop="@dimen/dialogues_padding_top_height" >
+    android:paddingTop="@dimen/dialogues_padding_top_height">
 
     <include
         android:id="@+id/dialogHeader"
@@ -24,6 +24,7 @@
         android:layout_alignParentRight="true"
         android:layout_below="@+id/statusText"
         android:drawableLeft="@drawable/modal_dialog_divider_drawable" />
+
     <ScrollView
         android:id="@+id/dialogContent"
         android:layout_width="match_parent"
@@ -33,7 +34,7 @@
         android:layout_weight="1"
         android:overScrollMode="always"
         android:paddingBottom="12dip"
-        android:paddingTop="2dip" >
+        android:paddingTop="2dip">
 
         <TextView
             android:id="@+id/dialogContentMessage"

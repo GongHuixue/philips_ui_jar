@@ -119,7 +119,7 @@ public class TvToastView extends RelativeLayout {
 
         WindowManager wm = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
         DisplayMetrics metrics = new DisplayMetrics();
-        if(wm != null) {
+        if (wm != null) {
             wm.getDefaultDisplay().getMetrics(metrics);
         }
         mPixelsPerSecond = MARQUEE_DP_PER_SECOND * metrics.density;
@@ -170,59 +170,59 @@ public class TvToastView extends RelativeLayout {
                     mMessageState.setState(MessageState.MESSAGE_ANIMATION_STOP);
                     mTvToastMessage.setVisibility(View.VISIBLE);
 
-				if(endValue == mMaxWidth) {
-				    // if msg is longer than maxWidth, then re-adjust width of text view
-				    int textWidth = (int) ((mTvToastMessageIcon.getVisibility() == View.VISIBLE)?
-							   Math.floor(mMaxWidth - getTotalIconWidth()) :
-							   Math.floor(mMaxWidth));
-				    LayoutParams params = (LayoutParams)mTvToastMessage.getLayoutParams();
-				    params.width = textWidth;
-				    mTvToastMessage.setLayoutParams(params);
+                    if (endValue == mMaxWidth) {
+                        // if msg is longer than maxWidth, then re-adjust width of text view
+                        int textWidth = (int) ((mTvToastMessageIcon.getVisibility() == View.VISIBLE) ?
+                                Math.floor(mMaxWidth - getTotalIconWidth()) :
+                                Math.floor(mMaxWidth));
+                        LayoutParams params = (LayoutParams) mTvToastMessage.getLayoutParams();
+                        params.width = textWidth;
+                        mTvToastMessage.setLayoutParams(params);
 
-				    // if msg is longer than mMaxWidth, then marquee
-				    mMessageStateHandler.removeMessages(MessageStateHandler.MESSAGE_START_MARQUEE);
-				    mMessageStateHandler.sendMessageDelayed(mMessageStateHandler.obtainMessage(MessageStateHandler.MESSAGE_START_MARQUEE, marqueeDuration, 0),
-									    MARQUEE_START_DELAY);
-				} else {
-				    // if msg is shorter than mMaxWidth, then skip marquee state
-				    mMessageState.setState(MessageState.MESSAGE_READ_ONCE);
-				}
-			    }
-			}
+                        // if msg is longer than mMaxWidth, then marquee
+                        mMessageStateHandler.removeMessages(MessageStateHandler.MESSAGE_START_MARQUEE);
+                        mMessageStateHandler.sendMessageDelayed(mMessageStateHandler.obtainMessage(MessageStateHandler.MESSAGE_START_MARQUEE, marqueeDuration, 0),
+                                MARQUEE_START_DELAY);
+                    } else {
+                        // if msg is shorter than mMaxWidth, then skip marquee state
+                        mMessageState.setState(MessageState.MESSAGE_READ_ONCE);
+                    }
+                }
+            }
 
-			@Override
-			public void onAnimationCancel(Animator animation) {
-			    mMessageState.reset();
-			    mTvToastMessage.setVisibility(View.VISIBLE);
-			    mTvToastMessage.setSelected(false);
-			    resetToDefaultLayoutParams();
-			}
-		    });
-		mSlideOpenAnim.addUpdateListener(new AnimatorUpdateListener() {
-			    @Override
-			    public void onAnimationUpdate(ValueAnimator animation) {
-				    Float fraction = (Float)animation.getAnimatedValue();
-				    LayoutParams params = (LayoutParams)TvToastView.this.getLayoutParams();
-				    params.width = (int)Math.ceil(fraction.floatValue());
-				    TvToastView.this.setLayoutParams(params);
-				    TvToastView.this.invalidate();
-			    }
-		    });
-	}
+            @Override
+            public void onAnimationCancel(Animator animation) {
+                mMessageState.reset();
+                mTvToastMessage.setVisibility(View.VISIBLE);
+                mTvToastMessage.setSelected(false);
+                resetToDefaultLayoutParams();
+            }
+        });
+        mSlideOpenAnim.addUpdateListener(new AnimatorUpdateListener() {
+            @Override
+            public void onAnimationUpdate(ValueAnimator animation) {
+                Float fraction = (Float) animation.getAnimatedValue();
+                LayoutParams params = (LayoutParams) TvToastView.this.getLayoutParams();
+                params.width = (int) Math.ceil(fraction.floatValue());
+                TvToastView.this.setLayoutParams(params);
+                TvToastView.this.invalidate();
+            }
+        });
+    }
 
-        /*
-	 * show message
-	 */
-	private void slideOpenMessage() {
-		if(isFocusable()) {
-			requestFocus();
-		}
+    /*
+ * show message
+ */
+    private void slideOpenMessage() {
+        if (isFocusable()) {
+            requestFocus();
+        }
 
-	        // Reset text width to wrap content before doing a measure
-		LayoutParams textParams = (LayoutParams)mTvToastMessage.getLayoutParams();
-		textParams.width = LayoutParams.WRAP_CONTENT;
-		mTvToastMessage.setLayoutParams(textParams);
-		invalidate();
+        // Reset text width to wrap content before doing a measure
+        LayoutParams textParams = (LayoutParams) mTvToastMessage.getLayoutParams();
+        textParams.width = LayoutParams.WRAP_CONTENT;
+        mTvToastMessage.setLayoutParams(textParams);
+        invalidate();
 
         // Measure full view and adjust width accordingly
         measure(MeasureSpec.UNSPECIFIED, MeasureSpec.UNSPECIFIED);
@@ -246,11 +246,11 @@ public class TvToastView extends RelativeLayout {
             marqueeDuration = 0;
         }
 
-		// update params
-		LayoutParams params = (LayoutParams)this.getLayoutParams();
-		params.width = (int)Math.ceil(startValue);
-		setLayoutParams(params);
-		invalidate();
+        // update params
+        LayoutParams params = (LayoutParams) this.getLayoutParams();
+        params.width = (int) Math.ceil(startValue);
+        setLayoutParams(params);
+        invalidate();
 
         setVisibility(View.VISIBLE);
         mTvToastMessage.setVisibility(View.GONE);

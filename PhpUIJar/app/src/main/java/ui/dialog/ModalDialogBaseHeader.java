@@ -26,7 +26,7 @@ public abstract class ModalDialogBaseHeader {
     public abstract void setTitleView(CharSequence heading, CharSequence subHeading);
 
     public void setupPanel() {
-        TextView status = ( mHeaderPanel.findViewById(R.id.statusText));
+        TextView status = (mHeaderPanel.findViewById(R.id.statusText));
         status.setText(mStatusMessage);
         status.setCompoundDrawablesWithIntrinsicBounds(mStatusDrawableLeft, mStatusDrawableTop, mStatusDrawableRight, mStatusDrawableBottom);
     }

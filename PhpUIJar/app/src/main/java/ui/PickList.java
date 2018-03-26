@@ -57,9 +57,9 @@ public class PickList {
     private AvailabilityControllability listener;
 
     public static synchronized PickList getSingleInstance(Context context) {
-        if(singleInstance == null) {
+        if (singleInstance == null) {
             singleInstance = new PickList(context);
-        }else if ( (mContext != null) && !mContext.equals(context) ) {
+        } else if ((mContext != null) && !mContext.equals(context)) {
             mContext = context;
             singleInstance = new PickList(context);
         }
@@ -73,15 +73,15 @@ public class PickList {
         mAvailableListArray = null;
         mDrawables = null;
 
-        if(context != null) {
-            inflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        if (context != null) {
+            inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             pickListDialog = new Dialog(context);
         }
 
-        if(inflater != null) {
+        if (inflater != null) {
             View view = inflater.inflate(R.layout.picklist_layout, null);
 
-            if(view instanceof LinearLayout) {
+            if (view instanceof LinearLayout) {
                 ll = (LinearLayout) view;
                 mTitleText = ll.findViewById(R.id.picklist_title_text_view);
                 lv = ll.findViewById(R.id.picklist_list_view);
@@ -89,7 +89,7 @@ public class PickList {
         }
 
         // no title and title bar for this dialog
-        if(pickListDialog!=null){
+        if (pickListDialog != null) {
             pickListDialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
             enableDiming(mIsRequiredDim);
             pickListDialog.setContentView(ll);
@@ -135,7 +135,7 @@ public class PickList {
 
         pickListDialog.getWindow().setAttributes(lp);
         pickListDialog.getWindow().getAttributes().windowAnimations = android.R.anim.slide_in_left;
-        if( lv != null){
+        if (lv != null) {
             lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
@@ -152,7 +152,7 @@ public class PickList {
 
                             public void run() {
                                 if (mListner != null) {
-                                    mListner.onItemPicked(mAvailableListArray,  mSelectedPos, mSelected);
+                                    mListner.onItemPicked(mAvailableListArray, mSelectedPos, mSelected);
                                 }
                                 hide();
                             }
@@ -301,8 +301,7 @@ public class PickList {
     /**
      * label of the pick list(basically a vertical text
      *
-     * @param s
-     *            String that is used for label
+     * @param s String that is used for label
      */
     public void setTitleText(String s) {
         mTitleText.setText(s);
@@ -317,8 +316,7 @@ public class PickList {
      * Set the Focused position in the PickList This call is ignored if index is
      * greater than the item count
      *
-     * @param index
-     *            - Starting from 0
+     * @param index - Starting from 0
      */
     public void setFocusPosition(int index) {
 
@@ -345,8 +343,7 @@ public class PickList {
      * is less than 0 This call is ignored if index is greater than the item
      * count
      *
-     * @param index
-     *            - starting from 0
+     * @param index - starting from 0
      */
     public void setCheckedPosition(int index) {
         if (lv != null && lv.getAdapter() != null && index < lv.getAdapter().getCount()) {
@@ -358,9 +355,10 @@ public class PickList {
         }
     }
 
-    public void setArray(Context c,String pickerArray[]) {
+    public void setArray(Context c, String pickerArray[]) {
         setArray(pickerArray, null);
     }
+
     /**
      * Array of strings that gets displayed as part of the pick list data
      *
@@ -468,7 +466,6 @@ public class PickList {
      * and the selection status
      *
      * @author sudhir.prabhu
-     *
      */
     public interface pickListItemSelectedListener {
         void onItemPicked(String[] array, int position, boolean selected);
@@ -484,6 +481,7 @@ public class PickList {
 
     public abstract class AvailabilityControllability {
         public abstract boolean getItemAvailability(int index);
+
         public abstract boolean getItemControllability(int index);
     }
 }

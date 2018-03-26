@@ -8,6 +8,6 @@
     android:ems="10"
     android:imeOptions="actionDone"
     android:inputType="text"
-    android:visibility="visible" >
+    android:visibility="visible">
 
 </EditText>

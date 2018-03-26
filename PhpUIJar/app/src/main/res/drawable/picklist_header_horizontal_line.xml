@@ -4,7 +4,7 @@
 
     <size
         android:height="1dp"
-        android:width="@dimen/picklist_01_header_container_width"/>
+        android:width="@dimen/picklist_01_header_container_width" />
 
-    <solid android:color="#1AFFFFFF"/>
+    <solid android:color="#1AFFFFFF" />
 </shape>

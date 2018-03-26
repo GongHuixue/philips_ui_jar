@@ -13,41 +13,41 @@ import fany.phpuijar.R;
  * Created by huixue.gong on 2017/12/14.
  */
 
-public class ModalDialogDeafultHeader extends ModalDialogBaseHeader{
+public class ModalDialogDeafultHeader extends ModalDialogBaseHeader {
 
     private View mView;
     private CharSequence mHeading;
     private CharSequence mSubheading;
 
-    public void setupPanel(){
+    public void setupPanel() {
         super.setupPanel();
         if (TextUtils.isEmpty(mHeading)) {
-            ((TextView)mView.findViewById(R.id.headingText)).setVisibility(View.INVISIBLE);
-        }else {
-            ((TextView)mView.findViewById(R.id.headingText)).setText(mHeading);
-            ((TextView)mView.findViewById(R.id.headingText)).setVisibility(View.VISIBLE);
+            ((TextView) mView.findViewById(R.id.headingText)).setVisibility(View.INVISIBLE);
+        } else {
+            ((TextView) mView.findViewById(R.id.headingText)).setText(mHeading);
+            ((TextView) mView.findViewById(R.id.headingText)).setVisibility(View.VISIBLE);
         }
         if (TextUtils.isEmpty(mSubheading)) {
-            ((TextView)mView.findViewById(R.id.subHeadingText)).setVisibility(View.GONE);
-        }else {
-            ((TextView)mView.findViewById(R.id.subHeadingText)).setText(mSubheading);
-            ((TextView)mView.findViewById(R.id.subHeadingText)).setVisibility(View.VISIBLE);
+            ((TextView) mView.findViewById(R.id.subHeadingText)).setVisibility(View.GONE);
+        } else {
+            ((TextView) mView.findViewById(R.id.subHeadingText)).setText(mSubheading);
+            ((TextView) mView.findViewById(R.id.subHeadingText)).setVisibility(View.VISIBLE);
         }
-		/*((TextView)mView.findViewById(R.id.headingText)).setText(mHeading);
+        /*((TextView)mView.findViewById(R.id.headingText)).setText(mHeading);
 		((TextView)mView.findViewById(R.id.subHeadingText)).setText(mSubheading);*/
     }
 
     @Override
     public View installHeaderPanel(Context context, ViewGroup parent) {
-        super.installHeaderPanel(context,parent);
-        LayoutInflater inflater= (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        mView=inflater.inflate(R.layout.layout_modal_dialog_header_default, null);
+        super.installHeaderPanel(context, parent);
+        LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        mView = inflater.inflate(R.layout.layout_modal_dialog_header_default, null);
 
 
         mView.setLayoutParams(mTitleView.getLayoutParams());
-        int index=mHeaderPanel.indexOfChild(mTitleView);
+        int index = mHeaderPanel.indexOfChild(mTitleView);
         mHeaderPanel.removeView(mTitleView);
-        mHeaderPanel.addView(mView,index);
+        mHeaderPanel.addView(mView, index);
         return mHeaderPanel;
     }
 
@@ -57,9 +57,9 @@ public class ModalDialogDeafultHeader extends ModalDialogBaseHeader{
     }
 
     @Override
-    public void setTitleView(CharSequence heading,CharSequence subHeading) {
-        mHeading=heading;
-        mSubheading=subHeading;
+    public void setTitleView(CharSequence heading, CharSequence subHeading) {
+        mHeading = heading;
+        mSubheading = subHeading;
 
     }
 }

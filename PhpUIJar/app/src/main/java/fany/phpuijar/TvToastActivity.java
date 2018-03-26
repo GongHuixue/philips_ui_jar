@@ -1,16 +1,15 @@
 package fany.phpuijar;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-import ui.tvtoast.*;
 import ui.tvtoast.TvToast;
 import ui.tvtoast.TvToastMessenger;
 
-public class TvToastActivity extends AppCompatActivity implements View.OnClickListener{
+public class TvToastActivity extends AppCompatActivity implements View.OnClickListener {
     private static final String TAG = TvToastActivity.class.getSimpleName();
     private Button timeOutSI, keyPressSI, permanentSI;
     private Button timeOutCancel;
@@ -30,7 +29,7 @@ public class TvToastActivity extends AppCompatActivity implements View.OnClickLi
 
         timeOutSI = (Button) findViewById(R.id.timeOutStatusIndicator);
         keyPressSI = (Button) findViewById(R.id.keyPressStatusIndicator);
-        permanentSI = (Button)findViewById(R.id.permanentStatusIndicator);
+        permanentSI = (Button) findViewById(R.id.permanentStatusIndicator);
 
         timeOutCancel = (Button) findViewById(R.id.cancelTimeOutMsg);
         permanentCancel = (Button) findViewById(R.id.cancelPermanentMsg);
