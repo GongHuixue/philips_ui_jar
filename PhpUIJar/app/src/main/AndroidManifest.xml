@@ -45,7 +45,7 @@
         </activity>
         <activity
             android:name=".ModalDialogActivity"
-            android:label="ModalDialog_Activity">
+            android:label="@string/ModalDialog_Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="UI_Component_Demo_Activity" />

@@ -2,20 +2,19 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/picklist_background_color"
+	android:background="@color/picklist_background_color"
     android:divider="@drawable/picklist_header_horizontal_line"
+    android:gravity="center_horizontal"
     android:orientation="vertical"
-    android:gravity="center_vertical"
-    android:showDividers="middle">
+    android:showDividers="middle" >
 
     <TextView
-        android:id="@+id/picklist_title_text_view"
+        android:id="@+id/picklist_tilte_text_view"
         style="@style/PickListLable"
         android:layout_width="wrap_content"
         android:layout_height="@dimen/picklist_01_header_container_height"
         android:fadingEdgeLength="10dp"
         android:maxWidth="@dimen/picklist_01_header_text_width" />
-
 
     <ListView
         android:id="@+id/picklist_list_view"
