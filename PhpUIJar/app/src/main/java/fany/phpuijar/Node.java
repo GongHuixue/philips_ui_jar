@@ -4,14 +4,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 public interface Node {
-	  String getName();
+    String getName();
 
-	  void addChild(Node node);
+    void addChild(Node node);
 
-	  ArrayList<Node> getChildren();
-	  ArrayList<String> getChildrenName();
-	  void setSelectedItemPosition(int position);
-	  int getSelectedItemPosition();
-	}
+    ArrayList<Node> getChildren();
+
+    ArrayList<String> getChildrenName();
+
+    void setSelectedItemPosition(int position);
+
+    int getSelectedItemPosition();
+}
 
 	

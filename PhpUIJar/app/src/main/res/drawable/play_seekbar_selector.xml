@@ -1,8 +1,8 @@
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
         android:id="@android:id/background"
-        android:drawable="@color/Seekbar_normal"/>
+        android:drawable="@color/Seekbar_normal" />
     <item android:id="@android:id/secondaryProgress">
         <scale
             android:drawable="@color/Seek_Secondary_Progres"

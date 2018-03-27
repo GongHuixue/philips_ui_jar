@@ -3,431 +3,431 @@
 
     <dimen name="optionsmenu_x_margin">5dp</dimen>
     <dimen name="optionsmenu_y_margin">59dp</dimen>
-	<!--Fri Jul 04 2014 15:05:22 GMT+0530-->
-	<!--Layout_OptionsMenu_v2.0.psd-->
-	<dimen name="optionsmenu_second_level_container_height">540dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_container_width">316dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_container_x1">0dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_container_y1">0dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_container_x2">316dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_container_y2">540dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_padding_left_height">368dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_padding_left_width">20dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_padding_left_x1">0dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_padding_left_y1">98dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_padding_left_x2">20dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_padding_left_y2">466dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_stack01_height">368dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_stack01_width">34dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_stack01_x1">20dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_stack01_y1">98dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_stack01_x2">54dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_stack01_y2">466dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_stack01_vertical_text_l_height">348dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_stack01_vertical_text_l_width">23.5dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_stack01_vertical_text_l_x1">20dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_stack01_vertical_text_l_y1">98dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_stack01_vertical_text_l_x2">43.5dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_stack01_vertical_text_l_y2">446dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_stack02_height">368dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_stack02_width">34dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_stack02_x1">54dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_stack02_y1">98dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_stack02_x2">88dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_stack02_y2">466dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_stack02_divider_height">368dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_stack02_divider_width">1dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_stack02_divider_x1">87dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_stack02_divider_y1">98dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_stack02_divider_x2">88dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_stack02_divider_y2">466dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_panel_padding_left_height">368dp</dimen>
-	
-	<!--2k16 changes start (2k15: 8dp) -->
-	<dimen name="optionsmenu_second_level_list_panel_padding_left_width">2dp</dimen>
-	<!--2k16 changes End -->
-	<dimen name="optionsmenu_second_level_list_panel_padding_left_x1">88dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_panel_padding_left_y1">98dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_panel_padding_left_x2">96dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_panel_padding_left_y2">466dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_container_height">368dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_container_width">228dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_container_x1">88dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_container_y1">98dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_container_x2">316dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_container_y2">466dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_panel_padding_right_height">368dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_panel_padding_right_width">20dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_panel_padding_right_x1">296dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_panel_padding_right_y1">98dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_panel_padding_right_x2">316dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_panel_padding_right_y2">466dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_panel_row_bottom_margin_height">6dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_panel_row_bottom_margin_width">188dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_panel_row_bottom_margin_x1">96dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_panel_row_bottom_margin_y1">124dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_panel_row_bottom_margin_x2">284dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_panel_row_bottom_margin_y2">130dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_row01_height">26dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_row01_width">199.5dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_row01_x1">96dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_row01_y1">98dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_row01_x2">295.5dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_row01_y2">124dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_row01_label_text_l_height">21dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_row01_label_text_l_width">176dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_row01_label_text_l_x1">108dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_row01_label_text_l_y1">100.5dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_row01_label_text_l_x2">284dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_row01_label_text_l_y2">121.5dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_row01_label_padding_left_height">26dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_row01_label_padding_left_width">12dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_row01_label_padding_left_x1">96dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_row01_label_padding_left_y1">98dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_row01_label_padding_left_x2">108dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_row01_label_padding_left_y2">124dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_row01_label_padding_right_height">26dp</dimen>
-	
-	<!-- 2k16 changes start (2k15:12dp) -->
-	<dimen name="optionsmenu_second_level_list_row01_label_padding_right_width">18dp</dimen>
-	<!-- 2k16 changes end -->
-	
-	<dimen name="optionsmenu_second_level_list_row01_label_padding_right_x1">284dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_row01_label_padding_right_y1">98dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_row01_label_padding_right_x2">296dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_row01_label_padding_right_y2">124dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_row02_height">26dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_row02_width">200dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_row02_x1">96dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_row02_y1">130dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_row02_x2">296dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_row02_y2">156dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_row02_label_text_l_height">21dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_row02_label_text_l_width">176dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_row02_label_text_l_x1">108dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_row02_label_text_l_y1">131.5dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_row02_label_text_l_x2">284dp</dimen>
-	
-	<dimen name="optionsmenu_second_level_list_row02_label_text_l_y2">152.5dp</dimen>
-	
-	<dimen name="optionsmenu_container_height">540dp</dimen>
-	
-	<dimen name="optionsmenu_container_width">300dp</dimen>
-	
-	<dimen name="optionsmenu_container_x1">0dp</dimen>
-	
-	<dimen name="optionsmenu_container_y1">0dp</dimen>
-	
-	<dimen name="optionsmenu_container_x2">300dp</dimen>
-	
-	<dimen name="optionsmenu_container_y2">540dp</dimen>
-	
-	<dimen name="optionsmenu_padding_left_height">368dp</dimen>
-	
-	<dimen name="optionsmenu_padding_left_width">20dp</dimen>
-	
-	<dimen name="optionsmenu_padding_left_x1">0dp</dimen>
-	
-	<dimen name="optionsmenu_padding_left_y1">98dp</dimen>
-	
-	<dimen name="optionsmenu_padding_left_x2">20dp</dimen>
-	
-	<dimen name="optionsmenu_padding_left_y2">466dp</dimen>
-	
-	<dimen name="optionsmenu_stack_height">368dp</dimen>
-	
-	<dimen name="optionsmenu_stack_width">34dp</dimen>
-	
-	<dimen name="optionsmenu_stack_x1">20dp</dimen>
-	
-	<!-- 2k16 Changes start (2k15: 98dp) -->
-	<dimen name="optionsmenu_stack_y1">58dp</dimen>
-	
-	<dimen name="optionsmenu_stack_bottom_padding">58dp</dimen>
-	<!-- 2k16 Changes End -->
-	
-	<dimen name="optionsmenu_stack_x2">54dp</dimen>
-	
-	<dimen name="optionsmenu_stack_y2">466dp</dimen>
-	
-	<dimen name="optionsmenu_stack_vertical_text_l_height">348dp</dimen>
-	
-	<dimen name="optionsmenu_stack_vertical_text_l_width">23.5dp</dimen>
-	
-	<dimen name="optionsmenu_stack_vertical_text_l_x1">20dp</dimen>
-	
-	<dimen name="optionsmenu_stack_vertical_text_l_y1">98dp</dimen>
-	
-	<dimen name="optionsmenu_stack_vertical_text_l_x2">43.5dp</dimen>
-	
-	<dimen name="optionsmenu_stack_vertical_text_l_y2">446dp</dimen>
-	
-	<dimen name="optionsmenu_stack_divider_height">368dp</dimen>
-	
-	<dimen name="optionsmenu_stack_divider_width">1dp</dimen>
-	
-	<dimen name="optionsmenu_stack_divider_x1">54dp</dimen>
-	
-	<dimen name="optionsmenu_stack_divider_y1">98dp</dimen>
-	
-	<dimen name="optionsmenu_stack_divider_x2">55dp</dimen>
-	
-	<dimen name="optionsmenu_stack_divider_y2">466dp</dimen>
-	
-	<dimen name="optionsmenu_list_panel_padding_left_height">368dp</dimen>
-	
-	<dimen name="optionsmenu_list_panel_padding_left_width">8dp</dimen>
-	
-	<dimen name="optionsmenu_list_panel_padding_left_x1">55dp</dimen>
-	
-	<dimen name="optionsmenu_list_panel_padding_left_y1">98dp</dimen>
-	
-	<dimen name="optionsmenu_list_panel_padding_left_x2">63dp</dimen>
-	
-	<dimen name="optionsmenu_list_panel_padding_left_y2">466dp</dimen>
-	
-	<!-- 2k16 changes start (2k15: 368dp) -->
-	<dimen name="optionsmenu_list_container_height">424dp</dimen>
-	<!-- 2k16 changes End -->
-	
-	<dimen name="optionsmenu_list_container_width">245dp</dimen>
-	
-	<dimen name="optionsmenu_list_container_x1">55dp</dimen>
-	
-	<dimen name="optionsmenu_list_container_y1">98dp</dimen>
-	
-	<dimen name="optionsmenu_list_container_x2">300dp</dimen>
-	
-	<dimen name="optionsmenu_list_container_y2">466dp</dimen>
-	
-	<dimen name="optionsmenu_list_panel_padding_right_height">368dp</dimen>
-	
-	<!--2k16 changes start (2k15: 12dp) -->
-	<dimen name="optionsmenu_list_panel_padding_right_width">3dp</dimen>
-	<!--2k16 changes End -->
-	
-	<dimen name="optionsmenu_list_panel_padding_right_x1">280dp</dimen>
-	
-	<dimen name="optionsmenu_list_panel_padding_right_y1">98dp</dimen>
-	
-	<dimen name="optionsmenu_list_panel_padding_right_x2">300dp</dimen>
-	
-	<dimen name="optionsmenu_list_panel_padding_right_y2">466dp</dimen>
-	
-	<!--2k16 changes start (2k15: 6dp) -->
-	<dimen name="optionsmenu_list_panel_row_bottom_margin_height">2dp</dimen>
-	<!--2k16 changes End -->
-	
-	<dimen name="optionsmenu_list_panel_row_bottom_margin_width">217dp</dimen>
-	
-	<dimen name="optionsmenu_list_panel_row_bottom_margin_x1">63dp</dimen>
-	
-	<dimen name="optionsmenu_list_panel_row_bottom_margin_y1">124dp</dimen>
-	
-	<dimen name="optionsmenu_list_panel_row_bottom_margin_x2">280dp</dimen>
-	
-	<dimen name="optionsmenu_list_panel_row_bottom_margin_y2">130dp</dimen>
-	
-	<!-- 2k16 changes start (2k15: 26dp)-->
-	<dimen name="optionsmenu_list_row01_height">30dp</dimen>
-	<!-- 2k16 changes End-->
-	
-	<dimen name="optionsmenu_list_row01_width">217dp</dimen>
-	
-	<dimen name="optionsmenu_list_row01_x1">63dp</dimen>
-	
-	<dimen name="optionsmenu_list_row01_y1">98dp</dimen>
-	
-	<dimen name="optionsmenu_list_row01_x2">280dp</dimen>
-	
-	<dimen name="optionsmenu_list_row01_y2">124dp</dimen>
-	
-	<dimen name="optionsmenu_list_row01_label_text_l_height">21dp</dimen>
-	
-	<dimen name="optionsmenu_list_row01_label_text_l_width">193dp</dimen>
-	
-	<dimen name="optionsmenu_list_row01_label_text_l_x1">75dp</dimen>
-	
-	<dimen name="optionsmenu_list_row01_label_text_l_y1">100.5dp</dimen>
-	
-	<dimen name="optionsmenu_list_row01_label_text_l_x2">268dp</dimen>
-	
-	<dimen name="optionsmenu_list_row01_label_text_l_y2">121.5dp</dimen>
-	
-	<dimen name="optionsmenu_list_row01_label_padding_left_height">26dp</dimen>
-	
-	<!-- 2k16 changes start (2k15: 12dp) -->
-	<dimen name="optionsmenu_list_row01_label_padding_left_width">18dp</dimen>
-	<!-- 2k16 changes end -->
-	
-	<dimen name="optionsmenu_list_row01_label_padding_left_x1">63dp</dimen>
-	
-	<dimen name="optionsmenu_list_row01_label_padding_left_y1">98dp</dimen>
-	
-	<dimen name="optionsmenu_list_row01_label_padding_left_x2">75dp</dimen>
-	
-	<dimen name="optionsmenu_list_row01_label_padding_left_y2">124dp</dimen>
-	
-	<dimen name="optionsmenu_list_row01_label_padding_right_height">26dp</dimen>
-	
-	<dimen name="optionsmenu_list_row01_label_padding_right_width">12dp</dimen>
-	
-	<dimen name="optionsmenu_list_row01_label_padding_right_x1">268dp</dimen>
-	
-	<dimen name="optionsmenu_list_row01_label_padding_right_y1">98dp</dimen>
-	
-	<dimen name="optionsmenu_list_row01_label_padding_right_x2">280dp</dimen>
-	
-	<dimen name="optionsmenu_list_row01_label_padding_right_y2">124dp</dimen>
-	
-	<dimen name="optionsmenu_list_row02_height">26dp</dimen>
-	
-	<dimen name="optionsmenu_list_row02_width">217dp</dimen>
-	
-	<dimen name="optionsmenu_list_row02_x1">63dp</dimen>
-	
-	<dimen name="optionsmenu_list_row02_y1">130dp</dimen>
-	
-	<dimen name="optionsmenu_list_row02_x2">280dp</dimen>
-	
-	<dimen name="optionsmenu_list_row02_y2">156dp</dimen>
-	
-	<dimen name="optionsmenu_list_row02_label_text_l_height">21dp</dimen>
-	
-	<dimen name="optionsmenu_list_row02_label_text_l_width">156dp</dimen>
-	
-	<dimen name="optionsmenu_list_row02_label_text_l_x1">75dp</dimen>
-	
-	<dimen name="optionsmenu_list_row02_label_text_l_y1">132.5dp</dimen>
-	
-	<dimen name="optionsmenu_list_row02_label_text_l_x2">231dp</dimen>
-	
-	<dimen name="optionsmenu_list_row02_label_text_l_y2">153.5dp</dimen>
-	
-	<dimen name="optionsmenu_list_row02_padding_label_arrow_height">26dp</dimen>
-	
-	<!-- 2k16 changes start(2k15:29dp) 
-		Actucal padding b/w text and arrow should be 22dp but we gave 20dp padding right to text-->
-	<dimen name="optionsmenu_list_row02_padding_label_arrow_width">2dp</dimen>
-	<!-- 2k16 changes end -->
+    <!--Fri Jul 04 2014 15:05:22 GMT+0530-->
+    <!--Layout_OptionsMenu_v2.0.psd-->
+    <dimen name="optionsmenu_second_level_container_height">540dp</dimen>
 
-	<dimen name="optionsmenu_list_row02_padding_label_arrow_x1">243dp</dimen>
-	
-	<dimen name="optionsmenu_list_row02_padding_label_arrow_y1">130dp</dimen>
-	
-	<dimen name="optionsmenu_list_row02_padding_label_arrow_x2">272dp</dimen>
-	
-	<dimen name="optionsmenu_list_row02_padding_label_arrow_y2">156dp</dimen>
-	
-	<dimen name="optionsmenu_list_row02_arrow_height">12dp</dimen>
-	
-	<dimen name="optionsmenu_list_row02_arrow_width">8dp</dimen>
-	
-	<dimen name="optionsmenu_list_row02_arrow_x1">272dp</dimen>
-	
-	<dimen name="optionsmenu_list_row02_arrow_y1">136.5dp</dimen>
-	
-	<dimen name="optionsmenu_list_row02_arrow_x2">280dp</dimen>
-	
-	<dimen name="optionsmenu_list_row02_arrow_y2">148.5dp</dimen>
-	
-	<dimen name="optionsmenu_list_item_drawable_padding">4dp</dimen>
-	
-	<dimen name="optionsmenu_arrow_top_padding">7dp</dimen>
-	
-	<dimen name="optionsmenu_total_arrow_view_width">37dp</dimen>
-	
-	<dimen name="optionsmenu_list_item_max_text_width_when_arrow_present">180dp</dimen>
+    <dimen name="optionsmenu_second_level_container_width">316dp</dimen>
 
-	<dimen name="optionsmenu_npanel_container_y1">98dp</dimen>
+    <dimen name="optionsmenu_second_level_container_x1">0dp</dimen>
+
+    <dimen name="optionsmenu_second_level_container_y1">0dp</dimen>
+
+    <dimen name="optionsmenu_second_level_container_x2">316dp</dimen>
+
+    <dimen name="optionsmenu_second_level_container_y2">540dp</dimen>
+
+    <dimen name="optionsmenu_second_level_padding_left_height">368dp</dimen>
+
+    <dimen name="optionsmenu_second_level_padding_left_width">20dp</dimen>
+
+    <dimen name="optionsmenu_second_level_padding_left_x1">0dp</dimen>
+
+    <dimen name="optionsmenu_second_level_padding_left_y1">98dp</dimen>
+
+    <dimen name="optionsmenu_second_level_padding_left_x2">20dp</dimen>
+
+    <dimen name="optionsmenu_second_level_padding_left_y2">466dp</dimen>
+
+    <dimen name="optionsmenu_second_level_stack01_height">368dp</dimen>
+
+    <dimen name="optionsmenu_second_level_stack01_width">34dp</dimen>
+
+    <dimen name="optionsmenu_second_level_stack01_x1">20dp</dimen>
+
+    <dimen name="optionsmenu_second_level_stack01_y1">98dp</dimen>
+
+    <dimen name="optionsmenu_second_level_stack01_x2">54dp</dimen>
+
+    <dimen name="optionsmenu_second_level_stack01_y2">466dp</dimen>
+
+    <dimen name="optionsmenu_second_level_stack01_vertical_text_l_height">348dp</dimen>
+
+    <dimen name="optionsmenu_second_level_stack01_vertical_text_l_width">23.5dp</dimen>
+
+    <dimen name="optionsmenu_second_level_stack01_vertical_text_l_x1">20dp</dimen>
+
+    <dimen name="optionsmenu_second_level_stack01_vertical_text_l_y1">98dp</dimen>
+
+    <dimen name="optionsmenu_second_level_stack01_vertical_text_l_x2">43.5dp</dimen>
+
+    <dimen name="optionsmenu_second_level_stack01_vertical_text_l_y2">446dp</dimen>
+
+    <dimen name="optionsmenu_second_level_stack02_height">368dp</dimen>
+
+    <dimen name="optionsmenu_second_level_stack02_width">34dp</dimen>
+
+    <dimen name="optionsmenu_second_level_stack02_x1">54dp</dimen>
+
+    <dimen name="optionsmenu_second_level_stack02_y1">98dp</dimen>
+
+    <dimen name="optionsmenu_second_level_stack02_x2">88dp</dimen>
+
+    <dimen name="optionsmenu_second_level_stack02_y2">466dp</dimen>
+
+    <dimen name="optionsmenu_second_level_stack02_divider_height">368dp</dimen>
+
+    <dimen name="optionsmenu_second_level_stack02_divider_width">1dp</dimen>
+
+    <dimen name="optionsmenu_second_level_stack02_divider_x1">87dp</dimen>
+
+    <dimen name="optionsmenu_second_level_stack02_divider_y1">98dp</dimen>
+
+    <dimen name="optionsmenu_second_level_stack02_divider_x2">88dp</dimen>
+
+    <dimen name="optionsmenu_second_level_stack02_divider_y2">466dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_panel_padding_left_height">368dp</dimen>
+
+    <!--2k16 changes start (2k15: 8dp) -->
+    <dimen name="optionsmenu_second_level_list_panel_padding_left_width">2dp</dimen>
+    <!--2k16 changes End -->
+    <dimen name="optionsmenu_second_level_list_panel_padding_left_x1">88dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_panel_padding_left_y1">98dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_panel_padding_left_x2">96dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_panel_padding_left_y2">466dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_container_height">368dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_container_width">228dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_container_x1">88dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_container_y1">98dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_container_x2">316dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_container_y2">466dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_panel_padding_right_height">368dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_panel_padding_right_width">20dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_panel_padding_right_x1">296dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_panel_padding_right_y1">98dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_panel_padding_right_x2">316dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_panel_padding_right_y2">466dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_panel_row_bottom_margin_height">6dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_panel_row_bottom_margin_width">188dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_panel_row_bottom_margin_x1">96dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_panel_row_bottom_margin_y1">124dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_panel_row_bottom_margin_x2">284dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_panel_row_bottom_margin_y2">130dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_row01_height">26dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_row01_width">199.5dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_row01_x1">96dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_row01_y1">98dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_row01_x2">295.5dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_row01_y2">124dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_row01_label_text_l_height">21dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_row01_label_text_l_width">176dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_row01_label_text_l_x1">108dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_row01_label_text_l_y1">100.5dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_row01_label_text_l_x2">284dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_row01_label_text_l_y2">121.5dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_row01_label_padding_left_height">26dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_row01_label_padding_left_width">12dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_row01_label_padding_left_x1">96dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_row01_label_padding_left_y1">98dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_row01_label_padding_left_x2">108dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_row01_label_padding_left_y2">124dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_row01_label_padding_right_height">26dp</dimen>
+
+    <!-- 2k16 changes start (2k15:12dp) -->
+    <dimen name="optionsmenu_second_level_list_row01_label_padding_right_width">18dp</dimen>
+    <!-- 2k16 changes end -->
+
+    <dimen name="optionsmenu_second_level_list_row01_label_padding_right_x1">284dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_row01_label_padding_right_y1">98dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_row01_label_padding_right_x2">296dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_row01_label_padding_right_y2">124dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_row02_height">26dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_row02_width">200dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_row02_x1">96dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_row02_y1">130dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_row02_x2">296dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_row02_y2">156dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_row02_label_text_l_height">21dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_row02_label_text_l_width">176dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_row02_label_text_l_x1">108dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_row02_label_text_l_y1">131.5dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_row02_label_text_l_x2">284dp</dimen>
+
+    <dimen name="optionsmenu_second_level_list_row02_label_text_l_y2">152.5dp</dimen>
+
+    <dimen name="optionsmenu_container_height">540dp</dimen>
+
+    <dimen name="optionsmenu_container_width">300dp</dimen>
+
+    <dimen name="optionsmenu_container_x1">0dp</dimen>
+
+    <dimen name="optionsmenu_container_y1">0dp</dimen>
+
+    <dimen name="optionsmenu_container_x2">300dp</dimen>
+
+    <dimen name="optionsmenu_container_y2">540dp</dimen>
+
+    <dimen name="optionsmenu_padding_left_height">368dp</dimen>
+
+    <dimen name="optionsmenu_padding_left_width">20dp</dimen>
+
+    <dimen name="optionsmenu_padding_left_x1">0dp</dimen>
+
+    <dimen name="optionsmenu_padding_left_y1">98dp</dimen>
+
+    <dimen name="optionsmenu_padding_left_x2">20dp</dimen>
+
+    <dimen name="optionsmenu_padding_left_y2">466dp</dimen>
+
+    <dimen name="optionsmenu_stack_height">368dp</dimen>
+
+    <dimen name="optionsmenu_stack_width">34dp</dimen>
+
+    <dimen name="optionsmenu_stack_x1">20dp</dimen>
+
+    <!-- 2k16 Changes start (2k15: 98dp) -->
+    <dimen name="optionsmenu_stack_y1">58dp</dimen>
+
+    <dimen name="optionsmenu_stack_bottom_padding">58dp</dimen>
+    <!-- 2k16 Changes End -->
+
+    <dimen name="optionsmenu_stack_x2">54dp</dimen>
+
+    <dimen name="optionsmenu_stack_y2">466dp</dimen>
+
+    <dimen name="optionsmenu_stack_vertical_text_l_height">348dp</dimen>
+
+    <dimen name="optionsmenu_stack_vertical_text_l_width">23.5dp</dimen>
+
+    <dimen name="optionsmenu_stack_vertical_text_l_x1">20dp</dimen>
+
+    <dimen name="optionsmenu_stack_vertical_text_l_y1">98dp</dimen>
+
+    <dimen name="optionsmenu_stack_vertical_text_l_x2">43.5dp</dimen>
+
+    <dimen name="optionsmenu_stack_vertical_text_l_y2">446dp</dimen>
+
+    <dimen name="optionsmenu_stack_divider_height">368dp</dimen>
+
+    <dimen name="optionsmenu_stack_divider_width">1dp</dimen>
+
+    <dimen name="optionsmenu_stack_divider_x1">54dp</dimen>
+
+    <dimen name="optionsmenu_stack_divider_y1">98dp</dimen>
+
+    <dimen name="optionsmenu_stack_divider_x2">55dp</dimen>
+
+    <dimen name="optionsmenu_stack_divider_y2">466dp</dimen>
+
+    <dimen name="optionsmenu_list_panel_padding_left_height">368dp</dimen>
+
+    <dimen name="optionsmenu_list_panel_padding_left_width">8dp</dimen>
+
+    <dimen name="optionsmenu_list_panel_padding_left_x1">55dp</dimen>
+
+    <dimen name="optionsmenu_list_panel_padding_left_y1">98dp</dimen>
+
+    <dimen name="optionsmenu_list_panel_padding_left_x2">63dp</dimen>
+
+    <dimen name="optionsmenu_list_panel_padding_left_y2">466dp</dimen>
+
+    <!-- 2k16 changes start (2k15: 368dp) -->
+    <dimen name="optionsmenu_list_container_height">424dp</dimen>
+    <!-- 2k16 changes End -->
+
+    <dimen name="optionsmenu_list_container_width">245dp</dimen>
+
+    <dimen name="optionsmenu_list_container_x1">55dp</dimen>
+
+    <dimen name="optionsmenu_list_container_y1">98dp</dimen>
+
+    <dimen name="optionsmenu_list_container_x2">300dp</dimen>
+
+    <dimen name="optionsmenu_list_container_y2">466dp</dimen>
+
+    <dimen name="optionsmenu_list_panel_padding_right_height">368dp</dimen>
+
+    <!--2k16 changes start (2k15: 12dp) -->
+    <dimen name="optionsmenu_list_panel_padding_right_width">3dp</dimen>
+    <!--2k16 changes End -->
+
+    <dimen name="optionsmenu_list_panel_padding_right_x1">280dp</dimen>
+
+    <dimen name="optionsmenu_list_panel_padding_right_y1">98dp</dimen>
+
+    <dimen name="optionsmenu_list_panel_padding_right_x2">300dp</dimen>
+
+    <dimen name="optionsmenu_list_panel_padding_right_y2">466dp</dimen>
+
+    <!--2k16 changes start (2k15: 6dp) -->
+    <dimen name="optionsmenu_list_panel_row_bottom_margin_height">2dp</dimen>
+    <!--2k16 changes End -->
+
+    <dimen name="optionsmenu_list_panel_row_bottom_margin_width">217dp</dimen>
+
+    <dimen name="optionsmenu_list_panel_row_bottom_margin_x1">63dp</dimen>
+
+    <dimen name="optionsmenu_list_panel_row_bottom_margin_y1">124dp</dimen>
+
+    <dimen name="optionsmenu_list_panel_row_bottom_margin_x2">280dp</dimen>
+
+    <dimen name="optionsmenu_list_panel_row_bottom_margin_y2">130dp</dimen>
+
+    <!-- 2k16 changes start (2k15: 26dp)-->
+    <dimen name="optionsmenu_list_row01_height">30dp</dimen>
+    <!-- 2k16 changes End-->
+
+    <dimen name="optionsmenu_list_row01_width">217dp</dimen>
+
+    <dimen name="optionsmenu_list_row01_x1">63dp</dimen>
+
+    <dimen name="optionsmenu_list_row01_y1">98dp</dimen>
+
+    <dimen name="optionsmenu_list_row01_x2">280dp</dimen>
+
+    <dimen name="optionsmenu_list_row01_y2">124dp</dimen>
+
+    <dimen name="optionsmenu_list_row01_label_text_l_height">21dp</dimen>
+
+    <dimen name="optionsmenu_list_row01_label_text_l_width">193dp</dimen>
+
+    <dimen name="optionsmenu_list_row01_label_text_l_x1">75dp</dimen>
+
+    <dimen name="optionsmenu_list_row01_label_text_l_y1">100.5dp</dimen>
+
+    <dimen name="optionsmenu_list_row01_label_text_l_x2">268dp</dimen>
+
+    <dimen name="optionsmenu_list_row01_label_text_l_y2">121.5dp</dimen>
+
+    <dimen name="optionsmenu_list_row01_label_padding_left_height">26dp</dimen>
+
+    <!-- 2k16 changes start (2k15: 12dp) -->
+    <dimen name="optionsmenu_list_row01_label_padding_left_width">18dp</dimen>
+    <!-- 2k16 changes end -->
+
+    <dimen name="optionsmenu_list_row01_label_padding_left_x1">63dp</dimen>
+
+    <dimen name="optionsmenu_list_row01_label_padding_left_y1">98dp</dimen>
+
+    <dimen name="optionsmenu_list_row01_label_padding_left_x2">75dp</dimen>
+
+    <dimen name="optionsmenu_list_row01_label_padding_left_y2">124dp</dimen>
+
+    <dimen name="optionsmenu_list_row01_label_padding_right_height">26dp</dimen>
+
+    <dimen name="optionsmenu_list_row01_label_padding_right_width">12dp</dimen>
+
+    <dimen name="optionsmenu_list_row01_label_padding_right_x1">268dp</dimen>
+
+    <dimen name="optionsmenu_list_row01_label_padding_right_y1">98dp</dimen>
+
+    <dimen name="optionsmenu_list_row01_label_padding_right_x2">280dp</dimen>
+
+    <dimen name="optionsmenu_list_row01_label_padding_right_y2">124dp</dimen>
+
+    <dimen name="optionsmenu_list_row02_height">26dp</dimen>
+
+    <dimen name="optionsmenu_list_row02_width">217dp</dimen>
+
+    <dimen name="optionsmenu_list_row02_x1">63dp</dimen>
+
+    <dimen name="optionsmenu_list_row02_y1">130dp</dimen>
+
+    <dimen name="optionsmenu_list_row02_x2">280dp</dimen>
+
+    <dimen name="optionsmenu_list_row02_y2">156dp</dimen>
+
+    <dimen name="optionsmenu_list_row02_label_text_l_height">21dp</dimen>
+
+    <dimen name="optionsmenu_list_row02_label_text_l_width">156dp</dimen>
+
+    <dimen name="optionsmenu_list_row02_label_text_l_x1">75dp</dimen>
+
+    <dimen name="optionsmenu_list_row02_label_text_l_y1">132.5dp</dimen>
+
+    <dimen name="optionsmenu_list_row02_label_text_l_x2">231dp</dimen>
+
+    <dimen name="optionsmenu_list_row02_label_text_l_y2">153.5dp</dimen>
+
+    <dimen name="optionsmenu_list_row02_padding_label_arrow_height">26dp</dimen>
+
+    <!-- 2k16 changes start(2k15:29dp)
+        Actucal padding b/w text and arrow should be 22dp but we gave 20dp padding right to text-->
+    <dimen name="optionsmenu_list_row02_padding_label_arrow_width">2dp</dimen>
+    <!-- 2k16 changes end -->
+
+    <dimen name="optionsmenu_list_row02_padding_label_arrow_x1">243dp</dimen>
+
+    <dimen name="optionsmenu_list_row02_padding_label_arrow_y1">130dp</dimen>
+
+    <dimen name="optionsmenu_list_row02_padding_label_arrow_x2">272dp</dimen>
+
+    <dimen name="optionsmenu_list_row02_padding_label_arrow_y2">156dp</dimen>
+
+    <dimen name="optionsmenu_list_row02_arrow_height">12dp</dimen>
+
+    <dimen name="optionsmenu_list_row02_arrow_width">8dp</dimen>
+
+    <dimen name="optionsmenu_list_row02_arrow_x1">272dp</dimen>
+
+    <dimen name="optionsmenu_list_row02_arrow_y1">136.5dp</dimen>
+
+    <dimen name="optionsmenu_list_row02_arrow_x2">280dp</dimen>
+
+    <dimen name="optionsmenu_list_row02_arrow_y2">148.5dp</dimen>
+
+    <dimen name="optionsmenu_list_item_drawable_padding">4dp</dimen>
+
+    <dimen name="optionsmenu_arrow_top_padding">7dp</dimen>
+
+    <dimen name="optionsmenu_total_arrow_view_width">37dp</dimen>
+
+    <dimen name="optionsmenu_list_item_max_text_width_when_arrow_present">180dp</dimen>
+
+    <dimen name="optionsmenu_npanel_container_y1">98dp</dimen>
 </resources>

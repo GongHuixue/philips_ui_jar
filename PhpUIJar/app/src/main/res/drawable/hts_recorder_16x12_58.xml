@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:drawable="@drawable/hts_recorder_n_ico_16x12_58" android:state_pressed="true"/>
-    <item android:drawable="@drawable/hts_recorder_hl_ico_16x12_58" android:state_focused="true"/>
-    <item android:drawable="@drawable/hts_recorder_hl_ico_16x12_58" android:state_selected="true"/>
-    <item android:drawable="@drawable/hts_recorder_d_ico_16x12_58"/>
+    <item android:drawable="@drawable/hts_recorder_n_ico_16x12_58" android:state_pressed="true" />
+    <item android:drawable="@drawable/hts_recorder_hl_ico_16x12_58" android:state_focused="true" />
+    <item android:drawable="@drawable/hts_recorder_hl_ico_16x12_58" android:state_selected="true" />
+    <item android:drawable="@drawable/hts_recorder_d_ico_16x12_58" />
 
 </selector>

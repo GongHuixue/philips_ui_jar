@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<attr name="inputPicker" format="reference" />
+    <attr name="inputPicker" format="reference" />
     <attr name="VerticalSlider" format="reference" />
     <attr name="ContentExplorerPanelBrowser" format="reference" />
     <attr name="WizardsPanelBrowser" format="reference" />
     <attr name="OptionsPanelBrowser" format="reference" />
     <attr name="IndeterminateProgressBar" format="reference"></attr>
 
- <declare-styleable name="VerticalSlider">
+    <declare-styleable name="VerticalSlider">
         <!-- is this a balanaced slider (1/0) -->
         <attr name="isBalancedSlider" format="boolean" />
         <!-- display the values of the slider on the left or right -->
@@ -29,8 +29,8 @@
         <attr name="sliderBarDrawable" format="reference" />
         <attr name="sliderBarFill" format="reference|color" />
         <attr name="sliderBarWidth" format="dimension" />
-        <attr name="sliderBarHeight" format="dimension" />	
- 		<attr name="upArrowIconDrawable" format="reference" />
+        <attr name="sliderBarHeight" format="dimension" />
+        <attr name="upArrowIconDrawable" format="reference" />
         <attr name="downArrowIconDrawable" format="reference" />
         <attr name="upArrowIconPressedDrawable" format="reference" />
         <attr name="downArrowIconPressedDrawable" format="reference" />
@@ -38,46 +38,46 @@
         <attr name="sliderLabelText" format="reference|string" />
         <attr name="sliderLabelTextStyle" format="reference" />
         <attr name="balancedSliderTopLabelText" format="reference|string" />
-		<attr name="balancedSliderBottomLabelText" format="reference|string" />
-        <attr name = "sliderContainerDrawable" format = "reference"/>
-		
-		<attr name = "sliderContainerWidth" format = "dimension"/>
-		
-		<attr name = "sliderContainerHeight" format = "dimension"/>
-		<attr name="isfMinColorDrawable" format="reference" />
-		<attr name="isfMaxColorDrawable" format="reference" />
-		<attr name="isfHeaderColorDrawable" format="reference" />
-		<attr name="sliderTopLabelText" format="reference|string" />
-		<attr name="sliderBottomLabelText" format="reference|string" />
-		<attr name="sliderCenterLabelText" format="reference|string" />
-		<attr name="isISFSlider" format="boolean" />
-		
+        <attr name="balancedSliderBottomLabelText" format="reference|string" />
+        <attr name="sliderContainerDrawable" format="reference" />
+
+        <attr name="sliderContainerWidth" format="dimension" />
+
+        <attr name="sliderContainerHeight" format="dimension" />
+        <attr name="isfMinColorDrawable" format="reference" />
+        <attr name="isfMaxColorDrawable" format="reference" />
+        <attr name="isfHeaderColorDrawable" format="reference" />
+        <attr name="sliderTopLabelText" format="reference|string" />
+        <attr name="sliderBottomLabelText" format="reference|string" />
+        <attr name="sliderCenterLabelText" format="reference|string" />
+        <attr name="isISFSlider" format="boolean" />
+
     </declare-styleable>
-    
-   <!--  <declare-styleable name="TabButton">
-        Indicates the initial checked state of this TabButton.
-        <attr name="checked" format="boolean" />
-        Drawable used for the TabButton background graphic.
-        <attr name="background" format="reference"/>
-        Drawable used for the TabButton icon graphic.
-        <attr name="iconDrawable" format="reference"/>
-        Title of the TabButton.
-        <attr name="titleText" format="string"/>
-        The Margin between the TabButton background and the title.
-        <attr name="titleTextMargin" format="dimension"/>
-        Font size of the Title of the TabButton.
-        <attr name="fontSize" format="dimension"/>
-        Font color of the Title of the TabButton.
-        <attr name="fontColor" format="color"/>
-        External Font filename for the Title of the TabButton.
-        <attr name="fontName" format="string"/>
-        TabButton icon Animation when it gains focus.
-        <attr name="iconOnFocusAnimation" format="reference" />
-        TabButton icon Animation when it looses focus.
-        <attr name="iconOnLooseFocusAnimation" format="reference" />
-        TabButton background Animation when it gets clicked.
-        <attr name="backgroundOnClickAlphaAnimation" format="reference" />        
-    </declare-styleable> -->
+
+    <!--  <declare-styleable name="TabButton">
+         Indicates the initial checked state of this TabButton.
+         <attr name="checked" format="boolean" />
+         Drawable used for the TabButton background graphic.
+         <attr name="background" format="reference"/>
+         Drawable used for the TabButton icon graphic.
+         <attr name="iconDrawable" format="reference"/>
+         Title of the TabButton.
+         <attr name="titleText" format="string"/>
+         The Margin between the TabButton background and the title.
+         <attr name="titleTextMargin" format="dimension"/>
+         Font size of the Title of the TabButton.
+         <attr name="fontSize" format="dimension"/>
+         Font color of the Title of the TabButton.
+         <attr name="fontColor" format="color"/>
+         External Font filename for the Title of the TabButton.
+         <attr name="fontName" format="string"/>
+         TabButton icon Animation when it gains focus.
+         <attr name="iconOnFocusAnimation" format="reference" />
+         TabButton icon Animation when it looses focus.
+         <attr name="iconOnLooseFocusAnimation" format="reference" />
+         TabButton background Animation when it gets clicked.
+         <attr name="backgroundOnClickAlphaAnimation" format="reference" />
+     </declare-styleable> -->
     <declare-styleable name="PanelBrowser">
         <attr name="nPbEnableAnimation" format="boolean" />
         <attr name="nPbFirstPanelWidth" format="dimension" />
@@ -98,28 +98,28 @@
         <attr name="android:entries" />
     </declare-styleable>
 
-   <!--  <declare-styleable name="TabButtonGroup">
-        The id of the child TabButton that should be checked by default within this TabGroup.
-        <attr name="checkedTabButton" format="integer" />
-        Drawable used for the TabButton highlite fraphic.
-        <attr name="focusHighlite" format="reference" />        
-        Drawable used for all the TabButton background graphic.
-        <attr name="tabButtonBackground" format="reference"/>
-        TabButton title Animation when it gets selected.
-        <attr name="tabButtonOnCheckedTitleAnimation" format="reference" />
-        TabButton title Animation when it gets deselected.
-        <attr name="tabButtonOnUncheckedTitleAnimation" format="reference" />
-        All TabButton icon Animation when it gains focus.
-        <attr name="tabButtonIconOnFocusAnimation" format="reference" />
-        All TabButton icon Animation when it looses focus.
-        <attr name="tabButtonIconOnLooseFocusAnimation" format="reference" />
-        All TabButton background Animation when it gets clicked.
-        <attr name="tabButtonBackgroundOnClickAlphaAnimation" format="reference" />        
-        Animation when hidding the TabButton group.
-        <attr name="hideAnimation" format="reference" />
-        Animation when Showing the TabButton group.
-        <attr name="showAnimation" format="reference" />
-    </declare-styleable> -->
+    <!--  <declare-styleable name="TabButtonGroup">
+         The id of the child TabButton that should be checked by default within this TabGroup.
+         <attr name="checkedTabButton" format="integer" />
+         Drawable used for the TabButton highlite fraphic.
+         <attr name="focusHighlite" format="reference" />
+         Drawable used for all the TabButton background graphic.
+         <attr name="tabButtonBackground" format="reference"/>
+         TabButton title Animation when it gets selected.
+         <attr name="tabButtonOnCheckedTitleAnimation" format="reference" />
+         TabButton title Animation when it gets deselected.
+         <attr name="tabButtonOnUncheckedTitleAnimation" format="reference" />
+         All TabButton icon Animation when it gains focus.
+         <attr name="tabButtonIconOnFocusAnimation" format="reference" />
+         All TabButton icon Animation when it looses focus.
+         <attr name="tabButtonIconOnLooseFocusAnimation" format="reference" />
+         All TabButton background Animation when it gets clicked.
+         <attr name="tabButtonBackgroundOnClickAlphaAnimation" format="reference" />
+         Animation when hidding the TabButton group.
+         <attr name="hideAnimation" format="reference" />
+         Animation when Showing the TabButton group.
+         <attr name="showAnimation" format="reference" />
+     </declare-styleable> -->
     <!-- filters -->
 
     <declare-styleable name="ColorKeys">
@@ -136,12 +136,12 @@
         <!-- Label for the Help color key. -->
         <attr name="colorKeyOptionsText" format="string" />
     </declare-styleable>
-    
+
     <declare-styleable name="DefaultListView">
-         <attr name="setRowWidth" format="integer" />
-         <attr name="setRowHeight" format="integer" />
+        <attr name="setRowWidth" format="integer" />
+        <attr name="setRowHeight" format="integer" />
     </declare-styleable>
-    
+
     <declare-styleable name="PowerMeter">
         <attr name="PowerMeterLabel" format="string" />
         <attr name="PowerMeterLabelStyle" format="reference" />
@@ -158,81 +158,81 @@
         <attr name="PowerMeterTextBottmPadding" format="dimension" />
         <attr name="PowerMeterIconTopPadding" format="dimension" />
         <attr name="PowerMeterIconBottomPadding" format="dimension" />
-        
+
     </declare-styleable>
-    
+
     <declare-styleable name="verticalText">
-         <attr name="verticalTextTopPadding_1" format="integer" />
+        <attr name="verticalTextTopPadding_1" format="integer" />
     </declare-styleable>
-    <declare-styleable name="inputPicker"> 
-	<!-- The drawable for top -->
- 	<attr format="reference" name="inputPickerUpIndicator"/> 
- 	<attr format="reference" name="inputPickerUpIndicatorsel"/>
- 	<attr format="reference" name="inputPickerUpIndicatorAct"/> 
- 	<attr format="reference" name="inputPickerDownIndicatorAct"/>
- 	
-	<!-- The drawable for bottom -->
- 	<attr format="reference" name="inputPickerDownIndicator"/> 
- 	<attr format="reference" name="inputPickerDownIndicatorsel"/> 
-	<!-- The Label Name -->
-	<attr format="string" name="inputPickerLabelName"/> 
-	<!-- The max value for the picker -->
-	<attr format="integer" name="inputPickerMaxValue"/> 
-	<!-- The min value for the picker -->
-	<attr format="integer" name="inputPickerMinValue"/> 
-	<!-- The currentValue for the picker -->
- 	<attr format="integer" name="inputPickerCurrValue"/> 
-	<!-- The drawable for background -->
-	<attr format="reference" name="inputPickerbgDrawable"/> 
- 	<attr format="reference" name="inputPickerDisplayTextStyle"/> 
- 	<attr format="reference" name="inputPickerLabelTextStyle"/> 
-	<attr name="overrideInputPicker" format="boolean" />
-	<attr name="inputPickerUpArrowBgDrawable" format="reference" />
-	<attr name="inputPickerDownArrowBgDrawable" format="reference" />
-	<attr name="inputPickerDrawableWidth" format="dimension" />
-	<attr format="boolean" name="enableLeadingZero"/>
- </declare-styleable>
- 
-  <declare-styleable name="radioselector">
-         <attr name="radioselectorDrawable" format="reference" />
+    <declare-styleable name="inputPicker">
+        <!-- The drawable for top -->
+        <attr format="reference" name="inputPickerUpIndicator" />
+        <attr format="reference" name="inputPickerUpIndicatorsel" />
+        <attr format="reference" name="inputPickerUpIndicatorAct" />
+        <attr format="reference" name="inputPickerDownIndicatorAct" />
+
+        <!-- The drawable for bottom -->
+        <attr format="reference" name="inputPickerDownIndicator" />
+        <attr format="reference" name="inputPickerDownIndicatorsel" />
+        <!-- The Label Name -->
+        <attr format="string" name="inputPickerLabelName" />
+        <!-- The max value for the picker -->
+        <attr format="integer" name="inputPickerMaxValue" />
+        <!-- The min value for the picker -->
+        <attr format="integer" name="inputPickerMinValue" />
+        <!-- The currentValue for the picker -->
+        <attr format="integer" name="inputPickerCurrValue" />
+        <!-- The drawable for background -->
+        <attr format="reference" name="inputPickerbgDrawable" />
+        <attr format="reference" name="inputPickerDisplayTextStyle" />
+        <attr format="reference" name="inputPickerLabelTextStyle" />
+        <attr name="overrideInputPicker" format="boolean" />
+        <attr name="inputPickerUpArrowBgDrawable" format="reference" />
+        <attr name="inputPickerDownArrowBgDrawable" format="reference" />
+        <attr name="inputPickerDrawableWidth" format="dimension" />
+        <attr format="boolean" name="enableLeadingZero" />
     </declare-styleable>
-    
+
+    <declare-styleable name="radioselector">
+        <attr name="radioselectorDrawable" format="reference" />
+    </declare-styleable>
+
     <declare-styleable name="checkboxselector">
-         <attr name="checkboxselectorDrawable" format="reference" />
+        <attr name="checkboxselectorDrawable" format="reference" />
     </declare-styleable>
     <declare-styleable name="InputPinEntryTextField">
-         <attr name="maxLength" format="integer" />
-     </declare-styleable>
-	 <declare-styleable name="input_arrow">
+        <attr name="maxLength" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="input_arrow">
         <attr name="state_pressed_down" format="boolean" />
         <attr name="state_pressed_up" format="boolean" />
     </declare-styleable>
-	<declare-styleable name="slow_play_control">
+    <declare-styleable name="slow_play_control">
         <attr name="invert_positions" format="boolean" />
     </declare-styleable>
-	
-	
-	<!-- Start: TopNavigation styleable -->
-	<declare-styleable name="TopNavigation">
+
+
+    <!-- Start: TopNavigation styleable -->
+    <declare-styleable name="TopNavigation">
         <attr name="itemIcon" format="reference" />
         <attr name="itemDescription" format="reference|string" />
         <attr name="itemId" format="reference|string" />
         <attr name="itemBackground" format="reference" />
     </declare-styleable>
-	<!-- Start: TopNavigation styleable -->
-	
-	<!-- Start: FilterBar styleable -->
-	<declare-styleable name="FilterBar">
+    <!-- Start: TopNavigation styleable -->
+
+    <!-- Start: FilterBar styleable -->
+    <declare-styleable name="FilterBar">
         <attr name="filterId" format="integer" />
         <attr name="value" format="string" />
         <attr name="drawable" format="reference" />
         <attr name="checked" format="boolean" />
         <attr name="clearOthers" format="boolean" />
     </declare-styleable>
-	<!-- Start: FilterBar styleable --> 
+    <!-- Start: FilterBar styleable -->
 
-	<!-- Start: Drawer styleable -->
-	<declare-styleable name="drawer">
+    <!-- Start: Drawer styleable -->
+    <declare-styleable name="drawer">
         <attr name="title" format="reference" />
         <attr name="titleVisibility" format="boolean" />
         <attr name="icon" format="reference" />
@@ -244,9 +244,9 @@
         <attr name="metadataViewVisibility" format="boolean" />
         <attr name="secondaryView" format="reference" />
     </declare-styleable>
-	<!-- Start: FilterBar styleable --> 
-	
-	 <!-- This state is used to distinguse the active/non-active channel drwables -->
+    <!-- Start: FilterBar styleable -->
+
+    <!-- This state is used to distinguse the active/non-active channel drwables -->
     <declare-styleable name="Playback">
         <attr name="speed_control_14x" format="boolean" />
         <attr name="speed_control_12x" format="boolean" />
@@ -258,7 +258,7 @@
         <attr name="speed_control_fwd_normal" format="boolean" />
         <attr name="speed_control_rwd_normal" format="boolean" />
     </declare-styleable>
-	<declare-styleable name="BrowseGrid">
+    <declare-styleable name="BrowseGrid">
         <attr name="selectedPosition" format="integer" />
         <attr name="displayMode">
             <enum name="normal" value="1" />
@@ -276,13 +276,13 @@
             <enum name="NowOnTvGridSimple" value="6" />
             <enum name="FreeViewGrid" value="7" />
         </attr>
-    </declare-styleable>	
+    </declare-styleable>
 
 
     <declare-styleable name="RefcountImageView">
         <attr name="autoUnrefOnDetach" format="boolean" />
     </declare-styleable>
-<declare-styleable name="ScrollAdapterView">
+    <declare-styleable name="ScrollAdapterView">
 
         <attr name="orientation">
             <enum name="horizontal" value="0" />
@@ -332,7 +332,7 @@
             <!-- keep scroll center as a fixed distance from left/top -->
             <enum name="fixed" value="1" />
             <!-- keep scroll center offset from the center of the view -->
-            <enum name="fixedPercent" value="2"/>
+            <enum name="fixedPercent" value="2" />
             <!-- keep scroll center as a fixed distance from right/bottom -->
             <enum name="fixedToEnd" value="3" />
         </attr>
@@ -387,13 +387,13 @@
         <attr name="navigateInAnimationAllowed" format="boolean" />
 
     </declare-styleable>
-	
-	<!-- Declared for EPG guide-->
-	<declare-styleable name="state_guide">
+
+    <!-- Declared for EPG guide-->
+    <declare-styleable name="state_guide">
         <attr name="state_selected_guide" format="boolean" />
     </declare-styleable>
-	
-	<!-- ============= 2K16 Card View ============= -->
+
+    <!-- ============= 2K16 Card View ============= -->
     <declare-styleable name="CardView">
         <attr name="card_width" format="dimension" />
         <attr name="card_height" format="dimension" />
@@ -412,7 +412,7 @@
         <attr name="secondaryTextHighlightedMarginLeft" format="dimension" />
         <attr name="secondaryTextHighlightedMarginTop" format="dimension" />
         <attr name="secondaryTextHighlightedMarginRight" format="dimension" />
-	<attr name="primaryTextMarginEnd" format="dimension" />
+        <attr name="primaryTextMarginEnd" format="dimension" />
         <attr name="progressBarHeight" format="dimension" />
         <attr name="mediaIconWidth" format="dimension" />
         <attr name="mediaIconHeight" format="dimension" />

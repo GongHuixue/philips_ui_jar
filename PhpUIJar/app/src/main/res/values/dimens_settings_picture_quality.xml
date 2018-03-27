@@ -1,594 +1,835 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--Fri Dec 12 2014 16:59:41 GMT+0530-->
+<?xml version="1.0" encoding="utf-8"?><!--Fri Dec 12 2014 16:59:41 GMT+0530-->
 <resources>
-<!--Layout_Settings_Picture_Quality_v2.1.psd-->
-<dimen name="settings_picture_quality_top_gradient_height">84dp</dimen>
+    <!--Layout_Settings_Picture_Quality_v2.1.psd-->
+    <dimen name="settings_picture_quality_top_gradient_height">84dp</dimen>
 
-<dimen name="settings_picture_quality_top_gradient_width">960dp</dimen>
+    <dimen name="settings_picture_quality_top_gradient_width">960dp</dimen>
 
-<dimen name="settings_picture_quality_top_gradient_x1">0dp</dimen>
+    <dimen name="settings_picture_quality_top_gradient_x1">0dp</dimen>
 
-<dimen name="settings_picture_quality_top_gradient_y1">0dp</dimen>
+    <dimen name="settings_picture_quality_top_gradient_y1">0dp</dimen>
 
-<dimen name="settings_picture_quality_top_gradient_x2">960dp</dimen>
+    <dimen name="settings_picture_quality_top_gradient_x2">960dp</dimen>
 
-<dimen name="settings_picture_quality_top_gradient_y2">84dp</dimen>
+    <dimen name="settings_picture_quality_top_gradient_y2">84dp</dimen>
 
-<dimen name="settings_picture_quality_header_text_height">25dp</dimen>
+    <dimen name="settings_picture_quality_header_text_height">25dp</dimen>
 
-<dimen name="settings_picture_quality_header_text_width">460dp</dimen>
+    <dimen name="settings_picture_quality_header_text_width">460dp</dimen>
 
-<dimen name="settings_picture_quality_header_text_x1">20dp</dimen>
+    <dimen name="settings_picture_quality_header_text_x1">20dp</dimen>
 
-<dimen name="settings_picture_quality_header_text_y1">27dp</dimen>
+    <dimen name="settings_picture_quality_header_text_y1">27dp</dimen>
 
-<dimen name="settings_picture_quality_header_text_x2">480dp</dimen>
+    <dimen name="settings_picture_quality_header_text_x2">480dp</dimen>
 
-<dimen name="settings_picture_quality_header_text_y2">52dp</dimen>
+    <dimen name="settings_picture_quality_header_text_y2">52dp</dimen>
 
-<dimen name="settings_picture_quality_colorkey_bar_height">44dp</dimen>
+    <dimen name="settings_picture_quality_colorkey_bar_height">44dp</dimen>
 
-<dimen name="settings_picture_quality_colorkey_bar_width">960dp</dimen>
+    <dimen name="settings_picture_quality_colorkey_bar_width">960dp</dimen>
 
-<dimen name="settings_picture_quality_colorkey_bar_x1">0dp</dimen>
+    <dimen name="settings_picture_quality_colorkey_bar_x1">0dp</dimen>
 
-<dimen name="settings_picture_quality_colorkey_bar_y1">496dp</dimen>
+    <dimen name="settings_picture_quality_colorkey_bar_y1">496dp</dimen>
 
-<dimen name="settings_picture_quality_colorkey_bar_x2">960dp</dimen>
+    <dimen name="settings_picture_quality_colorkey_bar_x2">960dp</dimen>
 
-<dimen name="settings_picture_quality_colorkey_bar_y2">540dp</dimen>
+    <dimen name="settings_picture_quality_colorkey_bar_y2">540dp</dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_height">362dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_height">362dp</dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_width">960dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_width">960dp</dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_x1">0dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_x1">0dp</dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_y1">98dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_y1">98dp</dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_x2">960dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_x2">960dp</dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_y2">460dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_y2">460dp</dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_stacks_height">362dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_stacks_height">362dp</dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_stacks_width">88dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_stacks_width">88dp</dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_stacks_x1">0dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_stacks_x1">0dp</dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_stacks_y1">98dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_stacks_y1">98dp</dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_stacks_x2">88dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_stacks_x2">88dp</dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_stacks_y2">460dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_stacks_y2">460dp</dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_list_container_height">362dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_list_container_height">362dp</dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_list_container_width">298dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_list_container_width">298dp</dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_list_container_x1">88dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_list_container_x1">88dp</dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_list_container_y1">98dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_list_container_y1">98dp</dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_list_container_x2">386dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_list_container_x2">386dp</dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_list_container_y2">460dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_list_container_y2">460dp</dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_list_row_height">30dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_list_row_height">30dp</dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_list_row_width">298dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_list_row_width">298dp</dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_list_row_x1">96dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_list_row_x1">96dp</dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_list_row_y1">98dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_list_row_y1">98dp</dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_list_row_x2">366dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_list_row_x2">366dp</dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_list_row_y2">124dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_list_row_y2">124dp</dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_list_row_margin_bottom_height">2dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_list_row_margin_bottom_height">2dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_list_row_margin_bottom_width">5dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_list_row_margin_bottom_width">5dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_list_row_margin_bottom_x1">96dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_list_row_margin_bottom_x1">96dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_list_row_margin_bottom_y1">124dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_list_row_margin_bottom_y1">124dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_list_row_margin_bottom_x2">101dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_list_row_margin_bottom_x2">101dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_list_row_margin_bottom_y2">129dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_list_row_margin_bottom_y2">129dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_list_row_margin_left_height">8dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_list_row_margin_left_height">8dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_list_row_margin_left_width">8dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_list_row_margin_left_width">8dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_list_row_margin_left_x1">88dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_list_row_margin_left_x1">88dp</dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_list_row_margin_left_y1">98dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_list_row_margin_left_y1">98dp</dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_list_row_margin_left_x2">96dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_list_row_margin_left_x2">96dp</dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_list_row_margin_left_y2">106dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_list_row_margin_left_y2">106dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_height">362dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_height">362dp</dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_width">573dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_width">573dp</dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_x1">387dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_x1">387dp</dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_y1">98dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_y1">98dp</dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_x2">960dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_x2">960dp</dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_y2">460dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_y2">460dp</dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_padding_left_height">20dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_padding_left_height">
+        20dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_padding_left_width">20dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_padding_left_width">
+        20dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_padding_left_x1">387dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_padding_left_x1">387dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_padding_left_y1">98dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_padding_left_y1">98dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_padding_left_x2">407dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_padding_left_x2">407dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_padding_left_y2">118dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_padding_left_y2">118dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_padding_right_height">20dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_padding_right_height">
+        20dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_padding_right_width">20dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_padding_right_width">
+        20dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_padding_right_x1">940dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_padding_right_x1">
+        940dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_padding_right_y1">98dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_padding_right_y1">98dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_padding_right_x2">960dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_padding_right_x2">
+        960dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_padding_right_y2">118dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_padding_right_y2">
+        118dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_title_text_height">22dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_title_text_height">
+        22dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_title_text_width">533dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_title_text_width">
+        533dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_title_text_x1">407dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_title_text_x1">
+        407dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_title_text_y1">98dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_title_text_y1">
+        98dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_title_text_x2">940dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_title_text_x2">
+        940dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_title_text_y2">120dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_title_text_y2">
+        120dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_title_padding_bottom_height">16dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_title_padding_bottom_height">
+        16dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_title_padding_bottom_width">16dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_title_padding_bottom_width">
+        16dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_title_padding_bottom_x1">407dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_title_padding_bottom_x1">
+        407dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_title_padding_bottom_y1">114dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_title_padding_bottom_y1">
+        114dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_title_padding_bottom_x2">423dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_title_padding_bottom_x2">
+        423dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_title_padding_bottom_y2">130dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_title_padding_bottom_y2">
+        130dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_text_height">58.5dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_text_height">
+        58.5dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_text_width">533dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_text_width">533dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_text_x1">407dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_text_x1">407dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_text_y1">130dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_text_y1">130dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_text_x2">940dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_text_x2">940dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_text_y2">188.5dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_text_y2">188.5dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image01_height">136dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image01_height">
+        136dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image01_width">264dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image01_width">
+        264dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image01_x1">407dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image01_x1">407dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image01_y1">205dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image01_y1">205dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image01_x2">671dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image01_x2">671dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image01_y2">341dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image01_y2">341dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image02_height">136dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image02_height">
+        136dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image02_width">264dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image02_width">
+        264dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image02_x1">676dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image02_x1">676dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image02_y1">205dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image02_y1">205dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image02_x2">940dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image02_x2">940dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image02_y2">341dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image02_y2">341dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image_margin_top_height">16dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image_margin_top_height">
+        16dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image_margin_top_width">16dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image_margin_top_width">
+        16dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image_margin_top_x1">407dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image_margin_top_x1">
+        407dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image_margin_top_y1">189dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image_margin_top_y1">
+        189dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image_margin_top_x2">423dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image_margin_top_x2">
+        423dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image_margin_top_y2">205dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image_margin_top_y2">
+        205dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image01_margin_right_height">5dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image01_margin_right_height">
+        5dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image01_margin_right_width">5dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image01_margin_right_width">
+        5dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image01_margin_right_x1">671dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image01_margin_right_x1">
+        671dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image01_margin_right_y1">205dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image01_margin_right_y1">
+        205dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image01_margin_right_x2">676dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image01_margin_right_x2">
+        676dp
+    </dimen>
 
-<dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image01_margin_right_y2">210dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_container_02_hint_image01_margin_right_y2">
+        210dp
+    </dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_height">362dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_height">362dp</dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_width">960dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_width">960dp</dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_x1">0dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_x1">0dp</dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_y1">98dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_y1">98dp</dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_x2">960dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_x2">960dp</dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_y2">460dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_y2">460dp</dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_stacks_height">362dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_stacks_height">362dp</dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_stacks_width">88dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_stacks_width">88dp</dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_stacks_x1">0dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_stacks_x1">0dp</dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_stacks_y1">98dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_stacks_y1">98dp</dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_stacks_x2">88dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_stacks_x2">88dp</dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_stacks_y2">460dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_stacks_y2">460dp</dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_list_container_height">362dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_list_container_height">362dp</dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_list_container_width">298dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_list_container_width">298dp</dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_list_container_x1">88dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_list_container_x1">88dp</dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_list_container_y1">98dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_list_container_y1">98dp</dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_list_container_x2">386dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_list_container_x2">386dp</dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_list_container_y2">460dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_list_container_y2">460dp</dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_list_container_divider_height">362dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_list_container_divider_height">362dp
+    </dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_list_container_divider_width">1dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_list_container_divider_width">1dp
+    </dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_list_container_divider_x1">386dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_list_container_divider_x1">386dp
+    </dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_list_container_divider_y1">98dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_list_container_divider_y1">98dp
+    </dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_list_container_divider_x2">387dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_list_container_divider_x2">387dp
+    </dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_list_container_divider_y2">460dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_list_container_divider_y2">460dp
+    </dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_02_height">362dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_02_height">362dp</dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_02_width">573dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_02_width">573dp</dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_02_x1">387dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_02_x1">387dp</dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_02_y1">98dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_02_y1">98dp</dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_02_x2">960dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_02_x2">960dp</dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_02_y2">460dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_02_y2">460dp</dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_02_padding_left_height">20dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_02_padding_left_height">
+        20dp
+    </dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_02_padding_left_width">20dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_02_padding_left_width">
+        20dp
+    </dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_02_padding_left_x1">387dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_02_padding_left_x1">387dp
+    </dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_02_padding_left_y1">98dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_02_padding_left_y1">98dp
+    </dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_02_padding_left_x2">407dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_02_padding_left_x2">407dp
+    </dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_02_padding_left_y2">118dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_02_padding_left_y2">118dp
+    </dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_02_slider_red_height">322dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_02_slider_red_height">
+        322dp
+    </dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_02_slider_red_width">112dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_02_slider_red_width">112dp
+    </dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_02_slider_red_x1">407.5dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_02_slider_red_x1">407.5dp
+    </dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_02_slider_red_y1">98dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_02_slider_red_y1">98dp
+    </dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_02_slider_red_x2">519.5dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_02_slider_red_x2">519.5dp
+    </dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_02_slider_red_y2">420dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_02_slider_red_y2">420dp
+    </dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_02_slider_green_height">322dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_02_slider_green_height">
+        322dp
+    </dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_02_slider_green_width">112dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_02_slider_green_width">
+        112dp
+    </dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_02_slider_green_x1">519.5dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_02_slider_green_x1">
+        519.5dp
+    </dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_02_slider_green_y1">98dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_02_slider_green_y1">98dp
+    </dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_02_slider_green_x2">631.5dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_02_slider_green_x2">
+        631.5dp
+    </dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_02_slider_green_y2">420dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_02_slider_green_y2">420dp
+    </dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_02_slider_blue_height">322dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_02_slider_blue_height">
+        322dp
+    </dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_02_slider_blue_width">112dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_02_slider_blue_width">
+        112dp
+    </dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_02_slider_blue_x1">631.5dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_02_slider_blue_x1">631.5dp
+    </dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_02_slider_blue_y1">98dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_02_slider_blue_y1">98dp
+    </dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_02_slider_blue_x2">743.5dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_02_slider_blue_x2">743.5dp
+    </dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_02_slider_blue_y2">420dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_02_slider_blue_y2">420dp
+    </dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_02_padding_right_height">20dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_02_padding_right_height">
+        20dp
+    </dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_02_padding_right_width">20dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_02_padding_right_width">
+        20dp
+    </dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_02_padding_right_x1">940dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_02_padding_right_x1">940dp
+    </dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_02_padding_right_y1">98dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_02_padding_right_y1">98dp
+    </dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_02_padding_right_x2">960dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_02_padding_right_x2">960dp
+    </dimen>
 
-<dimen name="settings_picture_quality_second_level_npanel_container_02_padding_right_y2">118dp</dimen>
+    <dimen name="settings_picture_quality_second_level_npanel_container_02_padding_right_y2">118dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_height">362dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_height">362dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_width">960dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_width">960dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_x1">0dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_x1">0dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_y1">98dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_y1">98dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_x2">960dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_x2">960dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_y2">460dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_y2">460dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_stacks_height">362dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_stacks_height">362dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_stacks_width">88dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_stacks_width">88dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_stacks_x1">0dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_stacks_x1">0dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_stacks_y1">98dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_stacks_y1">98dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_stacks_x2">88dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_stacks_x2">88dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_stacks_y2">460dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_stacks_y2">460dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_01_height">362dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_01_height">362dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_01_width">376dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_01_width">376dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_01_x1">88dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_01_x1">88dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_01_y1">98dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_01_y1">98dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_01_x2">464dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_01_x2">464dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_01_y2">460dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_01_y2">460dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_01_padding_left_height">20dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_01_padding_left_height">
+        20dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_01_padding_left_width">20dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_01_padding_left_width">20dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_01_padding_left_x1">88dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_01_padding_left_x1">88dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_01_padding_left_y1">98dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_01_padding_left_y1">98dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_01_padding_left_x2">108dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_01_padding_left_x2">108dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_01_padding_left_y2">118dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_01_padding_left_y2">118dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_01_padding_right_height">20dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_01_padding_right_height">
+        20dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_01_padding_right_width">20dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_01_padding_right_width">
+        20dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_01_padding_right_x1">594dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_01_padding_right_x1">594dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_01_padding_right_y1">98dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_01_padding_right_y1">98dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_01_padding_right_x2">614dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_01_padding_right_x2">614dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_01_padding_right_y2">118dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_01_padding_right_y2">118dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_01_slider_red_height">322dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_01_slider_red_height">322dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_01_slider_red_width">112dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_01_slider_red_width">112dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_01_slider_red_x1">108dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_01_slider_red_x1">108dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_01_slider_red_y1">98dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_01_slider_red_y1">98dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_01_slider_red_x2">220dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_01_slider_red_x2">220dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_01_slider_red_y2">420dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_01_slider_red_y2">420dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_01_slider_green_height">322dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_01_slider_green_height">
+        322dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_01_slider_green_width">112dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_01_slider_green_width">
+        112dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_01_slider_green_x1">220dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_01_slider_green_x1">220dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_01_slider_green_y1">98dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_01_slider_green_y1">98dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_01_slider_green_x2">332dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_01_slider_green_x2">332dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_01_slider_green_y2">420dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_01_slider_green_y2">420dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_01_slider_blue_height">322dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_01_slider_blue_height">
+        322dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_01_slider_blue_width">112dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_01_slider_blue_width">112dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_01_slider_blue_x1">332dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_01_slider_blue_x1">332dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_01_slider_blue_y1">98dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_01_slider_blue_y1">98dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_01_slider_blue_x2">444dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_01_slider_blue_x2">444dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_01_slider_blue_y2">420dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_01_slider_blue_y2">420dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_02_height">362dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_02_height">362dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_02_width">346dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_02_width">346dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_02_x1">614dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_02_x1">614dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_02_y1">98dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_02_y1">98dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_02_x2">960dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_02_x2">960dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_02_y2">460dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_02_y2">460dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_02_padding_right_height">20dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_02_padding_right_height">
+        20dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_02_padding_right_width">20dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_02_padding_right_width">
+        20dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_02_padding_right_x1">940dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_02_padding_right_x1">940dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_02_padding_right_y1">98dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_02_padding_right_y1">98dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_02_padding_right_x2">960dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_02_padding_right_x2">960dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_02_padding_right_y2">118dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_02_padding_right_y2">118dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_02_hint_title_text_height">22dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_02_hint_title_text_height">
+        22dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_02_hint_title_text_width">428dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_02_hint_title_text_width">
+        428dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_02_hint_title_text_x1">464dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_02_hint_title_text_x1">
+        464dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_02_hint_title_text_y1">98dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_02_hint_title_text_y1">98dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_02_hint_title_text_x2">892dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_02_hint_title_text_x2">
+        892dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_02_hint_title_text_y2">120dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_02_hint_title_text_y2">
+        120dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_02_hint_text_height">180dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_02_hint_text_height">180dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_02_hint_text_width">428dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_02_hint_text_width">428dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_02_hint_text_x1">464dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_02_hint_text_x1">464dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_02_hint_text_y1">130dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_02_hint_text_y1">130dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_02_hint_text_x2">892dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_02_hint_text_x2">892dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_npanel_container_02_hint_text_y2">310dp</dimen>
+    <dimen name="settings_picture_quality_third_level_npanel_container_02_hint_text_y2">310dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_main_container_height">540dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_main_container_height">540dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_main_container_width">290dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_main_container_width">290dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_main_container_x1">0dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_main_container_x1">0dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_main_container_y1">0dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_main_container_y1">0dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_main_container_x2">290dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_main_container_x2">290dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_main_container_y2">540dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_main_container_y2">540dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_npanel_container_height">362dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_npanel_container_height">362dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_npanel_container_width">290dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_npanel_container_width">290dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_npanel_container_x1">0dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_npanel_container_x1">0dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_npanel_container_y1">98dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_npanel_container_y1">98dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_npanel_container_x2">290dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_npanel_container_x2">290dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_npanel_container_y2">460dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_npanel_container_y2">460dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_npanel_stacks_height">362dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_npanel_stacks_height">362dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_npanel_stacks_width">88dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_npanel_stacks_width">88dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_npanel_stacks_x1">0dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_npanel_stacks_x1">0dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_npanel_stacks_y1">98dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_npanel_stacks_y1">98dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_npanel_stacks_x2">88dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_npanel_stacks_x2">88dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_npanel_stacks_y2">460dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_npanel_stacks_y2">460dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_container_height">362dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_container_height">362dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_container_width">202dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_container_width">202dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_container_x1">88dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_container_x1">88dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_container_y1">98dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_container_y1">98dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_container_x2">290dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_container_x2">290dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_container_y2">460dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_container_y2">460dp</dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_npanel_container_slider_height">322dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_npanel_container_slider_height">
+        322dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_npanel_container_slider_width">112dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_npanel_container_slider_width">
+        112dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_npanel_container_slider_x1">133dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_npanel_container_slider_x1">133dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_npanel_container_slider_y1">98dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_npanel_container_slider_y1">98dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_npanel_container_slider_x2">245dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_npanel_container_slider_x2">245dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_npanel_container_slider_y2">420dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_npanel_container_slider_y2">420dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_npanel_container_slider_padding_left_height">45dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_npanel_container_slider_padding_left_height">
+        45dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_npanel_container_slider_padding_left_width">45dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_npanel_container_slider_padding_left_width">
+        45dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_npanel_container_slider_padding_left_x1">88dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_npanel_container_slider_padding_left_x1">
+        88dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_npanel_container_slider_padding_left_y1">98dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_npanel_container_slider_padding_left_y1">
+        98dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_npanel_container_slider_padding_left_x2">133dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_npanel_container_slider_padding_left_x2">
+        133dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_npanel_container_slider_padding_left_y2">143dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_npanel_container_slider_padding_left_y2">
+        143dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_npanel_container_slider_padding_right_height">45dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_npanel_container_slider_padding_right_height">
+        45dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_npanel_container_slider_padding_right_width">45dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_npanel_container_slider_padding_right_width">
+        45dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_npanel_container_slider_padding_right_x1">245dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_npanel_container_slider_padding_right_x1">
+        245dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_npanel_container_slider_padding_right_y1">98dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_npanel_container_slider_padding_right_y1">
+        98dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_npanel_container_slider_padding_right_x2">290dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_npanel_container_slider_padding_right_x2">
+        290dp
+    </dimen>
 
-<dimen name="settings_picture_quality_third_level_collapsed_npanel_container_slider_padding_right_y2">228dp</dimen>
+    <dimen name="settings_picture_quality_third_level_collapsed_npanel_container_slider_padding_right_y2">
+        228dp
+    </dimen>
 
-<dimen name="settings_list_ypos_from_top">43dp</dimen>
-<!--customised-->
+    <dimen name="settings_list_ypos_from_top">43dp</dimen>
+    <!--customised-->
 
-<dimen name="settings_picture_quality_picture_style_npanel_1_right_padding">22dp</dimen><!-- settings_picture_quality_picture_style_npanel_container_02_padding_left_x1 - settings_picture_quality_picture_style_npanel_list_row_x2 -->
-<dimen name="settings_picture_quality_picture_style_npanel_container_padding">18dp</dimen>
-<dimen name="settings_picture_quality_container_row_fadingedge_length">42dp</dimen>
-<dimen name="settings_picture_quality_container_row_padding">4dp</dimen>
-<dimen name="settings_picture_quality_container_row_padding_sides">12dp</dimen>
-<dimen name="settings_picture_quality_container_scrollbar_padddingRight">2dp</dimen>
-<dimen name="settings_picture_quality_container_scrollbar_padddingLeft">2dp</dimen>
-<dimen name="settings_picture_quality_container_row_arrow_marginRight">18dp</dimen>
-<dimen name="settings_picture_quality_hint_panel_with_stack_width">609dp</dimen>
-<dimen name="settings_picture_quality_container_text_paddingRight">23dp</dimen>
+    <dimen name="settings_picture_quality_picture_style_npanel_1_right_padding">22dp
+    </dimen><!-- settings_picture_quality_picture_style_npanel_container_02_padding_left_x1 - settings_picture_quality_picture_style_npanel_list_row_x2 -->
+    <dimen name="settings_picture_quality_picture_style_npanel_container_padding">18dp</dimen>
+    <dimen name="settings_picture_quality_container_row_fadingedge_length">42dp</dimen>
+    <dimen name="settings_picture_quality_container_row_padding">4dp</dimen>
+    <dimen name="settings_picture_quality_container_row_padding_sides">12dp</dimen>
+    <dimen name="settings_picture_quality_container_scrollbar_padddingRight">2dp</dimen>
+    <dimen name="settings_picture_quality_container_scrollbar_padddingLeft">2dp</dimen>
+    <dimen name="settings_picture_quality_container_row_arrow_marginRight">18dp</dimen>
+    <dimen name="settings_picture_quality_hint_panel_with_stack_width">609dp</dimen>
+    <dimen name="settings_picture_quality_container_text_paddingRight">23dp</dimen>
 </resources>

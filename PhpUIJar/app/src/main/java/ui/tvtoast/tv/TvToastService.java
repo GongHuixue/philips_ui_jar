@@ -319,7 +319,7 @@ public class TvToastService extends Service implements OnKeyListener, MessageSta
 		 */
         mUiHandler.removeMessages(UiHandler.MESSAGE_REMOVE_TV_TOAST_VIEW_IF_ADDED);
         mUiHandler.sendEmptyMessage(UiHandler.MESSAGE_REMOVE_TV_TOAST_VIEW_IF_ADDED);
-		
+
 		/*
 		 * adjust window layout params
 		 */

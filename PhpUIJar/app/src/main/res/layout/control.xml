@@ -2,19 +2,19 @@
 <ui.PlayerBottomLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="@dimen/layoutheight"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#CC000000" >
+        android:background="#CC000000">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="@dimen/playcontrol_firstlayout_height"
             android:layout_gravity="center_vertical"
             android:orientation="horizontal"
-            android:paddingTop="@dimen/playcontrol_firstlayout_paddingtop" >
+            android:paddingTop="@dimen/playcontrol_firstlayout_paddingtop">
 
             <TextView
                 android:id="@+id/time_current"
@@ -44,16 +44,15 @@
                 android:layout_gravity="center_vertical"
                 android:nextFocusForward="@+id/pause"
                 android:nextFocusRight="@+id/pause" />
-		
-	    <ui.SlowPlayControl
-				android:id="@+id/slowplaycontrolone"
-				android:layout_width="wrap_content"
-				android:layout_height="@dimen/playlayoutheight"
-				android:layout_gravity="center_vertical"
-				android:orientation="horizontal"
-				android:visibility="gone"
-				style="@style/slow_play_control">
-	    </ui.SlowPlayControl>
+
+            <ui.SlowPlayControl
+                android:id="@+id/slowplaycontrolone"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/playlayoutheight"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                style="@style/slow_play_control"></ui.SlowPlayControl>
 
             <ImageButton
                 android:id="@+id/pause"
@@ -66,16 +65,15 @@
                 android:nextFocusForward="@+id/ffwd"
                 android:nextFocusLeft="@+id/rew"
                 android:nextFocusRight="@+id/ffwd" />
-		
-		
-	    <ui.SlowPlayControl
-				android:id="@+id/slowplaycontroltwo"
-				android:layout_width="wrap_content"
-				android:layout_height="@dimen/playlayoutheight"
-				android:layout_gravity="center_vertical"
-				android:orientation="horizontal"
-				android:visibility="gone">
-	    </ui.SlowPlayControl>
+
+
+            <ui.SlowPlayControl
+                android:id="@+id/slowplaycontroltwo"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/playlayoutheight"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="gone"></ui.SlowPlayControl>
 
             <ImageButton
                 android:id="@+id/ffwd"
@@ -104,7 +102,7 @@
                 android:textColor="#dddddd"
                 android:textSize="@dimen/playcontrol_textview_textsize"
                 android:textStyle="bold" />
-           
+
         </LinearLayout>
 
         <SeekBar
@@ -116,10 +114,10 @@
             android:focusable="true"
             android:longClickable="true"
             android:maxHeight="@dimen/playbackcontrol_progressbar_max_height"
-			android:minHeight="@dimen/playbackcontrol_progressbar_min_height"
-			android:paddingLeft="0dp"
-			android:paddingRight="0dp"
-			android:layout_marginBottom="-2dp"
+            android:minHeight="@dimen/playbackcontrol_progressbar_min_height"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:layout_marginBottom="-2dp"
             android:progressDrawable="@drawable/cprogress_nonhovered"
             android:thumb="@drawable/playhead"
             android:thumbOffset="-1dp" />

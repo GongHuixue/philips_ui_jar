@@ -3,5 +3,5 @@
     android:id="@+id/vt1"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-	android:drawableBottom="@drawable/drawable_text_view"
-    style="@style/verticalTextStyle"/>
+    android:drawableBottom="@drawable/drawable_text_view"
+    style="@style/verticalTextStyle" />

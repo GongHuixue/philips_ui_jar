@@ -1,231 +1,230 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--Mon Jul 29 2013 14:58:17 GMT+0530-->
+<?xml version="1.0" encoding="utf-8"?><!--Mon Jul 29 2013 14:58:17 GMT+0530-->
 <resources>
-<dimen name="wizard_footer_height">58dp</dimen>
+    <dimen name="wizard_footer_height">58dp</dimen>
 
-<dimen name="wizard_button_rightpadding">10dp</dimen>
+    <dimen name="wizard_button_rightpadding">10dp</dimen>
 
-<dimen name="wizard_button2_rightpadding">8dp</dimen>
+    <dimen name="wizard_button2_rightpadding">8dp</dimen>
 
-<dimen name="wizard_frame_content_width">607dp</dimen>
+    <dimen name="wizard_frame_content_width">607dp</dimen>
 
-<dimen name="wizard_frame_content_right_left_padding">20dp</dimen>
+    <dimen name="wizard_frame_content_right_left_padding">20dp</dimen>
 
-<dimen name="wizard_frame_content_top_bottom_padding">12dp</dimen>
+    <dimen name="wizard_frame_content_top_bottom_padding">12dp</dimen>
 
-<dimen name="wizard_frame_content_top_margin">16dp</dimen>
+    <dimen name="wizard_frame_content_top_margin">16dp</dimen>
 
-<dimen name="wizard_frame_content_bottom_padding">4dp</dimen>
+    <dimen name="wizard_frame_content_bottom_padding">4dp</dimen>
 
-<dimen name="wizard_screen_margin_left">24dp</dimen>
+    <dimen name="wizard_screen_margin_left">24dp</dimen>
 
-<dimen name="wizard_screen_margin_top">52dp</dimen>
+    <dimen name="wizard_screen_margin_top">52dp</dimen>
 
-<dimen name="wizard_screen_text_top_margin">19dp</dimen>
+    <dimen name="wizard_screen_text_top_margin">19dp</dimen>
 
-<dimen name="wizard_screen_text_width">50dp</dimen>
+    <dimen name="wizard_screen_text_width">50dp</dimen>
 
-<!--Layout_Wizard_Step1_v1.0.psd-->
-<dimen name="wizard_step1_header_text_height">28dp</dimen>
+    <!--Layout_Wizard_Step1_v1.0.psd-->
+    <dimen name="wizard_step1_header_text_height">28dp</dimen>
 
-<dimen name="wizard_step1_header_text_width">459dp</dimen>
+    <dimen name="wizard_step1_header_text_width">459dp</dimen>
 
-<dimen name="wizard_step1_header_text_x1">21dp</dimen>
+    <dimen name="wizard_step1_header_text_x1">21dp</dimen>
 
-<dimen name="wizard_step1_header_text_y1">21dp</dimen>
+    <dimen name="wizard_step1_header_text_y1">21dp</dimen>
 
-<dimen name="wizard_step1_header_text_x2">480dp</dimen>
+    <dimen name="wizard_step1_header_text_x2">480dp</dimen>
 
-<dimen name="wizard_step1_header_text_y2">49dp</dimen>
+    <dimen name="wizard_step1_header_text_y2">49dp</dimen>
 
-<dimen name="wizard_step1_progress_bar_height">4dp</dimen>
+    <dimen name="wizard_step1_progress_bar_height">4dp</dimen>
 
-<dimen name="wizard_step1_progress_bar_width">136dp</dimen>
+    <dimen name="wizard_step1_progress_bar_width">136dp</dimen>
 
-<dimen name="wizard_step1_progress_bar_x1">24dp</dimen>
+    <dimen name="wizard_step1_progress_bar_x1">24dp</dimen>
 
-<dimen name="wizard_step1_progress_bar_y1">51dp</dimen>
+    <dimen name="wizard_step1_progress_bar_y1">51dp</dimen>
 
-<dimen name="wizard_step1_progress_bar_x2">160dp</dimen>
+    <dimen name="wizard_step1_progress_bar_x2">160dp</dimen>
 
-<dimen name="wizard_step1_progress_bar_y2">55dp</dimen>
+    <dimen name="wizard_step1_progress_bar_y2">55dp</dimen>
 
-<dimen name="wizard_step1_panels_npanel_wizard_bg_height">422dp</dimen>
+    <dimen name="wizard_step1_panels_npanel_wizard_bg_height">422dp</dimen>
 
-<dimen name="wizard_step1_panels_npanel_wizard_bg_width">960.5dp</dimen>
+    <dimen name="wizard_step1_panels_npanel_wizard_bg_width">960.5dp</dimen>
 
-<dimen name="wizard_step1_panels_npanel_wizard_bg_x1">-0.5dp</dimen>
+    <dimen name="wizard_step1_panels_npanel_wizard_bg_x1">-0.5dp</dimen>
 
-<dimen name="wizard_step1_panels_npanel_wizard_bg_y1">59dp</dimen>
+    <dimen name="wizard_step1_panels_npanel_wizard_bg_y1">59dp</dimen>
 
-<dimen name="wizard_step1_panels_npanel_wizard_bg_x2">960dp</dimen>
+    <dimen name="wizard_step1_panels_npanel_wizard_bg_x2">960dp</dimen>
 
-<dimen name="wizard_step1_panels_npanel_wizard_bg_y2">481dp</dimen>
+    <dimen name="wizard_step1_panels_npanel_wizard_bg_y2">481dp</dimen>
 
-<dimen name="wizard_step1_panels_npanel_titlebar_activated_height">422dp</dimen>
+    <dimen name="wizard_step1_panels_npanel_titlebar_activated_height">422dp</dimen>
 
-<dimen name="wizard_step1_panels_npanel_titlebar_activated_width">48dp</dimen>
+    <dimen name="wizard_step1_panels_npanel_titlebar_activated_width">48dp</dimen>
 
-<dimen name="wizard_step1_panels_npanel_titlebar_activated_x1">0dp</dimen>
+    <dimen name="wizard_step1_panels_npanel_titlebar_activated_x1">0dp</dimen>
 
-<dimen name="wizard_step1_panels_npanel_titlebar_activated_y1">59dp</dimen>
+    <dimen name="wizard_step1_panels_npanel_titlebar_activated_y1">59dp</dimen>
 
-<dimen name="wizard_step1_panels_npanel_titlebar_activated_x2">48dp</dimen>
+    <dimen name="wizard_step1_panels_npanel_titlebar_activated_x2">48dp</dimen>
 
-<dimen name="wizard_step1_panels_npanel_titlebar_activated_y2">481dp</dimen>
+    <dimen name="wizard_step1_panels_npanel_titlebar_activated_y2">481dp</dimen>
 
-<dimen name="wizard_step1_panels_npanel_titlebar_activated_text_height">313dp</dimen>
+    <dimen name="wizard_step1_panels_npanel_titlebar_activated_text_height">313dp</dimen>
 
-<dimen name="wizard_step1_panels_npanel_titlebar_activated_text_width">26dp</dimen>
+    <dimen name="wizard_step1_panels_npanel_titlebar_activated_text_width">26dp</dimen>
 
-<dimen name="wizard_step1_panels_npanel_titlebar_activated_text_x1">12dp</dimen>
+    <dimen name="wizard_step1_panels_npanel_titlebar_activated_text_x1">12dp</dimen>
 
-<dimen name="wizard_step1_panels_npanel_titlebar_activated_text_y1">90dp</dimen>
+    <dimen name="wizard_step1_panels_npanel_titlebar_activated_text_y1">90dp</dimen>
 
-<dimen name="wizard_step1_panels_npanel_titlebar_activated_text_x2">38dp</dimen>
+    <dimen name="wizard_step1_panels_npanel_titlebar_activated_text_x2">38dp</dimen>
 
-<dimen name="wizard_step1_panels_npanel_titlebar_activated_text_y2">403dp</dimen>
+    <dimen name="wizard_step1_panels_npanel_titlebar_activated_text_y2">403dp</dimen>
 
-<dimen name="wizard_step1_npanel_header_text_height">29dp</dimen>
+    <dimen name="wizard_step1_npanel_header_text_height">29dp</dimen>
 
-<dimen name="wizard_step1_npanel_header_text_width">611dp</dimen>
+    <dimen name="wizard_step1_npanel_header_text_width">611dp</dimen>
 
-<dimen name="wizard_step1_npanel_header_text_x1">68dp</dimen>
+    <dimen name="wizard_step1_npanel_header_text_x1">68dp</dimen>
 
-<dimen name="wizard_step1_npanel_header_text_y1">92dp</dimen>
+    <dimen name="wizard_step1_npanel_header_text_y1">92dp</dimen>
 
-<dimen name="wizard_step1_npanel_header_text_x2">679dp</dimen>
+    <dimen name="wizard_step1_npanel_header_text_x2">679dp</dimen>
 
-<dimen name="wizard_step1_npanel_header_text_y2">120dp</dimen>
+    <dimen name="wizard_step1_npanel_header_text_y2">120dp</dimen>
 
-<dimen name="wizard_step1_npanel_description01_text_height">22dp</dimen>
+    <dimen name="wizard_step1_npanel_description01_text_height">22dp</dimen>
 
-<dimen name="wizard_step1_npanel_description01_text_width">610dp</dimen>
+    <dimen name="wizard_step1_npanel_description01_text_width">610dp</dimen>
 
-<dimen name="wizard_step1_npanel_description01_text_x1">68.5dp</dimen>
+    <dimen name="wizard_step1_npanel_description01_text_x1">68.5dp</dimen>
 
-<dimen name="wizard_step1_npanel_description01_text_y1">140.5dp</dimen>
+    <dimen name="wizard_step1_npanel_description01_text_y1">140.5dp</dimen>
 
-<dimen name="wizard_step1_npanel_description01_text_x2">678.5dp</dimen>
+    <dimen name="wizard_step1_npanel_description01_text_x2">678.5dp</dimen>
 
-<dimen name="wizard_step1_npanel_description01_text_y2">162.5dp</dimen>
+    <dimen name="wizard_step1_npanel_description01_text_y2">162.5dp</dimen>
 
-<dimen name="wizard_step1_npanel_description02_text_height">119dp</dimen>
+    <dimen name="wizard_step1_npanel_description02_text_height">119dp</dimen>
 
-<dimen name="wizard_step1_npanel_description02_text_width">610dp</dimen>
+    <dimen name="wizard_step1_npanel_description02_text_width">610dp</dimen>
 
-<dimen name="wizard_step1_npanel_description02_text_x1">68.5dp</dimen>
+    <dimen name="wizard_step1_npanel_description02_text_x1">68.5dp</dimen>
 
-<dimen name="wizard_step1_npanel_description02_text_y1">184.5dp</dimen>
+    <dimen name="wizard_step1_npanel_description02_text_y1">184.5dp</dimen>
 
-<dimen name="wizard_step1_npanel_description02_text_x2">678.5dp</dimen>
+    <dimen name="wizard_step1_npanel_description02_text_x2">678.5dp</dimen>
 
-<dimen name="wizard_step1_npanel_description02_text_y2">303.5dp</dimen>
+    <dimen name="wizard_step1_npanel_description02_text_y2">303.5dp</dimen>
 
-<dimen name="wizard_step1_npanels_horizontal_divider_height">1dp</dimen>
+    <dimen name="wizard_step1_npanels_horizontal_divider_height">1dp</dimen>
 
-<dimen name="wizard_step1_npanels_horizontal_divider_width">904dp</dimen>
+    <dimen name="wizard_step1_npanels_horizontal_divider_width">904dp</dimen>
 
-<dimen name="wizard_step1_npanels_horizontal_divider_x1">52dp</dimen>
+    <dimen name="wizard_step1_npanels_horizontal_divider_x1">52dp</dimen>
 
-<dimen name="wizard_step1_npanels_horizontal_divider_y1">412dp</dimen>
+    <dimen name="wizard_step1_npanels_horizontal_divider_y1">412dp</dimen>
 
-<dimen name="wizard_step1_npanels_horizontal_divider_x2">956dp</dimen>
+    <dimen name="wizard_step1_npanels_horizontal_divider_x2">956dp</dimen>
 
-<dimen name="wizard_step1_npanels_horizontal_divider_y2">413dp</dimen>
+    <dimen name="wizard_step1_npanels_horizontal_divider_y2">413dp</dimen>
 
-<dimen name="wizard_step1_npanel_skip_button_normal_height">42dp</dimen>
+    <dimen name="wizard_step1_npanel_skip_button_normal_height">42dp</dimen>
 
-<dimen name="wizard_step1_npanel_skip_button_normal_width">168dp</dimen>
+    <dimen name="wizard_step1_npanel_skip_button_normal_width">168dp</dimen>
 
-<dimen name="wizard_step1_npanel_skip_button_normal_x1">68dp</dimen>
+    <dimen name="wizard_step1_npanel_skip_button_normal_x1">68dp</dimen>
 
-<dimen name="wizard_step1_npanel_skip_button_normal_y1">421dp</dimen>
+    <dimen name="wizard_step1_npanel_skip_button_normal_y1">421dp</dimen>
 
-<dimen name="wizard_step1_npanel_skip_button_normal_x2">236dp</dimen>
+    <dimen name="wizard_step1_npanel_skip_button_normal_x2">236dp</dimen>
 
-<dimen name="wizard_step1_npanel_skip_button_normal_y2">463dp</dimen>
+    <dimen name="wizard_step1_npanel_skip_button_normal_y2">463dp</dimen>
 
-<dimen name="wizard_step1_npanel_skip_button_normal_text_height">20dp</dimen>
+    <dimen name="wizard_step1_npanel_skip_button_normal_text_height">20dp</dimen>
 
-<dimen name="wizard_step1_npanel_skip_button_normal_text_width">136dp</dimen>
+    <dimen name="wizard_step1_npanel_skip_button_normal_text_width">136dp</dimen>
 
-<dimen name="wizard_step1_npanel_skip_button_normal_text_x1">84dp</dimen>
+    <dimen name="wizard_step1_npanel_skip_button_normal_text_x1">84dp</dimen>
 
-<dimen name="wizard_step1_npanel_skip_button_normal_text_y1">433.5dp</dimen>
+    <dimen name="wizard_step1_npanel_skip_button_normal_text_y1">433.5dp</dimen>
 
-<dimen name="wizard_step1_npanel_skip_button_normal_text_x2">220dp</dimen>
+    <dimen name="wizard_step1_npanel_skip_button_normal_text_x2">220dp</dimen>
 
-<dimen name="wizard_step1_npanel_skip_button_normal_text_y2">453.5dp</dimen>
+    <dimen name="wizard_step1_npanel_skip_button_normal_text_y2">453.5dp</dimen>
 
-<dimen name="wizard_step1_npanel_settings_button_normal_height">42dp</dimen>
+    <dimen name="wizard_step1_npanel_settings_button_normal_height">42dp</dimen>
 
-<dimen name="wizard_step1_npanel_settings_button_normal_width">168dp</dimen>
+    <dimen name="wizard_step1_npanel_settings_button_normal_width">168dp</dimen>
 
-<dimen name="wizard_step1_npanel_settings_button_normal_x1">604dp</dimen>
+    <dimen name="wizard_step1_npanel_settings_button_normal_x1">604dp</dimen>
 
-<dimen name="wizard_step1_npanel_settings_button_normal_y1">421dp</dimen>
+    <dimen name="wizard_step1_npanel_settings_button_normal_y1">421dp</dimen>
 
-<dimen name="wizard_step1_npanel_settings_button_normal_x2">772dp</dimen>
+    <dimen name="wizard_step1_npanel_settings_button_normal_x2">772dp</dimen>
 
-<dimen name="wizard_step1_npanel_settings_button_normal_y2">463dp</dimen>
+    <dimen name="wizard_step1_npanel_settings_button_normal_y2">463dp</dimen>
 
-<dimen name="wizard_step1_npanel_settings_button_normal_text_height">20dp</dimen>
+    <dimen name="wizard_step1_npanel_settings_button_normal_text_height">20dp</dimen>
 
-<dimen name="wizard_step1_npanel_settings_button_normal_text_width">136dp</dimen>
+    <dimen name="wizard_step1_npanel_settings_button_normal_text_width">136dp</dimen>
 
-<dimen name="wizard_step1_npanel_settings_button_normal_text_x1">620dp</dimen>
+    <dimen name="wizard_step1_npanel_settings_button_normal_text_x1">620dp</dimen>
 
-<dimen name="wizard_step1_npanel_settings_button_normal_text_y1">433.5dp</dimen>
+    <dimen name="wizard_step1_npanel_settings_button_normal_text_y1">433.5dp</dimen>
 
-<dimen name="wizard_step1_npanel_settings_button_normal_text_x2">756dp</dimen>
+    <dimen name="wizard_step1_npanel_settings_button_normal_text_x2">756dp</dimen>
 
-<dimen name="wizard_step1_npanel_settings_button_normal_text_y2">453.5dp</dimen>
+    <dimen name="wizard_step1_npanel_settings_button_normal_text_y2">453.5dp</dimen>
 
-<dimen name="wizard_step1_npanel_start_button_default_height">42dp</dimen>
+    <dimen name="wizard_step1_npanel_start_button_default_height">42dp</dimen>
 
-<dimen name="wizard_step1_npanel_start_button_default_width">168dp</dimen>
+    <dimen name="wizard_step1_npanel_start_button_default_width">168dp</dimen>
 
-<dimen name="wizard_step1_npanel_start_button_default_x1">772dp</dimen>
+    <dimen name="wizard_step1_npanel_start_button_default_x1">772dp</dimen>
 
-<dimen name="wizard_step1_npanel_start_button_default_y1">421dp</dimen>
+    <dimen name="wizard_step1_npanel_start_button_default_y1">421dp</dimen>
 
-<dimen name="wizard_step1_npanel_start_button_default_x2">940dp</dimen>
+    <dimen name="wizard_step1_npanel_start_button_default_x2">940dp</dimen>
 
-<dimen name="wizard_step1_npanel_start_button_default_y2">463dp</dimen>
+    <dimen name="wizard_step1_npanel_start_button_default_y2">463dp</dimen>
 
-<dimen name="wizard_step1_npanel_start_button_default_text_height">20dp</dimen>
+    <dimen name="wizard_step1_npanel_start_button_default_text_height">20dp</dimen>
 
-<dimen name="wizard_step1_npanel_start_button_default_text_width">136dp</dimen>
+    <dimen name="wizard_step1_npanel_start_button_default_text_width">136dp</dimen>
 
-<dimen name="wizard_step1_npanel_start_button_default_text_x1">788dp</dimen>
+    <dimen name="wizard_step1_npanel_start_button_default_text_x1">788dp</dimen>
 
-<dimen name="wizard_step1_npanel_start_button_default_text_y1">433.5dp</dimen>
+    <dimen name="wizard_step1_npanel_start_button_default_text_y1">433.5dp</dimen>
 
-<dimen name="wizard_step1_npanel_start_button_default_text_x2">924dp</dimen>
+    <dimen name="wizard_step1_npanel_start_button_default_text_x2">924dp</dimen>
 
-<dimen name="wizard_step1_npanel_start_button_default_text_y2">453.5dp</dimen>
+    <dimen name="wizard_step1_npanel_start_button_default_text_y2">453.5dp</dimen>
 
-<dimen name="wizard_compact_step02_panels_npanel_compact_wizard_bg_height">237dp</dimen>
+    <dimen name="wizard_compact_step02_panels_npanel_compact_wizard_bg_height">237dp</dimen>
 
-<dimen name="wizard_compact_step02_panels_npanel_compact_wizard_bg_x1">0dp</dimen>
+    <dimen name="wizard_compact_step02_panels_npanel_compact_wizard_bg_x1">0dp</dimen>
 
-<dimen name="wizard_compact_step02_panels_npanel_compact_wizard_bg_y1">303dp</dimen>
+    <dimen name="wizard_compact_step02_panels_npanel_compact_wizard_bg_y1">303dp</dimen>
 
-<dimen name="wizard_hint_progressbar_width">28dp</dimen>
+    <dimen name="wizard_hint_progressbar_width">28dp</dimen>
 
-<dimen name="wizard_hint_progressbar_height">28dp</dimen>
+    <dimen name="wizard_hint_progressbar_height">28dp</dimen>
 
-<dimen name="wizard_hint_progressbar_margin_top">5dp</dimen>
+    <dimen name="wizard_hint_progressbar_margin_top">5dp</dimen>
 
-<dimen name="wizard_hint_progressbar_margin_left">24dp</dimen>
+    <dimen name="wizard_hint_progressbar_margin_left">24dp</dimen>
 
-<dimen name="wizard_hint_progressbar_margin_bottom">24dp</dimen>
+    <dimen name="wizard_hint_progressbar_margin_bottom">24dp</dimen>
 
-<dimen name="wizard_frame_content_left_right_padding">4dp</dimen>
+    <dimen name="wizard_frame_content_left_right_padding">4dp</dimen>
 
-<dimen name="wizard_frame_content_only_right_padding">24dp</dimen>
+    <dimen name="wizard_frame_content_only_right_padding">24dp</dimen>
 
-<dimen name="wizard_hinttext_top_bottom_right_left_padding">24dp</dimen>
+    <dimen name="wizard_hinttext_top_bottom_right_left_padding">24dp</dimen>
 
 </resources>

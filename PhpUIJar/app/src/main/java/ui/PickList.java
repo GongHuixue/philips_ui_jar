@@ -32,50 +32,51 @@ import fany.phpuijar.R;
  */
 
 public class PickList {
-	private static PickList instance = null;
-	private Dialog pickListDialog;
-	private ListView lv;
-	private PickListAdapter dataProvider;
-	private pickListItemSelectedListener mListner;
-	private IPickListCancelListener mPickListCancelListener;
-	private IPickListUnHandledKeyListener mPickListUnHandledKeyListener;
-	private String[] mCheckListArray;
-	private String[] mAvailableListArray;
-	private boolean[] mAvailability;
-	private boolean[] mControllability;
-	private Drawable[] mDrawables;
-	private AdapterView.OnItemClickListener plItemclicked;
-	private int mSelectedPos = -1;
-	private boolean mSelected = false;
-	private TextView mTitleText;
-	private static Context mContext;
-	private boolean mIsRequiredDim = true;
-	private AvailabilityControllability listener;
-	private int mIconWidth, mIconHeight;
-	private View mLastView;
-	public PickList(Context context) {
+    private static PickList instance = null;
+    private Dialog pickListDialog;
+    private ListView lv;
+    private PickListAdapter dataProvider;
+    private pickListItemSelectedListener mListner;
+    private IPickListCancelListener mPickListCancelListener;
+    private IPickListUnHandledKeyListener mPickListUnHandledKeyListener;
+    private String[] mCheckListArray;
+    private String[] mAvailableListArray;
+    private boolean[] mAvailability;
+    private boolean[] mControllability;
+    private Drawable[] mDrawables;
+    private AdapterView.OnItemClickListener plItemclicked;
+    private int mSelectedPos = -1;
+    private boolean mSelected = false;
+    private TextView mTitleText;
+    private static Context mContext;
+    private boolean mIsRequiredDim = true;
+    private AvailabilityControllability listener;
+    private int mIconWidth, mIconHeight;
+    private View mLastView;
 
-		mCheckListArray = null;
-		mAvailableListArray = null;
-		mDrawables = null;
-		LayoutInflater inflater = null;
-		LinearLayout ll = null;
-		if (context != null) {
-			setPickListContext(context);
-			pickListDialog = new Dialog(context);
-			inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-		}
+    public PickList(Context context) {
 
-		if (inflater != null) {
-			View v = inflater.inflate(R.layout.picklist_layout, null);
-			if (v instanceof LinearLayout) {
-				ll = (LinearLayout) v;
-			}
-			if (ll != null) {
-				mTitleText = (TextView) v.findViewById(R.id.picklist_tilte_text_view);
-				lv = (ListView) v.findViewById(R.id.picklist_list_view);
-			}
-		}
+        mCheckListArray = null;
+        mAvailableListArray = null;
+        mDrawables = null;
+        LayoutInflater inflater = null;
+        LinearLayout ll = null;
+        if (context != null) {
+            setPickListContext(context);
+            pickListDialog = new Dialog(context);
+            inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        }
+
+        if (inflater != null) {
+            View v = inflater.inflate(R.layout.picklist_layout, null);
+            if (v instanceof LinearLayout) {
+                ll = (LinearLayout) v;
+            }
+            if (ll != null) {
+                mTitleText = (TextView) v.findViewById(R.id.picklist_tilte_text_view);
+                lv = (ListView) v.findViewById(R.id.picklist_list_view);
+            }
+        }
 
         // no title and title bar for this dialog
         if (pickListDialog != null) {
@@ -196,31 +197,31 @@ public class PickList {
         return null;
     }
 
-	private void updateTextView(TextView tv, boolean highlight) {
-		if (tv != null) {
-			Typeface tf = null;
-			if (highlight) {
-				tf = Typeface.create("sans-serif", Typeface.NORMAL);
-			} else {
-				tf = Typeface.create("sans-serif-light", Typeface.NORMAL);
-			}
-			tv.setTypeface(tf);
-		}
-	}
-	
-	private synchronized void setPickListContext(Context context) {
-	    PickList.mContext = context;
-	}
-	public synchronized PickList getInstance(Context context) {
-		if (instance == null) {
-			instance = new PickList(context);
-		}
-		else if(mContext != null && !context.equals(mContext)){
-			PickList.mContext = context;
-			instance = new PickList(context);
-		}
-		return instance;
-	}
+    private void updateTextView(TextView tv, boolean highlight) {
+        if (tv != null) {
+            Typeface tf = null;
+            if (highlight) {
+                tf = Typeface.create("sans-serif", Typeface.NORMAL);
+            } else {
+                tf = Typeface.create("sans-serif-light", Typeface.NORMAL);
+            }
+            tv.setTypeface(tf);
+        }
+    }
+
+    private synchronized void setPickListContext(Context context) {
+        PickList.mContext = context;
+    }
+
+    public synchronized PickList getInstance(Context context) {
+        if (instance == null) {
+            instance = new PickList(context);
+        } else if (mContext != null && !context.equals(mContext)) {
+            PickList.mContext = context;
+            instance = new PickList(context);
+        }
+        return instance;
+    }
 
     public void setAvailabilityControllabiltyListener(AvailabilityControllability listener) {
         this.listener = listener;

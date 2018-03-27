@@ -1,37 +1,32 @@
 <merge xmlns:android="http://schemas.android.com/apk/res/android"
-   
-       android:id="@+id/linearLayout1"
-       android:layout_width="match_parent"
-       android:layout_height="match_parent">
 
-        <ui.BackTrace
-            android:id="@+id/backTrace1"
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/npanel_firstlevel_panel01_height" 
-            android:layout_gravity="top"
-			android:visibility="gone">
-        </ui.BackTrace>
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
-        <ui.Panel
-            android:id="@+id/panel1"
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/npanel_firstlevel_panel01_height"
-            android:layout_gravity="top"
-            >
-        </ui.Panel>
+    <ui.BackTrace
+        android:id="@+id/backTrace1"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/npanel_firstlevel_panel01_height"
+        android:layout_gravity="top"
+        android:visibility="gone"></ui.BackTrace>
 
-        <ui.Panel
-            android:id="@+id/panel2" 
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/npanel_firstlevel_panel01_height"
-            android:layout_gravity="top">
-        </ui.Panel>
+    <ui.Panel
+        android:id="@+id/panel1"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/npanel_firstlevel_panel01_height"
+        android:layout_gravity="top"></ui.Panel>
 
-        <ui.Panel
-            android:id="@+id/panel3"
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/npanel_firstlevel_panel01_height"
-            android:layout_gravity="top">
-        </ui.Panel>
-        
+    <ui.Panel
+        android:id="@+id/panel2"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/npanel_firstlevel_panel01_height"
+        android:layout_gravity="top"></ui.Panel>
+
+    <ui.Panel
+        android:id="@+id/panel3"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/npanel_firstlevel_panel01_height"
+        android:layout_gravity="top"></ui.Panel>
+
 </merge>

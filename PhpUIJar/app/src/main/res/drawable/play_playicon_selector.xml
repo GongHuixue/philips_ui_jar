@@ -4,7 +4,6 @@
     <item android:drawable="@drawable/icon_punched_play_control_on_off_hl_36x36" android:state_focused="true"></item>
     <item android:drawable="@drawable/icon_punched_play_control_on_off_n_36x36" android:state_pressed="true"></item>
     <item android:drawable="@drawable/icon_punched_play_control_on_off_d_36x36"></item>
-    
-    
+
 
 </selector>

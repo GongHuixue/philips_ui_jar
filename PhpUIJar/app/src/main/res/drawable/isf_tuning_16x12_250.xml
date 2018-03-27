@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android" >
-	<item android:state_enabled="false" android:drawable="@drawable/isf_d_ico_16x12_250"/>
-    <item android:state_selected="true" android:drawable="@drawable/isf_n_ico_16x12_250"/>
-    <item android:state_activated="true" android:drawable="@drawable/isf_n_ico_16x12_250"/>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:drawable="@drawable/isf_d_ico_16x12_250" />
+    <item android:state_selected="true" android:drawable="@drawable/isf_n_ico_16x12_250" />
+    <item android:state_activated="true" android:drawable="@drawable/isf_n_ico_16x12_250" />
     <item android:drawable="@drawable/isf_d_ico_16x12_250"></item>
 </selector>

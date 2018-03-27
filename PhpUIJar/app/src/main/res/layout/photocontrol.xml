@@ -5,7 +5,7 @@
     android:clickable="false"
     android:descendantFocusability="afterDescendants"
     android:focusable="false"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
     <LinearLayout
         android:id="@+id/mediainfo"
@@ -14,7 +14,7 @@
         android:layout_alignParentTop="true"
         android:background="@drawable/play_top_gradient"
         android:focusable="false"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
         <!-- android:background="@drawable/play_top_gradient" -->
         <!-- TODO : text  style to be applied -->
@@ -47,7 +47,7 @@
         android:layout_height="@dimen/playbackcontrols_bottom_container_height"
         android:layout_alignParentBottom="true"
         android:background="@drawable/play_bottom_gradient"
-        android:focusable="false" >
+        android:focusable="false">
 
         <!-- android:background="@drawable/play_bottom_gradient" -->
 

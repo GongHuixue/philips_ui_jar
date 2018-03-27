@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-<item android:top="@dimen/wizards_compact_main_container_y1">    
-    <shape>
-		<solid android:color="@color/Wizard_background"/>
-	</shape>
-</item>	 
+    <item android:top="@dimen/wizards_compact_main_container_y1">
+        <shape>
+            <solid android:color="@color/Wizard_background" />
+        </shape>
+    </item>
 </layer-list>

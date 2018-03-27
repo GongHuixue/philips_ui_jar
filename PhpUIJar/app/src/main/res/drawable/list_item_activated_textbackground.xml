@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
      Copyright (C) 2008 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,10 +14,9 @@
      limitations under the License.
 -->
 
-<selector xmlns:android="http://schemas.android.com/apk/res/android"
-  		>
-    <item android:drawable="@drawable/listviewselecteddrawable" android:state_focused="false" android:state_hovered="true"/>
-     <item android:drawable="@drawable/listviewselecteddrawable" android:state_focused="true" android:state_hovered="false"/> 
-    <item android:drawable="@drawable/listviewactivateddrawable" android:state_checked="true" android:state_enabled="true" android:state_selected="false"/>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/listviewselecteddrawable" android:state_focused="false" android:state_hovered="true" />
+    <item android:drawable="@drawable/listviewselecteddrawable" android:state_focused="true" android:state_hovered="false" />
+    <item android:drawable="@drawable/listviewactivateddrawable" android:state_checked="true" android:state_enabled="true" android:state_selected="false" />
 
 </selector>

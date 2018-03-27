@@ -13,44 +13,44 @@ import android.widget.PopupWindow;
 
 public class PlaybackViewCreator {
 
-	private final PopupWindow mPopupwindow;
-	private final View mAnchor;
+    private final PopupWindow mPopupwindow;
+    private final View mAnchor;
 
-	public PlaybackViewCreator(View anchor, boolean isSlideShow) {
-		mAnchor = anchor;
-		mPopupwindow = new PopupWindow(anchor.getContext());
+    public PlaybackViewCreator(View anchor, boolean isSlideShow) {
+        mAnchor = anchor;
+        mPopupwindow = new PopupWindow(anchor.getContext());
 
-		LayoutInflater inflater = (LayoutInflater) anchor.getContext()
-				.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-		AbsPlayBackControlLayout mPlaybackLayout;
-		if (isSlideShow) {
-			mPlaybackLayout = (AbsPlayBackControlLayout) inflater.inflate(
-					R.layout.photocontrol, null);
-		} else {
-			mPlaybackLayout = (AbsPlayBackControlLayout) inflater.inflate(
-					R.layout.playercontrol, null);
-		}
-		mPopupwindow.setContentView(mPlaybackLayout);
+        LayoutInflater inflater = (LayoutInflater) anchor.getContext()
+                .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        AbsPlayBackControlLayout mPlaybackLayout;
+        if (isSlideShow) {
+            mPlaybackLayout = (AbsPlayBackControlLayout) inflater.inflate(
+                    R.layout.photocontrol, null);
+        } else {
+            mPlaybackLayout = (AbsPlayBackControlLayout) inflater.inflate(
+                    R.layout.playercontrol, null);
+        }
+        mPopupwindow.setContentView(mPlaybackLayout);
 
-		initWindow();
-	}
+        initWindow();
+    }
 
-	private void initWindow() {
+    private void initWindow() {
 
-		mPopupwindow.setFocusable(true);
-		mPopupwindow.setWidth(LayoutParams.MATCH_PARENT);
-		mPopupwindow.setHeight(LayoutParams.MATCH_PARENT);
-		mPopupwindow.setBackgroundDrawable(null);
+        mPopupwindow.setFocusable(true);
+        mPopupwindow.setWidth(LayoutParams.MATCH_PARENT);
+        mPopupwindow.setHeight(LayoutParams.MATCH_PARENT);
+        mPopupwindow.setBackgroundDrawable(null);
 
-	}
+    }
 
-	 PopupWindow getPupupWindow() {
-		return mPopupwindow;
-	}
-	
-	 void show(){
-		 mPopupwindow.showAtLocation(mAnchor, Gravity.TOP, 0, 0);
-	 }
-	
+    PopupWindow getPupupWindow() {
+        return mPopupwindow;
+    }
+
+    void show() {
+        mPopupwindow.showAtLocation(mAnchor, Gravity.TOP, 0, 0);
+    }
+
 
 }

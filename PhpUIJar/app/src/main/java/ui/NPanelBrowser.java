@@ -177,7 +177,7 @@ public class NPanelBrowser extends LinearLayout {
             Panel p1 = (Panel) (super.getChildAt(2));
             View removedView = p.getChildAt(0);
             /*
-			* Issue fix for  AN-66148, doing a null check
+            * Issue fix for  AN-66148, doing a null check
 			*/
             if (removedView != null) {
                 p.removeViewAt(0);

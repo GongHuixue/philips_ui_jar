@@ -34,7 +34,7 @@ public class ModalDialogDeafultHeader extends ModalDialogBaseHeader {
             ((TextView) mView.findViewById(R.id.subHeadingText)).setVisibility(View.VISIBLE);
         }
         /*((TextView)mView.findViewById(R.id.headingText)).setText(mHeading);
-		((TextView)mView.findViewById(R.id.subHeadingText)).setText(mSubheading);*/
+        ((TextView)mView.findViewById(R.id.subHeadingText)).setText(mSubheading);*/
     }
 
     @Override

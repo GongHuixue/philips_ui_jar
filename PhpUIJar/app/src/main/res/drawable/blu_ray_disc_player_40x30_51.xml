@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:drawable="@drawable/blue_ray_disc_player_n_ico_40x30_51" android:state_pressed="true"/>
-    <item android:drawable="@drawable/blue_ray_disc_player_hl_ico_40x30_51" android:state_selected="true"/>
-    <item android:drawable="@drawable/blue_ray_disc_player_d_ico_40x30_51"/>
+    <item android:drawable="@drawable/blue_ray_disc_player_n_ico_40x30_51" android:state_pressed="true" />
+    <item android:drawable="@drawable/blue_ray_disc_player_hl_ico_40x30_51" android:state_selected="true" />
+    <item android:drawable="@drawable/blue_ray_disc_player_d_ico_40x30_51" />
 
 </selector>

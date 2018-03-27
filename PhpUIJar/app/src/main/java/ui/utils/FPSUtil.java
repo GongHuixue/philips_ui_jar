@@ -11,106 +11,105 @@ import android.widget.Toast;
 
 public class FPSUtil {
 
-	private static FPSUtil FPSUTIL = null;
-	private static final String TAG = FPSUtil.class.getSimpleName();
-	private int mFPS;
+    private static FPSUtil FPSUTIL = null;
+    private static final String TAG = FPSUtil.class.getSimpleName();
+    private int mFPS;
 
-	private int mFrameCount;
-	private long mTimeStamp;
-	private Activity mContext;
-	private String mAnimationName;
-	
-	private OnPreDrawListener mPreListner = new OnPreDrawListener() {
+    private int mFrameCount;
+    private long mTimeStamp;
+    private Activity mContext;
+    private String mAnimationName;
 
-		@Override
-		public boolean onPreDraw() {
-			mFrameCount++;
-			return true;
-		}
-	};
+    private OnPreDrawListener mPreListner = new OnPreDrawListener() {
 
-	private FPSUtil(Activity context,String animationName) {
+        @Override
+        public boolean onPreDraw() {
+            mFrameCount++;
+            return true;
+        }
+    };
 
-		mContext = context;
-		mAnimationName= animationName;
-		mFPS = 0;
-	}
+    private FPSUtil(Activity context, String animationName) {
 
-	static public FPSUtil getFpsUtil(Activity context, String animationName) {
-	//	if (FPSUTIL == null) {
-		//	FPSUTIL = new FPSUtil(context,animationName);
-	//	}
-		
-		
-		return new FPSUtil(context,animationName);
-	}
+        mContext = context;
+        mAnimationName = animationName;
+        mFPS = 0;
+    }
 
-	public void setView(View v) {
+    static public FPSUtil getFpsUtil(Activity context, String animationName) {
+        //	if (FPSUTIL == null) {
+        //	FPSUTIL = new FPSUtil(context,animationName);
+        //	}
 
-		setView(v, null);
-	}
 
-	
-	
-	public void setView(View v, Animator anim) {
-		
-		v.getViewTreeObserver().removeOnPreDrawListener(mPreListner);
-		v.getViewTreeObserver().addOnPreDrawListener(mPreListner);
+        return new FPSUtil(context, animationName);
+    }
 
-		if (anim != null) {
-			anim.addListener(new AnimatorListener() {
+    public void setView(View v) {
 
-				@Override
-				public void onAnimationStart(Animator animation) {
-					startMeasuring();
-				}
+        setView(v, null);
+    }
 
-				@Override
-				public void onAnimationRepeat(Animator animation) {
 
-				}
+    public void setView(View v, Animator anim) {
 
-				@Override
-				public void onAnimationEnd(Animator animation) {
-					endMeasuring();
-				}
+        v.getViewTreeObserver().removeOnPreDrawListener(mPreListner);
+        v.getViewTreeObserver().addOnPreDrawListener(mPreListner);
 
-				@Override
-				public void onAnimationCancel(Animator animation) {
-					endMeasuring();
-				}
-			});
-		}
-		
-	}
+        if (anim != null) {
+            anim.addListener(new AnimatorListener() {
 
-	public void startMeasuring() {
-		mFrameCount = 0;
-		mTimeStamp = SystemClock.elapsedRealtime();
-	}
+                @Override
+                public void onAnimationStart(Animator animation) {
+                    startMeasuring();
+                }
 
-	public int endMeasuring() {
+                @Override
+                public void onAnimationRepeat(Animator animation) {
 
-		String className=mContext.getComponentName().getClassName();
-		long timestamp = SystemClock.elapsedRealtime();
-		long elapsedTime =  (timestamp - mTimeStamp);
-		if (elapsedTime > 0 && mTimeStamp > 0) {
+                }
 
-			Log.i(TAG , "For Activity "+className+
-					" ( "+ mAnimationName+ " ) :" +" Time " + elapsedTime + " Frames(FPS): "
-					+ mFrameCount + " Frame rate: " + (mFrameCount * 1000)
-					/ (float) elapsedTime);
-			
-			mFPS = (int) ((mFrameCount * 1000)	/ (float) elapsedTime); 
+                @Override
+                public void onAnimationEnd(Animator animation) {
+                    endMeasuring();
+                }
 
-			mTimeStamp = 0;
-			mFrameCount = 0;
-		}
+                @Override
+                public void onAnimationCancel(Animator animation) {
+                    endMeasuring();
+                }
+            });
+        }
 
-		return mFPS;
-	}
+    }
 
-	public int getMeasuredFps() {
-		return mFPS;
-	}
+    public void startMeasuring() {
+        mFrameCount = 0;
+        mTimeStamp = SystemClock.elapsedRealtime();
+    }
+
+    public int endMeasuring() {
+
+        String className = mContext.getComponentName().getClassName();
+        long timestamp = SystemClock.elapsedRealtime();
+        long elapsedTime = (timestamp - mTimeStamp);
+        if (elapsedTime > 0 && mTimeStamp > 0) {
+
+            Log.i(TAG, "For Activity " + className +
+                    " ( " + mAnimationName + " ) :" + " Time " + elapsedTime + " Frames(FPS): "
+                    + mFrameCount + " Frame rate: " + (mFrameCount * 1000)
+                    / (float) elapsedTime);
+
+            mFPS = (int) ((mFrameCount * 1000) / (float) elapsedTime);
+
+            mTimeStamp = 0;
+            mFrameCount = 0;
+        }
+
+        return mFPS;
+    }
+
+    public int getMeasuredFps() {
+        return mFPS;
+    }
 }

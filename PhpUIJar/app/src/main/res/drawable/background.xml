@@ -6,11 +6,11 @@
     <item android:drawable="@drawable/pickers_activated_highlighted_bg" android:state_checked="true" android:state_hovered="true"/>
     <item android:drawable="@drawable/pickers_activated_bg" android:state_selected="true"/>
     -->
-    <item android:drawable="@drawable/pickers_activated_highlighted_bg" android:state_focused="true"/>
-    <item android:drawable="@drawable/pickers_activated_highlighted_bg" android:state_hovered="true"/>
-    <item android:drawable="@drawable/pickers_activated_bg" android:state_pressed="true"/>
+    <item android:drawable="@drawable/pickers_activated_highlighted_bg" android:state_focused="true" />
+    <item android:drawable="@drawable/pickers_activated_highlighted_bg" android:state_hovered="true" />
+    <item android:drawable="@drawable/pickers_activated_bg" android:state_pressed="true" />
     <!-- <item android:drawable="@drawable/pickers_activated_highlighted_bg" android:state_checked="true"/> -->
-    <item android:drawable="@drawable/pickers_normal_bg"/>
+    <item android:drawable="@drawable/pickers_normal_bg" />
     <!-- default -->
 
 </selector>

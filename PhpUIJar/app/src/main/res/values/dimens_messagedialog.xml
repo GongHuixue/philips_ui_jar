@@ -1,171 +1,171 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<dimen name="components_modal_dialog_panels_standard_bg_height">193.5dp</dimen>
+    <dimen name="components_modal_dialog_panels_standard_bg_height">193.5dp</dimen>
 
-<dimen name="components_modal_dialog_panels_standard_bg_width">732dp</dimen>
+    <dimen name="components_modal_dialog_panels_standard_bg_width">732dp</dimen>
 
-<dimen name="components_modal_dialog_panels_standard_bg_x1">114dp</dimen>
+    <dimen name="components_modal_dialog_panels_standard_bg_x1">114dp</dimen>
 
-<dimen name="components_modal_dialog_panels_standard_bg_y1">1566dp</dimen>
+    <dimen name="components_modal_dialog_panels_standard_bg_y1">1566dp</dimen>
 
-<dimen name="components_modal_dialog_panels_standard_bg_x2">846dp</dimen>
+    <dimen name="components_modal_dialog_panels_standard_bg_x2">846dp</dimen>
 
-<dimen name="components_modal_dialog_panels_standard_bg_y2">1759.5dp</dimen>
+    <dimen name="components_modal_dialog_panels_standard_bg_y2">1759.5dp</dimen>
 
-<dimen name="components_modal_dialog_header_text_height">26.5dp</dimen>
+    <dimen name="components_modal_dialog_header_text_height">26.5dp</dimen>
 
-<dimen name="components_modal_dialog_header_text_width">363dp</dimen>
+    <dimen name="components_modal_dialog_header_text_width">363dp</dimen>
 
-<dimen name="components_modal_dialog_header_text_x1">145dp</dimen>
+    <dimen name="components_modal_dialog_header_text_x1">145dp</dimen>
 
-<dimen name="components_modal_dialog_header_text_y1">1597dp</dimen>
+    <dimen name="components_modal_dialog_header_text_y1">1597dp</dimen>
 
-<dimen name="components_modal_dialog_header_text_x2">508dp</dimen>
+    <dimen name="components_modal_dialog_header_text_x2">508dp</dimen>
 
-<dimen name="components_modal_dialog_header_text_y2">1623.5dp</dimen>
+    <dimen name="components_modal_dialog_header_text_y2">1623.5dp</dimen>
 
-<dimen name="components_modal_dialog_right_header_text_height">26.5dp</dimen>
+    <dimen name="components_modal_dialog_right_header_text_height">26.5dp</dimen>
 
-<dimen name="components_modal_dialog_right_header_text_width">259dp</dimen>
+    <dimen name="components_modal_dialog_right_header_text_width">259dp</dimen>
 
-<dimen name="components_modal_dialog_right_header_text_x1">556dp</dimen>
+    <dimen name="components_modal_dialog_right_header_text_x1">556dp</dimen>
 
-<dimen name="components_modal_dialog_right_header_text_y1">1597dp</dimen>
+    <dimen name="components_modal_dialog_right_header_text_y1">1597dp</dimen>
 
-<dimen name="components_modal_dialog_right_header_text_x2">815dp</dimen>
+    <dimen name="components_modal_dialog_right_header_text_x2">815dp</dimen>
 
-<dimen name="components_modal_dialog_right_header_text_y2">1623.5dp</dimen>
+    <dimen name="components_modal_dialog_right_header_text_y2">1623.5dp</dimen>
 
-<dimen name="components_modal_dialog_header_panels_horizontal_divider_height">1dp</dimen>
+    <dimen name="components_modal_dialog_header_panels_horizontal_divider_height">1dp</dimen>
 
-<dimen name="components_modal_dialog_header_panels_horizontal_divider_width">698dp</dimen>
+    <dimen name="components_modal_dialog_header_panels_horizontal_divider_width">698dp</dimen>
 
-<dimen name="components_modal_dialog_header_panels_horizontal_divider_x1">131dp</dimen>
+    <dimen name="components_modal_dialog_header_panels_horizontal_divider_x1">131dp</dimen>
 
-<dimen name="components_modal_dialog_header_panels_horizontal_divider_y1">1629dp</dimen>
+    <dimen name="components_modal_dialog_header_panels_horizontal_divider_y1">1629dp</dimen>
 
-<dimen name="components_modal_dialog_header_panels_horizontal_divider_x2">829dp</dimen>
+    <dimen name="components_modal_dialog_header_panels_horizontal_divider_x2">829dp</dimen>
 
-<dimen name="components_modal_dialog_header_panels_horizontal_divider_y2">1630dp</dimen>
+    <dimen name="components_modal_dialog_header_panels_horizontal_divider_y2">1630dp</dimen>
 
-<dimen name="components_modal_dialog_description_text_height">46dp</dimen>
+    <dimen name="components_modal_dialog_description_text_height">46dp</dimen>
 
-<dimen name="components_modal_dialog_description_text_width">670dp</dimen>
+    <dimen name="components_modal_dialog_description_text_width">670dp</dimen>
 
-<dimen name="components_modal_dialog_description_text_x1">145dp</dimen>
+    <dimen name="components_modal_dialog_description_text_x1">145dp</dimen>
 
-<dimen name="components_modal_dialog_description_text_y1">1638dp</dimen>
+    <dimen name="components_modal_dialog_description_text_y1">1638dp</dimen>
 
-<dimen name="components_modal_dialog_description_text_x2">815dp</dimen>
+    <dimen name="components_modal_dialog_description_text_x2">815dp</dimen>
 
-<dimen name="components_modal_dialog_description_text_y2">1684dp</dimen>
+    <dimen name="components_modal_dialog_description_text_y2">1684dp</dimen>
 
-<dimen name="components_modal_dialog_bottom_panels_horizontal_divider_height">1dp</dimen>
+    <dimen name="components_modal_dialog_bottom_panels_horizontal_divider_height">1dp</dimen>
 
-<dimen name="components_modal_dialog_bottom_panels_horizontal_divider_width">698dp</dimen>
+    <dimen name="components_modal_dialog_bottom_panels_horizontal_divider_width">698dp</dimen>
 
-<dimen name="components_modal_dialog_bottom_panels_horizontal_divider_x1">131dp</dimen>
+    <dimen name="components_modal_dialog_bottom_panels_horizontal_divider_x1">131dp</dimen>
 
-<dimen name="components_modal_dialog_bottom_panels_horizontal_divider_y1">1690.5dp</dimen>
+    <dimen name="components_modal_dialog_bottom_panels_horizontal_divider_y1">1690.5dp</dimen>
 
-<dimen name="components_modal_dialog_bottom_panels_horizontal_divider_x2">829dp</dimen>
+    <dimen name="components_modal_dialog_bottom_panels_horizontal_divider_x2">829dp</dimen>
 
-<dimen name="components_modal_dialog_bottom_panels_horizontal_divider_y2">1691.5dp</dimen>
+    <dimen name="components_modal_dialog_bottom_panels_horizontal_divider_y2">1691.5dp</dimen>
 
-<dimen name="components_modal_dialog_01_button_normal_height">42dp</dimen>
+    <dimen name="components_modal_dialog_01_button_normal_height">42dp</dimen>
 
-<dimen name="components_modal_dialog_01_button_normal_width">168dp</dimen>
+    <dimen name="components_modal_dialog_01_button_normal_width">168dp</dimen>
 
-<dimen name="components_modal_dialog_01_button_normal_x1">144dp</dimen>
+    <dimen name="components_modal_dialog_01_button_normal_x1">144dp</dimen>
 
-<dimen name="components_modal_dialog_01_button_normal_y1">1699.5dp</dimen>
+    <dimen name="components_modal_dialog_01_button_normal_y1">1699.5dp</dimen>
 
-<dimen name="components_modal_dialog_01_button_normal_x2">312dp</dimen>
+    <dimen name="components_modal_dialog_01_button_normal_x2">312dp</dimen>
 
-<dimen name="components_modal_dialog_01_button_normal_y2">1741.5dp</dimen>
+    <dimen name="components_modal_dialog_01_button_normal_y2">1741.5dp</dimen>
 
-<dimen name="components_modal_dialog_01_button_normal_text_height">21dp</dimen>
+    <dimen name="components_modal_dialog_01_button_normal_text_height">21dp</dimen>
 
-<dimen name="components_modal_dialog_01_button_normal_text_width">136dp</dimen>
+    <dimen name="components_modal_dialog_01_button_normal_text_width">136dp</dimen>
 
-<dimen name="components_modal_dialog_01_button_normal_text_x1">160dp</dimen>
+    <dimen name="components_modal_dialog_01_button_normal_text_x1">160dp</dimen>
 
-<dimen name="components_modal_dialog_01_button_normal_text_y1">1711dp</dimen>
+    <dimen name="components_modal_dialog_01_button_normal_text_y1">1711dp</dimen>
 
-<dimen name="components_modal_dialog_01_button_normal_text_x2">296dp</dimen>
+    <dimen name="components_modal_dialog_01_button_normal_text_x2">296dp</dimen>
 
-<dimen name="components_modal_dialog_01_button_normal_text_y2">1732dp</dimen>
+    <dimen name="components_modal_dialog_01_button_normal_text_y2">1732dp</dimen>
 
-<dimen name="components_modal_dialog_02_button_normal_height">42dp</dimen>
+    <dimen name="components_modal_dialog_02_button_normal_height">42dp</dimen>
 
-<dimen name="components_modal_dialog_02_button_normal_width">168dp</dimen>
+    <dimen name="components_modal_dialog_02_button_normal_width">168dp</dimen>
 
-<dimen name="components_modal_dialog_02_button_normal_x1">312dp</dimen>
+    <dimen name="components_modal_dialog_02_button_normal_x1">312dp</dimen>
 
-<dimen name="components_modal_dialog_02_button_normal_y1">1699.5dp</dimen>
+    <dimen name="components_modal_dialog_02_button_normal_y1">1699.5dp</dimen>
 
-<dimen name="components_modal_dialog_02_button_normal_x2">480dp</dimen>
+    <dimen name="components_modal_dialog_02_button_normal_x2">480dp</dimen>
 
-<dimen name="components_modal_dialog_02_button_normal_y2">1741.5dp</dimen>
+    <dimen name="components_modal_dialog_02_button_normal_y2">1741.5dp</dimen>
 
-<dimen name="components_modal_dialog_02_button_normal_text_height">21dp</dimen>
+    <dimen name="components_modal_dialog_02_button_normal_text_height">21dp</dimen>
 
-<dimen name="components_modal_dialog_02_button_normal_text_width">136dp</dimen>
+    <dimen name="components_modal_dialog_02_button_normal_text_width">136dp</dimen>
 
-<dimen name="components_modal_dialog_02_button_normal_text_x1">328dp</dimen>
+    <dimen name="components_modal_dialog_02_button_normal_text_x1">328dp</dimen>
 
-<dimen name="components_modal_dialog_02_button_normal_text_y1">1711dp</dimen>
+    <dimen name="components_modal_dialog_02_button_normal_text_y1">1711dp</dimen>
 
-<dimen name="components_modal_dialog_02_button_normal_text_x2">464dp</dimen>
+    <dimen name="components_modal_dialog_02_button_normal_text_x2">464dp</dimen>
 
-<dimen name="components_modal_dialog_02_button_normal_text_y2">1732dp</dimen>
+    <dimen name="components_modal_dialog_02_button_normal_text_y2">1732dp</dimen>
 
-<dimen name="components_modal_dialog_03_button_normal_height">42dp</dimen>
+    <dimen name="components_modal_dialog_03_button_normal_height">42dp</dimen>
 
-<dimen name="components_modal_dialog_03_button_normal_width">168dp</dimen>
+    <dimen name="components_modal_dialog_03_button_normal_width">168dp</dimen>
 
-<dimen name="components_modal_dialog_03_button_normal_x1">480dp</dimen>
+    <dimen name="components_modal_dialog_03_button_normal_x1">480dp</dimen>
 
-<dimen name="components_modal_dialog_03_button_normal_y1">1699.5dp</dimen>
+    <dimen name="components_modal_dialog_03_button_normal_y1">1699.5dp</dimen>
 
-<dimen name="components_modal_dialog_03_button_normal_x2">648dp</dimen>
+    <dimen name="components_modal_dialog_03_button_normal_x2">648dp</dimen>
 
-<dimen name="components_modal_dialog_03_button_normal_y2">1741.5dp</dimen>
+    <dimen name="components_modal_dialog_03_button_normal_y2">1741.5dp</dimen>
 
-<dimen name="components_modal_dialog_03_button_normal_text_height">19.5dp</dimen>
+    <dimen name="components_modal_dialog_03_button_normal_text_height">19.5dp</dimen>
 
-<dimen name="components_modal_dialog_03_button_normal_text_width">136dp</dimen>
+    <dimen name="components_modal_dialog_03_button_normal_text_width">136dp</dimen>
 
-<dimen name="components_modal_dialog_03_button_normal_text_x1">496dp</dimen>
+    <dimen name="components_modal_dialog_03_button_normal_text_x1">496dp</dimen>
 
-<dimen name="components_modal_dialog_03_button_normal_text_y1">1711dp</dimen>
+    <dimen name="components_modal_dialog_03_button_normal_text_y1">1711dp</dimen>
 
-<dimen name="components_modal_dialog_03_button_normal_text_x2">632dp</dimen>
+    <dimen name="components_modal_dialog_03_button_normal_text_x2">632dp</dimen>
 
-<dimen name="components_modal_dialog_03_button_normal_text_y2">1730.5dp</dimen>
+    <dimen name="components_modal_dialog_03_button_normal_text_y2">1730.5dp</dimen>
 
-<dimen name="components_modal_dialog_04_button_normal_height">42dp</dimen>
+    <dimen name="components_modal_dialog_04_button_normal_height">42dp</dimen>
 
-<dimen name="components_modal_dialog_04_button_normal_width">168dp</dimen>
+    <dimen name="components_modal_dialog_04_button_normal_width">168dp</dimen>
 
-<dimen name="components_modal_dialog_04_button_normal_x1">648dp</dimen>
+    <dimen name="components_modal_dialog_04_button_normal_x1">648dp</dimen>
 
-<dimen name="components_modal_dialog_04_button_normal_y1">1699.5dp</dimen>
+    <dimen name="components_modal_dialog_04_button_normal_y1">1699.5dp</dimen>
 
-<dimen name="components_modal_dialog_04_button_normal_x2">816dp</dimen>
+    <dimen name="components_modal_dialog_04_button_normal_x2">816dp</dimen>
 
-<dimen name="components_modal_dialog_04_button_normal_y2">1741.5dp</dimen>
+    <dimen name="components_modal_dialog_04_button_normal_y2">1741.5dp</dimen>
 
-<dimen name="components_modal_dialog_04_button_normal_text_height">19.5dp</dimen>
+    <dimen name="components_modal_dialog_04_button_normal_text_height">19.5dp</dimen>
 
-<dimen name="components_modal_dialog_04_button_normal_text_width">136dp</dimen>
+    <dimen name="components_modal_dialog_04_button_normal_text_width">136dp</dimen>
 
-<dimen name="components_modal_dialog_04_button_normal_text_x1">664dp</dimen>
+    <dimen name="components_modal_dialog_04_button_normal_text_x1">664dp</dimen>
 
-<dimen name="components_modal_dialog_04_button_normal_text_y1">1711dp</dimen>
+    <dimen name="components_modal_dialog_04_button_normal_text_y1">1711dp</dimen>
 
-<dimen name="components_modal_dialog_04_button_normal_text_x2">800dp</dimen>
+    <dimen name="components_modal_dialog_04_button_normal_text_x2">800dp</dimen>
 
-<dimen name="components_modal_dialog_04_button_normal_text_y2">1730.5dp</dimen>
-    
+    <dimen name="components_modal_dialog_04_button_normal_text_y2">1730.5dp</dimen>
+
 </resources>

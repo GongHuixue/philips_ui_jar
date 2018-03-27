@@ -108,7 +108,7 @@ public final class TvToastMessenger {
         TvToast headMsg = dequeue();
         if (getMessageType(headMsg) == TYPE_PERMANENT) {
             /*
-			 * ----- current msg [persistent]
+             * ----- current msg [persistent]
 			 */
             mMessageQueue[QUEUE_HEAD + 1] = headMsg;
         } else if (getMessageType(msg) == TYPE_PERMANENT &&
