@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Fri Jun 27 2014 15:05:19 GMT+0530-->
+<resources>
+<!--Layout_ProgressBar_v2.0.psd-->
+<dimen name="progressbar_loader_height">36dp</dimen>
+
+<dimen name="progressbar_loader_width">36dp</dimen>
+
+<dimen name="progressbar_loader_x1">0dp</dimen>
+
+<dimen name="progressbar_loader_y1">0dp</dimen>
+
+<dimen name="progressbar_loader_x2">36dp</dimen>
+
+<dimen name="progressbar_loader_y2">36dp</dimen>
+
+<dimen name="progressbar_small_height">4dp</dimen>
+
+<dimen name="progressbar_small_width">182dp</dimen>
+
+<dimen name="progressbar_small_x1">0dp</dimen>
+
+<dimen name="progressbar_small_y1">0dp</dimen>
+
+<dimen name="progressbar_small_x2">182dp</dimen>
+
+<dimen name="progressbar_small_y2">4dp</dimen>
+
+<dimen name="progressbar_disc_space_height">6dp</dimen>
+
+<dimen name="progressbar_disc_space_width">200dp</dimen>
+
+<dimen name="progressbar_disc_space_x1">0dp</dimen>
+
+<dimen name="progressbar_disc_space_y1">0dp</dimen>
+
+<dimen name="progressbar_disc_space_x2">200dp</dimen>
+
+<dimen name="progressbar_disc_space_y2">6dp</dimen>
+
+<dimen name="progressbar_large_height">45dp</dimen>
+
+<dimen name="progressbar_large_width">960dp</dimen>
+
+<dimen name="progressbar_large_x1">0dp</dimen>
+
+<dimen name="progressbar_large_y1">0dp</dimen>
+
+<dimen name="progressbar_large_x2">960dp</dimen>
+
+<dimen name="progressbar_large_y2">45dp</dimen>
+
+</resources>

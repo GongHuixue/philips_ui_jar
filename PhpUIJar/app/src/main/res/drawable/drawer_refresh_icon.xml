@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_focused="true" android:drawable="@drawable/internet_browser_refresh_hl_ico_16x12_180" />
+	<item android:drawable="@drawable/internet_browser_refresh_n_ico_16x12_180" />
+</selector>

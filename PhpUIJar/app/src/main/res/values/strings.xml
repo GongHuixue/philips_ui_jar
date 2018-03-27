@@ -6,6 +6,7 @@
     <string name="TvToast_Activity">TvToast_Activity</string>
     <string name="ModalDialog_Activity">ModalDialog_Activity</string>
     <string name="PickList_Activity">PickList_Activity</string>
+    <string name="NPanelBrowser_Activity">NPanelBrowser_Activity</string>
 
     <!--define colorkey activity string values-->
     <string name="Red">REC</string>

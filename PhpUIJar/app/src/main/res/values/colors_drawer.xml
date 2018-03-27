@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="drawer_main_container">#FF1D1F21</color>
+    <color name="drawer_list_container">#4d000000</color>
+    <color name="drawer_divider_line">#ff5d5e60</color>
+    <color name="drawer_two_part_element_label_normal">#b3ffffff</color>
+    <color name="drawer_two_part_element_label_highlighted">#ff76d7d6</color>
+</resources>

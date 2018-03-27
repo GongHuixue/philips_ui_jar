@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Mon Dec 15 2014 18:03:20 GMT+0530-->
+<resources>
+<!--Layout_Wizards_Input_Step_v2.1.psd-->
+<dimen name="wizards_input_step_top_gradient_height">84dp</dimen>
+
+<dimen name="wizards_input_step_top_gradient_width">960dp</dimen>
+
+<dimen name="wizards_input_step_top_gradient_x1">0dp</dimen>
+
+<dimen name="wizards_input_step_top_gradient_y1">0dp</dimen>
+
+<dimen name="wizards_input_step_top_gradient_x2">960dp</dimen>
+
+<dimen name="wizards_input_step_top_gradient_y2">84dp</dimen>
+
+<dimen name="wizards_input_step_wizards_header_icon_height">36dp</dimen>
+
+<dimen name="wizards_input_step_wizards_header_icon_width">36dp</dimen>
+
+<dimen name="wizards_input_step_wizards_header_icon_x1">20dp</dimen>
+
+<dimen name="wizards_input_step_wizards_header_icon_y1">18dp</dimen>
+
+<dimen name="wizards_input_step_wizards_header_icon_x2">56dp</dimen>
+
+<dimen name="wizards_input_step_wizards_header_icon_y2">54dp</dimen>
+
+<dimen name="wizards_input_step_header_text_height">25dp</dimen>
+
+<dimen name="wizards_input_step_header_text_width">410.5dp</dimen>
+
+<dimen name="wizards_input_step_header_text_x1">70dp</dimen>
+
+<dimen name="wizards_input_step_header_text_y1">27dp</dimen>
+
+<dimen name="wizards_input_step_header_text_x2">480.5dp</dimen>
+
+<dimen name="wizards_input_step_header_text_y2">52dp</dimen>
+
+<dimen name="wizards_input_step_header_textding_height">14dp</dimen>
+
+<dimen name="wizards_input_step_header_textding_width">14dp</dimen>
+
+<dimen name="wizards_input_step_header_textding_x1">56dp</dimen>
+
+<dimen name="wizards_input_step_header_textding_y1">27dp</dimen>
+
+<dimen name="wizards_input_step_header_textding_x2">70dp</dimen>
+
+<dimen name="wizards_input_step_header_textding_y2">41dp</dimen>
+
+<dimen name="wizards_input_step_progress_bar_height">1dp</dimen>
+
+<dimen name="wizards_input_step_progress_bar_width">960dp</dimen>
+
+<dimen name="wizards_input_step_progress_bar_x1">0dp</dimen>
+
+<dimen name="wizards_input_step_progress_bar_y1">83dp</dimen>
+
+<dimen name="wizards_input_step_progress_bar_x2">960dp</dimen>
+
+<dimen name="wizards_input_step_progress_bar_y2">84dp</dimen>
+
+<dimen name="wizards_input_step_wizard_main_container_height">442dp</dimen>
+
+<dimen name="wizards_input_step_wizard_main_container_width">960dp</dimen>
+
+<dimen name="wizards_input_step_wizard_main_container_x1">0dp</dimen>
+
+<dimen name="wizards_input_step_wizard_main_container_y1">98dp</dimen>
+
+<dimen name="wizards_input_step_wizard_main_container_x2">960dp</dimen>
+
+<dimen name="wizards_input_step_wizard_main_container_y2">540dp</dimen>
+
+<dimen name="wizards_input_step_wizard_npanel_container_height">362dp</dimen>
+
+<dimen name="wizards_input_step_wizard_npanel_container_width">960dp</dimen>
+
+<dimen name="wizards_input_step_wizard_npanel_container_x1">0dp</dimen>
+
+<dimen name="wizards_input_step_wizard_npanel_container_y1">98dp</dimen>
+
+<dimen name="wizards_input_step_wizard_npanel_container_x2">960dp</dimen>
+
+<dimen name="wizards_input_step_wizard_npanel_container_y2">460dp</dimen>
+
+<dimen name="wizards_input_step_wizard_stack_height">362dp</dimen>
+
+<dimen name="wizards_input_step_wizard_stack_width">55dp</dimen>
+
+<dimen name="wizards_input_step_wizard_stack_x1">0dp</dimen>
+
+<dimen name="wizards_input_step_wizard_stack_y1">98dp</dimen>
+
+<dimen name="wizards_input_step_wizard_stack_x2">55dp</dimen>
+
+<dimen name="wizards_input_step_wizard_stack_y2">460dp</dimen>
+
+<dimen name="wizards_input_step_wizard_stack_divider_height">362dp</dimen>
+
+<dimen name="wizards_input_step_wizard_stack_divider_width">1dp</dimen>
+
+<dimen name="wizards_input_step_wizard_stack_divider_x1">54dp</dimen>
+
+<dimen name="wizards_input_step_wizard_stack_divider_y1">98dp</dimen>
+
+<dimen name="wizards_input_step_wizard_stack_divider_x2">55dp</dimen>
+
+<dimen name="wizards_input_step_wizard_stack_divider_y2">460dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_01_height">362dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_01_width">648dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_01_x1">55dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_01_y1">98dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_01_x2">537dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_01_y2">460dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_01_padding_left_height">8dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_01_padding_left_width">8dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_01_padding_left_x1">55dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_01_padding_left_y1">98dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_01_padding_left_x2">63dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_01_padding_left_y2">106dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_01_padding_right_height">20dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_01_padding_right_width">20dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_01_padding_right_x1">515.5dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_01_padding_right_y1">98dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_01_padding_right_x2">535.5dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_01_padding_right_y2">118dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_01_list_row_01_height">26dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_01_list_row_01_width">270dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_01_list_row_01_x1">63dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_01_list_row_01_y1">98dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_01_list_row_01_x2">333dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_01_list_row_01_y2">124dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_01_list_row_padding_bottom_height">5dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_01_list_row_padding_bottom_width">5dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_01_list_row_padding_bottom_x1">63dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_01_list_row_padding_bottom_y1">124dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_01_list_row_padding_bottom_x2">68dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_01_list_row_padding_bottom_y2">129dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_01_list_row_02_height">26dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_01_list_row_02_width">270dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_01_list_row_02_x1">63dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_01_list_row_02_y1">129dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_01_list_row_02_x2">333dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_01_list_row_02_y2">155dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_divider_height">362dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_divider_width">1dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_divider_x1">535dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_divider_y1">98dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_divider_x2">536dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_divider_y2">460dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_02_height">362dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_02_width">424dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_02_x1">536dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_02_y1">98dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_02_x2">960dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_02_y2">460dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_02_padding_left_height">20dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_02_padding_left_width">20dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_02_padding_left_x1">536dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_02_padding_left_y1">98dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_02_padding_left_x2">556dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_02_padding_left_y2">118dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_02_padding_right_height">20dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_02_padding_right_width">20dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_02_padding_right_x1">940dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_02_padding_right_y1">98dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_02_padding_right_x2">960dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_02_padding_right_y2">118dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_02_title_text_height">22dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_02_title_text_width">384dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_02_title_text_x1">556dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_02_title_text_y1">98dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_02_title_text_x2">940dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_02_title_text_y2">120dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_02_description_text_height">34.5dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_02_description_text_width">384dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_02_description_text_x1">556dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_02_description_text_y1">130dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_02_description_text_x2">940dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_02_description_text_y2">164.5dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_02_image_height">154.5dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_02_image_width">276dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_02_image_x1">556dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_02_image_y1">174.5dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_02_image_x2">832dp</dimen>
+
+<dimen name="wizards_input_step_wizard_container_02_image_y2">329dp</dimen>
+
+<dimen name="wizards_input_step_footer_container_height">80dp</dimen>
+
+<dimen name="wizards_input_step_footer_container_width">905dp</dimen>
+
+<dimen name="wizards_input_step_footer_container_x1">55dp</dimen>
+
+<dimen name="wizards_input_step_footer_container_y1">460dp</dimen>
+
+<dimen name="wizards_input_step_footer_container_x2">960dp</dimen>
+
+<dimen name="wizards_input_step_footer_container_y2">540dp</dimen>
+
+<dimen name="wizards_input_step_footer_button_cancel_height">36dp</dimen>
+
+<dimen name="wizards_input_step_footer_button_cancel_width">160dp</dimen>
+
+<dimen name="wizards_input_step_footer_button_cancel_x1">75dp</dimen>
+
+<dimen name="wizards_input_step_footer_button_cancel_y1">484dp</dimen>
+
+<dimen name="wizards_input_step_footer_button_cancel_x2">235dp</dimen>
+
+<dimen name="wizards_input_step_footer_button_cancel_y2">520dp</dimen>
+
+<dimen name="wizards_input_step_footer_button_cancel_padding_left_height">20dp</dimen>
+
+<dimen name="wizards_input_step_footer_button_cancel_padding_left_width">20dp</dimen>
+
+<dimen name="wizards_input_step_footer_button_cancel_padding_left_x1">55dp</dimen>
+
+<dimen name="wizards_input_step_footer_button_cancel_padding_left_y1">484dp</dimen>
+
+<dimen name="wizards_input_step_footer_button_cancel_padding_left_x2">75dp</dimen>
+
+<dimen name="wizards_input_step_footer_button_cancel_padding_left_y2">504dp</dimen>
+
+<dimen name="wizards_input_step_footer_button_previous_height">36dp</dimen>
+
+<dimen name="wizards_input_step_footer_button_previous_width">160dp</dimen>
+
+<dimen name="wizards_input_step_footer_button_previous_x1">604dp</dimen>
+
+<dimen name="wizards_input_step_footer_button_previous_y1">484dp</dimen>
+
+<dimen name="wizards_input_step_footer_button_previous_x2">764dp</dimen>
+
+<dimen name="wizards_input_step_footer_button_previous_y2">520dp</dimen>
+
+<dimen name="wizards_input_step_footer_button_next_height">36dp</dimen>
+
+<dimen name="wizards_input_step_footer_button_next_width">160dp</dimen>
+
+<dimen name="wizards_input_step_footer_button_next_x1">780dp</dimen>
+
+<dimen name="wizards_input_step_footer_button_next_y1">484dp</dimen>
+
+<dimen name="wizards_input_step_footer_button_next_x2">940dp</dimen>
+
+<dimen name="wizards_input_step_footer_button_next_y2">520dp</dimen>
+
+<dimen name="wizards_input_step_footer_button_padding_left_height">16.5dp</dimen>
+
+<dimen name="wizards_input_step_footer_button_padding_left_width">16dp</dimen>
+
+<dimen name="wizards_input_step_footer_button_padding_left_x1">764dp</dimen>
+
+<dimen name="wizards_input_step_footer_button_padding_left_y1">484dp</dimen>
+
+<dimen name="wizards_input_step_footer_button_padding_left_x2">780dp</dimen>
+
+<dimen name="wizards_input_step_footer_button_padding_left_y2">500.5dp</dimen>
+
+<dimen name="wizards_input_step_footer_container_padding_top_height">24dp</dimen>
+
+<dimen name="wizards_input_step_footer_container_padding_top_width">24dp</dimen>
+
+<dimen name="wizards_input_step_footer_container_padding_top_x1">0dp</dimen>
+
+<dimen name="wizards_input_step_footer_container_padding_top_y1">460dp</dimen>
+
+<dimen name="wizards_input_step_footer_container_padding_top_x2">24dp</dimen>
+
+<dimen name="wizards_input_step_footer_container_padding_top_y2">484dp</dimen>
+
+<dimen name="wizards_input_step_footer_container_padding_left_height">56dp</dimen>
+
+<dimen name="wizards_input_step_footer_container_padding_left_width">75dp</dimen>
+
+<dimen name="wizards_input_step_footer_container_padding_left_x1">0dp</dimen>
+
+<dimen name="wizards_input_step_footer_container_padding_left_y1">484dp</dimen>
+
+<dimen name="wizards_input_step_footer_container_padding_left_x2">75dp</dimen>
+
+<dimen name="wizards_input_step_footer_container_padding_left_y2">540dp</dimen>
+
+<dimen name="wizards_input_step_footer_container_padding_right_height">20dp</dimen>
+
+<dimen name="wizards_input_step_footer_container_padding_right_width">20dp</dimen>
+
+<dimen name="wizards_input_step_footer_container_padding_right_x1">940dp</dimen>
+
+<dimen name="wizards_input_step_footer_container_padding_right_y1">520dp</dimen>
+
+<dimen name="wizards_input_step_footer_container_padding_right_x2">960dp</dimen>
+
+<dimen name="wizards_input_step_footer_container_padding_right_y2">540dp</dimen>
+
+<dimen name="wizards_input_step_footer_container_padding_bottom_height">18dp</dimen>
+
+<dimen name="wizards_input_step_footer_container_padding_bottom_width">18dp</dimen>
+
+<dimen name="wizards_input_step_footer_container_padding_bottom_x1">0dp</dimen>
+
+<dimen name="wizards_input_step_footer_container_padding_bottom_y1">522dp</dimen>
+
+<dimen name="wizards_input_step_footer_container_padding_bottom_x2">18dp</dimen>
+
+<dimen name="wizards_input_step_footer_container_padding_bottom_y2">540dp</dimen>
+
+</resources>

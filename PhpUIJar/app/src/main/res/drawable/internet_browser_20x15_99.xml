@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item android:drawable="@drawable/internet_browser_d_ico_20x15_99"
+		android:state_activated="false" />
+	<item android:drawable="@drawable/internet_browser_hl_ico_20x15_99"
+		android:state_pressed="true"
+		android:state_focused="true" />
+	<item android:drawable="@drawable/internet_browser_n_ico_20x15_99" />
+</selector>

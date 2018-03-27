@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<bool name="blurSupported">false</bool>
+	<item type="drawable" name="alternate_blur">@drawable/blur_background_orbs_01</item>
+	<integer name="settings_fade_in_duration">350</integer>
+    	<integer name="settings_fade_out_duration">350</integer>
+
+<bool name="product_type_bno">false</bool>
+
+	<string name="bno_font_family">sans-serif-thin</string>
+</resources>

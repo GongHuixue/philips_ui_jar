@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item android:drawable="@drawable/icon_257_ambilight_speed_hl_36x36"
+		android:state_pressed="true"
+		android:state_focused="true" />
+<item android:drawable="@drawable/icon_257_ambilight_speed_d_36x36"
+		android:state_enabled="false" />
+	<item android:drawable="@drawable/icon_257_ambilight_speed_n_36x36" />
+</selector>

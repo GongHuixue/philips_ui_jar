@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_enabled="false" android:fontFamily="sans-serif" android:textSize="14sp"/>
+    <item android:state_pressed="true" android:fontFamily="sans-serif" android:textSize="14sp"/>
+    <item android:state_selected="true" android:fontFamily="sans-serif-light" android:textSize="14sp"/>   
+    <item android:state_activated="true" android:fontFamily="sans-serif-light" android:textSize="14sp"/>
+    <item android:fontFamily="sans-serif-light" android:textSize="14sp"/>
+
+</selector>

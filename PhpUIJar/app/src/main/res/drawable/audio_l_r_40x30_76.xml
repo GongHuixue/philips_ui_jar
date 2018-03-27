@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/audio_l_r_n_ico_40x30_76" android:state_pressed="true"/>
+    <item android:drawable="@drawable/audio_l_r_hl_ico_40x30_76" android:state_selected="true"/>
+    <item android:drawable="@drawable/audio_l_r_d_ico_40x30_76"/>
+
+</selector>

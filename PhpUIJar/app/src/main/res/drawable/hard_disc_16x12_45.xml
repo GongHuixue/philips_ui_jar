@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item android:drawable="@drawable/hard_disc_d_ico_16x12_45"
+		android:state_activated="false" />
+	<item android:drawable="@drawable/hard_disc_hl_ico_16x12_45"
+		android:state_pressed="true"
+		android:state_focused="true" />
+	<item android:drawable="@drawable/hard_disc_n_ico_16x12_45" />
+</selector>

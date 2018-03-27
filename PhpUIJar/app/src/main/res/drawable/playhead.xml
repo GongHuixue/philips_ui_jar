@@ -1,0 +1,7 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/playcontrols_playhead_hover_xml" android:state_hovered="true"/>
+    <item android:drawable="@drawable/playcontrols_playhead_hover_xml" android:state_pressed="true"/>
+    <item android:drawable="@drawable/playcontrols_playhead_normal_xml"/>
+
+</selector>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Fri Jun 27 2014 10:02:02 GMT+0530-->
+<resources>
+<!--Layout_Filterbar_v2.0.psd-->
+<dimen name="filterbar_container_height">24dp</dimen>
+
+<dimen name="filterbar_container_width">960dp</dimen>
+
+<dimen name="filterbar_container_x1">0dp</dimen>
+
+<dimen name="filterbar_container_y1">0dp</dimen>
+
+<dimen name="filterbar_container_x2">960dp</dimen>
+
+<dimen name="filterbar_container_y2">24dp</dimen>
+
+<dimen name="filterbar_padding_left_height">24dp</dimen>
+
+<dimen name="filterbar_padding_left_width">20dp</dimen>
+
+<dimen name="filterbar_padding_left_x1">0dp</dimen>
+
+<dimen name="filterbar_padding_left_y1">0dp</dimen>
+
+<dimen name="filterbar_padding_left_x2">20dp</dimen>
+
+<dimen name="filterbar_padding_left_y2">24dp</dimen>
+
+<dimen name="filterbar_padding_right_height">24dp</dimen>
+
+<dimen name="filterbar_padding_right_width">20dp</dimen>
+
+<dimen name="filterbar_padding_right_x1">940dp</dimen>
+
+<dimen name="filterbar_padding_right_y1">0dp</dimen>
+
+<dimen name="filterbar_padding_right_x2">960dp</dimen>
+
+<dimen name="filterbar_padding_right_y2">24dp</dimen>
+
+<dimen name="filterbar_label_padding_left_height">24dp</dimen>
+
+<dimen name="filterbar_label_padding_left_width">12dp</dimen>
+
+<dimen name="filterbar_label_padding_left_x1">20dp</dimen>
+
+<dimen name="filterbar_label_padding_left_y1">0dp</dimen>
+
+<dimen name="filterbar_label_padding_left_x2">32dp</dimen>
+
+<dimen name="filterbar_label_padding_left_y2">24dp</dimen>
+
+<dimen name="filterbar_label_padding_right_height">24dp</dimen>
+
+<dimen name="filterbar_label_padding_right_width">12dp</dimen>
+
+<dimen name="filterbar_label_padding_right_x1">89dp</dimen>
+
+<dimen name="filterbar_label_padding_right_y1">0dp</dimen>
+
+<dimen name="filterbar_label_padding_right_x2">101dp</dimen>
+
+<dimen name="filterbar_label_padding_right_y2">24dp</dimen>
+
+<dimen name="filterbar_padding_text_divider_height">24dp</dimen>
+
+<dimen name="filterbar_padding_text_divider_width">18dp</dimen>
+
+<dimen name="filterbar_padding_text_divider_x1">101dp</dimen>
+
+<dimen name="filterbar_padding_text_divider_y1">0dp</dimen>
+
+<dimen name="filterbar_padding_text_divider_x2">119dp</dimen>
+
+<dimen name="filterbar_padding_text_divider_y2">24dp</dimen>
+
+<dimen name="filterbar_divider_height">14dp</dimen>
+
+<dimen name="filterbar_divider_width">1dp</dimen>
+
+<dimen name="filterbar_divider_x1">119dp</dimen>
+
+<dimen name="filterbar_divider_y1">5dp</dimen>
+
+<dimen name="filterbar_divider_x2">120dp</dimen>
+
+<dimen name="filterbar_divider_y2">19dp</dimen>
+
+<dimen name="filterbar_divider_margin_top_height">5dp</dimen>
+
+<dimen name="filterbar_divider_margin_top_width">1dp</dimen>
+
+<dimen name="filterbar_divider_margin_top_x1">119dp</dimen>
+
+<dimen name="filterbar_divider_margin_top_y1">0dp</dimen>
+
+<dimen name="filterbar_divider_margin_top_x2">120dp</dimen>
+
+<dimen name="filterbar_divider_margin_top_y2">5dp</dimen>
+
+<dimen name="filterbar_divider_margin_bottom_height">5dp</dimen>
+
+<dimen name="filterbar_divider_margin_bottom_width">1dp</dimen>
+
+<dimen name="filterbar_divider_margin_bottom_x1">119dp</dimen>
+
+<dimen name="filterbar_divider_margin_bottom_y1">19dp</dimen>
+
+<dimen name="filterbar_divider_margin_bottom_x2">120dp</dimen>
+
+<dimen name="filterbar_divider_margin_bottom_y2">24dp</dimen>
+
+<dimen name="filterbar_padding_label_label_height">24dp</dimen>
+
+<dimen name="filterbar_padding_label_label_width">6dp</dimen>
+
+<dimen name="filterbar_padding_label_label_x1">250.5dp</dimen>
+
+<dimen name="filterbar_padding_label_label_y1">0dp</dimen>
+
+<dimen name="filterbar_padding_label_label_x2">256.5dp</dimen>
+
+<dimen name="filterbar_padding_label_label_y2">24dp</dimen>
+
+<dimen name="filterbar_activated_outline_height">24dp</dimen>
+
+<dimen name="filterbar_activated_outline_width">81dp</dimen>
+
+<dimen name="filterbar_activated_outline_x1">20dp</dimen>
+
+<dimen name="filterbar_activated_outline_y1">0dp</dimen>
+
+<dimen name="filterbar_activated_outline_x2">101dp</dimen>
+
+<dimen name="filterbar_activated_outline_y2">24dp</dimen>
+
+<dimen name="filterbar_label_max_text_l_height">13.5dp</dimen>
+
+<dimen name="filterbar_label_max_text_l_width">160dp</dimen>
+
+<dimen name="filterbar_label_max_text_l_x1">150dp</dimen>
+
+<dimen name="filterbar_label_max_text_l_y1">5.5dp</dimen>
+
+<dimen name="filterbar_label_max_text_l_x2">310dp</dimen>
+
+<dimen name="filterbar_label_max_text_l_y2">19dp</dimen>
+
+<dimen name="filterbar_label_min_text_l_height">13.5dp</dimen>
+
+<dimen name="filterbar_label_min_text_l_width">32.5dp</dimen>
+
+<dimen name="filterbar_label_min_text_l_x1">718.5dp</dimen>
+
+<dimen name="filterbar_label_min_text_l_y1">5.5dp</dimen>
+
+<dimen name="filterbar_label_min_text_l_x2">751dp</dimen>
+
+<dimen name="filterbar_label_min_text_l_y2">19dp</dimen>
+
+<dimen name="filterbar_overflow_arrow_height">3dp</dimen>
+
+<dimen name="filterbar_overflow_arrow_width">6dp</dimen>
+
+<dimen name="filterbar_overflow_arrow_x1">757dp</dimen>
+
+<dimen name="filterbar_overflow_arrow_y1">11.5dp</dimen>
+
+<dimen name="filterbar_overflow_arrow_x2">763dp</dimen>
+
+<dimen name="filterbar_overflow_arrow_y2">14.5dp</dimen>
+
+<dimen name="filterbar_overflow_arrow_padding_left_height">24dp</dimen>
+
+<dimen name="filterbar_overflow_arrow_padding_left_width">8dp</dimen>
+
+<dimen name="filterbar_overflow_arrow_padding_left_x1">751dp</dimen>
+
+<dimen name="filterbar_overflow_arrow_padding_left_y1">0dp</dimen>
+
+<dimen name="filterbar_overflow_arrow_padding_left_x2">757dp</dimen>
+
+<dimen name="filterbar_overflow_arrow_padding_left_y2">24dp</dimen>
+
+</resources>

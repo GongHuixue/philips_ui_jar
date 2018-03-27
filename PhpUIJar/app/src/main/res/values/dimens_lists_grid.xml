@@ -1,0 +1,1289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Thu Nov 27 2014 15:48:28 GMT+0530-->
+<resources>
+<!--Layout_Lists_Grid_v2.1.psd-->
+<dimen name="lists_grid_single_line_row_container_height">26dp</dimen>
+
+<dimen name="lists_grid_single_line_row_container_width">270dp</dimen>
+
+<dimen name="lists_grid_single_line_row_container_x1">0dp</dimen>
+
+<dimen name="lists_grid_single_line_row_container_y1">0dp</dimen>
+
+<dimen name="lists_grid_single_line_row_container_x2">270dp</dimen>
+
+<dimen name="lists_grid_single_line_row_container_y2">26dp</dimen>
+
+<dimen name="lists_grid_single_line_row_container_bottom_margin_height">5dp</dimen>
+
+<dimen name="lists_grid_single_line_row_container_bottom_margin_width">5dp</dimen>
+
+<dimen name="lists_grid_single_line_row_container_bottom_margin_x1">0dp</dimen>
+
+<dimen name="lists_grid_single_line_row_container_bottom_margin_y1">26dp</dimen>
+
+<dimen name="lists_grid_single_line_row_container_bottom_margin_x2">5dp</dimen>
+
+<dimen name="lists_grid_single_line_row_container_bottom_margin_y2">31dp</dimen>
+
+<dimen name="lists_grid_single_line_list_label_text_height">21dp</dimen>
+
+<dimen name="lists_grid_single_line_list_label_text_width">208dp</dimen>
+
+<dimen name="lists_grid_single_line_list_label_text_x1">12dp</dimen>
+
+<dimen name="lists_grid_single_line_list_label_text_y1">2.5dp</dimen>
+
+<dimen name="lists_grid_single_line_list_label_text_x2">220dp</dimen>
+
+<dimen name="lists_grid_single_line_list_label_text_y2">23.5dp</dimen>
+
+<dimen name="lists_grid_single_line_list_highlighted_label_text_height">21dp</dimen>
+
+<dimen name="lists_grid_single_line_list_highlighted_label_text_width">208dp</dimen>
+
+<dimen name="lists_grid_single_line_list_highlighted_label_text_x1">12dp</dimen>
+
+<dimen name="lists_grid_single_line_list_highlighted_label_text_y1">2.5dp</dimen>
+
+<dimen name="lists_grid_single_line_list_highlighted_label_text_x2">220dp</dimen>
+
+<dimen name="lists_grid_single_line_list_highlighted_label_text_y2">23.5dp</dimen>
+
+<dimen name="lists_grid_single_line_list_label_padding_left_height">12dp</dimen>
+
+<dimen name="lists_grid_single_line_list_label_padding_left_width">12dp</dimen>
+
+<dimen name="lists_grid_single_line_list_label_padding_left_x1">0dp</dimen>
+
+<dimen name="lists_grid_single_line_list_label_padding_left_y1">0dp</dimen>
+
+<dimen name="lists_grid_single_line_list_label_padding_left_x2">12dp</dimen>
+
+<dimen name="lists_grid_single_line_list_label_padding_left_y2">12dp</dimen>
+
+<dimen name="lists_grid_single_line_list_label_padding_right_copy_height">12dp</dimen>
+
+<dimen name="lists_grid_single_line_list_label_padding_right_copy_width">30dp</dimen>
+
+<dimen name="lists_grid_single_line_list_label_padding_right_copy_x1">232dp</dimen>
+
+<dimen name="lists_grid_single_line_list_label_padding_right_copy_y1">7dp</dimen>
+
+<dimen name="lists_grid_single_line_list_label_padding_right_copy_x2">262dp</dimen>
+
+<dimen name="lists_grid_single_line_list_label_padding_right_copy_y2">19dp</dimen>
+
+<dimen name="lists_grid_single_line_list_label_padding_right_height">12dp</dimen>
+
+<dimen name="lists_grid_single_line_list_label_padding_right_width">12dp</dimen>
+
+<dimen name="lists_grid_single_line_list_label_padding_right_x1">220dp</dimen>
+
+<dimen name="lists_grid_single_line_list_label_padding_right_y1">0dp</dimen>
+
+<dimen name="lists_grid_single_line_list_label_padding_right_x2">232dp</dimen>
+
+<dimen name="lists_grid_single_line_list_label_padding_right_y2">12dp</dimen>
+
+<dimen name="lists_grid_single_line_list_arrow_height">12dp</dimen>
+
+<dimen name="lists_grid_single_line_list_arrow_width">8dp</dimen>
+
+<dimen name="lists_grid_single_line_list_arrow_x1">262dp</dimen>
+
+<dimen name="lists_grid_single_line_list_arrow_y1">7dp</dimen>
+
+<dimen name="lists_grid_single_line_list_arrow_x2">270dp</dimen>
+
+<dimen name="lists_grid_single_line_list_arrow_y2">19dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_row_container_height">26dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_row_container_width">270dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_row_container_x1">0dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_row_container_y1">0dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_row_container_x2">270dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_row_container_y2">26dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_row_container_bottom_margin_height">5dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_row_container_bottom_margin_width">5dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_row_container_bottom_margin_x1">0dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_row_container_bottom_margin_y1">26dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_row_container_bottom_margin_x2">5dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_row_container_bottom_margin_y2">31dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_icon_height">18dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_icon_width">18dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_icon_x1">12dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_icon_y1">4dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_icon_x2">30dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_icon_y2">22dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_label_padding_left_height">8dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_label_padding_left_width">8dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_label_padding_left_x1">30dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_label_padding_left_y1">4dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_label_padding_left_x2">38dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_label_padding_left_y2">12dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_label_text_height">21dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_label_text_width">182dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_label_text_x1">38dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_label_text_y1">2.5dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_label_text_x2">220dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_label_text_y2">23.5dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_highlighted_label_text_height">21dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_highlighted_label_text_width">182dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_highlighted_label_text_x1">38dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_highlighted_label_text_y1">2.5dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_highlighted_label_text_x2">220dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_highlighted_label_text_y2">23.5dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_icon_margin_left_height">12dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_icon_margin_left_width">12dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_icon_margin_left_x1">0dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_icon_margin_left_y1">0dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_icon_margin_left_x2">12dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_icon_margin_left_y2">12dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_label_padding_right_height">12dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_label_padding_right_width">12dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_label_padding_right_x1">220dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_label_padding_right_y1">0dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_label_padding_right_x2">232dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_label_padding_right_y2">12dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_label_fading_height">26dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_label_fading_width">32dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_label_fading_x1">200dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_label_fading_y1">0dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_label_fading_x2">232dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_label_fading_y2">26dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_arrow_height">12dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_arrow_width">8dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_arrow_x1">262dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_arrow_y1">7dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_arrow_x2">270dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_arrow_y2">19dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_arrow_margin_left_height">12dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_arrow_margin_left_width">30dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_arrow_margin_left_x1">232dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_arrow_margin_left_y1">7dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_arrow_margin_left_x2">262dp</dimen>
+
+<dimen name="lists_grid_single_line_withicon_list_arrow_margin_left_y2">19dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_row_container_height">26dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_row_container_width">232dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_row_container_x1">0dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_row_container_y1">0dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_row_container_x2">232dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_row_container_y2">26dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_row_container_bottom_margin_height">5dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_row_container_bottom_margin_width">5dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_row_container_bottom_margin_x1">0dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_row_container_bottom_margin_y1">26dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_row_container_bottom_margin_x2">5dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_row_container_bottom_margin_y2">31dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_tickmark_height">18dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_tickmark_width">18dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_tickmark_x1">12dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_tickmark_y1">4dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_tickmark_x2">30dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_tickmark_y2">22dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_tickmark_margin_left_height">12dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_tickmark_margin_left_width">12dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_tickmark_margin_left_x1">0dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_tickmark_margin_left_y1">0dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_tickmark_margin_left_x2">12dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_tickmark_margin_left_y2">12dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_label_text_height">21dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_label_text_width">182dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_label_text_x1">38dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_label_text_y1">2.5dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_label_text_x2">220dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_label_text_y2">23.5dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_label_padding_left_height">8dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_label_padding_left_width">8dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_label_padding_left_x1">30dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_label_padding_left_y1">4dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_label_padding_left_x2">38dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_label_padding_left_y2">12dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_label_padding_right_height">12dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_label_padding_right_width">12dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_label_padding_right_x1">220dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_label_padding_right_y1">0dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_label_padding_right_x2">232dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_label_padding_right_y2">12dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_normal_label_padding_left__height">8dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_normal_label_padding_left__width">38dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_normal_label_padding_left__x1">0dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_normal_label_padding_left__y1">4dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_normal_label_padding_left__x2">38dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_normal_label_padding_left__y2">12dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_highlighted_label_text_height">21dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_highlighted_label_text_width">182dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_highlighted_label_text_x1">38dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_highlighted_label_text_y1">2.5dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_highlighted_label_text_x2">220dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_highlighted_label_text_y2">23.5dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_label_fading_height">26dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_label_fading_width">32dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_label_fading_x1">200dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_label_fading_y1">0dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_label_fading_x2">232dp</dimen>
+
+<dimen name="lists_grid_checkbox_list_label_fading_y2">26dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_row_container_height">26dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_row_container_width">232dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_row_container_x1">0dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_row_container_y1">0dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_row_container_x2">232dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_row_container_y2">26dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_row_container_bottom_margin_height">5dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_row_container_bottom_margin_width">5dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_row_container_bottom_margin_x1">0dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_row_container_bottom_margin_y1">26dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_row_container_bottom_margin_x2">5dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_row_container_bottom_margin_y2">31dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_radio_button_height">18dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_radio_button_width">18dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_radio_button_x1">12dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_radio_button_y1">4dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_radio_button_x2">30dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_radio_button_y2">22dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_tickmark_margin_left_height">12dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_tickmark_margin_left_width">12dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_tickmark_margin_left_x1">0dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_tickmark_margin_left_y1">0dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_tickmark_margin_left_x2">12dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_tickmark_margin_left_y2">12dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_label_text_height">21dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_label_text_width">178.5dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_label_text_x1">42dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_label_text_y1">2.5dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_label_text_x2">220.5dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_label_text_y2">23.5dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_label_padding_left_height">8dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_label_padding_left_width">8dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_label_padding_left_x1">30dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_label_padding_left_y1">4dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_label_padding_left_x2">38dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_label_padding_left_y2">12dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_normal_label_padding_left__height">8dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_normal_label_padding_left__width">38dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_normal_label_padding_left__x1">0dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_normal_label_padding_left__y1">4dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_normal_label_padding_left__x2">38dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_normal_label_padding_left__y2">12dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_highlighted_label_text_height">21dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_highlighted_label_text_width">182.5dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_highlighted_label_text_x1">38dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_highlighted_label_text_y1">2.5dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_highlighted_label_text_x2">220.5dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_highlighted_label_text_y2">23.5dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_label_padding_right_height">12dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_label_padding_right_width">12dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_label_padding_right_x1">220.5dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_label_padding_right_y1">0dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_label_padding_right_x2">232.5dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_label_padding_right_y2">12dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_label_fading_height">26dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_label_fading_width">32dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_label_fading_x1">196dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_label_fading_y1">0dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_label_fading_x2">228dp</dimen>
+
+<dimen name="lists_grid_radiobutton_list_label_fading_y2">26dp</dimen>
+
+<dimen name="lists_grid_multiview_row_container_height">36dp</dimen>
+
+<dimen name="lists_grid_multiview_row_container_width">236dp</dimen>
+
+<dimen name="lists_grid_multiview_row_container_x1">0dp</dimen>
+
+<dimen name="lists_grid_multiview_row_container_y1">0dp</dimen>
+
+<dimen name="lists_grid_multiview_row_container_x2">236dp</dimen>
+
+<dimen name="lists_grid_multiview_row_container_y2">36dp</dimen>
+
+<dimen name="lists_grid_multiview_row_container_margin_bottom_height">12dp</dimen>
+
+<dimen name="lists_grid_multiview_row_container_margin_bottom_width">12dp</dimen>
+
+<dimen name="lists_grid_multiview_row_container_margin_bottom_x1">0dp</dimen>
+
+<dimen name="lists_grid_multiview_row_container_margin_bottom_y1">36dp</dimen>
+
+<dimen name="lists_grid_multiview_row_container_margin_bottom_x2">12dp</dimen>
+
+<dimen name="lists_grid_multiview_row_container_margin_bottom_y2">48dp</dimen>
+
+<dimen name="lists_grid_multiview_app_icon_height">36dp</dimen>
+
+<dimen name="lists_grid_multiview_app_icon_width">36dp</dimen>
+
+<dimen name="lists_grid_multiview_app_icon_x1">0dp</dimen>
+
+<dimen name="lists_grid_multiview_app_icon_y1">0dp</dimen>
+
+<dimen name="lists_grid_multiview_app_icon_x2">36dp</dimen>
+
+<dimen name="lists_grid_multiview_app_icon_y2">36dp</dimen>
+
+<dimen name="lists_grid_multiview_app_icon_margin_left_height">9dp</dimen>
+
+<dimen name="lists_grid_multiview_app_icon_margin_left_width">9dp</dimen>
+
+<dimen name="lists_grid_multiview_app_icon_margin_left_x1">0dp</dimen>
+
+<dimen name="lists_grid_multiview_app_icon_margin_left_y1">0dp</dimen>
+
+<dimen name="lists_grid_multiview_app_icon_margin_left_x2">9dp</dimen>
+
+<dimen name="lists_grid_multiview_app_icon_margin_left_y2">9dp</dimen>
+
+<dimen name="lists_grid_multiview_label_padding_left_height">8dp</dimen>
+
+<dimen name="lists_grid_multiview_label_padding_left_width">8dp</dimen>
+
+<dimen name="lists_grid_multiview_label_padding_left_x1">36dp</dimen>
+
+<dimen name="lists_grid_multiview_label_padding_left_y1">0dp</dimen>
+
+<dimen name="lists_grid_multiview_label_padding_left_x2">44dp</dimen>
+
+<dimen name="lists_grid_multiview_label_padding_left_y2">8dp</dimen>
+
+<dimen name="lists_grid_multiview_label_text_height">21dp</dimen>
+
+<dimen name="lists_grid_multiview_label_text_width">172dp</dimen>
+
+<dimen name="lists_grid_multiview_label_text_x1">44dp</dimen>
+
+<dimen name="lists_grid_multiview_label_text_y1">4dp</dimen>
+
+<dimen name="lists_grid_multiview_label_text_x2">216dp</dimen>
+
+<dimen name="lists_grid_multiview_label_text_y2">25dp</dimen>
+
+<dimen name="lists_grid_multiview_label_padding_top_height">9dp</dimen>
+
+<dimen name="lists_grid_multiview_label_padding_top_width">9dp</dimen>
+
+<dimen name="lists_grid_multiview_label_padding_top_x1">44dp</dimen>
+
+<dimen name="lists_grid_multiview_label_padding_top_y1">0dp</dimen>
+
+<dimen name="lists_grid_multiview_label_padding_top_x2">53dp</dimen>
+
+<dimen name="lists_grid_multiview_label_padding_top_y2">9dp</dimen>
+
+<dimen name="lists_grid_multiview_label_fading_height">26dp</dimen>
+
+<dimen name="lists_grid_multiview_label_fading_width">32dp</dimen>
+
+<dimen name="lists_grid_multiview_label_fading_x1">184dp</dimen>
+
+<dimen name="lists_grid_multiview_label_fading_y1">0dp</dimen>
+
+<dimen name="lists_grid_multiview_label_fading_x2">216dp</dimen>
+
+<dimen name="lists_grid_multiview_label_fading_y2">26dp</dimen>
+
+<dimen name="lists_grid_sources_list_row_container_height">36dp</dimen>
+
+<dimen name="lists_grid_sources_list_row_container_width">246dp</dimen>
+
+<dimen name="lists_grid_sources_list_row_container_x1">0dp</dimen>
+
+<dimen name="lists_grid_sources_list_row_container_y1">0dp</dimen>
+
+<dimen name="lists_grid_sources_list_row_container_x2">246dp</dimen>
+
+<dimen name="lists_grid_sources_list_row_container_y2">36dp</dimen>
+
+<dimen name="lists_grid_sources_list_row_container_margin_bottom_height">12dp</dimen>
+
+<dimen name="lists_grid_sources_list_row_container_margin_bottom_width">12dp</dimen>
+
+<dimen name="lists_grid_sources_list_row_container_margin_bottom_x1">0dp</dimen>
+
+<dimen name="lists_grid_sources_list_row_container_margin_bottom_y1">36dp</dimen>
+
+<dimen name="lists_grid_sources_list_row_container_margin_bottom_x2">12dp</dimen>
+
+<dimen name="lists_grid_sources_list_row_container_margin_bottom_y2">48dp</dimen>
+
+<dimen name="lists_grid_sources_list_icon_circle_height">36dp</dimen>
+
+<dimen name="lists_grid_sources_list_icon_circle_width">36dp</dimen>
+
+<dimen name="lists_grid_sources_list_icon_circle_x1">0.5dp</dimen>
+
+<dimen name="lists_grid_sources_list_icon_circle_y1">0dp</dimen>
+
+<dimen name="lists_grid_sources_list_icon_circle_x2">36.5dp</dimen>
+
+<dimen name="lists_grid_sources_list_icon_circle_y2">36dp</dimen>
+
+<dimen name="lists_grid_sources_list_icon_height">18dp</dimen>
+
+<dimen name="lists_grid_sources_list_icon_width">18dp</dimen>
+
+<dimen name="lists_grid_sources_list_icon_x1">9.5dp</dimen>
+
+<dimen name="lists_grid_sources_list_icon_y1">9dp</dimen>
+
+<dimen name="lists_grid_sources_list_icon_x2">27.5dp</dimen>
+
+<dimen name="lists_grid_sources_list_icon_y2">27dp</dimen>
+
+<dimen name="lists_grid_sources_list_icon_margin_left_height">9dp</dimen>
+
+<dimen name="lists_grid_sources_list_icon_margin_left_width">9dp</dimen>
+
+<dimen name="lists_grid_sources_list_icon_margin_left_x1">0.5dp</dimen>
+
+<dimen name="lists_grid_sources_list_icon_margin_left_y1">0dp</dimen>
+
+<dimen name="lists_grid_sources_list_icon_margin_left_x2">9.5dp</dimen>
+
+<dimen name="lists_grid_sources_list_icon_margin_left_y2">9dp</dimen>
+
+<dimen name="lists_grid_sources_list_label_padding_left_height">8dp</dimen>
+
+<dimen name="lists_grid_sources_list_label_padding_left_width">8dp</dimen>
+
+<dimen name="lists_grid_sources_list_label_padding_left_x1">36.5dp</dimen>
+
+<dimen name="lists_grid_sources_list_label_padding_left_y1">0dp</dimen>
+
+<dimen name="lists_grid_sources_list_label_padding_left_x2">44.5dp</dimen>
+
+<dimen name="lists_grid_sources_list_label_padding_left_y2">8dp</dimen>
+
+<dimen name="lists_grid_sources_list_main_label_text_height">21dp</dimen>
+
+<dimen name="lists_grid_sources_list_main_label_text_width">154dp</dimen>
+
+<dimen name="lists_grid_sources_list_main_label_text_x1">44.5dp</dimen>
+
+<dimen name="lists_grid_sources_list_main_label_text_y1">4dp</dimen>
+
+<dimen name="lists_grid_sources_list_main_label_text_x2">198.5dp</dimen>
+
+<dimen name="lists_grid_sources_list_main_label_text_y2">25dp</dimen>
+
+<dimen name="lists_grid_sources_list_main_label_padding_top_height">4dp</dimen>
+
+<dimen name="lists_grid_sources_list_main_label_padding_top_width">4dp</dimen>
+
+<dimen name="lists_grid_sources_list_main_label_padding_top_x1">44.5dp</dimen>
+
+<dimen name="lists_grid_sources_list_main_label_padding_top_y1">0dp</dimen>
+
+<dimen name="lists_grid_sources_list_main_label_padding_top_x2">48.5dp</dimen>
+
+<dimen name="lists_grid_sources_list_main_label_padding_top_y2">4dp</dimen>
+
+<dimen name="lists_grid_sources_list_sub_label_text_height">18.5dp</dimen>
+
+<dimen name="lists_grid_sources_list_sub_label_text_width">154dp</dimen>
+
+<dimen name="lists_grid_sources_list_sub_label_text_x1">44.5dp</dimen>
+
+<dimen name="lists_grid_sources_list_sub_label_text_y1">20.5dp</dimen>
+
+<dimen name="lists_grid_sources_list_sub_label_text_x2">198.5dp</dimen>
+
+<dimen name="lists_grid_sources_list_sub_label_text_y2">39dp</dimen>
+
+<dimen name="lists_grid_sources_list_sub_label_padding_top_height">2dp</dimen>
+
+<dimen name="lists_grid_sources_list_sub_label_padding_top_width">2dp</dimen>
+
+<dimen name="lists_grid_sources_list_sub_label_padding_top_x1">44.5dp</dimen>
+
+<dimen name="lists_grid_sources_list_sub_label_padding_top_y1">19dp</dimen>
+
+<dimen name="lists_grid_sources_list_sub_label_padding_top_x2">46.5dp</dimen>
+
+<dimen name="lists_grid_sources_list_sub_label_padding_top_y2">21dp</dimen>
+
+<dimen name="lists_grid_sources_list_right_icon_height">18dp</dimen>
+
+<dimen name="lists_grid_sources_list_right_icon_width">18dp</dimen>
+
+<dimen name="lists_grid_sources_list_right_icon_x1">228dp</dimen>
+
+<dimen name="lists_grid_sources_list_right_icon_y1">9dp</dimen>
+
+<dimen name="lists_grid_sources_list_right_icon_x2">246dp</dimen>
+
+<dimen name="lists_grid_sources_list_right_icon_y2">27dp</dimen>
+
+<dimen name="lists_grid_sources_list_right_icon_margin_left_height">18dp</dimen>
+
+<dimen name="lists_grid_sources_list_right_icon_margin_left_width">30dp</dimen>
+
+<dimen name="lists_grid_sources_list_right_icon_margin_left_x1">198.5dp</dimen>
+
+<dimen name="lists_grid_sources_list_right_icon_margin_left_y1">9dp</dimen>
+
+<dimen name="lists_grid_sources_list_right_icon_margin_left_x2">228.5dp</dimen>
+
+<dimen name="lists_grid_sources_list_right_icon_margin_left_y2">27dp</dimen>
+
+<dimen name="lists_grid_sources_list_label_fading_height">26dp</dimen>
+
+<dimen name="lists_grid_sources_list_label_fading_width">32dp</dimen>
+
+<dimen name="lists_grid_sources_list_label_fading_x1">166.5dp</dimen>
+
+<dimen name="lists_grid_sources_list_label_fading_y1">0dp</dimen>
+
+<dimen name="lists_grid_sources_list_label_fading_x2">198.5dp</dimen>
+
+<dimen name="lists_grid_sources_list_label_fading_y2">26dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_row_container_height">26dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_row_container_width">200dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_row_container_x1">0dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_row_container_y1">0dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_row_container_x2">200dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_row_container_y2">26dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_row_container_bottom_margin_height">5dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_row_container_bottom_margin_width">5dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_row_container_bottom_margin_x1">0dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_row_container_bottom_margin_y1">26dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_row_container_bottom_margin_x2">5dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_row_container_bottom_margin_y2">31dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_icon_height">18dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_icon_width">18dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_icon_x1">12dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_icon_y1">4dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_icon_x2">30dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_icon_y2">22dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_tickmark_margin_left_height">12dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_tickmark_margin_left_width">12dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_tickmark_margin_left_x1">0dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_tickmark_margin_left_y1">0dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_tickmark_margin_left_x2">12dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_tickmark_margin_left_y2">12dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_label_text_height">21dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_label_text_width">146dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_label_text_x1">42dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_label_text_y1">2.5dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_label_text_x2">188dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_label_text_y2">23.5dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_label_padding_left_height">8dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_label_padding_left_width">8dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_label_padding_left_x1">30dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_label_padding_left_y1">4dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_label_padding_left_x2">38dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_label_padding_left_y2">12dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_normal_label_padding_left__height">8dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_normal_label_padding_left__width">38dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_normal_label_padding_left__x1">0dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_normal_label_padding_left__y1">4dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_normal_label_padding_left__x2">38dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_normal_label_padding_left__y2">12dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_highlighted_label_text_height">21dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_highlighted_label_text_width">150dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_highlighted_label_text_x1">38dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_highlighted_label_text_y1">2.5dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_highlighted_label_text_x2">188dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_highlighted_label_text_y2">23.5dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_label_padding_right_height">12dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_label_padding_right_width">12dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_label_padding_right_x1">188dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_label_padding_right_y1">0dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_label_padding_right_x2">200dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_label_padding_right_y2">12dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_label_fading_height">26dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_label_fading_width">32dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_label_fading_x1">168dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_label_fading_y1">0dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_label_fading_x2">200dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_03_list_label_fading_y2">26dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_row_container_height">26dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_row_container_width">200dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_row_container_x1">0dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_row_container_y1">0dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_row_container_x2">200dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_row_container_y2">26dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_row_container_bottom_margin_height">5dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_row_container_bottom_margin_width">5dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_row_container_bottom_margin_x1">0dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_row_container_bottom_margin_y1">26dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_row_container_bottom_margin_x2">5dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_row_container_bottom_margin_y2">31dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_label_text_height">21dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_label_text_width">176dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_label_text_x1">12dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_label_text_y1">2.5dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_label_text_x2">188dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_label_text_y2">23.5dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_label_padding_left_height">12dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_label_padding_left_width">12dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_label_padding_left_x1">0dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_label_padding_left_y1">0dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_label_padding_left_x2">12dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_label_padding_left_y2">12dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_label_padding_right_height">12dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_label_padding_right_width">12dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_label_padding_right_x1">188dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_label_padding_right_y1">0dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_label_padding_right_x2">200dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_label_padding_right_y2">12dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_highlighted_label_text_height">21dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_highlighted_label_text_width">150dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_highlighted_label_text_x1">38dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_highlighted_label_text_y1">2.5dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_highlighted_label_text_x2">188dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_highlighted_label_text_y2">23.5dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_label_fading_height">26dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_label_fading_width">32dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_label_fading_x1">168dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_label_fading_y1">0dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_label_fading_x2">200dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_02_list_label_fading_y2">26dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_height">26dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_width">218dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_x1">0dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_y1">0dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_x2">218dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_y2">26dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_label_text_height">21dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_label_text_width">156dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_label_text_x1">12dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_label_text_y1">5.5dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_label_text_x2">168dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_label_text_y2">26.5dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_bottom_margin_height">5dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_bottom_margin_width">5dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_bottom_margin_x1">0dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_bottom_margin_y1">26dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_bottom_margin_x2">5dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_bottom_margin_y2">31dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_label_padding_left_height">12dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_label_padding_left_width">12dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_label_padding_left_x1">0dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_label_padding_left_y1">0dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_label_padding_left_x2">12dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_label_padding_left_y2">12dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_label_padding_right_height">12dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_label_padding_right_width">12dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_label_padding_right_x1">168dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_label_padding_right_y1">0dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_label_padding_right_x2">180dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_label_padding_right_y2">12dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_padding_label_arrow_height">12dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_padding_label_arrow_width">30dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_padding_label_arrow_x1">180dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_padding_label_arrow_y1">7dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_padding_label_arrow_x2">210dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_padding_label_arrow_y2">19dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_arrow_height">12dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_arrow_width">8dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_arrow_x1">210dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_arrow_y1">7dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_arrow_x2">218dp</dimen>
+
+<dimen name="lists_grid_optionsmenu_row_arrow_y2">19dp</dimen>
+
+<dimen name="lists_grid_picklist_list_row_height">26dp</dimen>
+
+<dimen name="lists_grid_picklist_list_row_width">288dp</dimen>
+
+<dimen name="lists_grid_picklist_list_row_x1">0dp</dimen>
+
+<dimen name="lists_grid_picklist_list_row_y1">0dp</dimen>
+
+<dimen name="lists_grid_picklist_list_row_x2">288dp</dimen>
+
+<dimen name="lists_grid_picklist_list_row_y2">26dp</dimen>
+
+<dimen name="lists_grid_picklist_list_row_bottom_margin_height">5dp</dimen>
+
+<dimen name="lists_grid_picklist_list_row_bottom_margin_width">5dp</dimen>
+
+<dimen name="lists_grid_picklist_list_row_bottom_margin_x1">0dp</dimen>
+
+<dimen name="lists_grid_picklist_list_row_bottom_margin_y1">26dp</dimen>
+
+<dimen name="lists_grid_picklist_list_row_bottom_margin_x2">5dp</dimen>
+
+<dimen name="lists_grid_picklist_list_row_bottom_margin_y2">31dp</dimen>
+
+<dimen name="lists_grid_picklist_list_row_label_text_height">21dp</dimen>
+
+<dimen name="lists_grid_picklist_list_row_label_text_width">264dp</dimen>
+
+<dimen name="lists_grid_picklist_list_row_label_text_x1">12dp</dimen>
+
+<dimen name="lists_grid_picklist_list_row_label_text_y1">5.5dp</dimen>
+
+<dimen name="lists_grid_picklist_list_row_label_text_x2">276dp</dimen>
+
+<dimen name="lists_grid_picklist_list_row_label_text_y2">26.5dp</dimen>
+
+<dimen name="lists_grid_picklist_list_row_label_padding_left_height">12dp</dimen>
+
+<dimen name="lists_grid_picklist_list_row_label_padding_left_width">12dp</dimen>
+
+<dimen name="lists_grid_picklist_list_row_label_padding_left_x1">0dp</dimen>
+
+<dimen name="lists_grid_picklist_list_row_label_padding_left_y1">0dp</dimen>
+
+<dimen name="lists_grid_picklist_list_row_label_padding_left_x2">12dp</dimen>
+
+<dimen name="lists_grid_picklist_list_row_label_padding_left_y2">12dp</dimen>
+
+<dimen name="lists_grid_picklist_list_row_label_padding_right_height">12dp</dimen>
+
+<dimen name="lists_grid_picklist_list_row_label_padding_right_width">12dp</dimen>
+
+<dimen name="lists_grid_picklist_list_row_label_padding_right_x1">276dp</dimen>
+
+<dimen name="lists_grid_picklist_list_row_label_padding_right_y1">0dp</dimen>
+
+<dimen name="lists_grid_picklist_list_row_label_padding_right_x2">288dp</dimen>
+
+<dimen name="lists_grid_picklist_list_row_label_padding_right_y2">12dp</dimen>
+
+<dimen name="lists_grid_picklist_list_02_row_height">26dp</dimen>
+
+<dimen name="lists_grid_picklist_list_02_row_width">288dp</dimen>
+
+<dimen name="lists_grid_picklist_list_02_row_x1">0dp</dimen>
+
+<dimen name="lists_grid_picklist_list_02_row_y1">0dp</dimen>
+
+<dimen name="lists_grid_picklist_list_02_row_x2">288dp</dimen>
+
+<dimen name="lists_grid_picklist_list_02_row_y2">26dp</dimen>
+
+<dimen name="lists_grid_picklist_list_02_row_icon_height">18dp</dimen>
+
+<dimen name="lists_grid_picklist_list_02_row_icon_width">18dp</dimen>
+
+<dimen name="lists_grid_picklist_list_02_row_icon_x1">66.5dp</dimen>
+
+<dimen name="lists_grid_picklist_list_02_row_icon_y1">4dp</dimen>
+
+<dimen name="lists_grid_picklist_list_02_row_icon_x2">84.5dp</dimen>
+
+<dimen name="lists_grid_picklist_list_02_row_icon_y2">22dp</dimen>
+
+<dimen name="lists_grid_picklist_list_02_row_icon_margin_left_height">12dp</dimen>
+
+<dimen name="lists_grid_picklist_list_02_row_icon_margin_left_width">12dp</dimen>
+
+<dimen name="lists_grid_picklist_list_02_row_icon_margin_left_x1">54.5dp</dimen>
+
+<dimen name="lists_grid_picklist_list_02_row_icon_margin_left_y1">0dp</dimen>
+
+<dimen name="lists_grid_picklist_list_02_row_icon_margin_left_x2">66.5dp</dimen>
+
+<dimen name="lists_grid_picklist_list_02_row_icon_margin_left_y2">12dp</dimen>
+
+<dimen name="lists_grid_picklist_list_02_row_label_text_height">21dp</dimen>
+
+<dimen name="lists_grid_picklist_list_02_row_label_text_width">131dp</dimen>
+
+<dimen name="lists_grid_picklist_list_02_row_label_text_x1">92.5dp</dimen>
+
+<dimen name="lists_grid_picklist_list_02_row_label_text_y1">6dp</dimen>
+
+<dimen name="lists_grid_picklist_list_02_row_label_text_x2">223.5dp</dimen>
+
+<dimen name="lists_grid_picklist_list_02_row_label_text_y2">27dp</dimen>
+
+<dimen name="lists_grid_picklist_list_02_row_label_padding_left_height">8dp</dimen>
+
+<dimen name="lists_grid_picklist_list_02_row_label_padding_left_width">8dp</dimen>
+
+<dimen name="lists_grid_picklist_list_02_row_label_padding_left_x1">84.5dp</dimen>
+
+<dimen name="lists_grid_picklist_list_02_row_label_padding_left_y1">0dp</dimen>
+
+<dimen name="lists_grid_picklist_list_02_row_label_padding_left_x2">92.5dp</dimen>
+
+<dimen name="lists_grid_picklist_list_02_row_label_padding_left_y2">8dp</dimen>
+
+<dimen name="lists_grid_picklist_list_02_row_label_padding_right_height">12dp</dimen>
+
+<dimen name="lists_grid_picklist_list_02_row_label_padding_right_width">12dp</dimen>
+
+<dimen name="lists_grid_picklist_list_02_row_label_padding_right_x1">223.5dp</dimen>
+
+<dimen name="lists_grid_picklist_list_02_row_label_padding_right_y1">0dp</dimen>
+
+<dimen name="lists_grid_picklist_list_02_row_label_padding_right_x2">235.5dp</dimen>
+
+<dimen name="lists_grid_picklist_list_02_row_label_padding_right_y2">12dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_row_container_height">26dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_row_container_width">270dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_row_container_x1">0dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_row_container_y1">0dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_row_container_x2">270dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_row_container_y2">26dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_row_container_bottom_margin_height">5dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_row_container_bottom_margin_width">5dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_row_container_bottom_margin_x1">0dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_row_container_bottom_margin_y1">26dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_row_container_bottom_margin_x2">5dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_row_container_bottom_margin_y2">31dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_icon_height">18dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_icon_width">18dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_icon_x1">12dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_icon_y1">4dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_icon_x2">30dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_icon_y2">22dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_label_padding_left_height">8dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_label_padding_left_width">8dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_label_padding_left_x1">30dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_label_padding_left_y1">4dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_label_padding_left_x2">38dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_label_padding_left_y2">12dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_label_text_height">21dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_label_text_width">158dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_label_text_x1">38dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_label_text_y1">2.5dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_label_text_x2">196dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_label_text_y2">23.5dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_label_value_text_height">21dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_label_value_text_width">26dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_label_value_text_x1">216dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_label_value_text_y1">2.5dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_label_value_text_x2">242dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_label_value_text_y2">23.5dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_highlighted_label_text_height">21dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_highlighted_label_text_width">158dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_highlighted_label_text_x1">38dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_highlighted_label_text_y1">2.5dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_highlighted_label_text_x2">196dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_highlighted_label_text_y2">23.5dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_icon_margin_left_height">12dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_icon_margin_left_width">12dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_icon_margin_left_x1">0dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_icon_margin_left_y1">0dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_icon_margin_left_x2">12dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_icon_margin_left_y2">12dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_label_padding_right_height">12dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_label_padding_right_width">12dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_label_padding_right_x1">196dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_label_padding_right_y1">0dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_label_padding_right_x2">208dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_label_padding_right_y2">12dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_label_fading_height">26dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_label_fading_width">32dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_label_fading_x1">176dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_label_fading_y1">0dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_label_fading_x2">208dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_label_fading_y2">26dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_arrow_height">12dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_arrow_width">8dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_arrow_x1">262dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_arrow_y1">7dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_arrow_x2">270dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_arrow_y2">19dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_arrow_margin_left_height">12dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_arrow_margin_left_width">30dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_arrow_margin_left_x1">232dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_arrow_margin_left_y1">7dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_arrow_margin_left_x2">262dp</dimen>
+
+<dimen name="lists_grid_single_line_music_list_arrow_margin_left_y2">19dp</dimen>
+
+</resources>

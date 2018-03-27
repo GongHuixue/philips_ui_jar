@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false" android:state_activated="false" android:state_checked="false" android:state_enabled="true" android:state_selected="true" android:drawable="@drawable/list_radiobutton_highlighted"/>
+	 <item android:state_pressed="true" android:state_activated="false" android:state_checked="false" android:state_enabled="true" android:state_selected="true" android:drawable="@drawable/list_radiobutton_pressed"/>
+    <item android:state_activated="false" android:state_checked="false" android:state_enabled="true" android:state_selected="false" android:drawable="@drawable/list_radiobutton_normal" /> 
+    <item android:state_pressed="false" android:state_activated="true" android:state_enabled="true" android:state_selected="true" android:drawable="@drawable/list_radiobutton_activated_highlighted" />
+	<item android:state_pressed="true" android:state_activated="true" android:state_enabled="true" android:state_selected="true" android:drawable="@drawable/list_radiobutton_activated" />
+	<item android:state_pressed="false" android:state_checked="true" android:state_enabled="true" android:state_selected="true" android:drawable="@drawable/list_radiobutton_activated_highlighted" /> 
+	<item android:state_pressed="true" android:state_checked="true" android:state_enabled="true" android:state_selected="true" android:drawable="@drawable/list_radiobutton_activated" /> 
+    <item android:state_activated="true" android:state_enabled="true" android:state_selected="false" android:drawable="@drawable/list_radiobutton_activated" />
+	<item android:state_checked="true" android:state_enabled="true" android:state_selected="false" android:drawable="@drawable/list_radiobutton_activated" />
+    <item android:state_enabled="false" android:drawable="@drawable/list_radiobutton_disabled" />
+</selector>

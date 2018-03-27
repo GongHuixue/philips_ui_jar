@@ -59,6 +59,14 @@
                 <category android:name="UI_Component_Demo_Activity" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".NPanelBrowserActivity"
+            android:label="@string/NPanelBrowser_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="UI_Component_Demo_Activity" />
+            </intent-filter>
+        </activity>
 
 
         <service android:name="ui.tvtoast.tv.TvToastService">

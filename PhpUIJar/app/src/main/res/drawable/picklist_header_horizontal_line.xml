@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
-    android:shape="rectangle">
+    android:shape="rectangle" >
 
     <size
         android:height="1dp"
-        android:width="@dimen/picklist_01_header_container_width" />
+        android:width="@dimen/picklist_01_container_width" />
 
     <solid android:color="#1AFFFFFF" />
 </shape>

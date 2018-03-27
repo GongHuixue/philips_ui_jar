@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item android:drawable="@drawable/satellite_installation_d_ico_40x30_151"
+		android:state_activated="false" />
+	<item android:drawable="@drawable/satellite_installation_hl_ico_40x30_151"
+		android:state_pressed="true"
+		android:state_focused="true" />
+	<item android:drawable="@drawable/satellite_installation_n_ico_40x30_151" />
+</selector>

@@ -1,276 +1,298 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--Tue Jun 10 2014 11:29:39 GMT+0530-->
 <resources>
-    <dimen name="colorkey_bar_container_height">44dp</dimen>
-    <dimen name="colorkey_bar_container_width">960dp</dimen>
-    <dimen name="colorkey_bar_color_key_container_width">526dp</dimen>
-    <dimen name="colorkey_bar_container_x1">0dp</dimen>
-    <dimen name="colorkey_bar_container_y1">0dp</dimen>
-    <dimen name="colorkey_bar_container_x2">960dp</dimen>
-    <dimen name="colorkey_bar_container_y2">44dp</dimen>
-    <dimen name="colorkey_bar_padding_left_height">44dp</dimen>
-    <dimen name="colorkey_bar_padding_left_width">20dp</dimen>
-    <dimen name="colorkey_bar_padding_left">4dp</dimen>
-    <dimen name="colorkey_bar_padding_left_x1">0dp</dimen>
-    <dimen name="colorkey_bar_padding_left_y1">0dp</dimen>
-    <dimen name="colorkey_bar_padding_left_x2">20dp</dimen>
-    <dimen name="colorkey_bar_padding_left_y2">44dp</dimen>
-    <dimen name="colorkey_bar_colorkey_red_height">3dp</dimen>
-    <dimen name="colorkey_bar_colorkey_red_width">10dp</dimen>
-    <dimen name="colorkey_bar_colorkey_red_x1">20dp</dimen>
-    <dimen name="colorkey_bar_colorkey_red_y1">20dp</dimen>
-    <dimen name="colorkey_bar_colorkey_red_x2">30dp</dimen>
-    <dimen name="colorkey_bar_colorkey_red_y2">23dp</dimen>
-    <dimen name="colorkey_bar_margin_left_height">44dp</dimen>
-    <dimen name="colorkey_bar_margin_left_width">16dp</dimen>
+<!--Layout_Colorkey_Bar_v2.0.psd-->
+<dimen name="colorkey_bar_container_height">44dp</dimen>
 
-    <dimen name="colorkey_bar_margin_left_x1">59dp</dimen>
+<dimen name="colorkey_bar_container_width">960dp</dimen>
 
-    <dimen name="colorkey_bar_margin_left_y1">0dp</dimen>
+<dimen name="colorkey_bar_color_key_container_width">526dp</dimen>
 
-    <dimen name="colorkey_bar_margin_left_x2">75dp</dimen>
+<dimen name="colorkey_bar_container_x1">0dp</dimen>
 
-    <dimen name="colorkey_bar_margin_left_y2">44dp</dimen>
+<dimen name="colorkey_bar_container_y1">0dp</dimen>
 
-    <dimen name="colorkey_bar_drawable_padding_height">44dp</dimen>
+<dimen name="colorkey_bar_container_x2">960dp</dimen>
 
-    <dimen name="colorkey_bar_drawable_padding_width">6dp</dimen>
+<dimen name="colorkey_bar_container_y2">44dp</dimen>
 
-    <dimen name="colorkey_bar_drawable_padding_x1">30dp</dimen>
+<dimen name="colorkey_bar_padding_left_height">44dp</dimen>
 
-    <dimen name="colorkey_bar_drawable_padding_y1">0dp</dimen>
+<dimen name="colorkey_bar_padding_left_width">20dp</dimen>
 
-    <dimen name="colorkey_bar_drawable_padding_x2">36dp</dimen>
+<dimen name="colorkey_bar_padding_left">4dp</dimen>
 
-    <dimen name="colorkey_bar_drawable_padding_y2">44dp</dimen>
+<dimen name="colorkey_bar_padding_left_x1">0dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_max_text_height">8dp</dimen>
+<dimen name="colorkey_bar_padding_left_y1">0dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_max_text_width">175dp</dimen>
+<dimen name="colorkey_bar_padding_left_x2">20dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_max_text_x1">36dp</dimen>
+<dimen name="colorkey_bar_padding_left_y2">44dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_max_text_y1">18dp</dimen>
+<dimen name="colorkey_bar_colorkey_red_height">3dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_max_text_x2">152dp</dimen>
+<dimen name="colorkey_bar_colorkey_red_width">10dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_max_text_y2">26dp</dimen>
+<dimen name="colorkey_bar_colorkey_red_x1">20dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_min_text_height">8dp</dimen>
+<dimen name="colorkey_bar_colorkey_red_y1">20dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_min_text_width">24dp</dimen>
+<dimen name="colorkey_bar_colorkey_red_x2">30dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_min_text_x1">36dp</dimen>
+<dimen name="colorkey_bar_colorkey_red_y2">23dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_min_text_y1">18dp</dimen>
+<dimen name="colorkey_bar_margin_left_height">44dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_min_text_x2">60dp</dimen>
+<dimen name="colorkey_bar_margin_left_width">16dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_min_text_y2">26dp</dimen>
+<dimen name="colorkey_bar_margin_left_x1">59dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_red_text_height">8dp</dimen>
+<dimen name="colorkey_bar_margin_left_y1">0dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_red_text_width">23dp</dimen>
+<dimen name="colorkey_bar_margin_left_x2">75dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_red_text_x1">36dp</dimen>
+<dimen name="colorkey_bar_margin_left_y2">44dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_red_text_y1">18dp</dimen>
+<dimen name="colorkey_bar_drawable_padding_height">44dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_red_text_x2">59dp</dimen>
+<dimen name="colorkey_bar_drawable_padding_width">6dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_red_text_y2">26dp</dimen>
+<dimen name="colorkey_bar_drawable_padding_x1">30dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_green_height">3dp</dimen>
+<dimen name="colorkey_bar_drawable_padding_y1">0dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_green_width">10dp</dimen>
+<dimen name="colorkey_bar_drawable_padding_x2">36dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_green_x1">75dp</dimen>
+<dimen name="colorkey_bar_drawable_padding_y2">44dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_green_y1">20dp</dimen>
+<dimen name="colorkey_bar_colorkey_max_text_height">8dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_green_x2">85dp</dimen>
+<dimen name="colorkey_bar_colorkey_max_text_width">175dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_green_y2">23dp</dimen>
+<dimen name="colorkey_bar_colorkey_max_text_x1">36dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_green_text_height">8dp</dimen>
+<dimen name="colorkey_bar_colorkey_max_text_y1">18dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_green_text_width">49dp</dimen>
+<dimen name="colorkey_bar_colorkey_max_text_x2">152dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_green_text_x1">91dp</dimen>
+<dimen name="colorkey_bar_colorkey_max_text_y2">26dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_green_text_y1">18dp</dimen>
+<dimen name="colorkey_bar_colorkey_min_text_height">8dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_green_text_x2">140dp</dimen>
+<dimen name="colorkey_bar_colorkey_min_text_width">24dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_green_text_y2">26dp</dimen>
+<dimen name="colorkey_bar_colorkey_min_text_x1">36dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_green_max_text_height">8dp</dimen>
+<dimen name="colorkey_bar_colorkey_min_text_y1">18dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_green_max_text_width">115dp</dimen>
+<dimen name="colorkey_bar_colorkey_min_text_x2">60dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_green_max_text_x1">91dp</dimen>
+<dimen name="colorkey_bar_colorkey_min_text_y2">26dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_green_max_text_y1">18dp</dimen>
+<dimen name="colorkey_bar_colorkey_red_text_height">8dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_green_max_text_x2">206dp</dimen>
+<dimen name="colorkey_bar_colorkey_red_text_width">23dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_green_max_text_y2">26dp</dimen>
+<dimen name="colorkey_bar_colorkey_red_text_x1">36dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_yellow_height">3dp</dimen>
+<dimen name="colorkey_bar_colorkey_red_text_y1">18dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_yellow_width">10dp</dimen>
+<dimen name="colorkey_bar_colorkey_red_text_x2">59dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_yellow_x1">156dp</dimen>
+<dimen name="colorkey_bar_colorkey_red_text_y2">26dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_yellow_y1">20dp</dimen>
+<dimen name="colorkey_bar_colorkey_green_height">3dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_yellow_x2">166dp</dimen>
+<dimen name="colorkey_bar_colorkey_green_width">10dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_yellow_y2">23dp</dimen>
+<dimen name="colorkey_bar_colorkey_green_x1">75dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_yellow_text_height">8dp</dimen>
+<dimen name="colorkey_bar_colorkey_green_y1">20dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_yellow_text_width">29dp</dimen>
+<dimen name="colorkey_bar_colorkey_green_x2">85dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_yellow_text_x1">172dp</dimen>
+<dimen name="colorkey_bar_colorkey_green_y2">23dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_yellow_text_y1">18dp</dimen>
+<dimen name="colorkey_bar_colorkey_green_text_height">8dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_yellow_text_x2">201dp</dimen>
+<dimen name="colorkey_bar_colorkey_green_text_width">49dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_yellow_text_y2">26dp</dimen>
+<dimen name="colorkey_bar_colorkey_green_text_x1">91dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_yellow_max_text_height">8dp</dimen>
+<dimen name="colorkey_bar_colorkey_green_text_y1">18dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_yellow_max_text_width">115dp</dimen>
+<dimen name="colorkey_bar_colorkey_green_text_x2">140dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_yellow_max_text_x1">172dp</dimen>
+<dimen name="colorkey_bar_colorkey_green_text_y2">26dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_yellow_max_text_y1">18dp</dimen>
+<dimen name="colorkey_bar_colorkey_green_max_text_height">8dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_yellow_max_text_x2">287dp</dimen>
+<dimen name="colorkey_bar_colorkey_green_max_text_width">115dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_yellow_max_text_y2">26dp</dimen>
+<dimen name="colorkey_bar_colorkey_green_max_text_x1">91dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_blue_height">3dp</dimen>
+<dimen name="colorkey_bar_colorkey_green_max_text_y1">18dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_blue_width">10dp</dimen>
+<dimen name="colorkey_bar_colorkey_green_max_text_x2">206dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_blue_x1">217dp</dimen>
+<dimen name="colorkey_bar_colorkey_green_max_text_y2">26dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_blue_y1">20dp</dimen>
+<dimen name="colorkey_bar_colorkey_yellow_height">3dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_blue_x2">227dp</dimen>
+<dimen name="colorkey_bar_colorkey_yellow_width">10dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_blue_y2">23dp</dimen>
+<dimen name="colorkey_bar_colorkey_yellow_x1">156dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_blue_text_height">8dp</dimen>
+<dimen name="colorkey_bar_colorkey_yellow_y1">20dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_blue_text_width">31.5dp</dimen>
+<dimen name="colorkey_bar_colorkey_yellow_x2">166dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_blue_text_x1">233dp</dimen>
+<dimen name="colorkey_bar_colorkey_yellow_y2">23dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_blue_text_y1">18dp</dimen>
+<dimen name="colorkey_bar_colorkey_yellow_text_height">8dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_blue_text_x2">264.5dp</dimen>
+<dimen name="colorkey_bar_colorkey_yellow_text_width">29dp</dimen>
 
-    <dimen name="colorkey_bar_colorkey_blue_text_y2">26dp</dimen>
+<dimen name="colorkey_bar_colorkey_yellow_text_x1">172dp</dimen>
 
-    <dimen name="colorkey_bar_time_text_height">9.5dp</dimen>
+<dimen name="colorkey_bar_colorkey_yellow_text_y1">18dp</dimen>
 
-    <dimen name="colorkey_bar_time_text_width">167.5dp</dimen>
+<dimen name="colorkey_bar_colorkey_yellow_text_x2">201dp</dimen>
 
-    <dimen name="colorkey_bar_time_text_x1">617.5dp</dimen>
+<dimen name="colorkey_bar_colorkey_yellow_text_y2">26dp</dimen>
 
-    <dimen name="colorkey_bar_time_text_y1">18dp</dimen>
+<dimen name="colorkey_bar_colorkey_yellow_max_text_height">8dp</dimen>
 
-    <dimen name="colorkey_bar_time_text_x2">785dp</dimen>
+<dimen name="colorkey_bar_colorkey_yellow_max_text_width">115dp</dimen>
 
-    <dimen name="colorkey_bar_time_text_y2">27.5dp</dimen>
+<dimen name="colorkey_bar_colorkey_yellow_max_text_x1">172dp</dimen>
 
-    <dimen name="colorkey_bar_info_icon_height">10dp</dimen>
+<dimen name="colorkey_bar_colorkey_yellow_max_text_y1">18dp</dimen>
 
-    <dimen name="colorkey_bar_info_icon_width">10dp</dimen>
+<dimen name="colorkey_bar_colorkey_yellow_max_text_x2">287dp</dimen>
 
-    <dimen name="colorkey_bar_info_icon_x1">801dp</dimen>
+<dimen name="colorkey_bar_colorkey_yellow_max_text_y2">26dp</dimen>
 
-    <dimen name="colorkey_bar_info_icon_y1">17dp</dimen>
+<dimen name="colorkey_bar_colorkey_blue_height">3dp</dimen>
 
-    <dimen name="colorkey_bar_info_icon_x2">811dp</dimen>
+<dimen name="colorkey_bar_colorkey_blue_width">10dp</dimen>
 
-    <dimen name="colorkey_bar_info_icon_y2">27dp</dimen>
+<dimen name="colorkey_bar_colorkey_blue_x1">217dp</dimen>
 
-    <dimen name="colorkey_bar_termsofuse_text_height">8dp</dimen>
+<dimen name="colorkey_bar_colorkey_blue_y1">20dp</dimen>
 
-    <dimen name="colorkey_bar_termsofuse_text_width">94.5dp</dimen>
+<dimen name="colorkey_bar_colorkey_blue_x2">227dp</dimen>
 
-    <dimen name="colorkey_bar_termsofuse_text_x1">817dp</dimen>
+<dimen name="colorkey_bar_colorkey_blue_y2">23dp</dimen>
 
-    <dimen name="colorkey_bar_termsofuse_text_y1">18dp</dimen>
+<dimen name="colorkey_bar_colorkey_blue_text_height">8dp</dimen>
 
-    <dimen name="colorkey_bar_termsofuse_text_x2">911.5dp</dimen>
+<dimen name="colorkey_bar_colorkey_blue_text_width">31.5dp</dimen>
 
-    <dimen name="colorkey_bar_termsofuse_text_y2">26dp</dimen>
+<dimen name="colorkey_bar_colorkey_blue_text_x1">233dp</dimen>
 
-    <dimen name="colorkey_bar_info_icon_left_margin_height">44dp</dimen>
+<dimen name="colorkey_bar_colorkey_blue_text_y1">18dp</dimen>
 
-    <dimen name="colorkey_bar_info_icon_left_margin_width">16dp</dimen>
+<dimen name="colorkey_bar_colorkey_blue_text_x2">264.5dp</dimen>
 
-    <dimen name="colorkey_bar_info_icon_left_margin_x1">785dp</dimen>
+<dimen name="colorkey_bar_colorkey_blue_text_y2">26dp</dimen>
 
-    <dimen name="colorkey_bar_info_icon_left_margin_y1">0dp</dimen>
+<dimen name="colorkey_bar_time_text_height">9.5dp</dimen>
 
-    <dimen name="colorkey_bar_info_icon_left_margin_x2">801dp</dimen>
+<dimen name="colorkey_bar_time_text_width">167.5dp</dimen>
 
-    <dimen name="colorkey_bar_info_icon_left_margin_y2">44dp</dimen>
+<dimen name="colorkey_bar_time_text_x1">617.5dp</dimen>
 
-    <dimen name="colorkey_bar_info_icon_right_margin_height">44dp</dimen>
+<dimen name="colorkey_bar_time_text_y1">18dp</dimen>
 
-    <dimen name="colorkey_bar_info_icon_right_margin_width">6dp</dimen>
+<dimen name="colorkey_bar_time_text_x2">785dp</dimen>
 
-    <dimen name="colorkey_bar_info_icon_right_margin_x1">811dp</dimen>
+<dimen name="colorkey_bar_time_text_y2">27.5dp</dimen>
 
-    <dimen name="colorkey_bar_info_icon_right_margin_y1">0dp</dimen>
+<dimen name="colorkey_bar_info_icon_height">10dp</dimen>
 
-    <dimen name="colorkey_bar_info_icon_right_margin_x2">817dp</dimen>
+<dimen name="colorkey_bar_info_icon_width">10dp</dimen>
 
-    <dimen name="colorkey_bar_info_icon_right_margin_y2">44dp</dimen>
+<dimen name="colorkey_bar_info_icon_x1">801dp</dimen>
 
-    <dimen name="colorkey_bar_options_icon_left_margin_height">44dp</dimen>
+<dimen name="colorkey_bar_info_icon_y1">17dp</dimen>
 
-    <dimen name="colorkey_bar_options_icon_left_margin_width">16dp</dimen>
+<dimen name="colorkey_bar_info_icon_x2">811dp</dimen>
 
-    <dimen name="colorkey_bar_options_icon_left_margin_x1">911.5dp</dimen>
+<dimen name="colorkey_bar_info_icon_y2">27dp</dimen>
 
-    <dimen name="colorkey_bar_options_icon_left_margin_y1">0dp</dimen>
+<dimen name="colorkey_bar_termsofuse_text_height">8dp</dimen>
 
-    <dimen name="colorkey_bar_options_icon_left_margin_x2">927.5dp</dimen>
+<dimen name="colorkey_bar_termsofuse_text_width">94.5dp</dimen>
 
-    <dimen name="colorkey_bar_options_icon_left_margin_y2">44dp</dimen>
+<dimen name="colorkey_bar_termsofuse_text_x1">817dp</dimen>
 
-    <dimen name="colorkey_bar_options_icon_height">11dp</dimen>
+<dimen name="colorkey_bar_termsofuse_text_y1">18dp</dimen>
 
-    <dimen name="colorkey_bar_options_icon_width">13dp</dimen>
+<dimen name="colorkey_bar_termsofuse_text_x2">911.5dp</dimen>
 
-    <dimen name="colorkey_bar_options_icon_x1">927.5dp</dimen>
+<dimen name="colorkey_bar_termsofuse_text_y2">26dp</dimen>
 
-    <dimen name="colorkey_bar_options_icon_y1">17dp</dimen>
+<dimen name="colorkey_bar_info_icon_left_margin_height">44dp</dimen>
 
-    <dimen name="colorkey_bar_options_icon_x2">940dp</dimen>
+<dimen name="colorkey_bar_info_icon_left_margin_width">16dp</dimen>
 
-    <dimen name="colorkey_bar_options_icon_y2">27dp</dimen>
+<dimen name="colorkey_bar_info_icon_left_margin_x1">785dp</dimen>
 
-    <dimen name="colorkey_bar_padding_right_height">44dp</dimen>
+<dimen name="colorkey_bar_info_icon_left_margin_y1">0dp</dimen>
 
-    <dimen name="colorkey_bar_padding_right_width">4dp</dimen>
+<dimen name="colorkey_bar_info_icon_left_margin_x2">801dp</dimen>
 
-    <dimen name="colorkey_bar_padding_right_x1">940dp</dimen>
+<dimen name="colorkey_bar_info_icon_left_margin_y2">44dp</dimen>
 
-    <dimen name="colorkey_bar_padding_right_y1">0dp</dimen>
+<dimen name="colorkey_bar_info_icon_right_margin_height">44dp</dimen>
 
-    <dimen name="colorkey_bar_padding_right_x2">960dp</dimen>
+<dimen name="colorkey_bar_info_icon_right_margin_width">6dp</dimen>
 
-    <dimen name="colorkey_bar_padding_right_y2">44dp</dimen>
+<dimen name="colorkey_bar_info_icon_right_margin_x1">811dp</dimen>
 
-    <dimen name="components_colorkey_bar_time_text_width">259.5dp</dimen>
+<dimen name="colorkey_bar_info_icon_right_margin_y1">0dp</dimen>
 
+<dimen name="colorkey_bar_info_icon_right_margin_x2">817dp</dimen>
+
+<dimen name="colorkey_bar_info_icon_right_margin_y2">44dp</dimen>
+
+<dimen name="colorkey_bar_options_icon_left_margin_height">44dp</dimen>
+
+<dimen name="colorkey_bar_options_icon_left_margin_width">16dp</dimen>
+
+<dimen name="colorkey_bar_options_icon_left_margin_x1">911.5dp</dimen>
+
+<dimen name="colorkey_bar_options_icon_left_margin_y1">0dp</dimen>
+
+<dimen name="colorkey_bar_options_icon_left_margin_x2">927.5dp</dimen>
+
+<dimen name="colorkey_bar_options_icon_left_margin_y2">44dp</dimen>
+
+<dimen name="colorkey_bar_options_icon_height">11dp</dimen>
+
+<dimen name="colorkey_bar_options_icon_width">13dp</dimen>
+
+<dimen name="colorkey_bar_options_icon_x1">927.5dp</dimen>
+
+<dimen name="colorkey_bar_options_icon_y1">17dp</dimen>
+
+<dimen name="colorkey_bar_options_icon_x2">940dp</dimen>
+
+<dimen name="colorkey_bar_options_icon_y2">27dp</dimen>
+
+<dimen name="colorkey_bar_padding_right_height">44dp</dimen>
+
+<dimen name="colorkey_bar_padding_right_width">20dp</dimen>
+
+<dimen name="colorkey_bar_padding_right_x1">940dp</dimen>
+
+<dimen name="colorkey_bar_padding_right_y1">0dp</dimen>
+
+<dimen name="colorkey_bar_padding_right_x2">960dp</dimen>
+
+<dimen name="colorkey_bar_padding_right_y2">44dp</dimen>
+
+<dimen name="components_colorkey_bar_time_text_width">259.5dp</dimen>
 </resources>

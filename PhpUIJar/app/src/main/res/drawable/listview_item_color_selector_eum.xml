@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+   
+    <item android:state_enabled="false" android:color="@color/list_row_disabled_eum"/>
+    <item android:state_pressed="true" android:color="@color/list_row_transparent_eum"/>   
+    <item android:state_selected="true" android:color="@color/list_row_selected_eum"/>
+    <item android:state_activated="true" android:color="@color/list_row_transparent_eum"/>
+    
+    <item android:color="@color/list_row_transparent_eum"></item>
+
+</selector>

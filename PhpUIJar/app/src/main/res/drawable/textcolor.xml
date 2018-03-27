@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+ <item android:state_focused="true" android:state_enabled="true"
+      android:color="@color/activatedhighlighted"
+      />
+ <item android:state_hovered="true" android:state_enabled="true"
+      android:color="@color/activatedhighlighted"
+      />
+  <item android:state_pressed="true"
+      android:color="@color/pressed"
+     />
+   <item android:state_checked="true"
+       android:color="@color/activated"
+       />
+   <item android:state_focused="true" android:state_enabled="false"
+       android:color="@color/disabledhighlighted"
+      />
+   <item android:state_hovered="true" android:state_enabled="false"
+       android:color="@color/disabledhighlighted"
+      />
+   <item android:color="@color/normal"/>
+  
+</selector>

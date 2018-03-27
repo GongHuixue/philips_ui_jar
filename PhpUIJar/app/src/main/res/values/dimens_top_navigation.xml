@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Fri Jun 20 2014 14:46:21 GMT+0530-->
+<resources>
+<!--Layout_TopMenuBar_v2.0.psd-->
+<dimen name="topmenubar_container_height">84dp</dimen>
+
+<dimen name="topmenubar_container_width">960dp</dimen>
+
+<dimen name="topmenubar_container_x1">0dp</dimen>
+
+<dimen name="topmenubar_container_y1">0dp</dimen>
+
+<dimen name="topmenubar_container_x2">960dp</dimen>
+
+<dimen name="topmenubar_container_y2">84dp</dimen>
+
+<dimen name="topmenubar_top_margin_height">18dp</dimen>
+
+<dimen name="topmenubar_top_margin_width">960dp</dimen>
+
+<dimen name="topmenubar_top_margin_x1">0dp</dimen>
+
+<dimen name="topmenubar_top_margin_y1">0dp</dimen>
+
+<dimen name="topmenubar_top_margin_x2">960dp</dimen>
+
+<dimen name="topmenubar_top_margin_y2">18dp</dimen>
+
+<dimen name="topmenubar_left_margin_height">84dp</dimen>
+
+<dimen name="topmenubar_left_margin_width">20dp</dimen>
+
+<dimen name="topmenubar_left_margin_x1">0dp</dimen>
+
+<dimen name="topmenubar_left_margin_y1">0dp</dimen>
+
+<dimen name="topmenubar_left_margin_x2">20dp</dimen>
+
+<dimen name="topmenubar_left_margin_y2">84dp</dimen>
+
+<dimen name="topmenubar_home_icon_circle_height">36dp</dimen>
+
+<dimen name="topmenubar_home_icon_circle_width">39dp</dimen>
+
+<dimen name="topmenubar_home_icon_circle_x1">20dp</dimen>
+
+<dimen name="topmenubar_home_icon_circle_y1">18dp</dimen>
+
+<dimen name="topmenubar_home_icon_circle_x2">59dp</dimen>
+
+<dimen name="topmenubar_home_icon_circle_y2">54dp</dimen>
+
+<dimen name="topmenubar_home_icon_height">14dp</dimen>
+
+<dimen name="topmenubar_home_icon_width">18dp</dimen>
+
+<dimen name="topmenubar_home_icon_x1">29dp</dimen>
+
+<dimen name="topmenubar_home_icon_y1">29dp</dimen>
+
+<dimen name="topmenubar_home_icon_x2">47dp</dimen>
+
+<dimen name="topmenubar_home_icon_y2">43dp</dimen>
+
+<dimen name="topmenubar_home_icon_right_margin_height">84dp</dimen>
+
+<dimen name="topmenubar_home_icon_right_margin_width">11dp</dimen>
+
+<dimen name="topmenubar_home_icon_right_margin_x1">59dp</dimen>
+
+<dimen name="topmenubar_home_icon_right_margin_y1">0dp</dimen>
+
+<dimen name="topmenubar_home_icon_right_margin_x2">70dp</dimen>
+
+<dimen name="topmenubar_home_icon_right_margin_y2">84dp</dimen>
+
+<dimen name="topmenubar_app_icon_circle_height">36dp</dimen>
+
+<dimen name="topmenubar_app_icon_circle_width">36dp</dimen>
+
+<dimen name="topmenubar_app_icon_circle_x1">70dp</dimen>
+
+<dimen name="topmenubar_app_icon_circle_y1">18dp</dimen>
+
+<dimen name="topmenubar_app_icon_circle_x2">106dp</dimen>
+
+<dimen name="topmenubar_app_icon_circle_y2">54dp</dimen>
+
+<dimen name="topmenubar_app_icon_height">14dp</dimen>
+
+<dimen name="topmenubar_app_icon_width">18dp</dimen>
+
+<dimen name="topmenubar_app_icon_x1">79dp</dimen>
+
+<dimen name="topmenubar_app_icon_y1">29dp</dimen>
+
+<dimen name="topmenubar_app_icon_x2">97dp</dimen>
+
+<dimen name="topmenubar_app_icon_y2">43dp</dimen>
+
+<dimen name="topmenubar_icon_to_icon_margin_height">84dp</dimen>
+
+<dimen name="topmenubar_icon_to_icon_margin_width">14dp</dimen>
+
+<dimen name="topmenubar_icon_to_icon_margin_x1">106dp</dimen>
+
+<dimen name="topmenubar_icon_to_icon_margin_y1">0dp</dimen>
+
+<dimen name="topmenubar_icon_to_icon_margin_x2">120dp</dimen>
+
+<dimen name="topmenubar_icon_to_icon_margin_y2">84dp</dimen>
+
+<dimen name="topmenubar_icon_to_label_margin_height">84dp</dimen>
+
+<dimen name="topmenubar_icon_to_label_margin_width">10dp</dimen>
+
+<dimen name="topmenubar_icon_to_label_margin_x1">156dp</dimen>
+
+<dimen name="topmenubar_icon_to_label_margin_y1">0dp</dimen>
+
+<dimen name="topmenubar_icon_to_label_margin_x2">166dp</dimen>
+
+<dimen name="topmenubar_icon_to_label_margin_y2">84dp</dimen>
+
+<dimen name="topmenubar_label_text_l_height">25dp</dimen>
+
+<dimen name="topmenubar_label_text_l_width">124.5dp</dimen>
+
+<dimen name="topmenubar_label_text_l_x1">166dp</dimen>
+
+<dimen name="topmenubar_label_text_l_y1">24dp</dimen>
+
+<dimen name="topmenubar_label_text_l_x2">290.5dp</dimen>
+
+<dimen name="topmenubar_label_text_l_y2">49dp</dimen>
+
+<dimen name="topmenubar_label_to_icon_margin_height">84dp</dimen>
+
+<dimen name="topmenubar_label_to_icon_margin_width">14dp</dimen>
+
+<dimen name="topmenubar_label_to_icon_margin_x1">290.5dp</dimen>
+
+<dimen name="topmenubar_label_to_icon_margin_y1">0dp</dimen>
+
+<dimen name="topmenubar_label_to_icon_margin_x2">304.5dp</dimen>
+
+<dimen name="topmenubar_label_to_icon_margin_y2">84dp</dimen>
+
+</resources>
