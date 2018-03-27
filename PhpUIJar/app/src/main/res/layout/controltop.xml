@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#CC000000"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TxtFileNm"
+        android:layout_width="800dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9dp"
+        android:gravity="center"
+		android:singleLine="true"
+		android:requiresFadingEdge="horizontal"
+		android:ellipsize="marquee"
+        android:fadingEdgeLength="10dp"
+        android:fadingEdge="horizontal"
+		style="@style/hnl" />
+
+    <TextView
+        android:id="@+id/TxtMetaDataId"
+        android:layout_width="800dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+		android:layout_below="@+id/TxtFileNm"
+		style="@style/lnl" />
+		
+	<TextView
+        android:id="@+id/TxtMetaDataLogo"
+        android:layout_width="800dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+		android:visibility="gone"
+		android:layout_below="@+id/TxtMetaDataId"
+        style="@style/lnl" />
+
+</RelativeLayout>
