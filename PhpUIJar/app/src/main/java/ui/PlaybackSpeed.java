@@ -1,7 +1,7 @@
 package ui;
 
 /**
- * @deprecated use new play component which is part of media package
+ *  use new play component which is part of media package
  */
 public interface PlaybackSpeed {
     /**

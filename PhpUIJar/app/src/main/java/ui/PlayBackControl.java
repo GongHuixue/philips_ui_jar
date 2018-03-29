@@ -40,7 +40,7 @@ import android.animation.ObjectAnimator;
 import android.view.animation.LinearInterpolator;
 
 /**
- * @deprecated use new play component which is part of media package
+ * use new play component which is part of media package
  */
 public class PlayBackControl implements PlayerBottomLayout.IDelegateEventListener, ISlowPlayControlCallback {
     protected final View anchor;
