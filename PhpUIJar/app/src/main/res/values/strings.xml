@@ -1,0 +1,81 @@
+<resources>
+
+    <string name="app_name">Philips_UiJar</string>
+    <string name="ColorKey_Activity">ColorKey_Activity</string>
+    <string name="ProgressBar_Activity">ProgressBar_Activity</string>
+    <string name="TvToast_Activity">TvToast_Activity</string>
+    <string name="ModalDialog_Activity">ModalDialog_Activity</string>
+    <string name="PickList_Activity">PickList_Activity</string>
+    <string name="NPanelBrowser_Activity">NPanelBrowser_Activity</string>
+
+    <!--define colorkey activity string values-->
+    <string name="Red">REC</string>
+    <string name="Yellow">INFO</string>
+    <string name="Green">REMIND</string>
+    <string name="Blue">HELP</string>
+    <string name="Info">TERMS OF USE</string>
+
+    <string name="hidingcolorkey">Hidding any color key just checked following checkbox or pass blank label in input field.</string>
+    <string name="red_key">Red</string>
+    <string name="yellow_key">Yellow</string>
+    <string name="green_key">Green</string>
+    <string name="blue_key">Blue</string>
+    <string name="hide">Hide</string>
+    <string name="appear">Appear</string>
+    <string name="colorkey_animate">ColorKey Animate</string>
+    <string name="disable_info">Disable Info</string>
+    <string name="disable_option">Disable Option</string>
+    <string name="str_submit">Submit</string>
+
+    <string name="title_activity_main">MainActivity</string>
+
+    <!--Define ProgressBar Activity String Values-->
+    <string name="loader">Loader</string>
+    <string name="submit">Submit</string>
+    <string name="increment">Increment</string>
+    <string name="decrement">Decrement</string>
+    <string name="nrml_dftt_progbar">Normal/Default Progress Bar</string>
+    <string name="discspaceprogressbar">Disc space Progress Bar</string>
+    <string name="hg_progbar">Highlighted Progress Bar</string>
+    <string name="hg_lrg_progbar">Highlighted Large Progress Bar</string>
+
+    <!-- Define TvToast Activity strings start -->
+    <string name="pushMsgDemo">Push Msg Demo</string>
+    <string name="timeOutMsg">Time Out Msg</string>
+    <string name="permanentMsg">Permanent Msg</string>
+    <string name="keyPressMsg">Key Press Msg</string>
+    <string name="timeOutMsgLong">This is supposed to be a long time out msg. Now let\'s see if it marquees\' ? Yay, it does ! Not long enough huh ?</string>
+    <string name="permanentMsgLong">This is supposed to be a long permanent msg. Now let\'s see if it marquees\' ? Yay, it does ! Not long enough huh ?</string>
+    <string name="keyPressMsgLong">This is supposed to be a long key press msg. let\'s see if it marquees\' ? Yay, it does ! Not long enough huh ?</string>
+
+    <string name="timeOutStatusIndicator">Time Out Status Indicator</string>
+    <string name="permanentStatusIndicator">Permanent Status Indicator</string>
+    <string name="keyPressStatusIndicator">Key Press Status Indicator</string>
+    <string name="timeOutStatusIndicatorLong">Time Out Status Indicator Long</string>
+    <string name="permanentStatusIndicatorLong">Permanent Status Indicator Long</string>
+    <string name="keyPressStatusIndicatorLong">Key Press Status Indicator Long</string>
+
+    <string name="timeOutFlashMsg">Time Out Flash Msg</string>
+    <string name="permanentFlashMsg">Permanent Flash Msg</string>
+    <string name="keyPressFlashMsg">Key Press Flash Msg</string>
+    <string name="timeOutFlashMsgLong">Time Out Flash Msg Long</string>
+    <string name="permanentFlashMsgLong">Permanent Flash Msg Long</string>
+    <string name="keyPressFlashMsgLong">Key Press Flash Msg Long</string>
+    <string name="cancelPermanentMsg">Cancel Permanent Msg</string>
+    <string name="cancelKeyPressMsg">Cancel Key Press Msg</string>
+    <string name="cancelTimeOutMsg">Cancel Time Out Msg</string>
+
+    <!-- Define PickList Activity Strings-->
+    <string name="selecteditem">Selected Item :</string>
+    <string name="selectedicon">Selected Icon :</string>
+    <string name="disable_dimming">Disable Dimming</string>
+    <string name="show_picklist">Show PickList</string>
+    <string name="simpl_picklist">Simple PickList</string>
+    <string name="recomm_picklist">Recommender PickList</string>
+
+    <!-- Define ModalDialog Activity Strings-->
+    <string name="showdialog">Show Dialog</string>
+    <string name="selectdialog">Select Dialog</string>
+    <string name="dialog_message">I am a Dialog</string>
+
+</resources>

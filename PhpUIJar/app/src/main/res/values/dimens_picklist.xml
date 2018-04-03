@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?><!--Fri Jun 13 2014 10:55:48 GMT+0530-->
+<resources>
+    <!--Layout_Picklist_v2.1.psd-->
+    <dimen name="picklist_02_row01_height">26dp</dimen>
+
+    <dimen name="picklist_02_row01_width">208dp</dimen>
+
+    <dimen name="picklist_02_row01_x1">376dp</dimen>
+
+    <dimen name="picklist_02_row01_y1">159.5dp</dimen>
+
+    <dimen name="picklist_02_row01_x2">584dp</dimen>
+
+    <dimen name="picklist_02_row01_y2">185.5dp</dimen>
+
+    <dimen name="picklist_02_row01_icon_margin_left_height">14dp</dimen>
+
+    <dimen name="picklist_02_row01_icon_margin_left_width">12dp</dimen>
+
+    <dimen name="picklist_02_row01_icon_margin_left_x1">390.5dp</dimen>
+
+    <dimen name="picklist_02_row01_icon_margin_left_y1">165.5dp</dimen>
+
+    <dimen name="picklist_02_row01_icon_margin_left_x2">402.5dp</dimen>
+
+    <dimen name="picklist_02_row01_icon_margin_left_y2">179.5dp</dimen>
+
+    <dimen name="picklist_02_row01_icon_height">14dp</dimen>
+
+    <dimen name="picklist_02_row01_icon_width">18dp</dimen>
+
+    <dimen name="picklist_02_row01_icon_x1">402.5dp</dimen>
+
+    <dimen name="picklist_02_row01_icon_y1">165.5dp</dimen>
+
+    <dimen name="picklist_02_row01_icon_x2">420.5dp</dimen>
+
+    <dimen name="picklist_02_row01_icon_y2">179.5dp</dimen>
+
+    <dimen name="picklist_02_row01_label_text_height">21dp</dimen>
+
+    <dimen name="picklist_02_row01_label_text_width">143.5dp</dimen>
+
+    <dimen name="picklist_02_row01_label_text_x1">428.5dp</dimen>
+
+    <dimen name="picklist_02_row01_label_text_y1">162dp</dimen>
+
+    <dimen name="picklist_02_row01_label_text_x2">572dp</dimen>
+
+    <dimen name="picklist_02_row01_label_text_y2">183dp</dimen>
+
+    <dimen name="picklist_02_row01_label_padding_left_height">14dp</dimen>
+
+    <dimen name="picklist_02_row01_label_padding_left_width">8dp</dimen>
+
+    <dimen name="picklist_02_row01_label_padding_left_x1">420.5dp</dimen>
+
+    <dimen name="picklist_02_row01_label_padding_left_y1">165.5dp</dimen>
+
+    <dimen name="picklist_02_row01_label_padding_left_x2">428.5dp</dimen>
+
+    <dimen name="picklist_02_row01_label_padding_left_y2">179.5dp</dimen>
+
+    <dimen name="picklist_02_row01_label_padding_right_height">14dp</dimen>
+
+    <dimen name="picklist_02_row01_label_padding_right_width">12dp</dimen>
+
+    <dimen name="picklist_02_row01_label_padding_right_x1">572dp</dimen>
+
+    <dimen name="picklist_02_row01_label_padding_right_y1">165.5dp</dimen>
+
+    <dimen name="picklist_02_row01_label_padding_right_x2">584dp</dimen>
+
+    <dimen name="picklist_02_row01_label_padding_right_y2">179.5dp</dimen>
+
+    <dimen name="picklist_02_row02_icon_height">14dp</dimen>
+
+    <dimen name="picklist_02_row02_icon_width">18dp</dimen>
+
+    <dimen name="picklist_02_row02_icon_x1">406dp</dimen>
+
+    <dimen name="picklist_02_row02_icon_y1">196.5dp</dimen>
+
+    <dimen name="picklist_02_row02_icon_x2">424dp</dimen>
+
+    <dimen name="picklist_02_row02_icon_y2">210.5dp</dimen>
+
+    <dimen name="picklist_02_row02_label_text_height">21dp</dimen>
+
+    <dimen name="picklist_02_row02_label_text_width">140dp</dimen>
+
+    <dimen name="picklist_02_row02_label_text_x1">432dp</dimen>
+
+    <dimen name="picklist_02_row02_label_text_y1">193dp</dimen>
+
+    <dimen name="picklist_02_row02_label_text_x2">572dp</dimen>
+
+    <dimen name="picklist_02_row02_label_text_y2">214dp</dimen>
+
+    <dimen name="picklist_01_container_height">306dp</dimen>
+
+    <dimen name="picklist_01_container_width">368dp</dimen>
+
+    <dimen name="picklist_01_container_x1">296dp</dimen>
+
+    <dimen name="picklist_01_container_y1">85dp</dimen>
+
+    <dimen name="picklist_01_container_x2">664dp</dimen>
+
+    <dimen name="picklist_01_container_y2">391dp</dimen>
+
+    <dimen name="picklist_01_header_container_height">58dp</dimen>
+
+    <dimen name="picklist_01_header_container_width">368dp</dimen>
+
+    <dimen name="picklist_01_header_container_x1">296dp</dimen>
+
+    <dimen name="picklist_01_header_container_y1">85dp</dimen>
+
+    <dimen name="picklist_01_header_container_x2">664dp</dimen>
+
+    <dimen name="picklist_01_header_container_y2">143dp</dimen>
+
+    <dimen name="picklist_01_header_text_height">21dp</dimen>
+
+    <dimen name="picklist_01_header_text_width">288dp</dimen>
+
+    <dimen name="picklist_01_header_text_x1">336dp</dimen>
+
+    <dimen name="picklist_01_header_text_y1">104dp</dimen>
+
+    <dimen name="picklist_01_header_text_x2">624dp</dimen>
+
+    <dimen name="picklist_01_header_text_y2">125dp</dimen>
+
+    <dimen name="picklist_01_header_divider_height">1dp</dimen>
+
+    <dimen name="picklist_01_header_divider_width">368dp</dimen>
+
+    <dimen name="picklist_01_header_divider_x1">296dp</dimen>
+
+    <dimen name="picklist_01_header_divider_y1">142dp</dimen>
+
+    <dimen name="picklist_01_header_divider_x2">664dp</dimen>
+
+    <dimen name="picklist_01_header_divider_y2">143dp</dimen>
+
+    <dimen name="picklist_01_row01_height">26dp</dimen>
+
+    <dimen name="picklist_01_row01_width">208dp</dimen>
+
+    <dimen name="picklist_01_row01_x1">376dp</dimen>
+
+    <dimen name="picklist_01_row01_y1">159.5dp</dimen>
+
+    <dimen name="picklist_01_row01_x2">584dp</dimen>
+
+    <dimen name="picklist_01_row01_y2">185.5dp</dimen>
+
+    <dimen name="picklist_01_row01_bottom_margin_height">5dp</dimen>
+
+    <dimen name="picklist_01_row01_bottom_margin_width">208dp</dimen>
+
+    <dimen name="picklist_01_row01_bottom_margin_x1">376dp</dimen>
+
+    <dimen name="picklist_01_row01_bottom_margin_y1">185.5dp</dimen>
+
+    <dimen name="picklist_01_row01_bottom_margin_x2">584dp</dimen>
+
+    <dimen name="picklist_01_row01_bottom_margin_y2">190.5dp</dimen>
+
+    <dimen name="picklist_01_row01_label_text_height">21dp</dimen>
+
+    <dimen name="picklist_01_row01_label_text_width">184dp</dimen>
+
+    <dimen name="picklist_01_row01_label_text_x1">388dp</dimen>
+
+    <dimen name="picklist_01_row01_label_text_y1">162dp</dimen>
+
+    <dimen name="picklist_01_row01_label_text_x2">572dp</dimen>
+
+    <dimen name="picklist_01_row01_label_text_y2">183dp</dimen>
+
+    <dimen name="picklist_01_row01_label_padding_left_height">21dp</dimen>
+
+    <dimen name="picklist_01_row01_label_padding_left_width">12dp</dimen>
+
+    <dimen name="picklist_01_row01_label_padding_left_x1">446dp</dimen>
+
+    <dimen name="picklist_01_row01_label_padding_left_y1">162dp</dimen>
+
+    <dimen name="picklist_01_row01_label_padding_left_x2">458dp</dimen>
+
+    <dimen name="picklist_01_row01_label_padding_left_y2">183dp</dimen>
+
+    <dimen name="picklist_01_row01_label_padding_right_height">21dp</dimen>
+
+    <dimen name="picklist_01_row01_label_padding_right_width">12dp</dimen>
+
+    <dimen name="picklist_01_row01_label_padding_right_x1">501.5dp</dimen>
+
+    <dimen name="picklist_01_row01_label_padding_right_y1">162dp</dimen>
+
+    <dimen name="picklist_01_row01_label_padding_right_x2">513.5dp</dimen>
+
+    <dimen name="picklist_01_row01_label_padding_right_y2">183dp</dimen>
+
+    <dimen name="picklist_01_row02_height">26dp</dimen>
+
+    <dimen name="picklist_01_row02_width">208dp</dimen>
+
+    <dimen name="picklist_01_row02_x1">376dp</dimen>
+
+    <dimen name="picklist_01_row02_y1">190.5dp</dimen>
+
+    <dimen name="picklist_01_row02_x2">584dp</dimen>
+
+    <dimen name="picklist_01_row02_y2">216.5dp</dimen>
+
+    <dimen name="picklist_01_row02_label_text_height">21dp</dimen>
+
+    <dimen name="picklist_01_row02_label_text_width">184dp</dimen>
+
+    <dimen name="picklist_01_row02_label_text_x1">388dp</dimen>
+
+    <dimen name="picklist_01_row02_label_text_y1">193dp</dimen>
+
+    <dimen name="picklist_01_row02_label_text_x2">572dp</dimen>
+
+    <dimen name="picklist_01_row02_label_text_y2">214dp</dimen>
+
+    <dimen name="picklist_02_row01_top_padding">16dp</dimen>
+
+    <dimen name="picklist_list_bottom_padding">14dp</dimen>
+
+    <dimen name="picklist_recommender_list_left_padding">2dp</dimen>
+
+
+    <!--Layout_Picklist_v2.1.psd-->
+    <dimen name="picklist_03_container_height">336dp</dimen>
+
+    <dimen name="picklist_03_container_width">368dp</dimen>
+
+    <dimen name="picklist_03_container_x1">296dp</dimen>
+
+    <dimen name="picklist_03_container_y1">85dp</dimen>
+
+    <dimen name="picklist_03_container_x2">664dp</dimen>
+
+    <dimen name="picklist_03_container_y2">421dp</dimen>
+
+    <dimen name="picklist_03_header_container_height">58dp</dimen>
+
+    <dimen name="picklist_03_header_container_width">368dp</dimen>
+
+    <dimen name="picklist_03_header_container_x1">296dp</dimen>
+
+    <dimen name="picklist_03_header_container_y1">85dp</dimen>
+
+    <dimen name="picklist_03_header_container_x2">664dp</dimen>
+
+    <dimen name="picklist_03_header_container_y2">143dp</dimen>
+
+    <dimen name="picklist_03_header_text_height">21dp</dimen>
+
+    <dimen name="picklist_03_header_text_width">288dp</dimen>
+
+    <dimen name="picklist_03_header_text_x1">336dp</dimen>
+
+    <dimen name="picklist_03_header_text_y1">104dp</dimen>
+
+    <dimen name="picklist_03_header_text_x2">624dp</dimen>
+
+    <dimen name="picklist_03_header_text_y2">125dp</dimen>
+
+    <dimen name="picklist_03_header_divider_height">1dp</dimen>
+
+    <dimen name="picklist_03_header_divider_width">368dp</dimen>
+
+    <dimen name="picklist_03_header_divider_x1">296dp</dimen>
+
+    <dimen name="picklist_03_header_divider_y1">142dp</dimen>
+
+    <dimen name="picklist_03_header_divider_x2">664dp</dimen>
+
+    <dimen name="picklist_03_header_divider_y2">143dp</dimen>
+
+    <dimen name="picklist_03_list_row01_height">90dp</dimen>
+
+    <dimen name="picklist_03_list_row01_width">364dp</dimen>
+
+    <dimen name="picklist_03_list_row01_x1">298dp</dimen>
+
+    <dimen name="picklist_03_list_row01_y1">145dp</dimen>
+
+    <dimen name="picklist_03_list_row01_x2">662dp</dimen>
+
+    <dimen name="picklist_03_list_row01_y2">235dp</dimen>
+
+    <dimen name="picklist_03_list_row01_padding_height">2dp</dimen>
+
+    <dimen name="picklist_03_list_row01_padding_width">2dp</dimen>
+
+    <dimen name="picklist_03_list_row01_padding_x1">296dp</dimen>
+
+    <dimen name="picklist_03_list_row01_padding_y1">143dp</dimen>
+
+    <dimen name="picklist_03_list_row01_padding_x2">298dp</dimen>
+
+    <dimen name="picklist_03_list_row01_padding_y2">145dp</dimen>
+
+    <dimen name="picklist_03_list_row01_logo_padding_top_height">16.5dp</dimen>
+
+    <dimen name="picklist_03_list_row01_logo_padding_top_width">36dp</dimen>
+
+    <dimen name="picklist_03_list_row01_logo_padding_top_x1">463dp</dimen>
+
+    <dimen name="picklist_03_list_row01_logo_padding_top_y1">145dp</dimen>
+
+    <dimen name="picklist_03_list_row01_logo_padding_top_x2">499dp</dimen>
+
+    <dimen name="picklist_03_list_row01_logo_padding_top_y2">161.5dp</dimen>
+
+    <dimen name="picklist_03_list_row01_logo_height">36dp</dimen>
+
+    <dimen name="picklist_03_list_row01_logo_width">36dp</dimen>
+
+    <dimen name="picklist_03_list_row01_logo_x1">463dp</dimen>
+
+    <dimen name="picklist_03_list_row01_logo_y1">161.5dp</dimen>
+
+    <dimen name="picklist_03_list_row01_logo_x2">499dp</dimen>
+
+    <dimen name="picklist_03_list_row01_logo_y2">197.5dp</dimen>
+
+    <dimen name="picklist_03_list_row01_label_margin_top_height">8.5dp</dimen>
+
+    <dimen name="picklist_03_list_row01_label_margin_top_width">36dp</dimen>
+
+    <dimen name="picklist_03_list_row01_label_margin_top_x1">463dp</dimen>
+
+    <dimen name="picklist_03_list_row01_label_margin_top_y1">197.5dp</dimen>
+
+    <dimen name="picklist_03_list_row01_label_margin_top_x2">499dp</dimen>
+
+    <dimen name="picklist_03_list_row01_label_margin_top_y2">214dp</dimen>
+
+    <dimen name="picklist_03_list_row01_label_text_height">21dp</dimen>
+
+    <dimen name="picklist_03_list_row01_label_text_width">184dp</dimen>
+
+    <dimen name="picklist_03_list_row01_label_text_x1">391.5dp</dimen>
+
+    <dimen name="picklist_03_list_row01_label_text_y1">202.5dp</dimen>
+
+    <dimen name="picklist_03_list_row01_label_text_x2">575.5dp</dimen>
+
+    <dimen name="picklist_03_list_row01_label_text_y2">223.5dp</dimen>
+
+    <dimen name="picklist_03_list_divider_height">2dp</dimen>
+
+    <dimen name="picklist_03_list_divider_width">364dp</dimen>
+
+    <dimen name="picklist_03_list_divider_x1">298dp</dimen>
+
+    <dimen name="picklist_03_list_divider_y1">235dp</dimen>
+
+    <dimen name="picklist_03_list_divider_x2">662dp</dimen>
+
+    <dimen name="picklist_03_list_divider_y2">237dp</dimen>
+
+    <dimen name="picklist_03_list_row02_height">90dp</dimen>
+
+    <dimen name="picklist_03_list_row02_width">364dp</dimen>
+
+    <dimen name="picklist_03_list_row02_x1">298dp</dimen>
+
+    <dimen name="picklist_03_list_row02_y1">237dp</dimen>
+
+    <dimen name="picklist_03_list_row02_x2">662dp</dimen>
+
+    <dimen name="picklist_03_list_row02_y2">327dp</dimen>
+
+    <dimen name="picklist_03_list_row02_logo_height">36dp</dimen>
+
+    <dimen name="picklist_03_list_row02_logo_width">36dp</dimen>
+
+    <dimen name="picklist_03_list_row02_logo_x1">463dp</dimen>
+
+    <dimen name="picklist_03_list_row02_logo_y1">253dp</dimen>
+
+    <dimen name="picklist_03_list_row02_logo_x2">499dp</dimen>
+
+    <dimen name="picklist_03_list_row02_logo_y2">289dp</dimen>
+
+    <dimen name="picklist_03_list_row02_label_text_height">21dp</dimen>
+
+    <dimen name="picklist_03_list_row02_label_text_width">184dp</dimen>
+
+    <dimen name="picklist_03_list_row02_label_text_x1">391.5dp</dimen>
+
+    <dimen name="picklist_03_list_row02_label_text_y1">296dp</dimen>
+
+    <dimen name="picklist_03_list_row02_label_text_x2">575.5dp</dimen>
+
+    <dimen name="picklist_03_list_row02_label_text_y2">317dp</dimen>
+
+    <dimen name="picklist_02_list_row01_height">26dp</dimen>
+
+    <dimen name="picklist_02_list_row01_width">208dp</dimen>
+
+    <dimen name="picklist_02_list_row01_x1">376dp</dimen>
+
+    <dimen name="picklist_02_list_row01_y1">159.5dp</dimen>
+
+    <dimen name="picklist_02_list_row01_x2">584dp</dimen>
+
+    <dimen name="picklist_02_list_row01_y2">185.5dp</dimen>
+
+    <dimen name="picklist_02_list_row01_icon_margin_left_height">14dp</dimen>
+
+    <dimen name="picklist_02_list_row01_icon_margin_left_width">12dp</dimen>
+
+    <dimen name="picklist_02_list_row01_icon_margin_left_x1">390.5dp</dimen>
+
+    <dimen name="picklist_02_list_row01_icon_margin_left_y1">165.5dp</dimen>
+
+    <dimen name="picklist_02_list_row01_icon_margin_left_x2">402.5dp</dimen>
+
+    <dimen name="picklist_02_list_row01_icon_margin_left_y2">179.5dp</dimen>
+
+    <dimen name="picklist_02_list_row01_icon_height">14dp</dimen>
+
+    <dimen name="picklist_02_list_row01_icon_width">18dp</dimen>
+
+    <dimen name="picklist_02_list_row01_icon_x1">402.5dp</dimen>
+
+    <dimen name="picklist_02_list_row01_icon_y1">165.5dp</dimen>
+
+    <dimen name="picklist_02_list_row01_icon_x2">420.5dp</dimen>
+
+    <dimen name="picklist_02_list_row01_icon_y2">179.5dp</dimen>
+
+    <dimen name="picklist_02_list_row01_label_text_height">21dp</dimen>
+
+    <dimen name="picklist_02_list_row01_label_text_width">143.5dp</dimen>
+
+    <dimen name="picklist_02_list_row01_label_text_x1">428.5dp</dimen>
+
+    <dimen name="picklist_02_list_row01_label_text_y1">162dp</dimen>
+
+    <dimen name="picklist_02_list_row01_label_text_x2">572dp</dimen>
+
+    <dimen name="picklist_02_list_row01_label_text_y2">183dp</dimen>
+
+    <dimen name="picklist_02_list_row01_label_padding_left_height">14dp</dimen>
+
+    <dimen name="picklist_02_list_row01_label_padding_left_width">8dp</dimen>
+
+    <dimen name="picklist_02_list_row01_label_padding_left_x1">420.5dp</dimen>
+
+    <dimen name="picklist_02_list_row01_label_padding_left_y1">165.5dp</dimen>
+
+    <dimen name="picklist_02_list_row01_label_padding_left_x2">428.5dp</dimen>
+
+    <dimen name="picklist_02_list_row01_label_padding_left_y2">179.5dp</dimen>
+
+    <dimen name="picklist_02_list_row01_label_padding_right_height">14dp</dimen>
+
+    <dimen name="picklist_02_list_row01_label_padding_right_width">12dp</dimen>
+
+    <dimen name="picklist_02_list_row01_label_padding_right_x1">572dp</dimen>
+
+    <dimen name="picklist_02_list_row01_label_padding_right_y1">165.5dp</dimen>
+
+    <dimen name="picklist_02_list_row01_label_padding_right_x2">584dp</dimen>
+
+    <dimen name="picklist_02_list_row01_label_padding_right_y2">179.5dp</dimen>
+
+    <dimen name="picklist_01_list_row02_height">26dp</dimen>
+
+    <dimen name="picklist_01_list_row02_width">208dp</dimen>
+
+    <dimen name="picklist_01_list_row02_x1">376dp</dimen>
+
+    <dimen name="picklist_01_list_row02_y1">190.5dp</dimen>
+
+    <dimen name="picklist_01_list_row02_x2">584dp</dimen>
+
+    <dimen name="picklist_01_list_row02_y2">216.5dp</dimen>
+
+    <dimen name="picklist_02_list_row02_icon_height">14dp</dimen>
+
+    <dimen name="picklist_02_list_row02_icon_width">18dp</dimen>
+
+    <dimen name="picklist_02_list_row02_icon_x1">406dp</dimen>
+
+    <dimen name="picklist_02_list_row02_icon_y1">196.5dp</dimen>
+
+    <dimen name="picklist_02_list_row02_icon_x2">424dp</dimen>
+
+    <dimen name="picklist_02_list_row02_icon_y2">210.5dp</dimen>
+
+    <dimen name="picklist_02_list_row02_label_text_height">21dp</dimen>
+
+    <dimen name="picklist_02_list_row02_label_text_width">140dp</dimen>
+
+    <dimen name="picklist_02_list_row02_label_text_x1">432dp</dimen>
+
+    <dimen name="picklist_02_list_row02_label_text_y1">193dp</dimen>
+
+    <dimen name="picklist_02_list_row02_label_text_x2">572dp</dimen>
+
+    <dimen name="picklist_02_list_row02_label_text_y2">214dp</dimen>
+
+    <dimen name="picklist_01_list_row01_height">26dp</dimen>
+
+    <dimen name="picklist_01_list_row01_width">208dp</dimen>
+
+    <dimen name="picklist_01_list_row01_x1">376dp</dimen>
+
+    <dimen name="picklist_01_list_row01_y1">159.5dp</dimen>
+
+    <dimen name="picklist_01_list_row01_x2">584dp</dimen>
+
+    <dimen name="picklist_01_list_row01_y2">185.5dp</dimen>
+
+    <dimen name="picklist_01_list_row01_bottom_margin_height">5dp</dimen>
+
+    <dimen name="picklist_01_list_row01_bottom_margin_width">208dp</dimen>
+
+    <dimen name="picklist_01_list_row01_bottom_margin_x1">376dp</dimen>
+
+    <dimen name="picklist_01_list_row01_bottom_margin_y1">185.5dp</dimen>
+
+    <dimen name="picklist_01_list_row01_bottom_margin_x2">584dp</dimen>
+
+    <dimen name="picklist_01_list_row01_bottom_margin_y2">190.5dp</dimen>
+
+    <dimen name="picklist_01_list_row01_label_text_height">21dp</dimen>
+
+    <dimen name="picklist_01_list_row01_label_text_width">184dp</dimen>
+
+    <dimen name="picklist_01_list_row01_label_text_x1">388dp</dimen>
+
+    <dimen name="picklist_01_list_row01_label_text_y1">162dp</dimen>
+
+    <dimen name="picklist_01_list_row01_label_text_x2">572dp</dimen>
+
+    <dimen name="picklist_01_list_row01_label_text_y2">183dp</dimen>
+
+    <dimen name="picklist_01_list_row01_label_padding_left_height">21dp</dimen>
+
+    <dimen name="picklist_01_list_row01_label_padding_left_width">12dp</dimen>
+
+    <dimen name="picklist_01_list_row01_label_padding_left_x1">446dp</dimen>
+
+    <dimen name="picklist_01_list_row01_label_padding_left_y1">162dp</dimen>
+
+    <dimen name="picklist_01_list_row01_label_padding_left_x2">458dp</dimen>
+
+    <dimen name="picklist_01_list_row01_label_padding_left_y2">183dp</dimen>
+
+    <dimen name="picklist_01_list_row01_label_padding_right_height">21dp</dimen>
+
+    <dimen name="picklist_01_list_row01_label_padding_right_width">12dp</dimen>
+
+    <dimen name="picklist_01_list_row01_label_padding_right_x1">501.5dp</dimen>
+
+    <dimen name="picklist_01_list_row01_label_padding_right_y1">162dp</dimen>
+
+    <dimen name="picklist_01_list_row01_label_padding_right_x2">513.5dp</dimen>
+
+    <dimen name="picklist_01_list_row01_label_padding_right_y2">183dp</dimen>
+
+    <dimen name="picklist_01_list_row02_label_text_height">21dp</dimen>
+
+    <dimen name="picklist_01_list_row02_label_text_width">184dp</dimen>
+
+    <dimen name="picklist_01_list_row02_label_text_x1">388dp</dimen>
+
+    <dimen name="picklist_01_list_row02_label_text_y1">193dp</dimen>
+
+    <dimen name="picklist_01_list_row02_label_text_x2">572dp</dimen>
+
+    <dimen name="picklist_01_list_row02_label_text_y2">214dp</dimen>
+    <dimen name="picklist_listiview_padding_left">2dp</dimen>
+    <dimen name="picklist_listiview_padding_right">2dp</dimen>
+
+</resources>

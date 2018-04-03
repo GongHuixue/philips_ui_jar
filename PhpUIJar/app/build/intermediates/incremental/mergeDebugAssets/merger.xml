@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="P:\philips\philips_ui_jar\PhpUIJar\app\src\main\assets"/><source path="P:\philips\philips_ui_jar\PhpUIJar\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="P:\philips\philips_ui_jar\PhpUIJar\app\src\debug\assets"/></dataSet></merger>

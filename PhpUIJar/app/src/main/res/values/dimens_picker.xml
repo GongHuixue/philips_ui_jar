@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?><!--Mon Aug 11 2014 15:06:58 GMT+0530-->
+<resources>
+    <!--Layout_Picker_v2.1.psd-->
+    <dimen name="picker_numerical_main_container_height">206dp</dimen>
+
+    <dimen name="picker_numerical_main_container_width">82dp</dimen>
+
+    <dimen name="picker_numerical_main_container_x1">0dp</dimen>
+
+    <dimen name="picker_numerical_main_container_y1">0dp</dimen>
+
+    <dimen name="picker_numerical_main_container_x2">82dp</dimen>
+
+    <dimen name="picker_numerical_main_container_y2">206dp</dimen>
+
+    <dimen name="picker_numerical_title_text_height">18.5dp</dimen>
+
+    <dimen name="picker_numerical_title_text_width">74dp</dimen>
+
+    <dimen name="picker_numerical_title_text_x1">4dp</dimen>
+
+    <dimen name="picker_numerical_title_text_y1">1dp</dimen>
+
+    <dimen name="picker_numerical_title_text_x2">78dp</dimen>
+
+    <dimen name="picker_numerical_title_text_y2">19.5dp</dimen>
+
+    <dimen name="picker_numerical_container_height">166dp</dimen>
+
+    <dimen name="picker_numerical_container_width">52dp</dimen>
+
+    <dimen name="picker_numerical_container_x1">15dp</dimen>
+
+    <dimen name="picker_numerical_container_y1">39.5dp</dimen>
+
+    <dimen name="picker_numerical_container_x2">67dp</dimen>
+
+    <dimen name="picker_numerical_container_y2">205.5dp</dimen>
+
+    <dimen name="picker_numerical_arrow_up_height">10dp</dimen>
+
+    <dimen name="picker_numerical_arrow_up_width">24dp</dimen>
+
+    <dimen name="picker_numerical_arrow_up_x1">29dp</dimen>
+
+    <dimen name="picker_numerical_arrow_up_y1">39.5dp</dimen>
+
+    <dimen name="picker_numerical_arrow_up_x2">53dp</dimen>
+
+    <dimen name="picker_numerical_arrow_up_y2">49.5dp</dimen>
+
+    <dimen name="picker_numerical_padding_title_arrow_up_height">20dp</dimen>
+
+    <dimen name="picker_numerical_padding_title_arrow_up_width">20dp</dimen>
+
+    <dimen name="picker_numerical_padding_title_arrow_up_x1">29dp</dimen>
+
+    <dimen name="picker_numerical_padding_title_arrow_up_y1">19.5dp</dimen>
+
+    <dimen name="picker_numerical_padding_title_arrow_up_x2">49dp</dimen>
+
+    <dimen name="picker_numerical_padding_title_arrow_up_y2">39.5dp</dimen>
+
+    <dimen name="picker_numerical_container_background_height">120dp</dimen>
+
+    <dimen name="picker_numerical_container_background_width">52dp</dimen>
+
+    <dimen name="picker_numerical_container_background_x1">15dp</dimen>
+
+    <dimen name="picker_numerical_container_background_y1">62.5dp</dimen>
+
+    <dimen name="picker_numerical_container_background_x2">67dp</dimen>
+
+    <dimen name="picker_numerical_container_background_y2">182.5dp</dimen>
+
+    <dimen name="picker_numerical_padding_arrow_container_background_height">23dp</dimen>
+
+    <dimen name="picker_numerical_padding_arrow_container_background_width">13dp</dimen>
+
+    <dimen name="picker_numerical_padding_arrow_container_background_x1">29dp</dimen>
+
+    <dimen name="picker_numerical_padding_arrow_container_background_y1">39.5dp</dimen>
+
+    <dimen name="picker_numerical_padding_arrow_container_background_x2">42dp</dimen>
+
+    <dimen name="picker_numerical_padding_arrow_container_background_y2">62.5dp</dimen>
+
+    <dimen name="picker_numerical_divider_top_height">1dp</dimen>
+
+    <dimen name="picker_numerical_divider_top_width">24dp</dimen>
+
+    <dimen name="picker_numerical_divider_top_x1">29dp</dimen>
+
+    <dimen name="picker_numerical_divider_top_y1">92.5dp</dimen>
+
+    <dimen name="picker_numerical_divider_top_x2">53dp</dimen>
+
+    <dimen name="picker_numerical_divider_top_y2">93.5dp</dimen>
+
+    <dimen name="picker_numerical_padding_divider_left_right_height">14dp</dimen>
+
+    <dimen name="picker_numerical_padding_divider_left_right_width">14dp</dimen>
+
+    <dimen name="picker_numerical_padding_divider_left_right_x1">15dp</dimen>
+
+    <dimen name="picker_numerical_padding_divider_left_right_y1">146dp</dimen>
+
+    <dimen name="picker_numerical_padding_divider_left_right_x2">29dp</dimen>
+
+    <dimen name="picker_numerical_padding_divider_left_right_y2">160dp</dimen>
+
+    <dimen name="picker_numerical_digit_text_height">19.5dp</dimen>
+
+    <dimen name="picker_numerical_digit_text_width">44dp</dimen>
+
+    <dimen name="picker_numerical_digit_text_x1">19dp</dimen>
+
+    <dimen name="picker_numerical_digit_text_y1">117dp</dimen>
+
+    <dimen name="picker_numerical_digit_text_x2">63dp</dimen>
+
+    <dimen name="picker_numerical_digit_text_y2">136.5dp</dimen>
+
+    <dimen name="picker_numerical_padding_divider_digit_height">29dp</dimen>
+
+    <dimen name="picker_numerical_padding_divider_digit_bottom_height">-29dp</dimen>
+
+    <dimen name="picker_numerical_padding_divider_digit_width">24dp</dimen>
+
+    <dimen name="picker_numerical_padding_divider_digit_x1">29dp</dimen>
+
+    <dimen name="picker_numerical_padding_divider_digit_y1">93.5dp</dimen>
+
+    <dimen name="picker_numerical_padding_divider_digit_x2">53dp</dimen>
+
+    <dimen name="picker_numerical_padding_divider_digit_y2">122.5dp</dimen>
+
+    <dimen name="picker_numerical_divider_bottom_height">1dp</dimen>
+
+    <dimen name="picker_numerical_divider_bottom_width">24dp</dimen>
+
+    <dimen name="picker_numerical_divider_bottom_x1">29dp</dimen>
+
+    <dimen name="picker_numerical_divider_bottom_y1">151.5dp</dimen>
+
+    <dimen name="picker_numerical_divider_bottom_x2">53dp</dimen>
+
+    <dimen name="picker_numerical_divider_bottom_y2">152.5dp</dimen>
+
+    <dimen name="picker_numerical_arrow_down_height">10dp</dimen>
+
+    <dimen name="picker_numerical_arrow_down_width">24dp</dimen>
+
+    <dimen name="picker_numerical_arrow_down_x1">29dp</dimen>
+
+    <dimen name="picker_numerical_arrow_down_y1">195.5dp</dimen>
+
+    <dimen name="picker_numerical_arrow_down_x2">53dp</dimen>
+
+    <dimen name="picker_numerical_arrow_down_y2">205.5dp</dimen>
+
+    <dimen name="picker_alphanumerical_main_container_height">206dp</dimen>
+
+    <dimen name="picker_alphanumerical_main_container_width">160dp</dimen>
+
+    <dimen name="picker_alphanumerical_main_container_x1">0dp</dimen>
+
+    <dimen name="picker_alphanumerical_main_container_y1">0dp</dimen>
+
+    <dimen name="picker_alphanumerical_main_container_x2">160dp</dimen>
+
+    <dimen name="picker_alphanumerical_main_container_y2">206dp</dimen>
+
+    <dimen name="picker_alphanumerical_container_height">166dp</dimen>
+
+    <dimen name="picker_alphanumerical_container_width">160dp</dimen>
+
+    <dimen name="picker_alphanumerical_container_x1">0dp</dimen>
+
+    <dimen name="picker_alphanumerical_container_y1">39.5dp</dimen>
+
+    <dimen name="picker_alphanumerical_container_x2">160dp</dimen>
+
+    <dimen name="picker_alphanumerical_container_y2">205.5dp</dimen>
+
+    <dimen name="picker_alphanumerical_title_text_height">18.5dp</dimen>
+
+    <dimen name="picker_alphanumerical_title_text_width">152dp</dimen>
+
+    <dimen name="picker_alphanumerical_title_text_x1">4dp</dimen>
+
+    <dimen name="picker_alphanumerical_title_text_y1">1dp</dimen>
+
+    <dimen name="picker_alphanumerical_title_text_x2">156dp</dimen>
+
+    <dimen name="picker_alphanumerical_title_text_y2">19.5dp</dimen>
+
+    <dimen name="picker_alphanumerical_arrow_up_height">10dp</dimen>
+
+    <dimen name="picker_alphanumerical_arrow_up_width">24dp</dimen>
+
+    <dimen name="picker_alphanumerical_arrow_up_x1">68dp</dimen>
+
+    <dimen name="picker_alphanumerical_arrow_up_y1">39.5dp</dimen>
+
+    <dimen name="picker_alphanumerical_arrow_up_x2">92dp</dimen>
+
+    <dimen name="picker_alphanumerical_arrow_up_y2">49.5dp</dimen>
+
+    <dimen name="picker_alphanumerical_padding_title_arrow_up_height">20dp</dimen>
+
+    <dimen name="picker_alphanumerical_padding_title_arrow_up_width">20dp</dimen>
+
+    <dimen name="picker_alphanumerical_padding_title_arrow_up_x1">68dp</dimen>
+
+    <dimen name="picker_alphanumerical_padding_title_arrow_up_y1">19.5dp</dimen>
+
+    <dimen name="picker_alphanumerical_padding_title_arrow_up_x2">88dp</dimen>
+
+    <dimen name="picker_alphanumerical_padding_title_arrow_up_y2">39.5dp</dimen>
+
+    <dimen name="picker_alphanumerical_container_background_height">120dp</dimen>
+
+    <dimen name="picker_alphanumerical_container_background_width">160dp</dimen>
+
+    <dimen name="picker_alphanumerical_container_background_x1">0dp</dimen>
+
+    <dimen name="picker_alphanumerical_container_background_y1">62.5dp</dimen>
+
+    <dimen name="picker_alphanumerical_container_background_x2">160dp</dimen>
+
+    <dimen name="picker_alphanumerical_container_background_y2">182.5dp</dimen>
+
+    <dimen name="picker_alphanumerical_padding_arrow_container_background_height">13dp</dimen>
+
+    <dimen name="picker_alphanumerical_padding_arrow_container_background_width">13dp</dimen>
+
+    <dimen name="picker_alphanumerical_padding_arrow_container_background_x1">68dp</dimen>
+
+    <dimen name="picker_alphanumerical_padding_arrow_container_background_y1">49.5dp</dimen>
+
+    <dimen name="picker_alphanumerical_padding_arrow_container_background_x2">81dp</dimen>
+
+    <dimen name="picker_alphanumerical_padding_arrow_container_background_y2">62.5dp</dimen>
+
+    <dimen name="picker_alphanumerical_divider_top_height">1dp</dimen>
+
+    <dimen name="picker_alphanumerical_divider_top_width">24dp</dimen>
+
+    <dimen name="picker_alphanumerical_divider_top_x1">68dp</dimen>
+
+    <dimen name="picker_alphanumerical_divider_top_y1">92.5dp</dimen>
+
+    <dimen name="picker_alphanumerical_divider_top_x2">92dp</dimen>
+
+    <dimen name="picker_alphanumerical_divider_top_y2">93.5dp</dimen>
+
+    <dimen name="picker_alphanumerical_padding_divider_left_right_height">14dp</dimen>
+
+    <dimen name="picker_alphanumerical_padding_divider_left_right_width">68dp</dimen>
+
+    <dimen name="picker_alphanumerical_padding_divider_left_right_x1">0dp</dimen>
+
+    <dimen name="picker_alphanumerical_padding_divider_left_right_y1">79.5dp</dimen>
+
+    <dimen name="picker_alphanumerical_padding_divider_left_right_x2">68dp</dimen>
+
+    <dimen name="picker_alphanumerical_padding_divider_left_right_y2">93.5dp</dimen>
+
+    <dimen name="picker_alphanumerical_label_text_height">21dp</dimen>
+
+    <dimen name="picker_alphanumerical_label_text_width">128dp</dimen>
+
+    <dimen name="picker_alphanumerical_label_text_x1">16dp</dimen>
+
+    <dimen name="picker_alphanumerical_label_text_y1">114.5dp</dimen>
+
+    <dimen name="picker_alphanumerical_label_text_x2">144dp</dimen>
+
+    <dimen name="picker_alphanumerical_label_text_y2">135.5dp</dimen>
+
+    <dimen name="picker_alphanumerical_padding_divider_digit_height">21dp</dimen>
+
+    <dimen name="picker_alphanumerical_padding_divider_digit_width">24dp</dimen>
+
+    <dimen name="picker_alphanumerical_padding_divider_digit_x1">29dp</dimen>
+
+    <dimen name="picker_alphanumerical_padding_divider_digit_y1">93.5dp</dimen>
+
+    <dimen name="picker_alphanumerical_padding_divider_digit_x2">53dp</dimen>
+
+    <dimen name="picker_alphanumerical_padding_divider_digit_y2">114.5dp</dimen>
+
+    <dimen name="picker_alphanumerical_divider_bottom_height">1dp</dimen>
+
+    <dimen name="picker_alphanumerical_divider_bottom_width">24dp</dimen>
+
+    <dimen name="picker_alphanumerical_divider_bottom_x1">68dp</dimen>
+
+    <dimen name="picker_alphanumerical_divider_bottom_y1">151.5dp</dimen>
+
+    <dimen name="picker_alphanumerical_divider_bottom_x2">92dp</dimen>
+
+    <dimen name="picker_alphanumerical_divider_bottom_y2">152.5dp</dimen>
+
+    <dimen name="picker_alphanumerical_arrow_down_height">10dp</dimen>
+
+    <dimen name="picker_alphanumerical_arrow_down_width">24dp</dimen>
+
+    <dimen name="picker_alphanumerical_arrow_down_x1">68dp</dimen>
+
+    <dimen name="picker_alphanumerical_arrow_down_y1">195.5dp</dimen>
+
+    <dimen name="picker_alphanumerical_arrow_down_x2">92dp</dimen>
+
+    <dimen name="picker_alphanumerical_arrow_down_y2">205.5dp</dimen>
+
+</resources>

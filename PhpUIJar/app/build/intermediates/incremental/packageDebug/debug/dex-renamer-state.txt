@@ -1,0 +1,4 @@
+#Wed Mar 28 14:16:27 CST 2018
+base.0=P\:\\philips\\philips_ui_jar\\PhpUIJar\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

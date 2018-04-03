@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><!--Fri Jun 27 2014 15:59:35 GMT+0530-->
+<resources>
+    <!--Layout_PowerMeter_v2.0.psd-->
+    <dimen name="powermeter_bar_height">5dp</dimen>
+
+    <dimen name="powermeter_bar_width">367dp</dimen>
+
+    <dimen name="powermeter_bar_x1">0dp</dimen>
+
+    <dimen name="powermeter_bar_y1">2.5dp</dimen>
+
+    <dimen name="powermeter_bar_x2">367dp</dimen>
+
+    <dimen name="powermeter_bar_y2">7.5dp</dimen>
+
+    <dimen name="powermeter_leaf_icon_height">11dp</dimen>
+
+    <dimen name="powermeter_leaf_icon_width">19dp</dimen>
+
+    <dimen name="powermeter_leaf_icon_x1">130dp</dimen>
+
+    <dimen name="powermeter_leaf_icon_y1">0dp</dimen>
+
+    <dimen name="powermeter_leaf_icon_x2">149dp</dimen>
+
+    <dimen name="powermeter_leaf_icon_y2">11dp</dimen>
+
+</resources>

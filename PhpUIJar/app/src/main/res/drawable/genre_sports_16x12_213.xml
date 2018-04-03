@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/genre_sports_d_ico_16x12_213" android:state_activated="false" />
+    <item android:drawable="@drawable/genre_sports_hl_ico_16x12_213" android:state_pressed="true" android:state_focused="true" />
+    <item android:drawable="@drawable/genre_sports_n_ico_16x12_213" />
+</selector>

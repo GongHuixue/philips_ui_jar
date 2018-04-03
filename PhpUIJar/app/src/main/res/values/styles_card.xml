@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ============= 2K16 Card View ============= -->
+    <style name="CardViewPrimaryText" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/collapsed_card_view_primary_text_selector</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="CardViewPrimaryText.VoD">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="CardViewSecondaryText">
+        <item name="android:textColor">@color/collapsed_card_view_secondary_text_selector</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="CardViewSecondaryText.VoD">
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="CardView">
+        <item name="card_width">@dimen/recommender_now_on_tv_grid_tile_width</item>
+        <item name="card_height">@dimen/recommender_now_on_tv_grid_tile_height</item>
+        <item name="primaryText">@style/CardViewPrimaryText</item>
+        <item name="bottomBannerColor">@color/Bermuda</item>
+        <item name="defaultBackground">@drawable/content_unit_low_data_image</item>
+        <item name="defaultLogo">@drawable/icon_98_media_photos_d_48x48</item>
+        <item name="secondaryText">@style/CardViewSecondaryText</item>
+        <item name="primaryTextMarginEnd">
+            @dimen/tod_collapsed_card_view_normal_tile_program_text_margin_end
+        </item>
+    </style>
+
+    <style name="CardView.TopPicks">
+        <item name="card_width">@dimen/recommender_now_on_tv_grid_tile_width</item>
+        <item name="card_height">@dimen/recommender_now_on_tv_grid_tile_height</item>
+        <item name="defaultBackground">@drawable/content_unit_low_data_image</item>
+        <item name="defaultLogo">@drawable/icon_98_media_photos_d_48x48</item>
+        <item name="bottomBannerHeight">
+            @dimen/recommender_now_on_tv_grid_tile_highlighted_label_container_height
+        </item>
+        <item name="fabIconMarginLeft">240dp</item>
+        <item name="primaryTextMarginLeft">
+            @dimen/recommender_now_on_tv_grid_tile_highlighted_labels_padding_left_width
+        </item>
+        <item name="primaryTextMarginRight">
+            @dimen/collapsed_card_view_normal_tile_program_text_margin_right
+        </item>
+        <item name="primaryTextHighlightedMarginLeft">
+            @dimen/collapsed_card_view_highlighted_tile_program_text_margin_left
+        </item>
+        <item name="primaryTextHighlightedMarginTop">
+            @dimen/collapsed_card_view_highlighted_tile_program_text_margin_top
+        </item>
+        <item name="primaryTextHighlightedMarginRight">
+            @dimen/collapsed_card_view_highlighted_tile_program_text_margin_right
+        </item>
+        <item name="progressBarHeight">@dimen/collapsed_card_view_progress_bar_height</item>
+        <item name="mediaIconWidth">@dimen/collapsed_card_view_play_pause_icon_width</item>
+        <item name="mediaIconHeight">@dimen/collapsed_card_view_play_pause_icon_height</item>
+        <item name="moreIcon">@drawable/recommender_more_arrow_activated</item>
+        <item name="secondaryTextHighlightedMarginRight">
+            @dimen/collapsed_card_view_highlighted_tile_secondary_text_margin_right
+        </item>
+        <item name="primaryTextMarginEnd">
+            @dimen/tod_collapsed_card_view_normal_tile_program_text_margin_end
+        </item>
+    </style>
+
+    <style name="CardView.TopPicks.VoD">
+        <item name="primaryText">@style/CardViewPrimaryText.VoD</item>
+        <item name="secondaryText">@style/CardViewSecondaryText.VoD</item>
+        <item name="card_width">@dimen/recommender_video_on_demand_grid_tile_width</item>
+        <item name="card_height">@dimen/recommender_video_on_demand_grid_tile_height</item>
+        <item name="defaultBackground">@drawable/lowdata_toppicks_vod_normal</item>
+        <item name="defaultLogo">@drawable/video_on_demand_d_ico_20x15_87</item>
+        <item name="secondaryTextHighlightedMarginRight">
+            @dimen/vod_collapsed_card_view_highlighted_tile_secondary_text_margin_right
+        </item>
+        <item name="primaryTextMarginEnd">
+            @dimen/vod_collapsed_card_view_normal_tile_program_text_margin_end
+        </item>
+
+    </style>
+
+    <style name="CardView.TopPicks.ToD">
+        <item name="broadCastIconWidth">
+            @dimen/recommender_tv_on_demand_grid_tile_channel_logo_width
+        </item>
+        <item name="broadCastIconHeight">
+            @dimen/recommender_tv_on_demand_grid_tile_channel_logo_height
+        </item>
+        <item name="broadCastIconMarginLeft">
+            @dimen/recommender_tv_on_demand_grid_tile_channel_logo_padding_left_width
+        </item>
+        <item name="broadCastIconMarginTop">
+            @dimen/recommender_tv_on_demand_grid_tile_channel_logo_padding_top_height
+        </item>
+        <item name="primaryTextHighlightedMarginRight">
+            @dimen/tod_collapsed_card_view_normal_tile_program_text_margin_right
+        </item>
+        <item name="primaryTextMarginEnd">
+            @dimen/tod_collapsed_card_view_normal_tile_program_text_margin_end
+        </item>
+    </style>
+
+    <style name="CardView.TopPicks.FreeView">
+        <item name="broadCastIconWidth">
+            @dimen/recommender_tv_on_demand_grid_tile_channel_logo_width
+        </item>
+        <item name="broadCastIconHeight">
+            @dimen/recommender_tv_on_demand_grid_tile_channel_logo_height
+        </item>
+        <item name="broadCastIconMarginLeft">
+            @dimen/recommender_tv_on_demand_grid_tile_channel_logo_padding_left_width
+        </item>
+        <item name="broadCastIconMarginTop">
+            @dimen/recommender_tv_on_demand_grid_tile_channel_logo_padding_top_height
+        </item>
+
+        <item name="card_width">@dimen/freeviewplay_row1_shape6_width</item>
+        <item name="card_height">@dimen/freeviewplay_row1_shape6_height</item>
+        <item name="defaultBackground">@drawable/content_unit_low_data_image</item>
+        <item name="defaultLogo">@drawable/icon_98_media_photos_d_48x48</item>
+        <item name="bottomBannerHeight">
+            @dimen/recommender_freeview_grid_tile_label_container_height
+        </item>
+        <item name="primaryTextMarginLeft">
+            @dimen/recommender_now_on_tv_grid_tile_highlighted_labels_padding_left_width
+        </item>
+        <item name="primaryTextMarginRight">
+            @dimen/collapsed_card_view_normal_tile_program_text_margin_right
+        </item>
+        <item name="primaryTextHighlightedMarginLeft">
+            @dimen/collapsed_card_view_highlighted_tile_program_text_margin_left
+        </item>
+        <item name="primaryTextHighlightedMarginTop">
+            @dimen/collapsed_card_view_highlighted_tile_program_text_margin_top
+        </item>
+        <item name="primaryTextHighlightedMarginRight">
+            @dimen/collapsed_card_view_highlighted_tile_program_text_margin_right
+        </item>
+        <item name="secondaryTextHighlightedMarginRight">
+            @dimen/collapsed_card_view_highlighted_tile_secondary_text_margin_right
+        </item>
+        <item name="primaryTextMarginEnd">
+            @dimen/tod_collapsed_card_view_normal_tile_program_text_margin_end
+        </item>
+        <item name="image_height">@dimen/freeviewplay_rew1_169_height</item>
+    </style>
+
+    <style name="CardView.TopPicks.Video">
+        <item name="primaryText">@style/CardViewPrimaryText.VoD</item>
+        <item name="secondaryText">@style/CardViewSecondaryText.VoD</item>
+        <item name="defaultLogo">@drawable/media_video_d_ico_40x30_139</item>
+        <item name="defaultBackground">@drawable/lowdata_mediabrowser_grid_expanded</item>
+        <item name="card_width">@dimen/content_browser_videos_collapsed_grid_tile_width</item>
+        <item name="card_height">@dimen/content_browser_videos_collapsed_grid_tile_height</item>
+        <item name="primaryTextHighlightedMarginTop">122dp</item>
+        <item name="primaryTextHighlightedMarginRight">
+            @dimen/video_collapsed_card_view_normal_tile_program_text_margin_right
+        </item>
+        <item name="primaryTextMarginEnd">
+            @dimen/video_collapsed_card_view_normal_tile_program_text_margin_end
+        </item>
+    </style>
+
+    <style name="CardView.TopPicks.Photo">
+        <item name="primaryText">@style/CardViewPrimaryText.VoD</item>
+        <item name="secondaryText">@style/CardViewSecondaryText.VoD</item>
+        <item name="defaultLogo">@drawable/icon_98_media_photos_d_48x48</item>
+        <item name="defaultBackground">@drawable/lowdata_mediabrowser_grid_expanded</item>
+        <item name="card_width">@dimen/content_browser_photos_collapsed_grid_tile_width</item>
+        <item name="card_height">@dimen/content_browser_photos_collapsed_grid_tile_height</item>
+        <item name="primaryTextHighlightedMarginTop">122dp</item>
+        <item name="primaryTextMarginEnd">
+            @dimen/photo_collapsed_card_view_normal_tile_program_text_margin_end
+        </item>
+        <item name="secondaryTextHighlightedMarginRight">
+            @dimen/collapsed_card_view_highlighted_tile_secondary_text_margin_right
+        </item>
+    </style>
+
+</resources>

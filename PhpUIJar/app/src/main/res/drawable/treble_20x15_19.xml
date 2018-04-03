@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/treble_d_ico_20x15_19" android:state_activated="false" />
+    <item android:drawable="@drawable/treble_hl_ico_20x15_19" android:state_pressed="true" android:state_focused="true" />
+    <item android:drawable="@drawable/treble_n_ico_20x15_19" />
+</selector>

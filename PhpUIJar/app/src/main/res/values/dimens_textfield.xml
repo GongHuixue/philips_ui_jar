@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?><!--Sat Aug 02 2014 06:50:19 GMT+0530-->
+<resources>
+    <!--Layout_TextField_v2.0.psd-->
+    <dimen name="textfield_container_height">36dp</dimen>
+
+    <dimen name="textfield_container_width">204dp</dimen>
+
+    <dimen name="textfield_container_x1">0dp</dimen>
+
+    <dimen name="textfield_container_y1">0dp</dimen>
+
+    <dimen name="textfield_container_x2">204dp</dimen>
+
+    <dimen name="textfield_container_y2">36dp</dimen>
+
+    <dimen name="textfield_background_outline_height">36dp</dimen>
+
+    <dimen name="textfield_background_outline_width">204dp</dimen>
+
+    <dimen name="textfield_background_outline_x1">0dp</dimen>
+
+    <dimen name="textfield_background_outline_y1">0dp</dimen>
+
+    <dimen name="textfield_background_outline_x2">204dp</dimen>
+
+    <dimen name="textfield_background_outline_y2">36dp</dimen>
+
+    <!-- Rankush: Added manually as UXD hasn't specified (Referred from PSD) -->
+
+    <dimen name="textfield_label_padding_bottom_height">6dp</dimen>
+
+    <dimen name="textfield_label_padding_bottom_width">6dp</dimen>
+
+    <dimen name="textfield_label_padding_bottom_x1">0dp</dimen>
+
+    <dimen name="textfield_label_padding_bottom_y1">0dp</dimen>
+
+    <dimen name="textfield_label_padding_bottom_x2">6dp</dimen>
+
+    <dimen name="textfield_label_padding_bottom_y2">6dp</dimen>
+
+    <!-- Rankush: End of manual dimens -->
+
+    <dimen name="textfield_label_padding_top_height">12dp</dimen>
+
+    <dimen name="textfield_label_padding_top_width">12dp</dimen>
+
+    <dimen name="textfield_label_padding_top_x1">0dp</dimen>
+
+    <dimen name="textfield_label_padding_top_y1">0dp</dimen>
+
+    <dimen name="textfield_label_padding_top_x2">12dp</dimen>
+
+    <dimen name="textfield_label_padding_top_y2">12dp</dimen>
+
+    <dimen name="textfield_label_padding_left_height">20dp</dimen>
+
+    <dimen name="textfield_label_padding_left_width">20dp</dimen>
+
+    <dimen name="textfield_label_padding_left_x1">0dp</dimen>
+
+    <dimen name="textfield_label_padding_left_y1">12dp</dimen>
+
+    <dimen name="textfield_label_padding_left_x2">20dp</dimen>
+
+    <dimen name="textfield_label_padding_left_y2">32dp</dimen>
+
+    <dimen name="textfield_label_text_height">21dp</dimen>
+
+    <dimen name="textfield_label_text_width">164dp</dimen>
+
+    <dimen name="textfield_label_text_x1">20dp</dimen>
+
+    <dimen name="textfield_label_text_y1">12dp</dimen>
+
+    <dimen name="textfield_label_text_x2">184dp</dimen>
+
+    <dimen name="textfield_label_text_y2">33dp</dimen>
+
+    <dimen name="textfield_label_padding_right_height">20dp</dimen>
+
+    <dimen name="textfield_label_padding_right_width">20dp</dimen>
+
+    <dimen name="textfield_label_padding_right_x1">184dp</dimen>
+
+    <dimen name="textfield_label_padding_right_y1">12dp</dimen>
+
+    <dimen name="textfield_label_padding_right_x2">204dp</dimen>
+
+    <dimen name="textfield_label_padding_right_y2">32dp</dimen>
+
+    <dimen name="textfield_close_icon_height">36dp</dimen>
+
+    <dimen name="textfield_close_icon_width">36dp</dimen>
+
+    <dimen name="textfield_close_icon_x1">168dp</dimen>
+
+    <dimen name="textfield_close_icon_y1">0dp</dimen>
+
+    <dimen name="textfield_close_icon_x2">204dp</dimen>
+
+    <dimen name="textfield_close_icon_y2">36dp</dimen>
+
+    <dimen name="textfield_caret_height">13.5dp</dimen>
+
+    <dimen name="textfield_caret_width">2dp</dimen>
+
+    <dimen name="textfield_caret_x1">20dp</dimen>
+
+    <dimen name="textfield_caret_y1">11.5dp</dimen>
+
+    <dimen name="textfield_caret_x2">22dp</dimen>
+
+    <dimen name="textfield_caret_y2">25dp</dimen>
+
+    <dimen name="textfield_formatted_dot_height">19dp</dimen>
+
+    <dimen name="textfield_formatted_dot_width">19dp</dimen>
+
+    <dimen name="textfield_formatted_dot_x1">20dp</dimen>
+
+    <dimen name="textfield_formatted_dot_y1">8.5dp</dimen>
+
+    <dimen name="textfield_formatted_dot_x2">39dp</dimen>
+
+    <dimen name="textfield_formatted_dot_y2">27.5dp</dimen>
+
+    <dimen name="textfield_formatted_dot_margin_left_height">20dp</dimen>
+
+    <dimen name="textfield_formatted_dot_margin_left_width">20dp</dimen>
+
+    <dimen name="textfield_formatted_dot_margin_left_x1">0dp</dimen>
+
+    <dimen name="textfield_formatted_dot_margin_left_y1">8.5dp</dimen>
+
+    <dimen name="textfield_formatted_dot_margin_left_x2">20dp</dimen>
+
+    <dimen name="textfield_formatted_dot_margin_left_y2">28.5dp</dimen>
+
+    <dimen name="textfield_formatted_dot_padding_right_height">5dp</dimen>
+
+    <dimen name="textfield_formatted_dot_padding_right_width">5dp</dimen>
+
+    <dimen name="textfield_formatted_dot_padding_right_x1">39dp</dimen>
+
+    <dimen name="textfield_formatted_dot_padding_right_y1">15.5dp</dimen>
+
+    <dimen name="textfield_formatted_dot_padding_right_x2">44dp</dimen>
+
+    <dimen name="textfield_formatted_dot_padding_right_y2">20.5dp</dimen>
+
+    <dimen name="textfield_formatted_dot_padding_top_height">8.5dp</dimen>
+
+    <dimen name="textfield_formatted_dot_padding_top_width">8.5dp</dimen>
+
+    <dimen name="textfield_formatted_dot_padding_top_x1">20dp</dimen>
+
+    <dimen name="textfield_formatted_dot_padding_top_y1">0dp</dimen>
+
+    <dimen name="textfield_formatted_dot_padding_top_x2">28.5dp</dimen>
+
+    <dimen name="textfield_formatted_dot_padding_top_y2">8.5dp</dimen>
+
+</resources>

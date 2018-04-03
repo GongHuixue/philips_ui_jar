@@ -1,0 +1,1204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="uiComponentsTheme" parent="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen">
+        <item name="android:editTextStyle">@style/editText_style</item>
+        <item name="android:buttonStyle">@style/button_style</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="inputPicker">@style/inputPickerStyle</item>
+        <item name="VerticalSlider">@style/DefaultVerticalSlider</item>
+    </style>
+
+    <style name="uiComponentsDialogTheme" parent="@android:style/Theme.DeviceDefault.Dialog">
+        <!--
+    TODO: WE have to provide the drawable background for dialog here
+ -->
+    </style>
+
+    <style name="editText_style">
+        <item name="android:background">@drawable/edittext_background_selector</item>
+        <item name="android:paddingLeft">@dimen/textfield_label_padding_left_width</item>
+        <item name="android:paddingRight">@dimen/textfield_label_padding_right_width</item>
+        <item name="android:paddingBottom">@dimen/textfield_label_padding_bottom_height</item>
+        <item name="android:paddingTop">@dimen/textfield_label_padding_bottom_height</item>
+        <!--   <item name="android:width">@dimen/textfield_container_width</item> -->
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:height">@dimen/textfield_container_height</item>
+        <item name="android:textColor">@color/edittext_text_color_selector</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- TPVision changes for ListView and GridView  Style-->
+
+    <style name="DefaultListViewStyle" parent="android:Widget.ListView">
+        <item name="android:listSelector">@drawable/listview_selector</item>
+        <item name="android:requiresFadingEdge">vertical</item>
+        <item name="android:fadingEdgeLength">@dimen/listview_fadingedge_length</item>
+        <item name="android:scrollbarStyle">outsideInset</item>
+        <item name="android:divider">@null</item>
+    </style>
+
+    <style name="DefaultGridViewStyle" parent="android:Widget.GridView"></style>
+    <!-- TPVision changes for ListView and GridView  Style-->
+    <style name="DefaultVerticalSlider">
+        <item name="android:focusable">true</item>
+        <item name="isBalancedSlider">false</item>
+        <!-- display the values of the slider on the left or right -->
+        <item name="sliderValueDisplay">displayOnLeft</item>
+        <!-- Minimum value of the slider, it could either a negative zero or any positive number -->
+        <item name="sliderMinValue">0</item>
+        <!-- Maximum value of the slider, it could greater than min value -->
+        <item name="sliderMaxValue">25</item>
+        <item name="sliderCurrentValue">0</item>
+        <item name="currentvalueDisplayTextStyle">@style/sliderCurrentValueTextAppearance</item>
+        <item name="minmaxvalueDisplayTextStyle">@style/sliderMinMaxValueTextAppearance</item>
+        <item name="updateResolution">1</item>
+        <item name="sliderContainerDrawable">@drawable/slider_container_drawable</item>
+        <item name="sliderContainerWidth">@dimen/slider_normal_container_width</item>
+        <item name="sliderContainerHeight">@dimen/slider_normal_container_height</item>
+        <item name="sliderBarDrawable">@drawable/slider_bar_drawable</item>
+        <item name="sliderBarFill">@drawable/slider_fill_drawable</item>
+        <item name="sliderBarWidth">@dimen/slider_normal_bar_container_width</item>
+        <item name="sliderBarHeight">@dimen/slider_normal_bar_container_height</item>
+        <item name="upArrowIconDrawable">@drawable/sliders_up_arrow</item>
+        <item name="upArrowIconPressedDrawable">@drawable/slider_arrow_up_pressed</item>
+        <item name="downArrowIconDrawable">@drawable/sliders_down_arrow</item>
+        <item name="downArrowIconPressedDrawable">@drawable/slider_arrow_down_pressed</item>
+        <item name="sliderLabelText">"Brightness"</item>
+        <item name="balancedSliderTopLabelText"></item>
+        <item name="balancedSliderBottomLabelText"></item>
+        <item name="sliderLabelTextStyle">@style/sliderLabelTextAppearance</item>
+        <item name="sliderTopLabelText">Right</item>
+        <item name="sliderBottomLabelText">Left</item>
+        <item name="sliderCenterLabelText">Top</item>
+        <item name="isfMinColorDrawable">@drawable/isf_min_color</item>
+        <item name="isfMaxColorDrawable">@drawable/isf_max_color</item>
+        <item name="isfHeaderColorDrawable">@drawable/isf_header_color</item>
+        <item name="isISFSlider">false</item>
+    </style>
+
+    <style name="DefaultVerticalSliderWithLabel" parent="DefaultVerticalSlider">
+        <item name="sliderContainerWidth">@dimen/slider_with_label_container_width</item>
+        <item name="sliderContainerHeight">@dimen/slider_with_label_container_height</item>
+    </style>
+
+    <style name="DefaultVerticalSlider.Balanced">
+        <item name="isBalancedSlider">true</item>
+    </style>
+
+    <style name="Slidersmall" parent="DefaultVerticalSlider">
+        <item name="sliderBarHeight">182dp</item>
+        <item name="sliderContainerHeight">320dp</item>
+    </style>
+
+    <style name="sliderMinMaxValueTextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@drawable/slider_value_textcolor</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="sliderCurrentValueTextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@drawable/slider_current_value_textcolor</item>
+        <item name="android:textSize">19sp</item>
+    </style>
+
+    <style name="sliderLabelTextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@drawable/slider_value_textcolor</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+
+    <style name="PanelBrowserContentExplorer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/npanel_firstlevel_panel01_height</item>
+        <item name="android:paddingLeft">@dimen/npanel_rootlevel_padding_left_width</item>
+        <item name="nPbEnableAnimation">true</item>
+        <item name="nPbFirstPanelWidth">@dimen/npanel_firstlevel_panel01_width</item>
+        <item name="nPbNoOfVisiblePanels">2</item>
+
+
+    </style>
+
+    <style name="PanelBrowserContentBrowser">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/npanel_firstlevel_panel01_height</item>
+        <item name="android:paddingLeft">@dimen/npanel_rootlevel_padding_left_width</item>
+        <item name="nPbEnableAnimation">true</item>
+        <item name="nPbFirstPanelWidth">@dimen/npanel_firstlevel_panel01_width</item>
+        <item name="nPbNoOfVisiblePanels">2</item>
+
+    </style>
+
+    <style name="PanelBrowserContentExplorer.Wizards">
+        <item name="nPbNoOfVisiblePanels">1</item>
+        <item name="nPbFirstPanelWidth">0dp</item>
+        <item name="android:layout_width">@dimen/wizards_input_step_wizard_main_container_width
+        </item>
+        <item name="android:layout_height">match_parent</item>
+
+    </style>
+
+    <style name="PanelBrowserContentExplorer.CompactWizards">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/wizards_compact_main_container_height</item>
+        <item name="nPbNoOfVisiblePanels">1</item>
+        <item name="nPbFirstPanelWidth">0dp</item>
+
+
+    </style>
+
+    <style name="PanelBrowserContentExplorer.Options">
+        <item name="nPbFirstPanelWidth">@dimen/optionsmenu_list_container_width</item>
+        <item name="nPbNoOfVisiblePanels">1</item>
+    </style>
+
+    <style name="progressBarStyleHorizontal" parent="android:Widget.DeviceDefault.ProgressBar.Horizontal"></style>
+
+    <style name="progressBarStyleLoadingLarge" parent="android:Widget.DeviceDefault.ProgressBar.Large"></style>
+
+    <style name="progressBarStyleLoadingSmall" parent="android:Widget.DeviceDefault.ProgressBar.Small"></style>
+
+    <style name="ProgressBarStyle" parent="android:style/Widget.DeviceDefault.ProgressBar.Horizontal">
+        <item name="android:layout_width">400dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">100dp</item>
+    </style>
+
+    <!-- 4 types of progress bar -->
+    <style name="ProgressBarStyleDefault" parent="android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progressbar_drawable</item>
+    </style>
+
+    <style name="ProgressBarStyleDefault.Wizard">
+        <item name="android:minHeight">@dimen/wizard_compact_01_progress_bar_filled_height</item>
+        <item name="android:maxHeight">@dimen/wizard_compact_01_progress_bar_filled_height</item>
+        <item name="android:minWidth">@dimen/wizard_step1_progress_bar_width</item>
+        <item name="android:maxWidth">@dimen/wizard_step1_progress_bar_width</item>
+    </style>
+
+    <style name="ProgressBarStyleDefault.Zapbar">
+        <item name="android:minHeight">
+            @dimen/zapbar_numeric_input_now_column02_progress_bar_height
+        </item>
+        <item name="android:maxHeight">
+            @dimen/zapbar_numeric_input_now_column02_progress_bar_height
+        </item>
+        <item name="android:minWidth">@dimen/zapbar_numeric_input_now_column02_progress_bar_width
+        </item>
+        <item name="android:maxWidth">@dimen/zapbar_numeric_input_now_column02_progress_bar_width
+        </item>
+    </style>
+
+    <style name="ProgressBarStyleDefault.ChannelsCollapsed">
+        <item name="android:minHeight">
+            @dimen/channels_collapsed_tile_column01_01_progress_bar_height
+        </item>
+        <item name="android:maxHeight">
+            @dimen/channels_collapsed_tile_column01_01_progress_bar_height
+        </item>
+        <item name="android:minWidth">
+            @dimen/channels_collapsed_tile_column01_01_progress_bar_width
+        </item>
+        <item name="android:maxWidth">
+            @dimen/channels_collapsed_tile_column01_01_progress_bar_width
+        </item>
+    </style>
+
+    <style name="ProgressBarStyleDefault.ChannelsExpanded">
+        <item name="android:minHeight">
+            @dimen/channels_expanded_tile_column01_01_progress_bar_height
+        </item>
+        <item name="android:maxHeight">
+            @dimen/channels_expanded_tile_column01_01_progress_bar_height
+        </item>
+        <item name="android:minWidth">@dimen/channels_expanded_tile_column01_01_progress_bar_width
+        </item>
+        <item name="android:maxWidth">@dimen/channels_expanded_tile_column01_01_progress_bar_width
+        </item>
+    </style>
+
+    <style name="IndeterminateSpinnerStyle" parent="android:style/Widget.DeviceDefault.ProgressBar.Small"></style>
+
+    <style name="IndeterminatePbStyle">
+        <item name="progressMaxValue">100</item>
+        <item name="curProgressValue">25</item>
+        <item name="startSpinner">false</item>
+    </style>
+
+    <!-- Added for 2K15-->
+    <style name="ProgressBarStyleLoader">
+        <item name="android:indeterminateDrawable">@drawable/progress_bar_loader</item>
+    </style>
+
+    <style name="ProgressBarStyleDefault.DiscSpace">
+        <item name="android:minHeight">@dimen/progressbar_small_height</item>
+        <item name="android:maxHeight">@dimen/progressbar_small_height</item>
+        <item name="android:minWidth">@dimen/progressbar_small_width</item>
+        <item name="android:maxWidth">@dimen/progressbar_small_width</item>
+        <item name="android:progressDrawable">@drawable/progressbar_drawable_disc_space</item>
+    </style>
+
+    <style name="ProgressBarStyleDefault.Highlighted">
+        <item name="android:minHeight">@dimen/progressbar_small_height</item>
+        <item name="android:maxHeight">@dimen/progressbar_small_height</item>
+        <item name="android:minWidth">@dimen/progressbar_small_width</item>
+        <item name="android:maxWidth">@dimen/progressbar_small_width</item>
+        <item name="android:progressDrawable">@drawable/progressbar_drawable_highlighted</item>
+    </style>
+
+    <style name="ProgressBarStyleDefault.Highlighted.Large">
+        <item name="android:minHeight">@dimen/progressbar_large_height</item>
+        <item name="android:maxHeight">@dimen/progressbar_large_height</item>
+        <item name="android:minWidth">@dimen/progressbar_large_width</item>
+        <item name="android:maxWidth">@dimen/progressbar_large_width</item>
+        <item name="android:progressDrawable">@drawable/progressbar_drawable_highlighted_large
+        </item>
+    </style>
+    <!-- Closing of Added for 2K15-->
+
+    <style name="MyTheme" parent="android:Theme">
+        <item name="android:background">@drawable/toast_frame</item>
+    </style>
+
+    <!-- filters -->
+    <style name="AppTheme" parent="uiComponentsTheme">
+        <item name="android:radioButtonStyle">@style/RadioButtonStyle</item>
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="RadioButtonStyle" parent="@android:style/Widget.CompoundButton">
+        <item name="android:background">@drawable/radio</item>
+        <item name="android:button">@null</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@drawable/textcolor</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <!-- input text field -->
+
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+
+    <style name="colorKeyStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">@dimen/colorkey_bar_colorkey_min_text_width</item>
+        <item name="android:maxWidth">@dimen/colorkey_bar_colorkey_max_text_width</item>
+        <item name="android:drawablePadding">@dimen/colorkey_bar_drawable_padding_width</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textAppearance">@style/ltr</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:textIsSelectable">false</item>
+    </style>
+
+    <style name="colorkeydate" parent="colorKeyStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxWidth">@dimen/components_colorkey_bar_time_text_width</item>
+        <item name="android:drawablePadding">0dp</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textColor">#B3FFFFFF</item>
+    </style>
+
+    <style name="colorkeydimed" parent="lnr">
+        <item name="android:textColor">#292a2f</item>
+    </style>
+    <!--<style name="bluekeystyle" parent="colorKeyStyle">
+          <item name="android:maxWidth">@dimen/components_colorkeyblue_maximum_width</item>
+    </style>-->
+
+    <style name="infokeystyle" parent="colorKeyStyle">
+        <item name="android:layout_marginLeft">@dimen/colorkey_bar_info_icon_left_margin_width
+        </item>
+        <item name="android:textColor">@color/colorkey_text_color_info</item>
+        <item name="android:minWidth">0dp</item>
+    </style>
+
+    <style name="optionskeystyle" parent="colorKeyStyle">
+        <item name="android:layout_width">84dp</item>
+    </style>
+
+    <style name="Play">
+        <item name="android:src">@drawable/play_n_ico_40x30_115</item>
+        <item name="android:background">@drawable/play</item>
+    </style>
+
+    <style name="Ffwd">
+        <item name="android:src">@drawable/forward_24x18_121</item>
+        <item name="android:background">@drawable/play</item>
+    </style>
+
+    <style name="Rew">
+        <item name="android:src">@drawable/rewind_24x18_112</item>
+        <item name="android:background">@drawable/play</item>
+    </style>
+
+    <style name="Prev">
+        <item name="android:src">@drawable/previous_chapter</item>
+        <item name="android:background">@drawable/play</item>
+    </style>
+
+    <style name="Next">
+        <item name="android:src">@drawable/next_chapter</item>
+        <item name="android:background">@drawable/play</item>
+    </style>
+
+    <style name="Pause">
+        <item name="android:src">@drawable/pause_d_ico_40x30_120</item>
+    </style>
+
+    <style name="DefaultListStyle">
+        <item name="setRowWidth">@dimen/list_row_width</item>
+        <item name="setRowHeight">@dimen/list_row_height</item>
+    </style>
+
+    <style name="PowerMeterDefault">
+        <!--
+        <item name="PowerMeterLabel">@strings:string/MAIN_ENERGY_SAVING</item>
+        -->
+        <item name="PowerMeterLabelStyle">@style/ltr</item>
+        <item name="PowerMeterLevelIndicgatorRadius">@dimen/powermeter_levelindicator_radius</item>
+        <item name="PowerMeterLevelIndicatorLevels">11</item>
+        <item name="PowerMeterIcon">@drawable/powermeter_energy_icon</item>
+        <item name="PowerMeterRadius">@dimen/powermeter_radius</item>
+        <item name="PowerMeterLevelColorsArray">@array/PowerMeterLevelColors</item>
+        <item name="PowerMeterTotalLevels">11</item>
+        <item name="PowerMeterCurrentLevel">0</item>
+        <item name="PowerMeterDefaultColor">@color/PowerMeter_Default</item>
+        <item name="PowerMeterWidth">@dimen/powermeter_width</item>
+        <item name="PowerMeterHeight">@dimen/powermeter_height</item>
+        <item name="PowerMeterTextBottmPadding">@dimen/powermeter_textbottom_padding</item>
+        <item name="PowerMeterIconTopPadding">@dimen/powermeter_icontop_padding</item>
+        <item name="PowerMeterIconBottomPadding">@dimen/powermeter_iconbottom_padding</item>
+    </style>
+
+    <style name="PowerMeterStyle" parent="android:style/Widget.SeekBar">
+        <item name="android:layout_width">@dimen/powermeter_bar_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:focusable">false</item>
+        <item name="android:minHeight">@dimen/powermeter_bar_height</item>
+        <item name="android:maxHeight">@dimen/powermeter_bar_height</item>
+        <item name="android:minWidth">@dimen/powermeter_bar_width</item>
+        <item name="android:maxWidth">@dimen/powermeter_bar_width</item>
+        <item name="android:max">100</item>
+        <item name="android:progress">0</item>
+        <item name="android:secondaryProgress">0</item>
+        <item name="android:progressDrawable">@drawable/powermeter_drawable</item>
+        <item name="android:thumb">@drawable/powermeter_leaf_icon</item>
+        <item name="android:splitTrack">false</item>
+    </style>
+
+    <style name="verticalTextStyle">
+        <item name="android:drawablePadding">
+            @dimen/npanel_secondlevel_verticle_textn_padding_height
+        </item>
+    </style>
+
+    <style name="inputPickerStyle">
+        <item name="android:layout_height">@dimen/picker_numerical_main_container_height</item>
+        <item name="android:layout_width">@dimen/picker_numerical_main_container_width</item>
+        <item name="android:height">100dp</item>
+        <item name="android:width">80dp</item>
+        <item name="android:focusable">true</item>
+        <item name="inputPickerUpIndicator">@drawable/pickers_arrow_up_activated</item>
+        <item name="inputPickerUpIndicatorsel">@drawable/pickers_arrow_up_activated_highlighted
+        </item>
+        <item name="inputPickerDownIndicator">@drawable/pickers_arrow_down_activated</item>
+        <item name="inputPickerDownIndicatorsel">
+            @drawable/pickers_arrow_down_activated_highlighted
+        </item>
+        <item name="inputPickerUpIndicatorAct">@drawable/pickers_arrow_up_highlighted</item>
+        <item name="inputPickerDownIndicatorAct">@drawable/pickers_arrow_down_highlighted</item>
+        <item name="inputPickerLabelName"></item>
+        <item name="inputPickerMaxValue">400</item>
+        <item name="inputPickerMinValue">0</item>
+        <item name="inputPickerCurrValue">4</item>
+
+        <item name="inputPickerbgDrawable">@drawable/picker_background</item>
+        <item name="inputPickerDisplayTextStyle">@style/hnl</item>
+        <item name="inputPickerLabelTextStyle">@style/lnl</item>
+        <item name="overrideInputPicker">false</item>
+        <item name="inputPickerUpArrowBgDrawable">@drawable/up_arrow_selector</item>
+        <item name="inputPickerDownArrowBgDrawable">@drawable/down_arrow_selector</item>
+        <item name="inputPickerDrawableWidth">@dimen/components_picker_container_width</item>
+    </style>
+
+    <style name="inputPickerStyleMedium" parent="@style/inputPickerStyle">
+        <item name="inputPickerDrawableWidth">@dimen/components_picker_container_width_large</item>
+    </style>
+
+    <style name="inputPickerStyle.overrideInputPickerStyle">
+        <item name="overrideInputPicker">true</item>
+    </style>
+
+    <style name="picker_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="picker_titletextstyle" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="hnr" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="hnl" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="hsr" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="hsl" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="llr" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="llr.ActivatedTextStyle">
+        <item name="android:textColor">@drawable/activatedtextcolor</item>
+    </style>
+
+    <style name="lll" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="lnr" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="lnl" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="lsr" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="lsl" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="ltr" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">#666666</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="ltl" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="blr" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">50sp</item>
+    </style>
+
+    <style name="bll" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">50sp</item>
+    </style>
+
+    <style name="bnr" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="bnl" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="bsr" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="bsl" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="hlr" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">19sp</item>
+    </style>
+
+    <style name="hll" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">19sp</item>
+    </style>
+
+    <style name="zlr" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">44sp</item>
+    </style>
+
+    <style name="zll" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">44sp</item>
+    </style>
+
+    <style name="vlr" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">36sp</item>
+    </style>
+
+    <style name="vll" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">36sp</item>
+    </style>
+
+    <style name="btr" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">#F1F2F3</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="hxl" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">37sp</item>
+    </style>
+
+    <style name="hmr" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="hml" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="lmr" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="lml" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="ltb" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="bur" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">105sp</item>
+    </style>
+
+    <style name="bul" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">105sp</item>
+    </style>
+
+    <style name="bxr" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">78sp</item>
+    </style>
+
+    <style name="bxl" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">78sp</item>
+    </style>
+
+    <style name="bmr" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <style name="bml" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <style name="radioselectorStyle">
+        <item name="radioselectorDrawable">@drawable/radioselector</item>
+    </style>
+
+    <style name="checkboxselectorStyle">
+        <item name="checkboxselectorDrawable">@drawable/checkboxselector</item>
+    </style>
+
+    <style name="InputPinEntryTextFieldStyle"><!--Ref: AP126 added max length-->
+        <item name="maxLength">8</item>
+    </style>
+
+    <style name="WizardHintTextProgressBar" parent="android:style/Widget.DeviceDefault.ProgressBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="tv_notification_text_style">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textAppearance">@style/tv_notification_text_appearance</item>
+    </style>
+
+    <style name="tv_notification_text_appearance" parent="@style/bnr"></style>
+
+    <style name="slow_play_control">
+        <item name="invert_positions">true</item>
+    </style>
+
+    <style name="PickListLable">
+        <item name="android:singleLine">true</item>
+        <item name="android:requiresFadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">10dp</item>
+        <item name="android:textAppearance">@style/hsr</item>
+        <item name="android:gravity">center</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="PickListListView">
+        <item name="android:choiceMode">singleChoice</item>
+        <item name="android:divider">@android:color/transparent</item>
+        <item name="android:listSelector">@drawable/listview_selector</item>
+        <item name="android:paddingLeft">@dimen/picklist_listiview_padding_left</item>
+        <item name="android:paddingRight">@dimen/picklist_listiview_padding_right</item>
+    </style>
+
+    <style name="PickListSingleItem">
+        <item name="android:singleLine">true</item>
+        <item name="android:textAppearance">@style/hsl</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@drawable/listview_item_color_selector</item>
+        <item name="android:maxWidth">@dimen/picklist_02_row01_width</item>
+        <item name="android:drawablePadding">@dimen/picklist_02_row01_label_padding_left_width
+        </item>
+        <item name="android:paddingLeft">@dimen/picklist_02_row01_icon_margin_left_width</item>
+        <item name="android:paddingRight">@dimen/picklist_02_row01_label_padding_right_width</item>
+    </style>
+
+    <!--Start: Top Navigation Bar styles-->
+    <style name="topmenubar_label_text_l_style">
+        <item name="android:textColor">@color/topnavigation_text_selector</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">left</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:textIsSelectable">false</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">19sp</item>
+    </style>
+
+    <style name="topNavigationDefaultStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxWidth">@dimen/topmenubar_label_text_l_x1</item>
+    </style>
+
+    <!--End: Top Navigation Bar styles-->
+
+    <!-- Options menu styles START -->
+    <style name="OptionsMenuItem">
+        <item name="android:singleLine">true</item>
+        <item name="android:textAppearance">@style/lnl</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@drawable/options_listview_item_color_selector</item>
+        <item name="android:requiresFadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">10dp</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:drawablePadding">@dimen/optionsmenu_list_item_drawable_padding</item>
+        <item name="android:paddingLeft">@dimen/optionsmenu_list_row01_label_padding_left_width
+        </item>
+        <item name="android:paddingRight">
+            @dimen/optionsmenu_second_level_list_row01_label_padding_right_width
+        </item>
+        <item name="android:height">@dimen/optionsmenu_list_row01_height</item>
+        <item name="android:maxWidth">@dimen/optionsmenu_list_row01_width</item>
+        <item name="android:background">@drawable/activated_listitem_selector</item>
+    </style>
+
+    <style name="RadioOptionsMenuItem" parent="@style/OptionsMenuItem">
+        <item name="radioselectorDrawable">@drawable/radioselector</item>
+    </style>
+
+    <style name="CheckBoxOptionsMenuItem" parent="@style/OptionsMenuItem">
+        <item name="checkboxselectorDrawable">@drawable/checkboxselector</item>
+    </style>
+
+    <style name="OptionsMenuFolderIcon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical|right</item>
+        <item name="android:paddingLeft">@dimen/optionsmenu_list_row02_padding_label_arrow_width
+        </item>
+    </style>
+    <!-- Options menu styles END -->
+
+    <!-- Drawer styles START -->
+    <style name="DrawerParentStyle">
+        <item name="android:background">@drawable/drawer_top_gradient_background</item>
+    </style>
+
+    <style name="sources_header_label_text_style" parent="@style/hlr">
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="sources_list_row_main_label_text_style" parent="@style/lnr">
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="sources_list_row_sub_label_text_style" parent="@style/lsl">
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="sources_extensions_list_row_label_text_style" parent="@style/lnr">
+        <item name="android:gravity">left</item>
+    </style>
+    <!-- Drawer styles END --><!-- Playback control -->
+
+    <style name="playbackcontrols_title_text_style" parent="@style/llr">
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="playbackcontrols_current_duration_text_style" parent="@style/lll">
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="playbackcontrols_total_duration_text_style" parent="@style/lll">
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="playbackcontrols_musicplayer_title_text_style" parent="@style/llr">
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="playbackcontrols_musicplayer_sub_title_text_style" parent="@style/ltl">
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="playbackcontrols_photoviewer_title_text_style" parent="@style/llr">
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="playbackcontrols_photoviewer_sub_title_text_style" parent="@style/ltl">
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="playbackcontrols_photoviewer_total_text_style" parent="@style/hxr">
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="hxr" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">37sp</item>
+    </style>
+    <!-- Playback control end -->
+    <style name="lll_text" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">#73FFFFFF</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="lnl_text" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">#73FFFFFF</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="lsr_text" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">#76D7D6</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="lsl_text" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">#76D7D6</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="llr_text" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">#76D7D6</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="BrowseGridStyle">
+        <item name="selectedPosition">5</item>
+        <item name="displayMode">minimized</item>
+        <item name="numColumns">5</item>
+        <item name="numRows">2</item>
+    </style>
+
+    <style name="BrowseGridStyle.NowOnTV" parent="BrowseGridStyle">
+        <item name="gridType">NowOnTvGrid</item>
+    </style>
+
+    <style name="BrowseGridStyle.VoDGrid" parent="BrowseGridStyle">
+        <item name="gridType">VoDGrid</item>
+        <item name="numColumns">7</item>
+    </style>
+
+    <style name="BrowseGridStyle.FreeViewGrid" parent="BrowseGridStyle">
+        <item name="gridType">FreeViewGrid</item>
+        <item name="numColumns">5</item>
+    </style>
+
+    <style name="BrowseGridStyle.ToDGrid" parent="BrowseGridStyle">
+        <item name="gridType">ToDGrid</item>
+    </style>
+
+    <style name="BrowseGridStyle.PhotoGrid" parent="BrowseGridStyle">
+        <item name="gridType">PhotoGrid</item>
+        <item name="numColumns">3</item>
+        <item name="numRows">3</item>
+    </style>
+
+    <style name="BrowseGridStyle.VideoGrid" parent="BrowseGridStyle">
+        <item name="gridType">VideoGrid</item>
+        <item name="numColumns">3</item>
+        <item name="numRows">3</item>
+    </style>
+
+    <style name="BrowseGridStyle.NowOnTVSimple" parent="BrowseGridStyle">
+        <item name="gridType">NowOnTvGridSimple</item>
+    </style>
+
+    <style name="browse_grid_title_text">
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">20dp</item>
+    </style>
+
+
+    <!-- Start:   Modal dialog styles -->
+    <style name="modal_dialog_label_text_style">
+        <item name="android:gravity">left</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="modal_dialog_heading" parent="modal_dialog_label_text_style">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+
+    <style name="modal_dialog_sub_heading" parent="modal_dialog_label_text_style">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#B3FFFFFF</item>
+    </style>
+
+    <style name="dialogues_edit_device_header_right_text_style" parent="@style/lsl">
+        <item name="android:gravity">left</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="modal_dialog_content_text" parent="modal_dialog_label_text_style">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#B3FFFFFF</item>
+    </style>
+    <!-- END:   Modal dialog styles -->
+
+
+    <!-- Start :  Button style -->
+    <style name="button_style">
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:paddingLeft">@dimen/buttons_label_padding_left_width</item>
+        <item name="android:paddingRight">@dimen/buttons_label_padding_right_width</item>
+        <item name="android:background">@color/button_background_color_selector</item>
+        <item name="android:layout_height">@dimen/buttons_background_height</item>
+        <item name="android:minWidth">@dimen/buttons_background_width</item>
+        <item name="android:textColor">@color/button_text_color_selector</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="button_pre_focused_style" parent="button_style">
+        <!--<item name="android:background">@color/button_background_pre_focus_color_selector</item>
+        <item name="android:textColor">@color/button_prefocus_text_color_selector</item>-->
+    </style>
+
+    <!-- End :  Button style -->
+    <style name="ProgressBarStyleWizard" parent="ProgressBarStyleDefault.DiscSpace">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/wizards_input_step_progress_bar_height</item>
+
+    </style>
+
+    <!--PageWizard: MaterialTheme -->
+    <style name="SettingsStyle.TextAppearanceMedium" parent="@android:style/TextAppearance.Holo.Medium">
+        <item name="android:textSize">18dp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="SettingsStyle.TextAppearanceLarge" parent="@android:style/TextAppearance.Holo.Large">
+        <item name="android:textSize">36dp</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="SettingsWindowAnimationStyle" parent="@android:style/Animation.Activity">
+        <item name="android:fragmentOpenEnterAnimation">@anim/settings_fragment_fade_in</item>
+        <item name="android:fragmentOpenExitAnimation">@anim/settings_fragment_fade_out</item>
+        <item name="android:fragmentCloseEnterAnimation">@anim/settings_fragment_fade_in</item>
+        <item name="android:fragmentCloseExitAnimation">@anim/settings_fragment_fade_out</item>
+    </style>
+
+    <!-- FormWizard version of Theme.Settings -->
+    <style name="Theme.Leanback.FormWizard.Solid" parent="@android:style/Theme.Leanback.FormWizard">
+        <item name="android:windowBackground">@color/settings_background</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:windowAnimationStyle">@style/SettingsWindowAnimationStyle</item>
+    </style>
+
+    <style name="lists_grid_single_line_withicon_list_label_text_style" parent="@style/lnl">
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="ActivatedTextViewStyle" parent="lists_grid_single_line_withicon_list_label_text_style">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:textColor">@drawable/listview_item_color_selector</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:scrollHorizontally">false</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:marqueeRepeatLimit">1</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">
+            @dimen/settings_picture_quality_container_row_fadingedge_length
+        </item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">@dimen/settings_picture_quality_container_row_padding
+        </item>
+        <item name="android:paddingLeft">
+            @dimen/settings_picture_quality_container_row_padding_sides
+        </item>
+        <item name="android:paddingRight">
+            @dimen/settings_picture_quality_container_row_padding_sides
+        </item>
+    </style>
+
+    <style name="RadioListMenuItem" parent="@style/ActivatedTextViewStyle">
+        <item name="radioselectorDrawable">@drawable/radioselector</item>
+    </style>
+
+    <style name="CheckBoxListMenuItem" parent="@style/ActivatedTextViewStyle">
+        <item name="checkboxselectorDrawable">@drawable/checkboxselector</item>
+    </style>
+
+    <!-- Material Wizard -->
+    <style name="Canvas" />
+
+    <style name="Canvas.Text" />
+
+    <style name="Canvas.Text.Dialog" />
+
+    <style name="Canvas.Text.Dialog.List" />
+
+    <style name="Canvas.Image" />
+
+    <style name="Canvas.Image.Dialog" />
+
+    <style name="Canvas.Image.Dialog.List" />
+
+    <style name="Canvas.Image.Dialog.List.Icon">
+        <item name="android:scaleType">center</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="Canvas.Image.Dialog.List.Checkmark">
+        <item name="android:scaleType">center</item>
+        <item name="android:src">@drawable/list_item_checkmark</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <style name="Canvas.Text.Dialog.List.Title">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:alpha">@dimen/list_item_unselected_text_alpha</item>
+        <item name="android:textSize">@dimen/list_item_title_font_size</item>
+        <item name="android:textColor">@color/list_item_unselected_text_color</item>
+    </style>
+
+    <style name="Canvas.Text.Dialog.List.Description">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:alpha">@dimen/list_item_unselected_text_alpha</item>
+        <item name="android:textSize">@dimen/list_item_description_font_size</item>
+        <item name="android:textColor">@color/list_item_unselected_text_color</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="wizard_body_text" parent="@style/bnl">
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="multiview_no_multiview_message_text_style" parent="@style/lsl">
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="multiview_channel_list_main_label_text_style" parent="@style/lll">
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="multiview_channel_list_sub_label_text_style" parent="@style/lsl">
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="multiview_channel_list_highlighted_main_label_text_style" parent="@style/llr">
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="multiview_channel_list_highlighted_sub_label_text_style" parent="@style/lsr">
+        <item name="android:gravity">left</item>
+    </style>
+
+    <!-- Style added for EUM-->
+    <style name="ActivatedTextViewStyle_eum" parent="@style/lists_grid_single_line_withicon_list_label_text_style">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:textColor">@drawable/listview_item_color_selector</item>
+        <item name="android:background">@drawable/listview_selector</item>
+        <item name="android:scrollHorizontally">false</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:marqueeRepeatLimit">1</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">@dimen/container_row_fadingedge_length</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:minWidth">@dimen/min_width_textview_selector</item>
+        <item name="android:paddingLeft">@dimen/container_row_padding_sides</item>
+        <item name="android:paddingRight">@dimen/container_row_padding_sides</item>
+    </style>
+
+    <style name="compact_wizard_style">
+        <item name="compact_wizard">true</item>
+    </style>
+
+    <attr name="compact_wizard" format="boolean" />
+
+    <!-- style added for check network wizard-->
+
+    <style name="check_network_wizard_style">
+        <item name="check_network_wizard">true</item>
+    </style>
+
+    <attr name="check_network_wizard" format="boolean" />
+    <!-- styles added for NETTVBROWSER -->
+
+    <style name="nettvbrowser_transparent_theme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="nettvbrowser_transparent_theme_textbox" parent="@style/uiComponentsTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="nettvbrowser_oib_grid_item_label_text_style" parent="@style/lnl">
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="nettvbrowser_oib_grid_item_highlighted_label_text_style" parent="@style/lnr">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#76D7D6</item>
+    </style>
+
+    <style name="nettvbrowser_oib_auto_suggest_list_row_text_style" parent="@style/lnr">
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+
+    <!-- Styles for NetTVAppGallery-->
+    <!--
+	<style name="appgallery_progressbar_horizontal" parent="@android:attr/progressBarStyleHorizontal">
+		<item name="android:gravity">center</item>
+	</style>
+	-->
+
+    <style name="appgallery_default_progressbar" parent="@android:style/Widget.DeviceDefault.ProgressBar">
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Styles for NetTvRecommender-->
+    <style name="nettvrecommender_widget_progressbar" parent="@android:style/Widget.ProgressBar">
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

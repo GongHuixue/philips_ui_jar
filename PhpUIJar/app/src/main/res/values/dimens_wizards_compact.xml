@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?><!--Tue Dec 09 2014 11:23:16 GMT+0530-->
+<resources>
+    <!--Layout_Wizards_Compact_v2.0.psd-->
+    <dimen name="wizards_compact_topmenu_bar_height">84dp</dimen>
+
+    <dimen name="wizards_compact_topmenu_bar_width">960dp</dimen>
+
+    <dimen name="wizards_compact_topmenu_bar_x1">0dp</dimen>
+
+    <dimen name="wizards_compact_topmenu_bar_y1">0dp</dimen>
+
+    <dimen name="wizards_compact_topmenu_bar_x2">960dp</dimen>
+
+    <dimen name="wizards_compact_topmenu_bar_y2">84dp</dimen>
+
+    <dimen name="wizards_compact_main_container_height">258dp</dimen>
+
+    <dimen name="wizards_compact_main_container_width">960dp</dimen>
+
+    <dimen name="wizards_compact_main_container_x1">0dp</dimen>
+
+    <dimen name="wizards_compact_main_container_y1">282dp</dimen>
+
+    <dimen name="wizards_compact_main_container_x2">960dp</dimen>
+
+    <dimen name="wizards_compact_main_container_y2">540dp</dimen>
+
+    <dimen name="wizards_compact_main_container_padding_top_height">30dp</dimen>
+
+    <dimen name="wizards_compact_main_container_padding_top_width">30dp</dimen>
+
+    <dimen name="wizards_compact_main_container_padding_top_x1">0dp</dimen>
+
+    <dimen name="wizards_compact_main_container_padding_top_y1">282dp</dimen>
+
+    <dimen name="wizards_compact_main_container_padding_top_x2">30dp</dimen>
+
+    <dimen name="wizards_compact_main_container_padding_top_y2">312dp</dimen>
+
+    <dimen name="wizards_compact_progress_bar_height">1dp</dimen>
+
+    <dimen name="wizards_compact_progress_bar_width">960dp</dimen>
+
+    <dimen name="wizards_compact_progress_bar_x1">0dp</dimen>
+
+    <dimen name="wizards_compact_progress_bar_y1">284dp</dimen>
+
+    <dimen name="wizards_compact_progress_bar_x2">960dp</dimen>
+
+    <dimen name="wizards_compact_progress_bar_y2">285dp</dimen>
+
+    <dimen name="wizards_compact_stack_height">154.5dp</dimen>
+
+    <dimen name="wizards_compact_stack_width">55dp</dimen>
+
+    <dimen name="wizards_compact_stack_x1">0dp</dimen>
+
+    <dimen name="wizards_compact_stack_y1">312dp</dimen>
+
+    <dimen name="wizards_compact_stack_x2">55dp</dimen>
+
+    <dimen name="wizards_compact_stack_y2">466.5dp</dimen>
+
+    <dimen name="wizards_compact_stack_vertical_text_height">154dp</dimen>
+
+    <dimen name="wizards_compact_stack_vertical_text_width">23.5dp</dimen>
+
+    <dimen name="wizards_compact_stack_vertical_text_x1">20dp</dimen>
+
+    <dimen name="wizards_compact_stack_vertical_text_y1">312dp</dimen>
+
+    <dimen name="wizards_compact_stack_vertical_text_x2">43.5dp</dimen>
+
+    <dimen name="wizards_compact_stack_vertical_text_y2">466dp</dimen>
+
+    <dimen name="wizards_compact_verticle_textn_padding_height">10dp</dimen>
+
+    <dimen name="wizards_compact_verticle_textn_padding_width">10dp</dimen>
+
+    <dimen name="wizards_compact_verticle_textn_padding_x1">18.5dp</dimen>
+
+    <dimen name="wizards_compact_verticle_textn_padding_y1">418dp</dimen>
+
+    <dimen name="wizards_compact_verticle_textn_padding_x2">28.5dp</dimen>
+
+    <dimen name="wizards_compact_verticle_textn_padding_y2">428dp</dimen>
+
+    <dimen name="wizards_compact_stackpanel_icon_height">18dp</dimen>
+
+    <dimen name="wizards_compact_stackpanel_icon_width">18dp</dimen>
+
+    <dimen name="wizards_compact_stackpanel_icon_x1">18.5dp</dimen>
+
+    <dimen name="wizards_compact_stackpanel_icon_y1">428dp</dimen>
+
+    <dimen name="wizards_compact_stackpanel_icon_x2">36.5dp</dimen>
+
+    <dimen name="wizards_compact_stackpanel_icon_y2">446dp</dimen>
+
+    <dimen name="wizards_compact_stack_divider_height">154dp</dimen>
+
+    <dimen name="wizards_compact_stack_divider_width">1dp</dimen>
+
+    <dimen name="wizards_compact_stack_divider_x1">54dp</dimen>
+
+    <dimen name="wizards_compact_stack_divider_y1">312dp</dimen>
+
+    <dimen name="wizards_compact_stack_divider_x2">55dp</dimen>
+
+    <dimen name="wizards_compact_stack_divider_y2">466dp</dimen>
+
+    <dimen name="wizards_compact_container_height">154dp</dimen>
+
+    <dimen name="wizards_compact_container_width">905dp</dimen>
+
+    <dimen name="wizards_compact_container_x1">55dp</dimen>
+
+    <dimen name="wizards_compact_container_y1">312dp</dimen>
+
+    <dimen name="wizards_compact_container_x2">960dp</dimen>
+
+    <dimen name="wizards_compact_container_y2">466dp</dimen>
+
+    <dimen name="wizards_compact_container_padding_left_height">20dp</dimen>
+
+    <dimen name="wizards_compact_container_padding_left_width">20dp</dimen>
+
+    <dimen name="wizards_compact_container_padding_left_x1">55dp</dimen>
+
+    <dimen name="wizards_compact_container_padding_left_y1">312dp</dimen>
+
+    <dimen name="wizards_compact_container_padding_left_x2">75dp</dimen>
+
+    <dimen name="wizards_compact_container_padding_left_y2">332dp</dimen>
+
+    <dimen name="wizards_compact_container_padding_right_height">20dp</dimen>
+
+    <dimen name="wizards_compact_container_padding_right_width">20dp</dimen>
+
+    <dimen name="wizards_compact_container_padding_right_x1">940dp</dimen>
+
+    <dimen name="wizards_compact_container_padding_right_y1">312.5dp</dimen>
+
+    <dimen name="wizards_compact_container_padding_right_x2">960dp</dimen>
+
+    <dimen name="wizards_compact_container_padding_right_y2">332.5dp</dimen>
+
+    <dimen name="wizards_compact_wizard_title_text_height">22dp</dimen>
+
+    <dimen name="wizards_compact_wizard_title_text_width">470dp</dimen>
+
+    <dimen name="wizards_compact_wizard_title_text_x1">75dp</dimen>
+
+    <dimen name="wizards_compact_wizard_title_text_y1">312dp</dimen>
+
+    <dimen name="wizards_compact_wizard_title_text_x2">545dp</dimen>
+
+    <dimen name="wizards_compact_wizard_title_text_y2">334dp</dimen>
+
+    <dimen name="wizards_compact_wizard_description_text_height">102dp</dimen>
+
+    <dimen name="wizards_compact_wizard_description_text_width">470dp</dimen>
+
+    <dimen name="wizards_compact_wizard_description_text_x1">75dp</dimen>
+
+    <dimen name="wizards_compact_wizard_description_text_y1">344dp</dimen>
+
+    <dimen name="wizards_compact_wizard_description_text_x2">545dp</dimen>
+
+    <dimen name="wizards_compact_wizard_description_text_y2">446dp</dimen>
+
+    <dimen name="wizards_compact_wizard_image_height">154.5dp</dimen>
+
+    <dimen name="wizards_compact_wizard_image_width">276dp</dimen>
+
+    <dimen name="wizards_compact_wizard_image_x1">664dp</dimen>
+
+    <dimen name="wizards_compact_wizard_image_y1">312dp</dimen>
+
+    <dimen name="wizards_compact_wizard_image_x2">940dp</dimen>
+
+    <dimen name="wizards_compact_wizard_image_y2">466.5dp</dimen>
+
+    <dimen name="wizards_compact_footer_container_height">74dp</dimen>
+
+    <dimen name="wizards_compact_footer_container_width">960dp</dimen>
+
+    <dimen name="wizards_compact_footer_container_x1">0dp</dimen>
+
+    <dimen name="wizards_compact_footer_container_y1">466dp</dimen>
+
+    <dimen name="wizards_compact_footer_container_x2">960dp</dimen>
+
+    <dimen name="wizards_compact_footer_container_y2">540dp</dimen>
+
+    <dimen name="wizards_compact_footer_container_padding_top_height">18dp</dimen>
+
+    <dimen name="wizards_compact_footer_container_padding_top_width">18dp</dimen>
+
+    <dimen name="wizards_compact_footer_container_padding_top_x1">0dp</dimen>
+
+    <dimen name="wizards_compact_footer_container_padding_top_y1">466dp</dimen>
+
+    <dimen name="wizards_compact_footer_container_padding_top_x2">18dp</dimen>
+
+    <dimen name="wizards_compact_footer_container_padding_top_y2">484dp</dimen>
+
+    <dimen name="wizards_compact_footer_container_padding_left_height">20dp</dimen>
+
+    <dimen name="wizards_compact_footer_container_padding_left_width">20dp</dimen>
+
+    <dimen name="wizards_compact_footer_container_padding_left_x1">0dp</dimen>
+
+    <dimen name="wizards_compact_footer_container_padding_left_y1">520dp</dimen>
+
+    <dimen name="wizards_compact_footer_container_padding_left_x2">20dp</dimen>
+
+    <dimen name="wizards_compact_footer_container_padding_left_y2">540dp</dimen>
+
+    <dimen name="wizards_compact_footer_container_padding_right_height">20dp</dimen>
+
+    <dimen name="wizards_compact_footer_container_padding_right_width">20dp</dimen>
+
+    <dimen name="wizards_compact_footer_container_padding_right_x1">940dp</dimen>
+
+    <dimen name="wizards_compact_footer_container_padding_right_y1">520dp</dimen>
+
+    <dimen name="wizards_compact_footer_container_padding_right_x2">960dp</dimen>
+
+    <dimen name="wizards_compact_footer_container_padding_right_y2">540dp</dimen>
+
+    <dimen name="wizards_compact_footer_container_padding_bottom_height">20dp</dimen>
+
+    <dimen name="wizards_compact_footer_container_padding_bottom_width">20dp</dimen>
+
+    <dimen name="wizards_compact_footer_container_padding_bottom_x1">0dp</dimen>
+
+    <dimen name="wizards_compact_footer_container_padding_bottom_y1">520dp</dimen>
+
+    <dimen name="wizards_compact_footer_container_padding_bottom_x2">20dp</dimen>
+
+    <dimen name="wizards_compact_footer_container_padding_bottom_y2">540dp</dimen>
+
+    <dimen name="wizards_compact_footer_button_skip_height">36dp</dimen>
+
+    <dimen name="wizards_compact_footer_button_skip_width">160dp</dimen>
+
+    <dimen name="wizards_compact_footer_button_skip_x1">74.5dp</dimen>
+
+    <dimen name="wizards_compact_footer_button_skip_y1">484dp</dimen>
+
+    <dimen name="wizards_compact_footer_button_skip_x2">234.5dp</dimen>
+
+    <dimen name="wizards_compact_footer_button_skip_y2">520dp</dimen>
+
+    <dimen name="wizards_compact_footer_button_start_height">36dp</dimen>
+
+    <dimen name="wizards_compact_footer_button_start_width">160dp</dimen>
+
+    <dimen name="wizards_compact_footer_button_start_x1">780dp</dimen>
+
+    <dimen name="wizards_compact_footer_button_start_y1">484dp</dimen>
+
+    <dimen name="wizards_compact_footer_button_start_x2">940dp</dimen>
+
+    <dimen name="wizards_compact_footer_button_start_y2">520dp</dimen>
+
+</resources>

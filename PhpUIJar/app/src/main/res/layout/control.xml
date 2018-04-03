@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui.PlayerBottomLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/layoutheight"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#CC000000">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/playcontrol_firstlayout_height"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/playcontrol_firstlayout_paddingtop">
+
+            <TextView
+                android:id="@+id/time_current"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:paddingLeft="24dp"
+                android:textColor="#dddddd"
+                android:textSize="@dimen/playcontrol_textview_textsize"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/prevbutton"
+                style="@style/Prev"
+                android:layout_width="@dimen/playiconwidth"
+                android:layout_height="@dimen/playlayoutheight"
+                android:layout_gravity="center_vertical"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/rew"
+                style="@style/Rew"
+                android:layout_width="@dimen/playiconwidth"
+                android:layout_height="@dimen/playlayoutheight"
+                android:layout_gravity="center_vertical"
+                android:nextFocusForward="@+id/pause"
+                android:nextFocusRight="@+id/pause" />
+
+            <ui.SlowPlayControl
+                android:id="@+id/slowplaycontrolone"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/playlayoutheight"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                style="@style/slow_play_control"></ui.SlowPlayControl>
+
+            <ImageButton
+                android:id="@+id/pause"
+                style="@style/Play"
+                android:layout_width="@dimen/playiconwidth"
+                android:layout_height="@dimen/playlayoutheight"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginLeft="@dimen/playiconmargin"
+                android:layout_marginRight="@dimen/playiconmargin"
+                android:nextFocusForward="@+id/ffwd"
+                android:nextFocusLeft="@+id/rew"
+                android:nextFocusRight="@+id/ffwd" />
+
+
+            <ui.SlowPlayControl
+                android:id="@+id/slowplaycontroltwo"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/playlayoutheight"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="gone"></ui.SlowPlayControl>
+
+            <ImageButton
+                android:id="@+id/ffwd"
+                style="@style/Ffwd"
+                android:layout_width="@dimen/playiconwidth"
+                android:layout_height="@dimen/playlayoutheight"
+                android:layout_gravity="center_vertical"
+                android:nextFocusLeft="@+id/pause" />
+
+            <ImageButton
+                android:id="@+id/nextButton"
+                style="@style/Next"
+                android:layout_width="@dimen/playiconwidth"
+                android:layout_height="@dimen/playlayoutheight"
+                android:layout_gravity="center_vertical"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:paddingRight="24dp"
+                android:textColor="#dddddd"
+                android:textSize="@dimen/playcontrol_textview_textsize"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <SeekBar
+            android:id="@+id/mediacontroller_progress"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/playbackcontrol_progressbar_height"
+            android:layout_alignParentBottom="true"
+            android:clickable="true"
+            android:focusable="true"
+            android:longClickable="true"
+            android:maxHeight="@dimen/playbackcontrol_progressbar_max_height"
+            android:minHeight="@dimen/playbackcontrol_progressbar_min_height"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:layout_marginBottom="-2dp"
+            android:progressDrawable="@drawable/cprogress_nonhovered"
+            android:thumb="@drawable/playhead"
+            android:thumbOffset="-1dp" />
+    </RelativeLayout>
+
+</ui.PlayerBottomLayout>

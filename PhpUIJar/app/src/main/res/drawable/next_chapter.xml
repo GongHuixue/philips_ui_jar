@@ -1,0 +1,5 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/next_chapter_d_ico_24x18_234" android:state_enabled="false" />
+    <item android:drawable="@drawable/next_chapter_n_ico_24x18_234" android:state_enabled="true" />
+</selector>
