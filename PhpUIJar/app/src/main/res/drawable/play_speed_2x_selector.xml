@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <item android:drawable="@drawable/icon_punched_play_control_2x_hl_36x36" android:state_focused="true"></item>
-    <item android:drawable="@drawable/icon_punched_play_control_2x_n_36x36" android:state_pressed="true"></item>
-    <item android:drawable="@drawable/icon_punched_play_control_2x_d_36x36"></item>
-
-</selector>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res/com.test">
-
-    <item android:drawable="@drawable/icon_punched_play_control_rewind_hl_36x36" android:state_focused="true"></item>
-    <item android:drawable="@drawable/icon_punched_play_control_rewind_n_36x36" android:state_pressed="true"></item>
-    <item android:drawable="@drawable/icon_punched_play_control_rewind_disabled_36x36" android:state_enabled="false"></item>
-    <item android:drawable="@drawable/icon_punched_play_control_rewind_d_36x36"></item>
-
-</selector>

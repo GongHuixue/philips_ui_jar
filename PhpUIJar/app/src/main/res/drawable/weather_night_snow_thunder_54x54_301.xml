@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/icon_301_weather_night_snow_thunder_hl_54x54" android:state_pressed="true" android:state_focused="true" />
-    <item android:drawable="@drawable/icon_301_weather_night_snow_thunder_d_54x54" android:state_enabled="false" />
-    <item android:drawable="@drawable/icon_301_weather_night_snow_thunder_n_54x54" />
-</selector>

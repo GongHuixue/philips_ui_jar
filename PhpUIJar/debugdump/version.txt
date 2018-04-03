@@ -1,4 +1,0 @@
-System version 	: TPM171E_R.104.000.110.000_userdebug
-SW version 	: TPM171E_R.104.000.110.000
-Set type 	: 55PUS6412/12
-Build date 	: Sat Dec 16 01:54:54 CST 2017

@@ -1,1 +1,0 @@
-{"dumpver":"2","version":"TPM171E_R.104.000.110.000","dumpid":"dump_00000001_00000001_00000586.675948_16203","boot-cycle":"1","standby-cycle":"1","kernel-time":"586.675948","system-time":"2004-09-23 18:09:17.000+0100","pid":"16203","tid":"0","type":"java","subtype":"crash","effect":"visible","process-name":"org.droidtv.euinstallertc:euinstallertc","thread-name":"(null)"}

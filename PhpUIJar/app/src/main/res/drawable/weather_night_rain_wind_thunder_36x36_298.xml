@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/icon_298_weather_night_rain_wind_thunder_hl_36x36" android:state_pressed="true" android:state_focused="true" />
-    <item android:drawable="@drawable/icon_298_weather_night_rain_wind_thunder_d_36x36" android:state_enabled="false" />
-    <item android:drawable="@drawable/icon_298_weather_night_rain_wind_thunder_n_36x36" />
-</selector>

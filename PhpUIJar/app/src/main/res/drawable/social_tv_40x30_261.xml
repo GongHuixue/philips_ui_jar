@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/social_tv_hl_ico_40x30_261" android:state_pressed="true" android:state_focused="true" />
-    <item android:drawable="@drawable/social_tv_d_ico_40x30_261" android:state_enabled="false" />
-    <item android:drawable="@drawable/social_tv_n_ico_40x30_261" />
-</selector>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/demo_mode_d_ico_64x48_103" android:state_activated="false" />
-    <item android:drawable="@drawable/demo_mode_hl_ico_64x48_103" android:state_pressed="true" android:state_focused="true" />
-    <item android:drawable="@drawable/demo_mode_n_ico_64x48_103" />
-</selector>
