@@ -233,7 +233,7 @@
 
     <!-- Start: Drawer styleable -->
     <declare-styleable name="drawer">
-        <attr name="title" format="reference" />
+        <attr name="drawer_title" format="reference" />
         <attr name="titleVisibility" format="boolean" />
         <attr name="icon" format="reference" />
         <attr name="iconVisibility" format="boolean" />
